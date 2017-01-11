@@ -86,7 +86,7 @@ You should let search engines read your content only in https site. Use canonica
 
 for Jekyll, it should be 
 {% highlight html %}{% raw %}
-<link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+<link rel="canonical" href="{{ site.url }}{{site.baseurl}}{{ page.url }}" />
 {% endraw %}{% endhighlight %}
 
 Make sure that the **url** is https in **_config.yml**. Also use ```enforce_ssl``` parameter.
@@ -110,7 +110,7 @@ It also has other advantages like handling DNS, analytics, providing SSL certifi
 
 ![Add a site cloudflare jekyll ssl](/images/add-site-cloudflare-jekyll-ssl.jpg){: .large .left}
 
-Among these, we are concentrating only on DNS handling. So before we begin to create an account in CloudFlare. Now select **Add site** option. Now enter your domain and click on **Begin scan**.
+Among these, we are concentrating only on DNS handling. So create an account in CloudFlare. Now select **Add site** option. Now enter your domain and click on **Begin scan**.
 
 Once the scanning is done, click on **Continue to setup** where you will see an option to verify all your DNS records. You don't have to change anything here. click on **Continue**.
 
