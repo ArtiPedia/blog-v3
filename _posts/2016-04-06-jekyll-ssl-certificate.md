@@ -120,7 +120,7 @@ Now select a package that suits your requirement. I would suggest you to try the
 ![change DNS CloudFlare Jekyll GitHub ssl](/images/change-dns-cloudflare-jekyll-github-ssl.jpg)
 {: .right .half}
 
-Now is the crucial part. You have to change the name servers (NS31.DOMAINCONTROL.COM) in your domain registrar to the following or whichever is provided to you by CloudFlare.
+Now is the crucial part where you have to change the name servers (NS31.DOMAINCONTROL.COM) in your domain registrar to the following or whichever is provided to you by CloudFlare.
 
 
 {: .clear}
