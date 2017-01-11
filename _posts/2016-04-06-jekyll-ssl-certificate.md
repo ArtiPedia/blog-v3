@@ -121,6 +121,8 @@ Now select a package that suits your requirement. I would suggest you to try the
 {: .right .half}
 
 Now is the crucial part. You have to change the name servers (NS31.DOMAINCONTROL.COM) in your domain registrar to the following or whichever is provided to you by CloudFlare.
+
+
 {: .clear}
 
 
