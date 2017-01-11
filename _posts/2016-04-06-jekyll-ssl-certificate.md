@@ -139,7 +139,7 @@ You have to login to your domain registrar and add these custom name servers. On
 {: .clear}
 
 ![cloudflare flexible ssl jekyll](/images/cloudflare-flexible-ssl-jekyll.jpg)
-{: .half .left}
+
 Now navigate to **Crypto** option in CloudFlare. You should see an option called **SSL**. In the drop-down menu select **Flexible**. This is all the changes we need to do in the server end.
 
 
@@ -147,7 +147,7 @@ Now navigate to **Crypto** option in CloudFlare. You should see an option called
 {: .clear}
 
 ![cloudflare https redirect page rule jekyll ssl](/images/cloudflare-https-redirect-page-rule-jekyll-ssl.png)
-{: .right .half}
+
 Use **Page-rule** to redirect http to https. Use * symbol to create dynamic patterns that match many URLs.
 <div class="clear"></div>
 
