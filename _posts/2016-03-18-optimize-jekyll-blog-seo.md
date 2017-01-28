@@ -111,7 +111,7 @@ Having your post title as the title makes sense. ```page.title``` variable takes
 
 Using page excerpt as a description is not a good idea because you may have something totally different in the first paragraph before you discuss on the main topic. If it is your homepage then make sure you have a site description mentioned in your **_config.yml** file.
 
-Also, it is advised to restrict your description to 160 characters or less. Anything more can be considered spam or keyword stuffing by search engines. And akdescription is not considered for ranking but only to show snippets in the search results.
+Also, it is advised to restrict your description to 160 characters or less. Anything more can be considered spam or keyword stuffing by search engines. And a description is not considered for ranking but only to show snippets in the search results.
 
 {% highlight html %}{% raw %}
 <meta itemprop="description" name="description" content="{% if page.description %}{{ page.description | truncate: 160 }}{% else %}{{ site.description | truncate: 160  }}{% endif %}" />
