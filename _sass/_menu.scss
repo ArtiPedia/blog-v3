@@ -75,16 +75,30 @@
     }
 }
 
+.nav-box {
+    width: 250px;
+    display: inline-block;
+    border: 2px dashed #eee;
+    margin: 10px;
+    padding: 25px;
+    h2 {
+        color: #eee;
+    }
+    @include media-query($on-palm){
+        width: 150px;
+        margin: 0px;
+        padding: 0px; 
+    }
+    
+}
+
 .overlay-content a {
-    font-size: 13vh;
-    font-weight: 800;
-    font-family: "Times New Roman", Times, serif;
-    width: 80%;
-    margin: 0 auto;
-    &:hover {
+    font-size: 1.5em;
+    font-weight: 600;
+     &:hover {
         color: rgba(6, 6, 6, 0.56);
     }
     @include media-query($on-palm){
-        font-size: 10vh;
+        font-size: 1.2em;
     }
 }
