@@ -1,5 +1,5 @@
 ---
-title: Jekyll's got a new GUI for local editing!
+title: Jekyll Admin - A new GUI for Jekyll local editing!
 desc: Jekyll-admin is a GUI for editing Jekyll website or blog. It has its ups and downs. It is still in the early stages of its development. I have tried the initial release and here is my review. 
 author: sharathdt
 tags: Jekyll 
