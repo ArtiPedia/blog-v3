@@ -83,6 +83,9 @@
     padding: 25px;
     h2 {
         color: #eee;
+        text-decoration: underline;
+        line-height: 1.5;
+        margin-bottom: 0.2em;
     }
     @include media-query($on-palm){
         width: 150px;
