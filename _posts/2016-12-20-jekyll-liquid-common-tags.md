@@ -18,18 +18,17 @@ permalink: /common-jekyll-tags/
 .jekyll-es td:first-child {
     background-color: #2ba06e;
     color: #fff;
-    width: 40%;
-
 }
 
 input.search  {
-    width: 100%;
     height: 30px;
     padding: 5px 10px;
     border-radius: 5px;
     outline: none;
     border: 1px solid #ddd;
     font-size: 20px;
+    
+    
 }
 input:focus {
   outline:none;
@@ -91,6 +90,70 @@ input:focus {
 .tab-title {
     padding: 15px 0 0 0;
 }
+
+/* 
+Max width before this PARTICULAR table gets nasty
+This query will take effect for any screen smaller than 760px
+and also iPads specifically.
+*/
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+        .jekyll-es td {
+                border: none;
+                padding-left: 50%;
+                padding-top: 4px;
+                padding-bottom: 4px;
+            }
+        .jekyll-es td:first-child {
+                background-color: #2ba06e;
+                color: #fff;
+
+            }
+
+
+
+	/* Force table to not be like tables anymore */
+	table, thead, tbody, th, td, tr { 
+		display: block; 
+        overflow: hidden;
+	}
+	
+	/* Hide table headers (but not display: none;, for accessibility) */
+	thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	tr { border: 1px solid #ccc; }
+	
+	td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 50%; 
+
+	}
+	
+	td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+	}
+    
+    td:nth-of-type(1):before { content: "Variable"; }
+	td:nth-of-type(2):before { content: "Output"; }
+
+
+
 
 </style>
 
