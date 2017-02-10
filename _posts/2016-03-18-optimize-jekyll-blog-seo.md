@@ -13,12 +13,12 @@ permalink: /optimize-jekyll-seo/
 
 
 ## Why SEO for Jekyll?
-SEO is the only way through which you can get organic traffic. Organic traffic is better than paid traffic because in organic traffic the user is really interested in the service you are offering.
+SEO is the only way through which you can get organic traffic. Organic traffic is usually better than paid traffic because in organic traffic the user is actually interested in the service you are offering.
 
 
 I used WordPress for a long time. If you ask me which one among WordPress and Jekyll is good for SEO, I would tell WordPress without a doubt. 
 
-It is true that WordPress is optimized for SEO by default. And with plugins like Jetpack, Yoast, and Schema Creator, WordPress is almost unbeatable by Jekyll. Ok wait, why am I praising WordPress so much when I'm supposed to discuss Jekyll SEO?
+It is true that WordPress is optimized for SEO by default. And with plugins like Jetpack, Yoast and Schema Creator, WordPress is almost unbeatable by Jekyll. Ok wait, why am I praising WordPress so much when I should be discussing Jekyll SEO?
 
 * Do not remove this line (it will not be displayed) 
 {:toc}
@@ -27,8 +27,7 @@ At the moment we have Jekyll 3.0 and a small [list of Jekyll plugins](https://je
 
 I will be discussing only the steps that involve making changes to your Jekyll functions but not to your content. That means I will not be discussing anything about Keyword Research, Link Building, Marketing etc.,
  
- 
-
+{: .clear}
  
 ## What is required in a Jekyll website for SEO?
 
@@ -318,7 +317,7 @@ Media query detects the screen-size and applies the CSS that you provide inside 
 If you are not sure how to use them, then it's good. Start here - [w3-schools](http://www.w3schools.com/css/css_rwd_mediaqueries.asp){:rel='nofollow'}{:target="_blank"}. 
 
 ### Conclusion: 
-Though Jekyll users have a hard time configuring SEO on their own, they do have the full control. Jekyll does only tasks that you tell it to do, unlike WordPress. Things like AMP Pages, htaccess, robot.txt are not explored well on Jekyll but we can hope that in the coming years they all will be available by default.
+Though Jekyll users have a hard time configuring SEO on their own, they do have the full control. Jekyll does only the things that you tell it to do. Features like AMP Pages, htaccess, robot.txt are either not available or not explored well on Jekyll but we can hope that in the coming years those features will be available by default.
 
 
 <div class="tips">
@@ -328,6 +327,6 @@ Though Jekyll users have a hard time configuring SEO on their own, they do have 
     </p>
 </div>
 
-I hope you got a fair idea how to perform some quick SEO to your Jekyll blog. There are many advanced SEO parameters for Jekyll which I will be discussing in a future post. Let me know if you come across any problems while implementing these.
+I hope you got a fair idea on how to perform some quick SEO to your Jekyll blog. There are many advanced SEO parameters for Jekyll which I will be discussing in a future post. Let me know if you come across any problems while implementing these SEO methods I have mentioned in this article.
 
 Thanks for reading!
