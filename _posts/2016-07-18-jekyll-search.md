@@ -24,7 +24,7 @@ This is just an example in the case of a blog. Websites can be of different kind
 As per the title, I should be discussing the easiest one but I will introduce other search options as well. You may be expecting a search engine with instant results or auto complete capability. That depends on the website. It is good if a website with location search bar has an auto-complete option because users may enter all kinds of spelling mistakes. Auto-complete avoids all those mistakes from happening.
 
 
-So without further due let's get into the types.
+So without further ado let's get into the types.
 
 ### Lunr.js (free) - [Demo](http://lunrjs.com/example/){: target="_blank" rel="nofollow"}
 
