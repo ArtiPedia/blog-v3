@@ -26,7 +26,7 @@ I write the things I have tried. That takes a while to research, test, and test 
 
 I suggest you to use an Adblock if you don't like those **Download pdf**, **Click to Download** kind of ads. As a reader, I don't like ads. Let me know whether I should keep Adsense running on this website.
 {: .r}
-I accept donations. But, one dollar only. 
+I accept donations. 
 
 <a target="_blank" class="donate" href="https://www.paypal.me/webjeda/1">Donate</a>
 <br />
