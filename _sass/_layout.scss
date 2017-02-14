@@ -213,6 +213,22 @@ a {
     padding: 1%;
     width: 48%;
     
+    ol {
+        margin-left: 10px;
+        @include media-query($on-palm) {
+            margin-left: 20px;
+        }
+    }
+    
+    h1 {
+        color:#fff;
+        line-height: 1.2;
+        @include media-query($on-palm) {
+            font-size: 2em;
+        }
+    }
+    
+    
     @include media-query($on-palm) {
             display: block;
             padding: 10px;
