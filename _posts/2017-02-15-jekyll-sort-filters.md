@@ -36,6 +36,8 @@ Apart from these string filters, there are plenty of other filters that may come
 
 {% include adsense-inside-post.html %}
 
+{: .clear }
+
 ## Advanced Filters
 
 I'm calling this advanced because these filters help us modify array outputs. An array is a set of multiple items. A **list of posts** that we generate in the index page is an array of posts. All the **categories** or **tags** we use in posts is an array.
