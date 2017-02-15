@@ -1,5 +1,5 @@
 ---
-title: Jekyll Filters
+title: Jekyll Filters to sort Post List
 desc: Jekyll filters like sort are used to modify the output in a certain fashion for our convenience. I have described a few methods to sort Jekyll posts by categories, tags and other front matter values.
 author: sharathdt
 tags: Jekyll Liquid
