@@ -62,11 +62,11 @@ Here is how a default post generation tag would look like. You can find this in 
 
 I'm limiting the number of posts to only 5.
 
-<pre>
+<pre><code>
 {% for post in site.posts limit: 5 %}
 <li>{{post.title}} - {{post.date | date_to_string}}</li>
 {% endfor %}
-</pre>
+</code></pre>
 
 
 What we observe here is that the posts are arranged by date. The latest one being at the top.
@@ -86,12 +86,12 @@ We will be sorting the list first and then give it to the for loop for output.
 {% endraw %}{% endhighlight %}
 
 #### Output
-<pre>
+<pre><code>
 {% assign sorted-posts = site.posts | sort: 'title' %}
 {% for post in sorted-posts limit: 5 offset: 7 %}
 <li>{{post.title}}</li>
 {% endfor %}
-</pre>
+</code></pre>
 
 
 Let's arrange it in the **reverse order of alphabets**.
@@ -104,12 +104,12 @@ Let's arrange it in the **reverse order of alphabets**.
 {% endraw %}{% endhighlight %}
 
 #### Output
-<pre>
+<pre><code>
 {% assign sorted-posts = site.posts | sort: 'title' | reverse %}
 {% for post in sorted-posts limit: 5 %}
 <li>{{post.title}}</li>
 {% endfor %}
-</pre>
+</code></pre>
 
 What we see here is that the posts are rendered in reverse alphabetical order.
 
@@ -131,12 +131,12 @@ Consider this website for example. Most of my posts are about Jekyll which will 
 {% endraw %}{% endhighlight %}
 
 #### Output
-<pre>
+<pre><code>
 {% assign sorted-posts = site.posts | where: "tags","Web-Design" %}
 {% for post in sorted-posts limit: 5 %}
 <li>{{post.title}}</li>
 {% endfor %}
-</pre>
+</code></pre>
 
 
 ### Sort Jekyll posts by type
@@ -161,12 +161,12 @@ Now, consider you have different authors who write articles on your blog. This c
 {% endraw %}{% endhighlight %}
 
 #### Output
-<pre>
+<pre><code>
 {% assign sorted-posts = site.posts | where: "author","sharathdt" %}
 {% for post in sorted-posts limit: 5 %}
 <li>{{post.title}}</li>
 {% endfor %}
-</pre>
+</code></pre>
 
 Checkout other filters here: [Jekyll Filters](https://jekyllrb.com/docs/templates/#filters){: target="_blank"}
 
