@@ -83,7 +83,7 @@ You are responsible for even a single extra space added to the code! So you have
 
 Eventually, I switched all my blogs to Jekyll and I always have a local copy of my blog which wasn't easy to have in WordPress. I'm pretty happy with the performance of my blogs. For example, my chess blog [kidschessworld](http://kidschessworld.com){: target="_blank"} is built using Jekyll and hosted on Github Pages which has helped me gain some business(I teach chess online).
 
-You don't have to worry about the design part. There are hundreds of themes already available. You can [subscribe](http://eepurl.com/bZdvSP){: target="_blank" rel="nofollow"} to my blog to get a detailed list of free responsive Jekyll themes and their links. 
+You don't have to worry about the design part. There are hundreds of themes already available. You can [subscribe](http://eepurl.com/bZdvSP){: target="_blank" rel="nofollow"} to my blog to get a detailed list of free responsive Jekyll themes and their links to start off with. 
 
 # Start here
 Usually, Jekyll is hosted on github pages but you can also host it on any other conventional hosting service. But one thing you observe is that, all the Jekyll themes are put in a github repository. So to test it out you should know how to fork(copy) them to your own account. To do that, you should have a github account. So [sign up for a free account](https://github.com/join?source=header-home){: target="_blank" rel="nofollow"}.
