@@ -30,11 +30,12 @@ Consider this example. I'm modifying the output of the page variable ``page.auth
 * Do not remove this line (it will not be displayed) 
 {:toc}
 
-{: .clear }
+
 
 What I have used above are simple string filters. They modify a string value. We need different way to handle array data produced by loops. 
 
 Apart from these string filters, there are plenty of other filters that may come in handy in different situations. Check them out here: [Liquid Filters](https://help.shopify.com/themes/liquid/filters/string-filters){: target="_blank"}.
+{: .clear }
 
 {% include adsense-inside-post.html %}
 
