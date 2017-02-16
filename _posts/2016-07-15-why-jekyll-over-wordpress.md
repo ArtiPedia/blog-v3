@@ -68,7 +68,7 @@ These days with all those spam emails cluttering my inbox, I don't like to give 
 # Jekyll
 
 ## 1. Simple
-Jekyll has no database! Jekyll runs nothing on the server. It just keeps files ready to be served. Jekyll is really simple once you understand the basic structure and functions. It supports markdown for posts and pages. It uses the famous **Liquid Syntax** by shopify for conditional logic and other functionalities which actually human readable coding! I think this way of coding is very comprehensive even to a non-coder.
+Jekyll has no database! Jekyll runs nothing on the server. It just keeps files ready to be served. Jekyll is really simple once you understand the basic structure and functions. It supports markdown for posts and pages. It uses the famous **Liquid Syntax** by shopify for conditional logic and other functionalities which is basically human readable coding! I think this way of coding is very comprehensive even to a non-coder.
 
 
 ## 2. Light, fast and secure
