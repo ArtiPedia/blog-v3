@@ -86,7 +86,7 @@ Eventually, I switched all my blogs to Jekyll and I always have a local copy of 
 You don't have to worry about the design part. There are hundreds of themes already available. You can [subscribe](http://eepurl.com/bZdvSP){: target="_blank" rel="nofollow"} to my blog to get a detailed list of free responsive Jekyll themes and their links to start off with. 
 
 # Start here
-Usually, Jekyll is hosted on github pages but you can also host it on any other conventional hosting service. But one thing you observe is that, all the Jekyll themes are put in a github repository. So to test it out you should know how to fork(copy) them to your own account. To do that, you should have a github account. So [sign up for a free account](https://github.com/join?source=header-home){: target="_blank" rel="nofollow"}.
+Usually, Jekyll is hosted on github pages but you can also host it on any other conventional hosting service. But one thing you observe is that, all the Jekyll themes are put in a github repository. So in order to test it out you should know how to fork(copy) them to your own account and to do that, you should have a github account. So [sign up for a free account](https://github.com/join?source=header-home){: target="_blank" rel="nofollow"}.
 
 Once that is done, you have to find a nice theme for your blog. So do some research or [sign up here](http://eepurl.com/bZdvSP){: target="_blank"} to get a quick checklist. You can also checkout [themes section](/jekyll-themes/){: target="_blank"} in my blog. Now you should visit the theme's homepage. Here is a video guide.
 
