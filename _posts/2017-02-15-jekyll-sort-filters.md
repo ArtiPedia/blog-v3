@@ -117,7 +117,7 @@ Let's arrange it in the **reverse order of alphabets**.
 {% endfor %}
 </code></pre>
 
-What we see here is that the posts are rendered in reverse alphabetical order.
+What we see here is that the posts are rendered in reverse alphabetical order. I have used thos feature in a [website](https://nallikayi.com){: target="_blank"} of mine to arrange podcasts by author, in the homepage.
 
 
 ### Sort Jekyll posts by categories
