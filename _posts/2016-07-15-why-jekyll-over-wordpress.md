@@ -69,7 +69,7 @@ Jekyll has no database! Jekyll runs nothing on the server. It just keeps files r
 
 
 ## 2. Light, fast and secure
-Since Jekyll is light by default, it is fast. If you want to see the difference then take a Jekyll site (take this site for example) and a WordPress site and compare them on [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/){: target="_blank" rel="nofollow"}. Brad has a good comparision [here](https://bradonomics.com/jekyll-wordpress-speed/){: target="_blank" rel="nofollow"}.
+Since Jekyll is light by default, it is fast. If you want to see the difference then take a Jekyll site (take this site for example) and a WordPress site and compare them on [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/){: target="_blank" rel="nofollow"}.
 
 Having no database is kind of good when we are looking at security. **Static** sites are way more secure than **Dynamic** ones. Static sites are almost unhackable.
 
