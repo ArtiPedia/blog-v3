@@ -13,7 +13,7 @@ permalink: /jekyll-filters/
 
 Jekyll Filters are a wide range of parameters that can be used to modify the output produced by Liquid tags or objects. I will be describing two Jekyll filters which can be very useful in sorting post index. One is **sort** filter and the other is **where** filter.
 
-If you're not sure on how to use Liquid tags then I suggest you go through this article and come back here: [How to use Liquid Syntax in Jekyll?](https://blog.webjeda.com/jekyll-liquid/){: target="_blank"}.
+If you're not sure on how to use Liquid Synatax then I suggest you go through this article: [How to use Liquid Syntax in Jekyll?](https://blog.webjeda.com/jekyll-liquid/){: target="_blank"}.
 
 ## Simple Filters
 Consider this example. I'm modifying the output of the page variable ``page.author`` which is ``sharathdt`` using string filters.
