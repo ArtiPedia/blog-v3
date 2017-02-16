@@ -50,7 +50,7 @@ If you have ever visited a WordPress site (I bet you've) you will see something 
 
 ![WordPress Distractions](/images/why-I-hate-wordpress.png){: .noborder}
 
-Since WordPress is easy to use and there are gazillion plugins available to do these kind of pop-ups, top-bars and other ridiculous bars. Many people use these features as they like screwing up their readers experience.
+Since WordPress is easy to use and there are gazillion plugins available to do these kind of pop-ups, top-bars and other ridiculous bars. Many people use these features as they like, screwing up their readers experience.
 
 May be it is good with most users but when I see a pop-up I will look for the close button before reading anything on it. 
 {: .y}
