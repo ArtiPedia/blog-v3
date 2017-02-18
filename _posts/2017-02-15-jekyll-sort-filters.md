@@ -178,6 +178,65 @@ Checkout other filters here: [Jekyll Filters](https://jekyllrb.com/docs/template
 
 {% include adsense-inside-post-2.html %}
 
+
+## Jekyll Group_By filter
+This is a filter which groups an array of items based on the property you give. The property can be categories, tags, author or any front matter.
+
+Here is an example for Group_By filter. Imagine you want your posts to be seggregated based on authors. Let's say you've multiple authors and you mentions each authors name in the front matter as shown below,
+
+{% highlight yml %}{% raw %}
+---
+title: "Webjeda Jekyll Blog"
+layout: post
+author: sharathdt
+---
+{% endraw %}{% endhighlight %}
+
+There is a simple way to sort your posts based on authors.
+
+{% highlight yml %}{% raw %}
+    {% assign items_grouped = site.posts | group_by: 'author'  %}
+        {{items_grouped}}
+{% endraw %}{% endhighlight %}
+
+The output of the above code would be like this.
+{% highlight yml %}{% raw %}
+
+{"name"=>"sharath", "items"=>[#, #], "size"=>2}
+{"name"=>"webjeda", "items"=>[#, #, #, #, #, #, #, #, #, #, #, #], "size"=>12}
+{"name"=>"someone", "items"=>[#], "size"=>1}
+
+{% endraw %}{% endhighlight %}
+
+Which means that there are 3 authors **sharath**, **webjeda** and **someone**. 
+
+There are 2 posts from Sharath, 12 posts from Webjeda and 1 post from Someone.
+
+The items fields are show with **#** sign which it is an array and we can dig deeper. I know that ``items_grouped`` is an array and ``items`` is an array.
+
+{% highlight yml %}{% raw %}
+            {{items_grouped[0].items[0].title}}
+{% endraw %}{% endhighlight %}
+
+The output would be the title of the first article written by sharath
+
+{% highlight yml %}{% raw %}
+            First Article Title by Sharath
+{% endraw %}{% endhighlight %}
+
+This might have gone over your head but let me give you a working code that sorts posts based on authors.
+
+{% highlight yml %}{% raw %}
+{% assign items_grouped = site.posts | group_by: 'author'  %}
+{% for group in items_grouped %}
+<h3>{{group.name}}</h3>
+    {% for item in group.items %}
+        <p>{{item.title}}</p>
+    {% endfor %}
+{% endfor %}
+{% endraw %}{% endhighlight %}
+
+
 ### Conclusion
 Thanks to the developers at Github and other contributors who are adding new features to Jekyll which are making our lives easy. Sorting posts based on parameters other than categories and tags was a little hard. But now, with newly added filters, sorting is very easy. 
 
