@@ -6,7 +6,7 @@ permalink: /jekyll-themes/
 ---
 <br />
 
-<p class="r" style="width: 80%; margin: 0 auto">I will be moving all the themes to <a href="https://jekyll-themes.com">jekyll-themes.com</a> soon.</p>
+<p class="g" style="width: 80%; margin: 0 auto">I will be moving all the themes to <a href="https://jekyll-themes.com">jekyll-themes.com</a> soon.</p>
 
 <h1 style="text-align:center">Jekyll Themes</h1>
 <div id="mainbox">
