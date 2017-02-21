@@ -179,10 +179,10 @@ Checkout other filters here: [Jekyll Filters](https://jekyllrb.com/docs/template
 {% include adsense-inside-post-2.html %}
 
 
-## Jekyll Group_By filter
+## Jekyll broup by filter
 This is a filter which groups an array of items based on the property you give. The property can be categories, tags, author or any front matter.
 
-Here is an example for Group_By filter. Imagine you want your posts to be seggregated based on authors. Let's say you've multiple authors and you mentions each authors name in the front matter as shown below,
+Here is an example for Jekyll group by filter. Imagine you want your posts to be seggregated based on authors. Let's say you've multiple authors and you mentions each authors name in the front matter as shown below,
 
 {% highlight yml %}{% raw %}
 ---
