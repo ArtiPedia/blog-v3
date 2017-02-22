@@ -77,26 +77,11 @@ window.onscroll = function()
             
 
 
-<script>
-         window.onload=function(){setTimeout(function(){
-         var c="display:block !important; visibility:visible !important;text-decoration:none !important;-moz-binding:none !important";
-         var b= "{{site.amazon.aff-link}}";
-         var a=document.querySelector("ins.adsbygoogle");
-         a&&0==a.innerHTML.replace(/\s/g,"").length&&(a.style.cssText=c,a.innerHTML=b);
-         
-         var a=document.querySelector("ins.adclass");
-         a&&0==a.innerHTML.replace(/\s/g,"").length&&(a.style.cssText=c,a.innerHTML=b);
-
-         var a=document.querySelector("ins.adclass2");
-         a&&0==a.innerHTML.replace(/\s/g,"").length&&(a.style.cssText=c,a.innerHTML=b)
-     },
-        
-2000)};</script> 
- 
+<!-- Adsense replace minified -->
+<script>window.onload=function(){setTimeout(function(){var a=document.querySelector("ins.adsbygoogle");a&&0==a.innerHTML.replace(/\s/g,"").length&&(a.style.cssText="display:block !important; visibility:visible !important;text-decoration:none !important;-moz-binding:none !important",a.innerHTML="{{site.amazon.aff-link}}");(a=document.querySelector("ins.adclass"))&&0==a.innerHTML.replace(/\s/g,"").length&&(a.style.cssText="display:block !important; visibility:visible !important;text-decoration:none !important;-moz-binding:none !important",
+a.innerHTML="{{site.amazon.aff-link}}");(a=document.querySelector("ins.adclass2"))&&0==a.innerHTML.replace(/\s/g,"").length&&(a.style.cssText="display:block !important; visibility:visible !important;text-decoration:none !important;-moz-binding:none !important",a.innerHTML="{{site.amazon.aff-link}}")},2E3)};</script> 
                           
-               <!-- JQuery -->
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-{% include ga_data_fetch.html %}
+
 
 
 
