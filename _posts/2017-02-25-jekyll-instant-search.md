@@ -16,7 +16,7 @@ Finding specific content can be hard if a website doesn't have any search option
 {:toc}
 
 
-Currently, I'm using google custom search engine which does a pretty good job but it doesn't fetch posts while I'm typing like how the actual google.com does. I might change this in the future but for now I'm keeping it. To be honest, I'm get a little revenue from adsense whenever it shows ads above search results.
+Currently, I'm using google custom search engine which does a pretty good job but it doesn't fetch posts while I'm typing like how the actual google.com does. I might change this in the future but for now I'm keeping it. To be honest, I'm getting a little revenue from adsense whenever it shows ads above search results.
 
 
 ## Why a Jekyll blog needs search option?
