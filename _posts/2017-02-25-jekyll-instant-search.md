@@ -1,5 +1,5 @@
 ---
-title: Jekyll Instant Search 
+title: Jekyll Instant Search in 3 simple steps!
 desc: Adding an instant search to jekyll website can be easily achieved with this method. Instant Jekyll search also gives a feel that the website is live and is using a database eventhough it isn't. Also, we are not using JQuery here!
 author: sharathdt
 tags: Jekyll
