@@ -35,6 +35,18 @@ Lunr is instant but heavy. Google Custom Search Engine is light but not instant(
 
 Let's implement it in a Jekyll site. Simple Jekyll Search is developed by [christian-fei](https://github.com/christian-fei){: target="_blank"}. So far it is the easiest instant search available for Jekyll. Credit also goes to [Alex Pearce](https://github.com/alexpearce) who posted [his idea](https://alexpearce.me/2012/04/simple-jekyll-searching/){: target="_blank"}{: rel="nofollow"} on how it can be achieved.
 
+
+Here is a simple demo where Jekyll Simple Search finds keywords in 5 recent posts.
+
+<!-- Html Elements for Search -->
+<div id="search-container">
+<input type="text" id="search-input" placeholder="How, Jekyll, Liquid...">
+<ul id="results-container"></ul>
+</div>
+
+
+
+
 ## How to install Jekyll Instant Search?
 
 Since Jekyll has no server side execution, we have to rely on storing all the required content in a single file and search our keyword from that file.
@@ -226,3 +238,48 @@ There are many other configurations as well. Please visit this [repository](http
 There are many things that may go wrong while implementing Jekyll Simple Search and may result in getting no output. Trust I have been there. Don't give up, follow every step without a miss. Instant search will definitely help your viewers to find what they're looking for, easier and faster. This factor will indirectly help to decrease your website bounce rate.
 
 Let me know whether you were able to successfully implement Jekyll Instant Search. Ask any questions or doubts in the comment section.
+
+
+<style>
+
+input[type=text]{
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  padding: 10px 25px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #ddd;
+  width: 200px;
+}
+input[type=text]:hover {
+  outline: none;
+  border: none;
+  margin: 5px 1px 3px 0px;
+  padding: 10px 25px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+} 
+input[type=text]:focus{
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+  margin: 5px 1px 3px 0px;
+  padding: 10px 25px;
+  border: none;
+}
+
+@media screen and (max-width: 600px) {
+    input[type=text]{
+            width: 100%;
+            box-sizing: border-box;
+    } 
+    }
+</style>
+<!-- Script pointing to jekyll-search.js -->
+<script src="/demo/search-script.min.js" type="text/javascript"></script>
+<script>
+SimpleJekyllSearch({
+  searchInput: document.getElementById('search-input'),
+  resultsContainer: document.getElementById('results-container'),
+  json: '/demo/search.json',
+})
+</script>
