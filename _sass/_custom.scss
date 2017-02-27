@@ -257,8 +257,7 @@ p.right {
 
 .time-auth {
     font-family: $base-font-family;
-    font-weight: bold;
-    color: $brand-color;
+    color: $grey-color;
 }
 
 div#ga-pageviews {
@@ -404,10 +403,7 @@ i.share-button {
     text-align: center;
 }
 
-.post-view {
-    
-    font-weight: bold;
-}
+
 
 .inline {
     display: inline-block;
@@ -657,7 +653,7 @@ img.emoji {
 }
 
 i.fa.fa-circle-o {
-    font-weight: bold;
+/*     font-weight: bold; */
     opaciity: 1;
 }
 
