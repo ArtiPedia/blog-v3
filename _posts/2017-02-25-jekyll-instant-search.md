@@ -18,6 +18,7 @@ Finding specific content can be hard if a website doesn't have any search option
 
 Currently, I'm using google custom search engine which does a pretty good job but it doesn't fetch posts while I'm typing like how the actual google.com does. I might change this in the future but for now I'm keeping it. To be honest, I'm getting a little revenue from adsense whenever it shows ads above search results.
 
+If you're looking for Custom Search Engine by Google then please visit: [The easiest search option for Jekyll](https://blog.webjeda.com/jekyll-search/){: target="_blank"}
 
 ## Why a Jekyll blog needs search option?
 If your Jekyll site has just 4 to 5 pages, then you will not need a search option. All those pages can be listed, linked in a menu bar or shown on the footer.
