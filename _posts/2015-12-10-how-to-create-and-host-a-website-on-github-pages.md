@@ -70,7 +70,7 @@ Name it anything you feel like. I'm naming it **test**. Also, check **Initialize
 </div>
 
 ## Step 1.1: Select source for Github Pages
-Go to settings and find *Github Pages* section where you can select a source branch for ``github-pages`` website. Set it to master and save. Your website URL should show up as in the screenshot below.
+Go to settings and find **Github Pages** section where you can select a source branch for ``github-pages`` website. Set it to master and save. Your website URL should show up as in the screenshot below.
 
 ![Select branch for Github Pages](/images/select-source-branch-github-pages.png)
 

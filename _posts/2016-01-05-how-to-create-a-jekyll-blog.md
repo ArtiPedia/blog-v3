@@ -99,7 +99,20 @@ First thing is logging into Github account and forking the whole [theme reposito
 
 What **fork** does is that it copies the whole repository as a new repository inside your Github account. You can rename the repository to anything you like in the **Settings** option.
 
-## Step 3: Check whether you are on the right branch
+
+<div class="warning clear">
+<h3>Update</h3>
+<p>Latest Github update minimizes a step here. You do not have to create a <code>gh-pages</code> branch. Use any branch as source for the Github Pages.</p>
+</div>
+
+## Step 2.1 Check if a source branch is selected
+After forking the theme repository, go to settings and find **Github Pages** section. Here you will have to select which branch you would like to use as website source.
+
+![Select branch for Github Pages](/images/select-source-branch-github-pages.png)
+
+You can skip step 3
+
+## Step 3: Check whether you are on the right branch(not required)
 Branching in Github is nothing but taking the whole source code and make changes to test a different feature. There is always a master branch from which you can make many branches. One such branch is ``gh-pages``. Github considers the code to be a website, only if it is in the gh-pages branch.
 
 ![create gh pages branch](/images/create-gh-pages-branch.JPG)
@@ -113,13 +126,12 @@ So once you fork the repository, make sure you are in the gh-pages branch. If no
 Once you hit the fork button, all the files in the remote repository will be copied to a new repository in your Github account.
 
 ![CNAME in repository]({{ site.url }}/images/CNAME-in-repository.JPG){: .left .half}
-Now, navigate to the repository and check whether it has any CNAME file inside it. CNAME is used for custom domains, which is not really required for this tutorial.
 
+Now, navigate to the repository and check whether it has any CNAME file inside it. CNAME is used for custom domains, which is not really required for this tutorial.
 
 If there is one, then delete the URL inside it and commit. If there isn't one, then no problem.
 
-
-Check the URL  ``` https://username.github.io/emerald ``` change the **username** to your Github user name.
+Now your site will be hosted in the web address ``` https://username.github.io/emerald ``` . Change the **username** to your Github user-name.
 {: .clear}
 
 Your blog should be up and running by now. But give it some time. A maximum of 10 minutes. Jekyll builds a static blog in the meanwhile. If the blog is not up, then take the next step.
@@ -128,14 +140,14 @@ Your blog should be up and running by now. But give it some time. A maximum of 1
 ## Step 5: Check for baseurl
 
 ![_config.yml in repository]({{ site.url }}/images/config.yml-in-repository.jpg){: .right .half}
+
 If your blog is showing a 404 error, then you may have to check the baseurl in configuration file.
 Jekyll blog configuration is found inside **_config.yml** file.
-
 
 <div class="clear"></div>
 ![inside _config.yml in repository]({{ site.url }}/images/inside-config.yml-jekyll-blog.JPG)
 {: .left .large}
-Open the file to see what is the **baseurl** configured. Usually it is **/emerald/** for emerald theme.
+Open the file to see what is the **baseurl** configured. Usually it is **/emerald** for emerald theme.
 
 
 If (only if) you have renamed the repository name to something like **blog** or **app**, change the baseurl as shown below.
@@ -145,11 +157,11 @@ If (only if) you have renamed the repository name to something like **blog** or 
 
 ```baseurl:    /app```
 
-Your blog will show up in the particular website
+Your blog will show up in the particular web address
 
 ```https://github.username/blog```  or  ```https://github.username/something```
 
-So that's all there is to set up a new Jekyll blog. Some things like **CNAME** and **baseurl** may vary from theme to theme. But once you have a good knowledge of why they are used, you can configure them as you like.
+So that's all there is to set up a new Jekyll blog. Some things like **CNAME** and **baseurl** may vary from theme to theme. But once you have a good knowledge on why they are used, you can configure them as you like.
 
 ## Step 6: Make changes to your website
 
