@@ -64,7 +64,18 @@ I hope you have signed up for a Github account. Otherwise, you can [sign up for 
 Name it anything you feel like. I'm naming it **test**. Also, check **Initialize this repository with a README**. This is just to get a README file inside our repository to start with. Once you are done creating a repository, you should be able to see a README file inside your repository.
 
 
-## Step 2: Create gh-pages branch
+<div class="warning clear">
+<h3>Update</h3>
+<p>Latest Github update minimizes a step here. You do not have to create a <code>gh-pages</code> branch. Use any branch as source for the Github Pages.</p>
+</div>
+
+## Step 1.1: Select source for Github Pages
+Go to settings and find *Github Pages* section where you can select a source branch for ``github-pages`` website. Set it to master and save. Your website URL should show up as in the screenshot below.
+
+![Select branch for Github Pages](/images/select-source-branch-github-pages.png)
+
+
+## Step 2: Create gh-pages branch (not required)
 {: .clear }
 
 ![Create a gh-pages branch]({{ site.url }}/images/create-gh-pages-branch.JPG)
@@ -75,11 +86,6 @@ Your repository will have the **master branch** by default. You should create a 
 It is also a good idea to make gh-pages branch as default branch since we will be using this branch for all the proceeding steps. To do that go to **Settings >> Branches >> set gh-pages as default brach**.
 {: .clear }
 
-
-<div class="tips clear">
-<h3>Update</h3>
-<p> Now you can use any branch to host as a website. Just use the option <strong>Source</strong> in GitHub Pages section and select the branch you want to host as a website! </p>
-</div>
 
 
 ## Step3: Create simple html file
