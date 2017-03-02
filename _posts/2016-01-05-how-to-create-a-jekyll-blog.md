@@ -81,6 +81,8 @@ A theme is important for a good looking blog. Otherwise, you can go with the bas
 
 3. [**Lanyon**](http://lanyon.getpoole.com/){:rel='nofollow'}{:target="_blank"}
 
+If you are not convinced then please visit [https://jekyll-themes.com](https://jekyll-themes.com){:target="_blank"} and choose a theme from the showcase.
+
 These are some pretty well-built themes that I recommend. You can change the look and scheme as you wish (a little coding knowledge is required). Let's take a look at how to implement [Emerald theme](http://www.jacoporabolini.com/emerald/){:rel='nofollow'}{:target="_blank"}.
 
 All the themes you see are inside a certain repository. You just have to copy these files and change it accordingly to make it yours (but keep the license file as it is). So if you look at Emerald theme, it has a link in its navigation which says **Project on Github**. That link will lead you to the theme repository.
