@@ -273,7 +273,7 @@ table.mdtable {
     font-size: $small-fs;
     padding: 2em 0;
     h3 {
-        margin: 0;
+        margin: $spacing-unit*0.5 0;
     }
     .next {
         float: right;
