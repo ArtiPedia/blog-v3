@@ -1,0 +1,27 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<!--
+Why struggle here? Find the complete website source: https://github.com/sharu725/blog-v3
+-->
+<html lang="en-US"> 
+{% include head.html %}
+<body> 
+ {% include header.html %}
+     <div id="top"></div>
+      
+       {{ content }}  
+              
+     {% include footer-1.html %}
+     {% include font-loader.html %}
+     {% include google-tag-manager-body.html %}
+
+        <!-- Load only if it is a post --> 
+     {% if page.layout == 'post' %}
+         {% include disqus-script.html %}
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+        {% include ga_data_fetch.html %}
+     {% endif %}
+  </body>
+</html>

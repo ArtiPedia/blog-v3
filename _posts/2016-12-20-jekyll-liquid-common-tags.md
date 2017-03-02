@@ -97,12 +97,11 @@ This query will take effect for any screen smaller than 760px
 and also iPads specifically.
 */
 @media 
-only screen and (max-width: 760px),
-(min-device-width: 768px) and (max-device-width: 1024px)  {
+only screen and (max-width: 600px),
+(min-device-width: 600px) and (max-device-width: 1024px)  {
 
         .jekyll-es td {
                 border: none;
-                padding-left: 50%;
                 padding-top: 4px;
                 padding-bottom: 4px;
             }
@@ -112,12 +111,16 @@ only screen and (max-width: 760px),
 
             }
 
+        td.output, td.variable {
+            padding-left: 30%;
+        }
 
 
 	/* Force table to not be like tables anymore */
 	table, thead, tbody, th, td, tr { 
 		display: block; 
         overflow: hidden;
+        font-size: 14px;
 	}
 	
 	/* Hide table headers (but not display: none;, for accessibility) */
@@ -152,7 +155,7 @@ only screen and (max-width: 760px),
     td:nth-of-type(1):before { content: "Variable"; }
 	td:nth-of-type(2):before { content: "Output"; }
 
-
+}
 
 
 </style>
@@ -160,9 +163,10 @@ only screen and (max-width: 760px),
 <h1>Search a tag</h1>
 
 <div class="container-list">
-    <div id="users">
+    <div id="users"  style="overflow-x: scroll">
      
       <input class="search" placeholder="Search" />
+      <br />
       <br />
       <table class="jekyll-es">
 

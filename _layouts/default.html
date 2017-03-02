@@ -1,27 +1,50 @@
 ---
-layout: compress
 ---
 <!DOCTYPE html>
-<!--
-Why struggle here? Find the complete website source: https://github.com/sharu725/blog-v3
--->
-<html lang="en-US">
-{% include head.html %}
-<body> 
- {% include header.html %}
-     <div id="top"></div>
-      
-       {{ content }}  
-              
-     {% include footer-1.html %}
-     {% include font-loader.html %}
-     {% include google-tag-manager-body.html %}
+<html lang="en-US"> 
+    {% include head.html %}
+<body id="top">
+  
+    <a href="/"><div class="logo"></div></a>
+<!--     <a href="/"><div class="logo-small"></div></a>  -->
+    
+    <header>
+        <h1 class="post-title">{{page.title}}</h1>
+       
+    </header>
+    
+    <div class="container">
+      {{ content }}
+    </div>
+    
+    
+    
+    <footer>
+          <div class="foot-left">
+                <a href="#top"><img class="logo-wj" src="/img/webjeda-no-op.svg" alt="webjeda"></a>
+          </div>
+          
+           <div class="foot-center">
+                <p>Copyrights &copy; {{site.time | date: '%Y'}} by <a target="_blank" href="">webjeda</a></p>
+                <p>Images by <a rel="nofollow" target="_blank" href="http://freepik.com">Freepik</a></p>
+            </div>
+            
+            <div class="foot-right">
+                 <ul>
+                    <li><a href="/search/">Search</a></li>
+                    <li><a href="/about/">About</a></li>
+                    <li><a href="/contact/">Contact</a></li>
+                </ul>
+            </div>
+    </footer>
 
-        <!-- Load only if it is a post --> 
+            <!-- Load only if it is a post --> 
      {% if page.layout == 'post' %}
-         {% include disqus-script.html %}
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
         {% include ga_data_fetch.html %}
-     {% endif %}
-  </body>
+        <script id="dsq-count-scr" src="//webjeda.disqus.com/count.js"></script>
+        {% include disqus-script.html %}
+     {% endif %}    
+    
+</body>
 </html>

@@ -4,7 +4,6 @@ title: Jekyll Themes
 desc: Webjeda jekyll themes is a showcase of hand-picked, responsive jekyll themes. You will find some of the best jekyll themes that can be used for your website blog or portfolio.
 permalink: /jekyll-themes/
 ---
-<br />
 
 <p class="g" style="width: 80%;text-align:center; margin: 0 auto">I will be moving all the themes to <a href="https://jekyll-themes.com">jekyll-themes.com</a> soon.</p>
 

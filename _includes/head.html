@@ -42,7 +42,7 @@
   }
 </script>
 
-        <!-- RSS -->
+    <!-- RSS -->
 <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="ATOM Feed" />  
  
     <!-- Bing Auth-->
@@ -60,24 +60,19 @@
  <!-- Apple touch icons -->
 <link rel="apple-touch-icon-precomposed" href="/img/apple-touch-icon-iphone-60x60.png">
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-ipad-retina-152x152.png">
-  <!-- Critical CSS -->
-<style>
-          {% capture include_to_scssify %}
-          {% include critical.scss %}
-          {% include menu.scss %}
-          {% endcapture %}
-          {{ include_to_scssify | scssify }}
-  </style> 
-  
+ 
+  <!-- CSS -->
+<link rel="stylesheet" href="/css/main.css">
+ 
+  <!-- Google TagManager --> 
 {% include google-tag-manager-head.html %}
 
-
-{% if site.ad == 'no' %}{% else %}  
+<!-- {% if site.ad == 'no' %}{% else %}  
  {% if page.layout == 'post' %}
-    <!--   Adsense Script  -->
+    Adsense Script
     {% include ad-script.html %}
  {% endif %}
-{% endif %}
+{% endif %} -->
  
  
 </head>

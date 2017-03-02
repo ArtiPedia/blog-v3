@@ -1,0 +1,97 @@
+#News
+news: true
+news-link: 'https://jekyll-themes.com/krishna/'
+#news-image: '/thumbs/subscribe-theme.png'
+news-alt: New Jekyll Themes
+#onclick: "onclick="window.open(this.href, 'mywin', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+
+
+
+# Site settings
+title: WebJeda Blog | A modern web development blog
+description: "WebJeda is a company oriented towards building modern websites and apps. It also provides smart hosting solutions. Contact us for modern, fast and responsive websites"
+url: https://blog.webjeda.com
+enforce_ssl: blog.webjeda.com
+
+
+author: 
+  twitter: sharathdt
+twitter:
+   site: webjeda
+
+logo: /img/webjeda-logo.svg
+image: {{page.image}}
+facebook: https://www.facebook.com/webjeda
+twitter: https://twitter.com/webjeda
+github: https://github.com/sharu725
+youtube: https://www.youtube.com/c/webjeda?sub_confirmation=1
+email: mailto:hello@webjeda.com
+feedburner-subscribe: https://feedburner.google.com/fb/a/mailverify?uri=webjedablog&amp;loc=en_US 
+analytics: 'UA-71358787-1'
+disqus-shortname: webjeda
+copyrights-owner: WebJeda # Copyright in the footer
+feedly: 'http://cloud.feedly.com/#subscription%2Ffeed%2Fhttp%3A%2F%2Fblog.webjeda.com%2Ffeed.xml'
+
+super-proxy: 'https://rugged-sunbeam-127917.appspot.com/query?id=ahdzfnJ1Z2dlZC1zdW5iZWFtLTEyNzkxN3IVCxIIQXBpUXVlcnkYgICAgLzLigoM&format=json'
+
+review-id: 'http://search.google.com/local/writereview?placeid=ChIJx113w8QUuzsR_3IiWBPrucE'
+
+
+
+# Build settings
+#baseurl: / # Change this to your relative path (ex: /blog/), or leave just a /
+markdown: kramdown
+source: .
+destination: ./_site
+permalink: /:title/
+paginate: 6
+paginate_path: /page:num/
+highlighter: rouge
+include: ["_pages"]
+
+sass:
+    style: compressed
+
+  
+#optimization
+#compress.html
+compress_html:
+  clippings: [html,div, p, ul, td, h1, h2, h3, h4,link, meta, footer, nav, img, header, hr, br, head, style, li, ul, ol, time, main, script, title]
+  comments: ["<!-- ", " -->"]
+  endings: [all]
+  ignore:
+    envs: [local]
+  blanklines: false
+  profile: false
+  startings: []
+  
+#collection
+collections:
+    jekyll-themes:
+        output: true
+
+
+    
+authors:
+      sharathdt:
+        display_name: Sharath Kumar
+        about: Sharath is a full-time chess coach, part-time web designer and a hobby blogger. He posts his Web Development blogs in <a href="http://blog.webjeda.com" >Webjeda Blog</a></p>
+        email: mailto:'hello@webjeda.com'
+        web: http://webjeda.com/
+        facebook: https://www.facebook.com/sharu725
+        twitter: https://twitter.com/sharathdt
+        github: https://github.com/sharu725/
+        gravatar: 'https://s.gravatar.com/avatar/73c67b9ce8685bfb9e906a5865c0aef8?s=80'
+
+
+# No double inverted comma should be used inside the code
+amazon:
+    aff-link: "<a rel='nofollow' target='_blank' href='https://www.amazon.com/stream/ref=nav_upnav_LargeImage_Gateway?asCursor=WyIxLjYiLCJ0czEtd2VibGFiIiwiMTQ3NzI0MjAwMDAwMCIsIiIsIlMwMDAwOjA6bnVsbCIsIlMwMDAwOjI6MSIsIlMwMDAwOjA6LTEiLCJzIiwicGQyIiwiMTQ3NzI0MjAwMDAwMCIsInN1YjEiLCIxNDc3MjQxNTU5NTM5IiwiaGYxIiwiMTQ3NzIzODQwMDAwMCIsInYxIiwiMTQ3NzIzMzYwMDAwMCJd&asCacheIndex=0&asYOffset=-262&_encoding=UTF8&tag=webjeda-20&linkCode=ur2&linkId=026751bde08db535920e2dca09a2ccd8&camp=1789&creative=9325'><img src='/img/amz-interesting.png' /></a>"
+    
+    
+gems: [jekyll-paginate, jemoji, jekyll-seo-tag, jekyll-admin]
+
+review: 
+    place-id: ChIJx113w8QUuzsR_3IiWBPrucE
+    link: http://search.google.com/local/writereview?placeid=ChIJx113w8QUuzsR_3IiWBPrucE
+    short-link: https://goo.gl/fAcxe9

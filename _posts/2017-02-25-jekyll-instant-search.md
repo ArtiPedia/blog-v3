@@ -16,7 +16,9 @@ Finding specific content can be hard if a website doesn't have any search option
 {:toc}
 
 
-Currently, I'm using google custom search engine which does a pretty good job but it doesn't fetch posts while I'm typing like how the actual google.com does. I might change this in the future but for now I'm keeping it. To be honest, I'm getting a little revenue from adsense whenever it shows ads above search results.
+Currently, I'm using google custom search engine which does a pretty good job but it doesn't fetch posts while I'm typing like how the actual google.com does. 
+~~I might change this in the future but for now I'm keeping it.~~ 
+I changed it in the new layout.
 
 If you're looking for Custom Search Engine by Google then please visit: [The easiest search option for Jekyll](https://blog.webjeda.com/jekyll-search/){: target="_blank"}
 
@@ -242,30 +244,40 @@ Let me know whether you were able to successfully implement Jekyll Instant Searc
 
 
 <style>
+input[type=text] {
 
-input[type=text]{
-  -webkit-transition: all 0.30s ease-in-out;
-  -moz-transition: all 0.30s ease-in-out;
-  -ms-transition: all 0.30s ease-in-out;
-  -o-transition: all 0.30s ease-in-out;
-  outline: none;
-  padding: 10px 25px;
-  margin: 5px 1px 3px 0px;
-  border: 1px solid #ddd;
-  width: 200px;
+    outline: none;
+    padding: 15px 25px;
+    margin: 5px 1px 3px 0px;
+    border: none;
+    width: 100%;
+    border-radius: 1px;
+    box-shadow: 0 1px 0px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+
 }
+    
 input[type=text]:hover {
-  outline: none;
-  border: none;
-  margin: 5px 1px 3px 0px;
-  padding: 10px 25px;
-  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
-} 
-input[type=text]:focus{
-  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
-  margin: 5px 1px 3px 0px;
-  padding: 10px 25px;
-  border: none;
+    outline: none;
+    border: none;
+    margin: 5px 1px 3px 0px;
+    padding: 15px 25px;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+}
+    
+input[type=text]:focus {
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+    margin: 5px 1px 3px 0px;
+    padding: 15px 25px;
+    border: none;
+    outline: none;
+        -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
 }
 
 @media screen and (max-width: 600px) {

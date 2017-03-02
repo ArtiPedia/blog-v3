@@ -22,6 +22,7 @@ Jekyll is trying to fill that gap of not having a UI by jekyll-admin. But it has
 
 
 ## Why Jekyll-admin?
+{: .clear}
 Jekyll was considered to be not so non-coder friendly. Because to take advantage of the features of a Jekyll blog, one should have some basic coding knowledge or at least knows how to manipulate the present code.
 
 I think Jekyll is trying to solve this problem. But to run Jekyll locally you need to install Ruby and then install Jekyll. For a non-coder, even this process could be tough. Making things simpler is important to reach more people. That's what worked out for Apple in the case of iPhones.

@@ -1,6 +1,6 @@
 ---
 title: Jekyll Filters - Where and Group_By
-desc: Jekyll filters like sort are used to modify the output in a certain fashion for our convenience. I have described a few methods to sort Jekyll posts by categories, tags and other front matter values.
+desc: Jekyll filters like sort and group by are used to modify the output in a certain fashion for our convenience. I have described a few methods to sort Jekyll posts by categories, tags and other front matter values.
 author: sharathdt
 tags: Jekyll Liquid
 image: jekyll-sort-filter.png
@@ -12,6 +12,10 @@ permalink: /jekyll-filters/
 
 
 Jekyll Filters are a wide range of parameters that can be used to modify the output produced by Liquid tags or objects. I will be describing two Jekyll filters which can be very useful in sorting post index. One is **sort** filter and the other is **where** filter.
+
+* Do not remove this line (it will not be displayed) 
+{:toc}
+
 
 If you're not sure on how to use Liquid Synatax then I suggest you go through this article: [How to use Liquid Syntax in Jekyll?](https://blog.webjeda.com/jekyll-liquid/){: target="_blank"}.
 

@@ -36,6 +36,7 @@ They are old and discontinued but I it was a good learning curve building these 
 
 I realized (very late) that web designing is my passion. I kept on learning more about html5. I also started learning Android application development. I never thought I can make it a business but I fully enjoyed making modern websites.
 
+I have named it webjeda. Web means the internet and jeda means spider in my mother tongue.
 
 Learning was always there. Even today I have something to learn every other day. I have seen people struggling to figure out how Github works. Maybe because it didn't have easy-to-understand documents. 
 

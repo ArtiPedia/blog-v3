@@ -1,0 +1,162 @@
+
+.container {
+    padding: 10px;
+}
+
+header {
+    padding: 5em 1em 3em 1em;
+        padding: 6em 1em 4em 1em;
+
+    background: $brand-color; 
+    background-image: url(/img/spider-web.svg);
+    background: url(/img/spider-web.svg), -webkit-linear-gradient(120deg, $brand-color, $brand-color-2);
+    background:url(/img/spider-web.svg), -o-linear-gradient(120deg, $brand-color, $brand-color-2);
+    background: url(/img/spider-web.svg), linear-gradient(120deg, $brand-color, $brand-color-2); 
+
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-bottom: 1px solid transparent;
+    margin-bottom: 1em;
+    .post-title {
+        color: #fff;
+        font-size: 2.5em;
+        text-align: center;
+        max-width: 800px;
+        margin: 0 auto;
+        max-width: 70%;
+
+        
+        @include media-query($on-palm) {
+            font-size: 1.5em;
+            max-width: 80%;
+        }
+
+    }
+    @include media-query($on-palm) {
+        padding: 3em 0.25em 1em 0.25em;
+        width: 100%;
+    }
+}
+
+footer {
+    padding: 2em 1em 2em 1em;
+    margin-top: 2em;
+    background-color: lighten($grey-color, 40%);
+    background-image: url(/images/pattern.png);
+    color: lighten($color, 40%);
+    font-size: $small-fs;
+    .logo-wj {
+        width: 200px;
+        filter: grayscale(100%);
+        opacity: 0.2;
+        transition: 0.2s ease-in;
+        &:hover {
+            filter: grayscale(0%);
+            opacity: 1;
+        }
+    }
+    .foot-left, .foot-center, .foot-right{
+        display: inline-block;
+        width: 33%;
+        @include media-query($on-laptop) {
+            display: block;
+            width: 100%;
+            text-align: center;
+        }
+    }
+    .foot-left {
+                text-align: left;
+        @include media-query($on-laptop) {
+                text-align: center;
+            }
+        }
+    
+    .foot-center {
+        text-align: center;
+        vertical-align: middle;
+        p {
+            margin: 0;
+            @include media-query($on-laptop) {
+                margin: 1em 0;
+            }
+        }
+
+    }
+    .foot-right {
+        text-align: right;
+        ul {
+            list-style: none;
+            @include media-query($on-laptop) {
+                   margin-left: 0;
+                   padding-left: 0
+                    }
+            li {
+                    display: inline-block;
+                    margin-left: 10px;
+                    
+                }
+            }
+            @include media-query($on-laptop) {
+                padding-left: 0;
+                text-align: center;
+            }
+    }
+}
+
+main a[target="_blank"]::after {
+    content: " " url('data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" class=\"i-external\" viewBox=\"0 0 32 32\" width=\"18\" height=\"18\" fill=\"none\" stroke=\"rgba(0,0,0,0.7)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"9.38%\"><path d=\"M14 9 L3 9 3 29 23 29 23 18 M18 4 L28 4 28 14 M28 4 L14 18\" /></svg>');
+}
+
+.logo {
+    background-image: url(/img/spider.svg);
+    position: absolute;
+    top: 12%;
+    left: 5%;
+    width: 60px;
+    height: 60px;  
+    -webkit-transition: all 0.7s ease-out;
+       -moz-transition: all 0.7s ease-out;
+        -ms-transition: all 0.7s ease-out;
+         -o-transition: all 0.7s ease-out;
+            transition: all 0.7s ease-out;
+        
+    &:hover {
+        top: 11%;
+
+    }
+    @include media-query($on-palm) {
+        top: 5%;
+        left: 4%;
+        width: 40px;
+        height: 40px;
+        &:hover {
+            top: 3%;
+        }
+    }
+
+}
+
+.logo-small {
+    display: none;
+    visibility: hidden;
+    @include media-query($on-palm) {
+        background-image: url(/img/spider.svg);
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 4%;
+        left: 3%;
+        width: 40px;
+        height: 40px;
+        display: block;
+        visibility: visible;
+    }
+}
+
+.video {
+    width: 100%;
+    height: 515px;
+    @include media-query($on-palm) {
+        height: 250px;
+    }
+}
+

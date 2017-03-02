@@ -55,7 +55,7 @@ But this seemed very easy and I gave it a try to write something on my own which
 
 Copy the code, save as HTML file and open in a browser to see how this works. It is pretty much like the below box.
 
-<div id="dark-div" style="background-color: rgb(255, 255, 255); padding:30px 60px; border: 1px dashed #000; width: 150px;text-align:center;margin: 10px;cursor: pointer" onclick="dark()">
+<div class="dark-div" id="dark-div" style="background-color: rgb(255, 255, 255)" onclick="dark()">
     <p>Click me</p>
 </div>
 
@@ -81,9 +81,20 @@ Here is the same box which not only switches its color but also retains it even 
 
 Try navigating to some other page and come back. This box will still be dark!
 
-<div id="dark-div-2" style="background-color: rgb(255, 255, 255); padding:30px 60px; border: 1px dashed #000; width: 150px;text-align:center;margin: 10px;cursor: pointer" onclick="darker()">
+<div class="dark-div" id="dark-div-2" style="background-color: rgb(255, 255, 255)" onclick="darker()">
     <p>Switch</p>
 </div>
+<style>
+.dark-div {
+    padding:30px 60px; 
+    border: 1px dashed #000; 
+    width: 300px;
+    text-align:center;
+    margin: 10px;
+    cursor: pointer;
+
+}
+</style>
 
 {% include adsense-inside-post.html %}
 
@@ -140,9 +151,7 @@ Let me know if you have successfully implemented this on your website.
 
 Thanks for reading!
 
-<script>
-function dark(){"rgb(255, 255, 255)"==document.getElementById("dark-div").style.backgroundColor?(document.getElementById("dark-div").style.backgroundColor="#333",document.getElementById("dark-div").style.color="#fff"):(document.getElementById("dark-div").style.backgroundColor="rgb(255, 255, 255)",document.getElementById("dark-div").style.color="#333")};
-</script>
+<script>function dark(){"rgb(255, 255, 255)"==document.getElementById("dark-div").style.backgroundColor?(document.getElementById("dark-div").style.backgroundColor="rgb(6, 23, 37)",document.getElementById("dark-div").style.color="rgb(255, 255, 255)"):(document.getElementById("dark-div").style.backgroundColor="rgb(255, 255, 255)",document.getElementById("dark-div").style.color="rgb(6, 23, 37)")};</script>
 <script>
 document.getElementById("dark-div-2").style.backgroundColor=sessionStorage.getItem("bg");document.getElementById("dark-div-2").style.color=sessionStorage.getItem("cc");function darker(){"rgb(255, 255, 255)"===sessionStorage.getItem("bg")?(sessionStorage.setItem("bg","rgb(6, 23, 37)"),sessionStorage.setItem("cc","#777")):null==sessionStorage.getItem("bg")?(sessionStorage.setItem("bg","rgb(6, 23, 37)"),sessionStorage.setItem("cc","#777")):"rgb(6, 23, 37)"===sessionStorage.getItem("bg")&&(sessionStorage.setItem("bg","rgb(255, 255, 255)"),sessionStorage.setItem("cc","#333"));document.getElementById("dark-div-2").style.backgroundColor=sessionStorage.getItem("bg");document.getElementById("dark-div-2").style.color=sessionStorage.getItem("cc")}
 ;

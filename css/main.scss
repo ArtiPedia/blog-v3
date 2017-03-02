@@ -1,34 +1,81 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
+
 @charset "utf-8";
 
 
+$base-ff:         -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+$head-ff:         -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+$base-fs:          22px;
+$base-fw:          400;
+$small-fs:         $base-fs * 0.775;
+$base-lh:          1.7;
+$spacing-unit:     30px;
+$color:            rgba(0, 0, 0, 0.7);
+
+/* Violet */
+$brand-color:      #7E57C2;
+$brand-color-2:    #673AB7; 
+
+/* Green */
+$brand-color:      #66BB6A;
+$brand-color-2:    #43A047; 
+
+/* Yellow */
+$brand-color:      #FFCA28;
+$brand-color-2:    #FFB300; 
+
+/* Biscuit */
+$brand-color:      #FF7043;
+$brand-color-2:    #f44336; 
+
+/* Orange */
+$brand-color:      #FF8F00;
+$brand-color-2:    #FFC107; 
+
+/* Forest */
+$brand-color:      #2E7D32;
+$brand-color-2:    #66BB6A; 
+
+/* Bright Green */
+$brand-color:      #00C853;
+$brand-color-2:    #00E676; 
+
+/* Bright Yellow */
+$brand-color:      #FFAB00;
+$brand-color-2:    #FFC400; 
+
+/* Bright Yellow 2 */
+$brand-color:      #F9A825;
+$brand-color-2:    #FF6F00; 
+
+/* Bright Yellow 2 */
+$brand-color:      #0091EA;
+$brand-color-2:    #304FFE; 
+
+/* Biscuit!! */
+$brand-color:      #ef5350;
+$brand-color-2:    #FF5722; 
 
 
-// Our variables
-$base-font-family: 'wj';
-$head-font-family: sans-serif;
-$base-font-size:   16px;
-$base-font-weight: 400;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
-$spacing-unit:     10px;
+/* Biscuit-best */
+$brand-color:      #e53935;
+$brand-color-2:    #e35d5b; 
 
-$text-color:       rgba(0, 0, 0, 0.8);
-$background-color: #fdfdfd;
-$brand-color:      #3498db;
+/* Emerald!! */
+/* $brand-color:      #2b8a2f; */
+$brand-color-2:    #00C853; 
+$brand-color:    darken($brand-color-2, 10%);
 
 $grey-color:       #828282;
-$highlight-color:  #0a5;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
-$content-width:    900px;
-
+$content-width:    800px;
 $on-palm:          600px;
-$on-laptop:        1000px;
+$on-laptop:        800px;
 
 
 
@@ -47,15 +94,12 @@ $on-laptop:        1000px;
 
 
 
-
-
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-       
-        "custom",
+        "base",
+        "home",
+        "style",
+        "post",
+        "page",
         "syntax-highlighting"
-
-
 ;
-
-
