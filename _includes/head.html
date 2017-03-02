@@ -67,12 +67,10 @@
   <!-- Google TagManager --> 
 {% include google-tag-manager-head.html %}
 
-<!-- {% if site.ad == 'no' %}{% else %}  
+<!-- Google Adsense --> 
+ {% if site.ad == 'no' %}{% else %}  
  {% if page.layout == 'post' %}
-    Adsense Script
     {% include ad-script.html %}
  {% endif %}
-{% endif %} -->
- 
- 
+{% endif %}
 </head>
