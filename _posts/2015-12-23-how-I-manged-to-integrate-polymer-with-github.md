@@ -58,6 +58,11 @@ This is how the default cards will look like.
 </paper-card>
 </div>
 
+<style>
+paper-card {
+    margin-left: 10px;
+}
+</style>
 
 You can customize the cards as you like. Add an image, description or a button. Polymer Ripple effect is also cool!
 
