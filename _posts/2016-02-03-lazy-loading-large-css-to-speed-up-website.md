@@ -24,6 +24,7 @@ Many a times - on a slow connection - a user may wait for a maximum of 5 to 6 se
 
 You just lost a potential subscriber or even customer if you are selling something. Using a pre-loader like I did on [my website](http://webjeda.com){:target="_blank"} can engage the users for a few more seconds but not forever. So you should not make your users wait for the main content.
 
+
 In this method of lazy loading css, the content loads without any style and then the stylesheet loads followed by JavaScript. You may have observed this while browsing my website. This is important for a user with a slow connection. Content(visible stuff) should load at the very beginning. Style(css) and scripts(js) can wait.
 
 This ensures that even if the style or script fails to load, the user can still read the content (if the content is text). You can also [minify your blog for faster loading](/compress-html-jekyll/){:target="_blank"}.

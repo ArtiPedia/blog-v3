@@ -334,3 +334,5 @@ More than ranking on search engines, speed is important to keep your users happy
 I hope that the article helped you speed up your Jekyll website. Ask any doubts you have through comments.
 
 Thanks for reading!
+
+<link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">

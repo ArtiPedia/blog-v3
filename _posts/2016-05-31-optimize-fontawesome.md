@@ -112,7 +112,16 @@ IcoMoon will show the icons that are selected and gives you an option to downloa
 
 Keep these files at the root of the website and link the ``style.css`` file in head tag. If you are in doubt then check the ``demo.html`` file which is included in the downloaded font package.
 
+### Alternatives
+Before you decide using fontawesome, think of using these alternatives. That may help if your website needs pretty basic icons.
+
+1. [Unicode](https://www.materialui.co/unicode-characters){: target="_blank"}{: rel="nofollow"}
+
+2. [Bytesize SVG Icons](https://github.com/danklammer/bytesize-icons){: target="_blank"}{: rel="nofollow"}
+
+
 ## Conclusion
 You may use Bootstrap, Font awesome or any similar web font in your website. But make sure you optimize them to use only things that are necessary. Every byte you save, every request you reduce improves page speed by milliseconds. Even a single millisecond improvement in page speed matters. 
 
 Thanks for reading!
+<link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
