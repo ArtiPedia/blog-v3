@@ -80,6 +80,9 @@ article {
     svg {
         vertical-align: middle;
     }
+    a {
+        color: lighten($grey-color, 15%);
+    }
 }
 
 .drop-cap > p:first-of-type:first-letter {
@@ -342,4 +345,6 @@ table.mdtable {
         }
         
     }
+
+
 
