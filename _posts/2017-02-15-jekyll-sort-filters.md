@@ -13,6 +13,7 @@ permalink: /jekyll-filters/
 
 Jekyll Filters are a wide range of parameters that can be used to modify the output produced by Liquid tags or objects. I will be describing two Jekyll filters which can be very useful in sorting post index. One is **sort** filter and the other is **where** filter.
 
+
 * Do not remove this line (it will not be displayed) 
 {:toc}
 
