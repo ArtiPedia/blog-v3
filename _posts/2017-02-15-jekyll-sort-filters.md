@@ -34,9 +34,6 @@ Consider this example. I'm modifying the output of the page variable ``page.auth
 
 {% endhighlight %}
 
-* Do not remove this line (it will not be displayed) 
-{:toc}
-
 
 
 What I have used above are simple string filters. They modify a string value. We need different way to handle array data produced by loops. 
