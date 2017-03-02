@@ -297,12 +297,13 @@ table.mdtable {
         margin: 2em 0 1em 0;
         .form {
                 margin: 0 auto;
-                width: 330px;
-                padding: 3em 0;
-                text-align: center;
                 @include media-query($on-palm) {
                     width: 80%;
                 }
+                width: 415px;
+                padding: 4em 0;
+                text-align: center;
+       
             .mc-field-group {
                  position: relative;
             }         
