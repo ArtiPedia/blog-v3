@@ -294,7 +294,7 @@ table.mdtable {
         margin: 2em 0 1em 0;
         .form {
                 margin: 0 auto;
-                width: 30%;
+                width: 330px;
                 padding: 3em 0;
                 text-align: center;
                 @include media-query($on-palm) {
@@ -337,6 +337,7 @@ table.mdtable {
                 &:hover {
                     color: palevioletred;
                     }
+   
             }
         }
         
