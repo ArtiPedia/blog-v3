@@ -238,7 +238,7 @@ There are many other configurations as well. Please visit this [repository](http
 
 
 ## Conclusion
-There are many things that may go wrong while implementing Jekyll Simple Search and may result in getting no output. Trust I have been there. Don't give up, follow every step without a miss. Instant search will definitely help your viewers to find what they're looking for, easier and faster. This factor will indirectly help to decrease your website bounce rate.
+There are many things that may go wrong while implementing Jekyll Simple Search and may result in getting no output. Trust me I have been there. Don't give up, follow every step without miss. Instant search will definitely help your viewers to find what they're looking for, easier and faster. This factor will indirectly help to decrease your website bounce rate.
 
 Let me know whether you were able to successfully implement Jekyll Instant Search. Ask any questions or doubts in the comment section.
 
