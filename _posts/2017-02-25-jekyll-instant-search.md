@@ -25,7 +25,7 @@ If you're looking for Custom Search Engine by Google then please visit: [The eas
 ## Why a Jekyll blog needs search option?
 If your Jekyll site has just 4 to 5 pages, then you will not need a search option. All those pages can be listed, linked in a menu bar or shown on the footer.
 
-A Jekyll blog with a lot of articles needs a search option. There are plenty of options available to implement search in Jekyll. 
+A Jekyll blog with lots of articles needs a search bar. There are plenty of options available to implement search in Jekyll. 
 
  **1.Lunr**
  
@@ -158,6 +158,7 @@ The ``escape`` filter is important because, if you have a double inverted comma 
 Make sure that the last value has no comma at the end
 {: .r}
 
+From what I have seen, the value you place at the top will be given priority. In the above example, title will be given the highest priority and excerpt gets the lowest. Change this as per your requirements.
 
 ### Step 2 - Save the search script
 Save the search script available [here](https://raw.githubusercontent.com/christian-fei/Simple-Jekyll-Search/master/dest/jekyll-search.min.js){: target="_blank"} and save it as ``search-script.js`` (or any name that you prefer).
@@ -203,13 +204,15 @@ This page should be accessible at ``/search/`` or ``/search.html``.
 <div class="warning">
     <h3>Warning</h3>
     <p>
-       I don't recommend using this on default layout (which is using on every page) because it may result in slower page load. Use a separate search page instead.
+       I don't recommend using this on default layout (which is used on every page) because it may result in slower page load. Use a separate search page instead.
     </p>
 </div>
 
 
 
 Now your search is ready! Try to type something in the input field and see if it fetches any result.
+
+### Customizations
 
 The default Jekyll search result will be in this format,
 
