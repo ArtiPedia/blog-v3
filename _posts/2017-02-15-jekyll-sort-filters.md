@@ -126,7 +126,7 @@ What we see here is that the posts are rendered in reverse alphabetical order. I
 
 Many times we want the posts to be divided into different categories and displayed as a list. This can be achieved by Jekyll's new filter - ``where``.
 
-This filter is only available for versions Jekyll 2.5 or above.
+This filter is only available for Jekyll versions 2.5 or above.
 {: .y}
 
 Consider this website for example. Most of my posts are about Jekyll which will have a category ``jekyll``. I also write posts on web designing which will have a category ``Web-Design``.  Let's filter out all the posts that have a category **Web-Design**.
