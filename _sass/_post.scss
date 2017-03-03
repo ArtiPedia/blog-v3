@@ -6,7 +6,7 @@ article {
     a {
         color: darken($color, 20%);  
         text-decoration: none;
-        border-bottom: 2px solid lighten($grey-color, 20%);
+        border-bottom: 2px solid lighten($grey-color, 40%);
         -webkit-transition: 0.4s ease;
         -moz-transition: 0.4s ease;
         &:hover {
@@ -14,7 +14,8 @@ article {
         }
     }
     
-    main {
+
+main {
         margin: 2em 0 0 0;
     }
 }
