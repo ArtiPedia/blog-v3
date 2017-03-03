@@ -370,3 +370,19 @@ a.tag-link {
         
 }
 
+/* Ad replacement script */
+.replace {
+        
+        text-align: center;
+        padding: 1em 0;
+    
+    a {
+        background-color: $brand-color-2;
+        padding: 10px 20px;
+        color: #eee;
+        border: none;
+        &:hover {
+            border: none;
+        }
+    }
+}
