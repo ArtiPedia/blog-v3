@@ -165,7 +165,7 @@ article {
 
 .warning{
         background-color: #EC706C;
-    border-left: 1em solid #D24D57;
+        border-left: 1em solid #D24D57;
 }
 .note {
     background-color: #39ab56;
@@ -200,7 +200,8 @@ article {
 #markdown-toc::before {
     content: "Contents";
     font-weight: bold;
-    line-height: 2;
+    line-height: 1.8;
+    font-size: $base-fs;
 }
 
 #markdown-toc ul {
@@ -210,7 +211,7 @@ article {
 #markdown-toc {
     font-family: $base-ff;
     font-size: $small-fs;
-    border: 1px solid #aaa;
+    border: 1px solid darken($grey-color, 5%);
     padding: 1.5em;
     padding-left: 2em;
     list-style: decimal;
