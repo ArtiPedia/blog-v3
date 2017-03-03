@@ -237,7 +237,7 @@ noResultsText ("No result found!")
 Remember that all these values are comma seaprated.
 {: .g}
 
-There are many other configurations as well. Please visit this [repository](https://github.com/christian-fei/Simple-Jekyll-Search){: target="_blank"} to know more.
+There are many other configurations that can be tweaked. Please visit this [repository](https://github.com/christian-fei/Simple-Jekyll-Search){: target="_blank"} to know more.
 
 
 ## Conclusion
