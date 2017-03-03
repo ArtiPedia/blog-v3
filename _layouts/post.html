@@ -24,15 +24,7 @@ layout: default
           {% else %}
             {{ words | divided_by:180 }} mins read.
           {% endif %}
-        </span>&nbsp;
-
-       
-       <!-- Tags -->
-        <svg id="i-tag" viewBox="0 0 32 32" width="20" height="20" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="24" cy="8" r="2" /><path d="M2 18 L18 2 30 2 30 14 14 30 Z" /></svg>
-          {% for tag in page.tags %}
-             <a class="tag-link" href="/tags/#{{tag|slugize}}">{{tag}}</a>{% unless forloop.last %},&nbsp;{% endunless %}
-          {% endfor %}&nbsp;
-          
+        </span>&nbsp;         
         </small>
     </p>
 
@@ -45,6 +37,15 @@ layout: default
       <main class="drop-cap">
            {{page.content}}
        </main>
+ 
+      
+<!-- Tags -->
+ <div class="post-tags">
+  {% for tag in page.tags %}
+     <a class="tag-link" href="/tags/#{{tag|slugize}}">{{tag}}</a>{% unless forloop.last %}&nbsp;{% endunless %}
+  {% endfor %}&nbsp;
+ </div>      
+       
  
 
    <div class="subscribe">

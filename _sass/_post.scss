@@ -10,7 +10,7 @@ article {
         -webkit-transition: 0.4s ease;
         -moz-transition: 0.4s ease;
         &:hover {
-              border-bottom: 2px solid lighten($brand-color, 20%);  
+              border-bottom: 2px solid $brand-color-2;  
         }
     }
 }
@@ -53,6 +53,11 @@ article {
         padding-right: 4px;
         padding-top: 18px;
         color: $brand-color-2;
+        @include media-query($on-palm) {
+            font-size: 55px;
+            line-height: 10px;
+            padding-top: 15px;
+        }
     }
 }
 
@@ -348,4 +353,18 @@ table.mdtable {
     }
 
 
+a.tag-link {
+        padding: 6px 20px;
+        border: none;
+        background-color: $brand-color-2;
+        border-radius: 50px;
+        color: #fff;
+        &:hover {
+            border: none;
+        }
+        @include media-query($on-palm) {
+                font-size: $small-fs;
+        }
+        
+}
 
