@@ -48,8 +48,10 @@ article {
     
     }
 
-    
-    .intro {
+}
+
+/* Description text in the beginning and double inverted comma */
+.intro {
         color: darken($grey-color, 40%);
         border-radius: 2px;
         padding: 5px;
@@ -71,8 +73,6 @@ article {
             }
         }
     }
-}
-
 
 
 /* Meta - date, views and time to read */

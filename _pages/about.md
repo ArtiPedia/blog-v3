@@ -49,7 +49,7 @@ a.donate{border:none}a.donate:hover{color:#fff;border:none}.donate{background-co
 </style>
  -->
 <br />
-**There are a number of ways to reach out to me, a few are in the footer.**
+**There are a number of ways to reach out to me, a few are in the contact page.**
 
 
 ## Major changes
