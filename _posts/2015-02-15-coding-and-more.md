@@ -16,7 +16,7 @@ While I was learning Github Pages, I used to go through YouTube videos. But ther
 I see a lot of blogs providing useful information on Github pages and Jekyll. But in my blogs, I want to provide step by step instructions for everything without missing a single point. This is what I expect from a blog or a documentation. So that is what I follow.
 
 
-Reading this in 2017? below content may seem irrelevant. Github has released an update where gh-pages branch is not necessary anymore!
+Reading this in {{site.time | date: '%Y'}}? below content may seem irrelevant. Github has released an update where gh-pages branch is not necessary anymore!
 {: .r}
 
 ## What is Github?
