@@ -57,6 +57,8 @@ a.donate{border:none}a.donate:hover{color:#fff;border:none}.donate{background-co
 <pre>
 <code>
 <h2 style="line-height: 1">2016</h2>
+2nd March - Completely changed the layout. Removed menu bar.  
+
 13th December  - Changed menu style to Hamburger.
 
 28th September - Layout changes, reduced redundant code.

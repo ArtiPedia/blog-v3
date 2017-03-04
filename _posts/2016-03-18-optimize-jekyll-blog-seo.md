@@ -15,7 +15,6 @@ permalink: /optimize-jekyll-seo/
 ## Why SEO for Jekyll?
 SEO is the only way through which you can get organic traffic. Organic traffic is usually better than paid traffic because in organic traffic the user is actually interested in the service you are offering.
 
-
 I used WordPress for a long time. If you ask me which one among WordPress and Jekyll is good for SEO, I would tell WordPress without a doubt. 
 
 It is true that WordPress is optimized for SEO by default. And with plugins like Jetpack, Yoast and Schema Creator, WordPress is almost unbeatable by Jekyll. Ok wait, why am I praising WordPress so much when I should be discussing Jekyll SEO?
@@ -32,6 +31,8 @@ I will be discussing only the steps that involve making changes to your Jekyll f
 ## What is required in a Jekyll website for SEO?
 
 There are many search engines that consider many different factors for indexing and ranking. I will mostly be concentrating on Google as 80% of all the searches are done over Google or Googled!.
+
+![Jekyll Seo Joke](/images/seo-joke.png)
 
 Google takes around 200 parameters into account in ranking a web page. But before we rank in Google we should focus on how to properly get indexed on Google database. 
 
