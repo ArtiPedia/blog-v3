@@ -38,7 +38,10 @@ layout: default
       <main class="drop-cap">
            {{page.content}}
        </main>
- 
+     
+        {% if page.author == 'sharathdt' %}
+       <p>This article is written by <strong>sharath.dt</strong> Follow him <a rel="nofollow" href="{{site.authors.sharathdt.twitter}}">@sharathdt</a>.</p>
+        {% endif %}
       
 <!-- Tags -->
  <div class="post-tags">
