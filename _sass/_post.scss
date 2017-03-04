@@ -252,11 +252,17 @@ article {
 .p-n {
     font-size: $small-fs;
     padding: 2em 0;
+
     h3 {
         margin: $spacing-unit*0.5 0;
     }
     .next {
         float: right;
+        @include media-query($on-palm) {
+            float: none;
+            margin-top: 2em;
+            display: block;
+        }
     }
 }
 
@@ -394,12 +400,12 @@ table.mdtable {
 
 /* Ad replacement script */
 .replace {
-        
+        background-color: $brand-color-2;
         text-align: center;
         padding: 1em 0;
     
     a {
-        background-color: $brand-color-2;
+  
         padding: 10px 20px;
         color: #eee;
         border: none;
