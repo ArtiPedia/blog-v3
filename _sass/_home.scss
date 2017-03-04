@@ -54,3 +54,14 @@ hr {
     border-top: 1px solid lighten($grey-color, 40%);
     margin: 5px 0;
 }
+
+.news {
+    max-width: 400px;
+    margin: 1em auto;
+    text-align: center;
+    background-color: #e26f6f; 
+    color: #eee;
+    border-radius: 5px;
+    padding: 5px 0;
+    font-size: $small-fs;
+}

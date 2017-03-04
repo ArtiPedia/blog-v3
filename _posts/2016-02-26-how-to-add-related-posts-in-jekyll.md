@@ -1,6 +1,6 @@
 ---
 title: How to Add Related or Previous Next Pagination in Jekyll?
-desc: Giving a link to next and previous posts at the bottom of the article helps to keep your users hooked to checkout more content on your website. If they like your current article, then there is a good chance that they would like to browse more articles. Add a related post or add next previous link to Jekyll posts using this method. 
+desc: Giving a link to next and previous posts at the bottom of the article helps to keep your users hooked to checkout more content on your website. If they like your current article, then there is a good chance that they would like to browse more articles.
 keywords: add related post jekyll, jekyll related post, next previous post jekyll
 author: sharathdt
 tags: Jekyll

@@ -133,7 +133,7 @@ article {
 }
 .g {
     background-color: #89dc8b;
-    border-left: 5px solid darken(#89dc8b, 15%);
+    border-left: 7px solid darken(#89dc8b, 15%);
     &:before {
         content: "Tip:";
         font-weight: bold;
@@ -142,7 +142,7 @@ article {
 }
 .y {
     background-color: #e2ba28;
-    border-left: 5px solid darken(#e2ba28, 15%);
+    border-left: 7px solid darken(#e4c244, 15%);
     &:before {
         content: "Note:";
         font-weight: bold;
@@ -151,7 +151,7 @@ article {
     }
 .r {
     background-color: #f56767;
-    border-left: 5px solid darken(#f56767, 15%);
+    border-left: 7px solid darken(#ea6d6d, 15%);
         &:before {
         content: "Warning:";
         font-weight: bold;
