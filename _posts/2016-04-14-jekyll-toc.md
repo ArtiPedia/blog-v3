@@ -170,25 +170,7 @@ $(document).ready(function() {
 
 This code will call the TOC function once the DOM is ready. After rendering, this is how it will look like
 
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="385.5px" height="195.5px"
-	 viewBox="34.857 -95.531 385.5 195.5" enable-background="new 34.857 -95.531 385.5 195.5" xml:space="preserve">
-<text transform="matrix(1 0 0 1 103.6577 -44.593)" fill="#1283D8" font-family="'sans-serif'" font-size="16">1. </text>
-<text transform="matrix(1 0 0 1 117.0229 -44.593)" fill="#1283D8" font-family="'sans-serif'" font-size="16">Why Table of Contents?</text>
-<text transform="matrix(1 0 0 1 100.6353 -23.0833)" fill="#1283D8" font-family="'sans-serif'" font-size="16"> 2. </text>
-<text transform="matrix(1 0 0 1 118.0464 -23.0833)" fill="#1283D8" font-family="'sans-serif'" font-size="16">How to add TOC for Jekyll posts?</text>
-<text transform="matrix(1 0 0 1 137.4556 -1.5745)" fill="#1283D8" font-family="'sans-serif'" font-size="16"> 1. </text>
-<text transform="matrix(1 0 0 1 153.894 -1.5745)" fill="#1283D8" font-family="'sans-serif'" font-size="16">Step 1: Download necessary files</text>
-<text transform="matrix(1 0 0 1 137.4556 19.9353)" fill="#1283D8" font-family="'sans-serif'" font-size="16"> 2. </text>
-<text transform="matrix(1 0 0 1 153.894 19.9353)" fill="#1283D8" font-family="'sans-serif'" font-size="16">Step 2: Install the script in Jekyll repo</text>
-<text transform="matrix(1 0 0 1 137.4556 41.4431)" fill="#1283D8" font-family="'sans-serif'" font-size="16"> 3. </text>
-<text transform="matrix(1 0 0 1 153.894 41.4431)" fill="#1283D8" font-family="'sans-serif'" font-size="16">Step 3: Call TOC in the layout.</text>
-<text transform="matrix(1 0 0 1 137.4556 62.9509)" fill="#1283D8" font-family="'sans-serif'" font-size="16"> 4. </text>
-<text transform="matrix(1 0 0 1 153.894 62.9509)" fill="#1283D8" font-family="'sans-serif'" font-size="16">Step 4: Initiate TOC</text>
-<text transform="matrix(1 0 0 1 137.4556 84.4607)" fill="#1283D8" font-family="'sans-serif'" font-size="16"> 5. </text>
-<text transform="matrix(1 0 0 1 153.894 84.4607)" fill="#1283D8" font-family="'sans-serif'" font-size="16">Step 5: Configuration</text>
-<text transform="matrix(1 0 0 1 100.6353 -69.7454)" font-family="'Arialsans-serif'" font-size="17.1766">Contents</text>
-<rect x="34.857" y="-95.531" fill="none" stroke="#3D3D3D" stroke-miterlimit="10" width="385.5" height="195.5"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="386" height="196" viewBox="34.9 -95.5 385.5 195.5" font-family="'Helvetica'" font-size="16" fill="#1283D8"><text transform="matrix(1 0 0 1 70.6577 -44.593)">  1. </text><text transform="matrix(1 0 0 1 87.0229 -44.593)">  Why Table of Contents?</text><text transform="matrix(1 0 0 1 70.6353 -23.0833)">  2. </text><text transform="matrix(1 0 0 1 88.0464 -23.0833)">  How to add TOC for Jekyll posts?</text><text transform="matrix(1 0 0 1 107.4556 -1.5745)">   1. </text><text transform="matrix(1 0 0 1 123.894 -1.5745)">  Step 1: Download necessary files</text><text transform="matrix(1 0 0 1 107.4556 19.9353)">   2. </text><text transform="matrix(1 0 0 1 123.894 19.9353)">  Step 2: Install the script in Jekyll repo</text><text transform="matrix(1 0 0 1 107.4556 41.4431)">   3. </text><text transform="matrix(1 0 0 1 123.894 41.4431)">  Step 3: Call TOC in the layout.</text><text transform="matrix(1 0 0 1 107.4556 62.9509)">   4. </text><text transform="matrix(1 0 0 1 123.894 62.9509)">  Step 4: Initiate TOC</text><text transform="matrix(1 0 0 1 107.4556 84.4607)">   5. </text><text transform="matrix(1 0 0 1 123.894 84.4607)">  Step 5: Configuration</text><text transform="matrix(1 0 0 1 70.6353 -69.7454)" font-family="'Helvetica'" font-size="19" style="fill:#333;font-weight:bold">  Contents</text><rect x="34.9" y="-95.5" width="385.5" height="195.5" style="fill:none;stroke:#3D3D3D"/></svg>
 
 {: .right .half}
 It may not look the same when you first set up TOC but I will give you the styling that I have used for this one which looks like Wikipedia TOC.
