@@ -128,7 +128,7 @@ Now click on settings and look for **Github Pages** section where you will see a
 ![How to sync folders with Github - Hosting a complete website on Github Pages]({{ site.url }}/images/hosting-a-complete-website-on-github-pages.jpg){: .full}
 
 
-<iframe itemscope="" itemprop="video" class="left half video" src="https://www.youtube.com/embed/5BSpJ0bpE14?rel=0" frameborder="0" allowfullscreen></iframe>
+<iframe itemscope="" itemprop="video" class="right half video" src="https://www.youtube.com/embed/5BSpJ0bpE14?rel=0" frameborder="0" allowfullscreen></iframe>
 Here is the final URL: [MyFirstWebsite](http://redgadget.github.io/MyFirstWebsite/){:rel='nofollow'}{:target="_blank"} and a video demonstration.
 
 ### Change the URL to something not ugly?

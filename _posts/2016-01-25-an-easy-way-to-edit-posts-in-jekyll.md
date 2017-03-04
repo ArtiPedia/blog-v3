@@ -1,6 +1,6 @@
 ---
 title: Add or Edit Jekyll Posts through a Browser
-desc: For beginners an easy online editing option is beneficial. Learn how to add posts, edit posts, and other Jekyll files online through prose.io in this tutorial. Also, find out how to upload images using prose.io! This can be really helpful when you are out on a trip and have an urge to write a Jekyll post.
+desc: For beginners an easy online editing option is beneficial. Learn how to add posts, edit posts, and other Jekyll files online through prose.io in this tutorial. Also, find out how to upload images using prose.io!
 keywords: edit post in Jekyll, edit page in Jekyll, add post in Jekyll
 author: sharathdt
 tags: Jekyll Web-Design

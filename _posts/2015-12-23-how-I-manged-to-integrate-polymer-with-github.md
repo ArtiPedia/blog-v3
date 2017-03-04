@@ -32,8 +32,6 @@ Above screenshot shows few applications using card interface. Youtube (I know, i
 I wanted something similar. I did it only using CDN. Usually, you have to include Polymer elements in the project if you want to use those elements extensively. But I was using just three elements - paper-card, paper-ripple, and paper-button.
 
 
-<link rel="import" href="https://cdn.rawgit.com/download/polymer-cdn/1.1.4/lib/paper-card/paper-card.html"/>
-
 This is how the default cards will look like. 
 <div class="inline">
 <paper-card heading="Card Title" class="card-ex">
@@ -137,3 +135,6 @@ Eventually I had to take it out as it started throwing JS errors. I chose to des
 Let me know if you were successful in integrating Polymer in your website. 
 Comment if you do something awesome.
 Thanks for reading!
+
+
+<link rel="import" href="https://cdn.rawgit.com/download/polymer-cdn/1.1.4/lib/paper-card/paper-card.html"/>

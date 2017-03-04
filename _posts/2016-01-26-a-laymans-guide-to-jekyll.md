@@ -1,6 +1,6 @@
 ---
 title: Jekyll Tutorial for Beginners
-desc: Jekyll is really simple once you know how it works. You can make your blog do wonders once you know how to play with templates, layouts, loops and curly braces. Here is a layman's Jekyll guide! Learn how to get started with Jekyll. Create yourself a clean, minimal and beautiful Jekyll blog. 
+desc: Jekyll is really simple once you know how it works. You can make your blog do wonders once you know how to play with templates, layouts, loops and curly braces. Here is a layman's Jekyll guide! Create yourself a clean, minimal and beautiful Jekyll blog. 
 keywords: Jekyll tutorial, how Jekyll blog works, Jekyll blog setup, Jekyll working, Jekyll guide
 author: sharathdt
 tags: Jekyll
@@ -129,7 +129,7 @@ This folder gets generated only when you are using Jekyll locally. If you are ho
 
 Here is a video on how Jekyll works
 
-<iframe class="video" src="https://www.youtube.com/embed/gI-FcrkDveA?rel=0" frameborder="0" allowfullscreen></iframe>
+<iframe class="left video" src="https://www.youtube.com/embed/gI-FcrkDveA?rel=0" frameborder="0" allowfullscreen></iframe>
 
 {% include adsense-inside-post-2.html %}
 

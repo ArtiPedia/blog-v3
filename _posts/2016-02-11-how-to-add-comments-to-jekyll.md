@@ -239,10 +239,11 @@ disqus_shortname: webjeda-sample
 
 {% endhighlight %} 
 
+<p></p>
 
-<iframe class="video" src="https://www.youtube.com/embed/etvHFmVCvj8?rel=0" frameborder="0" allowfullscreen></iframe>
+<iframe class="right video" src="https://www.youtube.com/embed/etvHFmVCvj8?rel=0" frameborder="0" allowfullscreen></iframe>
 
-
+<div class="clear"></div>
 
 ## 2. Google Plus
 Google has a very minimal and elegant comment box. I have no doubt that it looks better than Disqus but it is just for Google users. One must have Google plus account to comment.

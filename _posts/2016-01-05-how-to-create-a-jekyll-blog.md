@@ -316,9 +316,11 @@ To know more about Jekyll, read:  [A layman's guide to Jekyll](/jekyll-guide/){:
 
 If you have any doubts or if you couldn't set up your Jekyll blog then please leave your question in the comments. I will try to sort it out for you.
 
-Here is a video demonstration on how to create Jekyll blog. And, once you create a blog, don't forget to leave its link, in the comment section.
+
 
 <iframe id="video" itemscope="" itemprop="video" class="video" class="right half video" src="https://www.youtube.com/embed/U0idtvxVo9I?rel=0" frameborder="0" allowfullscreen></iframe>
+
+Here is a video demonstration on how to create Jekyll blog. And, once you create a blog, don't forget to leave its link, in the comment section.
 
 Thanks for reading!
 {: .clear}

@@ -90,7 +90,7 @@ Usually, Jekyll is hosted on github pages but you can also host it on any other 
 
 Once that is done, you have to find a nice theme for your blog. So do some research or [sign up here](http://eepurl.com/bZdvSP){: target="_blank"} to get a quick checklist. You can also checkout [themes section](/jekyll-themes/){: target="_blank"} in my blog. Now you should visit the theme's homepage. Here is a video guide.
 
-<iframe class="video" src="https://www.youtube.com/embed/T2nx6tj-ZH4?rel=0" frameborder="0" allowfullscreen></iframe>
+<iframe class="right video" src="https://www.youtube.com/embed/T2nx6tj-ZH4?rel=0" frameborder="0" allowfullscreen></iframe>
 
 ## Use a theme that suits your needs
 Jekyll has a pretty large community now. There are people creating awesome themes. I suggest going through [Jekyll Themes](http://jekyllthemes.org){: target="_blank" rel="nofollow"} or my [Theme section](/jekyll-themes/){: target="_blank"} and find the one that suits your needs.

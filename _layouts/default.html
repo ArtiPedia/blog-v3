@@ -69,7 +69,14 @@ layout: compress
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-ipad-retina-152x152.png">
 
       <!-- CSS -->
-    <link rel="stylesheet" href="/css/main.css">
+<!-- <link rel="stylesheet" href="/css/main.css"> -->
+  <style>
+          {% capture include_to_scssify %}
+          {% include main.scss %}
+          {% endcapture %}
+          {{ include_to_scssify | scssify }}
+  </style>
+      
 
       <!-- Google TagManager --> 
     {% include google-tag-manager-head.html %}
@@ -123,7 +130,8 @@ layout: compress
      <!-- Load only if it is a post --> 
      {% if page.layout == 'post' %}
        {% include adsense-replace-min.html %}
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+       <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script> -->
+        {% include jQuery.html %}
         {% include ga_data_fetch.html %}
         <script async id="dsq-count-scr" src="https://webjeda.disqus.com/count.js"></script>
         {% include disqus-script.html %}
