@@ -170,7 +170,26 @@ $(document).ready(function() {
 
 This code will call the TOC function once the DOM is ready. After rendering, this is how it will look like
 
-<svg xmlns="http://www.w3.org/2000/svg" width="335.714" height="207.937" viewBox="0 0 335.71 207.94" class="undefined"><style>.a{fill:#FFF;stroke:#58595B;}.b{fill:#58595B;font-family:'Helvetica';font-size:12;}.c{fill:#3B97D3;font-family:'Helvetica';font-size:12;}.d{fill:#3B97D3;font-family:'Helvetica';font-size:12;letter-spacing:33;}.e{font-family:'Helvetica';font-size:15;font-weight:bold}</style><rect width="335.71" height="207.94" class="a"/><text transform="matrix(1 0 0 1 10.9521 52.3813)" class="x"><tspan class="b">    1. </tspan><tspan x="13.05" class="c">    Why Table of Contents?</tspan><tspan x="-2.95" y="21" class="b">    2. </tspan><tspan x="14.05" y="21" class="c">    How to add TOC for Jekyll posts?</tspan><tspan y="42" class="d"/><tspan x="33" y="42" class="b">    1. </tspan><tspan x="49.05" y="42" class="c">    Step 1: Download necessary files</tspan><tspan y="63" class="d"/><tspan x="33" y="63" class="b">    2. </tspan><tspan x="49.05" y="63" class="c">    Step 2: Install the script in Jekyll repo</tspan><tspan y="84" class="d"/><tspan x="33" y="84" class="b">    3. </tspan><tspan x="49.05" y="84" class="c">    Step 3: Call TOC in the layout.</tspan><tspan y="105" class="d"/><tspan x="33" y="105" class="b">    4. </tspan><tspan x="49.05" y="105" class="c">    Step 4: Initiate TOC</tspan><tspan y="126" class="d"/><tspan x="33" y="126" class="b">    5. </tspan><tspan x="49.05" y="126" class="c">    Step 5: Configuration</tspan></text><text transform="matrix(1 0 0 1 41.2378 23.0161)" class="e">    Contents</text></svg>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="385.5px" height="195.5px"
+	 viewBox="34.857 -95.531 385.5 195.5" enable-background="new 34.857 -95.531 385.5 195.5" xml:space="preserve">
+<text transform="matrix(1 0 0 1 103.6577 -44.593)" fill="#1283D8" font-family="'sans-serif'" font-size="16">1. </text>
+<text transform="matrix(1 0 0 1 117.0229 -44.593)" fill="#1283D8" font-family="'sans-serif'" font-size="16">Why Table of Contents?</text>
+<text transform="matrix(1 0 0 1 100.6353 -23.0833)" fill="#1283D8" font-family="'sans-serif'" font-size="16"> 2. </text>
+<text transform="matrix(1 0 0 1 118.0464 -23.0833)" fill="#1283D8" font-family="'sans-serif'" font-size="16">How to add TOC for Jekyll posts?</text>
+<text transform="matrix(1 0 0 1 137.4556 -1.5745)" fill="#1283D8" font-family="'sans-serif'" font-size="16"> 1. </text>
+<text transform="matrix(1 0 0 1 153.894 -1.5745)" fill="#1283D8" font-family="'sans-serif'" font-size="16">Step 1: Download necessary files</text>
+<text transform="matrix(1 0 0 1 137.4556 19.9353)" fill="#1283D8" font-family="'sans-serif'" font-size="16"> 2. </text>
+<text transform="matrix(1 0 0 1 153.894 19.9353)" fill="#1283D8" font-family="'sans-serif'" font-size="16">Step 2: Install the script in Jekyll repo</text>
+<text transform="matrix(1 0 0 1 137.4556 41.4431)" fill="#1283D8" font-family="'sans-serif'" font-size="16"> 3. </text>
+<text transform="matrix(1 0 0 1 153.894 41.4431)" fill="#1283D8" font-family="'sans-serif'" font-size="16">Step 3: Call TOC in the layout.</text>
+<text transform="matrix(1 0 0 1 137.4556 62.9509)" fill="#1283D8" font-family="'sans-serif'" font-size="16"> 4. </text>
+<text transform="matrix(1 0 0 1 153.894 62.9509)" fill="#1283D8" font-family="'sans-serif'" font-size="16">Step 4: Initiate TOC</text>
+<text transform="matrix(1 0 0 1 137.4556 84.4607)" fill="#1283D8" font-family="'sans-serif'" font-size="16"> 5. </text>
+<text transform="matrix(1 0 0 1 153.894 84.4607)" fill="#1283D8" font-family="'sans-serif'" font-size="16">Step 5: Configuration</text>
+<text transform="matrix(1 0 0 1 100.6353 -69.7454)" font-family="'Arialsans-serif'" font-size="17.1766">Contents</text>
+<rect x="34.857" y="-95.531" fill="none" stroke="#3D3D3D" stroke-miterlimit="10" width="385.5" height="195.5"/>
+</svg>
+
 {: .right .half}
 It may not look the same when you first set up TOC but I will give you the styling that I have used for this one which looks like Wikipedia TOC.
 
