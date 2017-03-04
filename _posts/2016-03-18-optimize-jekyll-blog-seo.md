@@ -106,6 +106,8 @@ Having your post title as the title makes sense. ```page.title``` variable takes
 <title>{% raw %}{%if page.title %}{% endraw %}{% raw %}{{ page.title }}{% endraw %}{% raw %}{% else %}{% endraw %}{% raw %}{{ site.title }}{% endraw %}{% raw %}{% endif %}{% endraw %}</title>
 {% endhighlight %}
 
+Make sure you add the keyword in the title. For example for this post I have added **Jekyll SEO**.
+{: .g}
 
 ### Description
 
@@ -118,6 +120,9 @@ Also, it is advised to restrict your description to 160 characters or less. Anyt
 {% endraw %}{% endhighlight %}
 
 So that takes care of _Title_ and _Description_. But remember, you have to explicitly add Title and Description in the Front Matter to all your posts as shown in the example below. It doesn't matter how long your description is in the Frontmatter. It will be truncated in the meta tag.
+
+Add your keyword at the beginning of the description so that users can easily find it on google search results. This seems to get more click through rates.
+{: .y}
 
 {% highlight css %}
 ---
@@ -135,10 +140,8 @@ description: I created this beautiful looking Jekyll blog by forking a repositor
 </div>
 
 
-
-
 ## 2. URL structure
-A URL conveys a lot of information about the content. Users and bots expect it to be in sync with the topic. 
+A URL conveys a lot of information about the content. Users and bots expect it to be in sync with the topic.
 
 ### Make it readable
  
@@ -191,20 +194,24 @@ whose respective URLs would be
 
 {% include adsense-inside-post-2.html %}
 
+Try to fit in the keyword in the URL as well but make it short and precise.
 
 ## 3. Sitemap
 Having a sitemap is a necessity these days. It helps bots to crawl through your website easily. Also, submit sitemaps to search engines so that they don't have to look for it in the first place. 
 
 Read all about why we should use a sitemap and how to submit a sitemap to Google here [How to create a sitemap for Jekyll blog](/jekyll-sitemap/){:target="_blank"}. Submitting sitemap and tracking how much of it has been indexed is an important task in SEO. Do not ignore this step.
 
+Leave a link of the sitemap at the footer so that if your homepage is crawled by a search engine bot, it will follow the sitemap and may crawl more pages.
+{: .g}
+
 ## 4. Image alt Tags
 
-Alt-tags are nothing but text shown in case if the image does not load. This tag is read by bots. So make use of this opportunity and include alt-tags in all of your images.
+Alt-tags are nothing but text shown in case if the image does not load. This tag is read by bots. So make use of this opportunity and include alt-tags with keywords in all of your images. 
 {% highlight html %}
 <img alt="jekyll seo" title="Jekyll SEO" src="/images/jekyll-seo.jpg">
 {% endhighlight %}
 
-Also, be sure to use a related alt tag. This helps search engines to know what's in the image since they are not smart enough to make sense out of an image.
+Also, be sure to use a related alt tag. This helps search engines to know what's in the image since they are not smart enough to make sense out of an image. 
 
 
 ## 5. Connecting with Social Media
@@ -306,6 +313,7 @@ This is a way of telling the Search Engine bots that your content is only availa
 
 ## 9. Responsiveness (mobile friendly layout)
 After April 21st 2015, Google made responsiveness as a SEO parameter for ranking. You may observe the term **Mobile friendly** on search results on smart-phones.
+
 Test you website for mobile fridliness using [Mobile Friendly Test](https://www.google.com/webmasters/tools/mobile-friendly/){:rel='nofollow'}{:target="_blank"}.
 If you find any errors then try to solve them.
 
@@ -320,6 +328,7 @@ If you are not sure how to use them, then it's good. Start here - [w3-schools](h
 ### Conclusion: 
 Though Jekyll users have a hard time configuring SEO on their own, they do have the full control. Jekyll does only the things that you tell it to do. Features like AMP Pages, htaccess, robot.txt are either not available or not explored well on Jekyll but we can hope that in the coming years those features will be available by default.
 
+Google is leaning more towards **User Experience Optmization**. So make sure that surfing your website is a smooth experience even on low bandwidth. Look at your content from a user perspective. If you have unique and useful content (not copied from elsewhere) then your website will definitely rank better.
 
 <div class="tips">
     <h3>Pro Tips</h3>
