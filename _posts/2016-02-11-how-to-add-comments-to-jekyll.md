@@ -116,10 +116,9 @@ If you want to show the number of comments anywhere on the website then you can 
 {% endhighlight %}
 
 
-<div class="warning">
-<h3>Warning</h3>
-<p>Disqus may not work as expected if you have compress.html active to <a href="/compress-html-jekyll/" rel="nofollow" target="_blank">compress jekyll html</a>.
 
+<p>Disqus may not work as expected if you have compress.html active to [compress jekyll html](/compress-html-jekyll/).
+{: .r}
 And also, Google does not index Disqus blog many times. If you are very serious about your comments to be indexed then you may have to look for other options or follow <a href="https://help.disqus.com/customer/en/portal/articles/762307-why-isn-t-google-indexing-my-comments-" rel="nofollow" target="_blank">this question</a>.
 
 But Matt Cutts from Google tweeted that the Google-bot (crawler) can now index <strong>some</strong> dynamic comments!</p>
@@ -131,10 +130,9 @@ But Matt Cutts from Google tweeted that the Google-bot (crawler) can now index <
 </div>
 
 
-<div class="note">
-<h3>Update</h3>
-<p>Disqus comments are now indexed by Google! Try searching a unique comment(found on any article of this blog) on google and you should get the post link on search results.</p>
-</div>
+### Update
+Disqus comments are now indexed by Google! Try searching a unique comment(found on any article of this blog) on google and you should get the post link on search results.
+{: .y}
 
 
 <div id="step4"></div><br />
@@ -197,12 +195,8 @@ Add the below front-matter to all the posts where you do not want to display the
 {% highlight css %} comments: 0 {% endhighlight %} 
 
 
-<div class="tips">
- <h3>Pro tips</h3>   
-    <p>
-        If you want to implement Disqus using site variable which replaces Disqus shortname then use the code given below inside <strong>disqus.html</strong>. And inside <strong>_config.yml</strong> add an attribute called disqus_shortname which defines your disqus shortname.
-    </p>
-</div>
+If you want to implement Disqus using site variable which replaces Disqus shortname then use the code given below inside **disqus.html**. And inside **_config.yml** add an attribute called disqus_shortname which defines your disqus shortname.
+{: .g}
 
 **disqus.html**
 {% highlight html %}

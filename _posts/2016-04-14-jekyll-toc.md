@@ -1,5 +1,5 @@
 ---
-title: 2 Ways to Implement Wikipedia like Jekyll Table of Contents!
+title: Jekyll Table of Contents - Wikipedia Look!
 desc: Table of contents on Jekyll is easy to implement. TOC provides a quick look at what the article is all about. Also, users can skip to any topic they like just by clicking on it. Learn how to add Table of Contents (TOC) to your Jekyll blog.
 keywords: jekyll toc
 author: sharathdt
@@ -198,11 +198,8 @@ For some reason, the TOC section assumes the style ```display: block``` which wi
 Now, different markdown handlers process markdown differently. Table of Contents will create an anchor tag for every headline. But this is not supported by all the markdown processors. **Kramdown** is good with it but if you are using **redcarpet** or **rdiscount** you have to make some changes in the **_config.yml** file.
 
 
-<div class="note">
-    <h3>Note</h3>
-    <p>I suggest you change the markdown processor to <strong>kramdown</strong> as it is the <a href="https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0" target="_blank">only supported markdown engine</a> by github pages.</p>
-</div>
-
+I suggest you change the markdown processor to **kramdown** as it is the [only supported markdown engine](https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0) by github pages.
+{: .y}
 
 
 **redcarpet**

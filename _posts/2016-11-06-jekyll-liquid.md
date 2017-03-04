@@ -56,7 +56,7 @@ Along with conditional statements, tags are also used for special purposes like 
 These statements will look for the files ``head.html``, ``header.html`` and ``footer.html`` and insert them in the places where the tags are defined. I have discussed this here as well.
 
 <p class="r">
-Liquid tags and objects will not work on a page if you have not defined front matter in it. At least blank front matter like this <br>
+Liquid tags and objects may not work on a page if you have not defined front matter in it. At least blank front matter like this <br>
 ---   <br>
 ---
 </p>

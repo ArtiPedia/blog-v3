@@ -162,12 +162,10 @@ If none of these work for you then you should try the next method called exclusi
 ## Exclusion method
 Jekyll site is basically divided into **Homepage**, **Pages**, **Posts** and sometimes **Collections**. We exclude one by one in order to check which part is throwing an error. As long as the error goes away, Github will not make any changes to your site.
 
-<div class="warning">
-<h3>Backup</h3>
-<p>
+
+### Backup
 While performing exclusion method, you may mess up the content of your local repository. It is better to keep a backup of the whole repository in a different location.
-</p>
-</div>
+{: .r}
 
 **Step 1:**
 Remove all the content from ``index.html`` or ``index.md`` in the root directory. Push changes to check if you see any error. If no error then you can easily find it inside ``index.html`` file.

@@ -111,10 +111,9 @@ May be you have to style the links so that they appear in two directions or at l
 {% endhighlight %}
 
 Change your code accordingly to make it responsive. 
-<div class="tips">
-<h3>Tips</h3>
-<p>You can also use the code as a template that can be called anywhere on your blog. Read Step 4 of <a href="/jekyll-comments/#step4" target="_blank"><strong>How to add Comments on Jekyll</strong></a> to implement related post as a template.</p>
-</div>
+
+You can also use the code as a template that can be called anywhere on your blog. Read Step 4 of [**How to add Comments on Jekyll**](/jekyll-comments/#step4){: target="_blank"} to implement related post as a template.
+{: .g}
 
 I hope this article has helped you to make a navigation link of your own in your Jekyll blog. Let me know if you have any doubts. Subscribe for updates on upcoming articles.
 

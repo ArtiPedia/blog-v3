@@ -86,16 +86,10 @@ Now all your web-pages that directly or indirectly uses the layout ```default```
 
 So I hope this tutorial helped you minify your Jekyll blog. If there is a better way to do this, then please let me know in the comment section.
 
-<div class="warning">
-<h3>Warning</h3>
-<p>My disqus comment stopped loading after using this method. So for the time being I'm not using it. If you are using disqus then do not use this method (for now).</p>
-</div>
+My disqus comment stopped loading after using this method. So for the time being I'm not using it. If you are using disqus then do not use this method (for now).
+{: .r}
 
-<div class="tips">
-    <h3>Update</h3>
-    <p>
-        Disqus started to work after cleaning up unnecessary comments inside disqus.html. Here is the <a href="https://raw.githubusercontent.com/sharu725/emerald/gh-pages/_includes/disqus.html" target="_blank" ><strong>raw file</strong></a>.
-    </p>
-</div>
+Disqus started to work after cleaning up unnecessary comments inside disqus.html. Here is the [raw file](https://raw.githubusercontent.com/sharu725/emerald/gh-pages/_includes/disqus.html)
+{: .g}
 
 Thanks for reading!

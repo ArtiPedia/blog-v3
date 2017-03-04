@@ -145,10 +145,8 @@ I'm using font-awesome CSS here. If you have called this link in the head tag al
 ### Success!
 That is all there is. A user has to click on the link and provide his email, verify captcha and hit **complete subscription request**.
 
-<div class="tips">
-<h3>Tips</h3>
-<p>If the images are not showing up on your feedburner feed, then you may be using relative URL for your images. Use complete URL <strong>http://blog.webjeda/images/some-image.jpg</strong> of the image instead of a relative URL <strong>/images/some-image.jpg</strong>. In Jekyll this can be achieved by using <code>site.url</code> or <code>site.baseurl</code> variable.</p>
-</div>
+If the images are not showing up on your feedburner feed, then you may be using relative URL for your images. Use complete URL **http://blog.webjeda/images/some-image.jpg** of the image instead of a relative URL **/images/some-image.jpg**. In Jekyll this can be achieved by using ``site.url`` or ``site.baseurl`` variable.
+{: .g}
 
 There are plenty of options to customize your feed. The first thing I customize is the confirmation email. Whenever a user subscribes to your blog using Feedburner, he will receive an email asking to click on confirmation.
 

@@ -224,7 +224,8 @@ But, if you have a ``.scss`` file the process to inline scss is a little differe
   </style>
 {% endraw %}{% endhighlight %}
 
-<div class="note"><h3>Info</h3><p>I use two css files. One is <code>critical.css</code> which only has important styles that are required in the beginning like page width, content width etc. This file loads immediately as I have declared it in the head tag. I have all other styles combined in a minified css file called <code>main.css</code> which is configured for lazy loading.</p></div>
+I use two css files. One is ``critical.css`` which only has important styles that are required in the beginning like page width, content width etc. This file loads immediately as I have declared it in the head tag. I have all other styles combined in a minified css file called ``main.css`` which is configured for lazy loading.
+{: .y}
 
 ### 5. Use a CDN to cache static files
 CDN stands for Content Distribution Network which delivers content through a server close to the end user and thus reducing the time required to fetch content. Google uses servers located in India in response to a request made by an Indian user. 

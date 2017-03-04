@@ -201,12 +201,8 @@ Give extra attention to the path for the script file and the JSON file. If any o
 This page should be accessible at ``/search/`` or ``/search.html``.
 
 
-<div class="warning">
-    <h3>Warning</h3>
-    <p>
-       I don't recommend using this on default layout (which is used on every page) because it may result in slower page load. Use a separate search page instead.
-    </p>
-</div>
+I don't recommend using this on default layout (which is used on every page) because it may result in slower page load. Use a separate search page instead.
+{: .r}
 
 
 

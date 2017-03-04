@@ -13,7 +13,7 @@ layout: post
 A long time ago I had few blogs that were running on WordPress. I bought domain names and a reliable hosting space to keep them running. WordPress blog is very easy to set up. There are thousands of themes and plugins for all kinds of looks and functionalities.
 
 **But, what's wrong?**
-{: .r}
+
 
 # WordPress
 
@@ -52,7 +52,7 @@ If you have ever visited a WordPress site (I bet you've) you will see something 
 
 Since WordPress is easy to use and there are gazillion plugins available to do these kind of pop-ups, top-bars and other ridiculous bars. Many people use these features as they like, screwing up their readers experience.
 
-May be it is good with most users but when I see a pop-up I will look for the close button before reading anything on it. 
+May be it is ok with most users but when I see a pop-up I will look for the close button before reading anything on it. 
 {: .y}
 
 The worst thing you can do to someone who's reading your blog is to distract them. Let them read the damn thing. They may have googled something, found your website link, clicked on it for help. You should be lucky that they landed on your website because there at least 10 different websites offering the same content. If they like what you write then they definitely will subscribe.
@@ -63,7 +63,7 @@ These days with all those spam emails cluttering my inbox, I don't like to give 
 <p></p>
 
 **What's so good about Jekyll?**
-{: .g}
+
 
 # Jekyll
 

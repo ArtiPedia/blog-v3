@@ -47,10 +47,10 @@ Website loading speed is my main concern. I want it to be fast; really fast. Act
 Google also announced that they were using page load time as a factor in search engine rankings. SSL and page-load time conflict with each other(a little bit). Anyway, the load time will be a little more than what it used to be. So if speed is not your priority then you can always go ahead and use SSL.
 
 
-<div class="warning">
-<h3>Update Aug 2016</h3>
-<p>After considering all the advantages and disadvantages of SSL, I'm going with secure SSL. Google is trying hard to push web developers to move to <code>https</code>. That makes sense because everyone wants their information to be safe on the internet.</p>
-</div>
+
+### Update Aug 2016
+After considering all the advantages and disadvantages of SSL, I'm going with secure SSL. Google is trying hard to push web developers to move to ``https``. That makes sense because everyone wants their information to be safe on the internet.
+{: .r}
 
 
 
@@ -181,10 +181,11 @@ enforce_ssl: yoursite.com
 {% endhighlight %}
 
 
-<div class="warning" id="warning-1">
-<h3>Warning</h3>
-<p>All the resources that are requested by a <strong>ssl</strong> activated website should also be secured. That is, if you request any file with a  <strong>http</strong> link then the green padlock will not appear. In order to avoid that use relative url. For example, instead of <code>http://yoursite.com/css/webjeda.css</code> use <code>//yoursite.com/css/webjeda.css</code></p>
-</div>
+<div id="warning-1"></div>
+
+
+All the resources that are requested by a **ssl** activated website should also be secured. That is, if you request any file with a  **http** link then the green padlock will not appear. In order to avoid that use relative url. For example, instead of ``http://yoursite.com/css/webjeda.css`` use ``//yoursite.com/css/webjeda.css``
+{: .r}
 
 ## Conclusion
 Flexible SSL is not a complete solution for security since it is provided by ClouFlare. If someone can hack into CloudFlare then they can steal information from your users! Let's hope that doesn't happen. Since we are just using it for SEO ranking, we are good. If you are looking for complete security then you can buy SSL certificate from trusted SSL providers. It is good to buy SSL certificate if you are selling something on your website which has payment-gateway integrated.

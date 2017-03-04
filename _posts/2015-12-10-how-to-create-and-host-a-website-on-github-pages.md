@@ -64,10 +64,11 @@ I hope you have signed up for a Github account. Otherwise, you can [sign up for 
 Name it anything you feel like. I'm naming it **test**. Also, check **Initialize this repository with a README**. This is just to get a README file inside our repository to start with. Once you are done creating a repository, you should be able to see a README file inside your repository.
 
 
-<div class="warning clear">
-<h3>Update</h3>
-<p>Latest Github update minimizes a step here. You do not have to create a <code>gh-pages</code> branch. Use any branch as source for the Github Pages.</p>
-</div>
+<div class="clear"></div>
+
+### Update
+Latest Github update minimizes a step here. You do not have to create a ``gh-pages`` branch. Use any branch as source for the Github Pages.
+{: .g}
 
 ## Step 1.1: Select source for Github Pages
 Go to settings and find **Github Pages** section where you can select a source branch for ``github-pages`` website. Set it to master and save. Your website URL should show up as in the screenshot below.
@@ -153,12 +154,10 @@ Read: [How to setup custom domain for github website](/custom-domain-github/){:t
 This is just a single file website. If you want to sync a lot of files, folders, images etc., then you may have to use a Github Client like **Github Desktop** or **SourceTree** (my favorite) to push the files. See a video demonstration here
 
 
-<div class="note clear">
-<h3>User Pages Guide</h3>
-<p>
-To host your website in user pages, follow the same procedure mentioned above but you have to name the repository in this format <strong>username.github.io</strong> and keep all the website files inside master branch. In my case it is redgadgets.github.io where I was hosting my tech blog <strong>RedGadgets</strong>
-</p>
-</div>
+
+### User Pages Guide
+To host your website in user pages, follow the same procedure mentioned above but you have to name the repository in this format ``username.github.io`` and keep all the website files inside master branch. In my case it is redgadgets.github.io where I was hosting my tech blog ``RedGadgets``
+{: .y}
 
 If you want a clear idea on how to host website usig user pages then please refer to this repository - [webjeda](https://github.com/sharu725/sharu725.github.io){:rel='nofollow'}{:target="_blank"}.
 It has no **gh-pages** branch. I'm hosting it on the master branch. To do that, you have to rename your repository to this format **username.github.io**. Here, the username is your github username. My github username is sharu725(for webjeda).
@@ -167,11 +166,9 @@ If you access [http://sharu725.github.io](http://sharu725.github.io){:rel='nofol
 
 I created this website using foundation framework which is similar to bootstrap. You can always use a template from [html5up](http://html5up.net){:rel='nofollow'}{:target="_blank"} which provides pretty good templates for free.
 
-<div class="tips">
-<h3>Free Web Hosting on Github!</h3>
-<p>Now that you know you can host a website on Github Pages without paying for any hosting service, you can also host complete websites on Github Pages. If you are a freelance web designer then do consider this option for all the client websites which doesn't need constant updates. I use this for all the portfolio websites I get to design. Read to know <a href="/sync-files-folders-github/"><strong>how to host a complete website on Github Pages</strong></a>
-</p>
-</div>
+### Free Web Hosting on Github!
+Now that you know you can host a website on Github Pages without paying for any hosting service, you can also host complete websites on Github Pages. If you are a freelance web designer then do consider this option for all the client websites which doesn't need constant updates. I use this for all the portfolio websites I get to design. Read to know [**how to host a complete website on Github Pages**](/sync-files-folders-github/)
+{: .g}
 
 I hope that helped. Please ask me any doubts you have in the comment section.
 

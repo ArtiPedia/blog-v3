@@ -70,12 +70,10 @@ categories: [Tech, Personal]
 
 
 
-<div class="note">
-    <h3>Categories count</h3>
-    <p>
-    Though you can add as many categories as you like, I recommend not to exceed 10. Too much of anything is bad.
-    </p>
-</div>
+
+### Categories count
+Though you can add as many categories as you like, I recommend not to exceed 10. Too much of anything is bad.
+{: .y}
 
 Once that is done, create a page to display them.
 

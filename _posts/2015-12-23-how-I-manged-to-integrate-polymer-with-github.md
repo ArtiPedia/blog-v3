@@ -76,10 +76,9 @@ First thing is to import the Polymer elements. Paste these lines to your **head*
 <link rel="import" href="https://cdn.rawgit.com/download/polymer-cdn/1.1.4/lib/paper-button/paper-button.html"/>
 {% endhighlight %}
 
-<div class="warning">
-<h3>Warning</h3>
-<p>This method is not recomended. I'm using this as an example. For greater response time you should be using a local copy of these files rather importing from an URL. Remember, importing more files lead to a slow loading website</p>
-</div>
+
+This method is not recomended. I'm using this as an example. For greater response time you should be using a local copy of these files rather importing from an URL. Remember, importing more files lead to a slow loading website
+{: .r}
 
 
 And that's about it. If you want some other element, say **paper-toggle-button** 
@@ -131,11 +130,9 @@ Here is the css code for coloring the paper-button.
 {% endhighlight %}
 
 
-<div class="note">
-<h3>Note</h3>
-<p>Eventually I had to take it out as it started throwing JS errors. I chose to design my own cards. They look good I guess!
-</p>
-</div>
+
+Eventually I had to take it out as it started throwing JS errors. I chose to design my own cards. They look good I guess!
+{: .y}
 
 Let me know if you were successful in integrating Polymer in your website. 
 Comment if you do something awesome.

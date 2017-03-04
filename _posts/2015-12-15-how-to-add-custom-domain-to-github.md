@@ -131,10 +131,9 @@ Propagation can take a long time and it can be at different speeds in different 
 
 A better option is to grab a cup of coffee :coffee:. Once you are done, hit the URL.
 
-<div class="warning">
-<h3>Warning</h3>
-<p>If your website has external <strong>css</strong> and <strong>js</strong> files, then watch out for the links you have used in the head tag. Make sure it links to proper files.</p>
-</div>
+
+If your website has external **css** and **js** files, then watch out for the links you have used in the head tag. Make sure it links to proper files.
+{: .r}
 
 <iframe itemscope="" class="right half video" itemprop="video" src="https://www.youtube.com/embed/hUChaN-VRIc?rel=0" frameborder="0" allowfullscreen></iframe>
 

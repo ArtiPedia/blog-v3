@@ -14,13 +14,10 @@ permalink: /sync-files-folders-github/
 In my initial days of using Github, I used to see repositories filled with folders, files and what not. I used to wonder how the hell these people are uploading folders to Github! 
 
 
-<div class="note">
-    <h3>Update</h3>
-    <p>
-    Github has a new <a href="/github-upload/" target="_blank"><strong>drag and drop upload option</strong></a> available for direct uploading of files and folders. But, the method I'm discussing in this post is also required to make changes and puch only the changes.
-    </p>
-</div>
 
+### Update
+Github has a new [**drag and drop upload option**](/github-upload/) available for direct uploading of files and folders. But, the method I'm discussing in this post is also required to make changes and puch only the changes.
+{: .y}
 
 * Do not remove this line (it will not be displayed) 
 {:toc}

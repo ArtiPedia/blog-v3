@@ -102,10 +102,10 @@ First thing is logging into Github account and forking the whole [theme reposito
 What **fork** does is that it copies the whole repository as a new repository inside your Github account. You can rename the repository to anything you like in the **Settings** option.
 
 
-<div class="warning clear">
-<h3>Update</h3>
-<p>Latest Github update minimizes a step here. You do not have to create a <code>gh-pages</code> branch. Use any branch as source for the Github Pages.</p>
-</div>
+
+### Update
+Latest Github update minimizes a step here. You do not have to create a ``gh-pages`` branch. Use any branch as source for the Github Pages.
+{: .g}
 
 ## Step 2.1 Check if a source branch is selected
 After forking the theme repository, go to settings and find **Github Pages** section. Here you will have to select which branch you would like to use as website source.
@@ -200,11 +200,8 @@ If you want to start writing posts then read: [How to edit Jekyll posts](/edit-p
 
 This is how we host a project website or blog. In github, we have two types of hosting - **User Pages** and **Project Pages**. The method described above is Project Pages.
 
-<div class="tips">
-    <h3>Pro Tips</h3>
-    <p>You can use any number of Project Pages in a github account. A repository should be kept under 1GB. Which means a Project Page should not exceed 1GB. Also, it should not contain a file of size exceeding 100MB. Read <a target="_blank" href="https://help.github.com/articles/what-is-my-disk-quota/#file-and-repository-size-limitations"><strong>Disk Quota</strong> </a>
-    </p>
-</div>
+You can use any number of Project Pages in a github account. A repository should be kept under 1GB. Which means a Project Page should not exceed 1GB. Also, it should not contain a file of size exceeding 100MB. Read [**Disk Quota**](https://help.github.com/articles/what-is-my-disk-quota/#file-and-repository-size-limitations){: target="_blank" rel="nofollow"}
+{: .g} 
 
 Here is a table for better understanding of User Pages and Project Pages.
 
@@ -228,12 +225,8 @@ Now, go to **Settings** and rename the repository as **username.github.io** wher
 
 Now you can access this blog by accessing the URL ```http://username.github.io```. Replace the username with your GitHub user-name.
 
-<div class="warning">
-    <h3>Warning</h3>
-    <p>
-       You can only use your own account name for a <strong>User Page</strong> repository. So there can be only one User Page per github account.
-    </p>
-</div>
+You can only use your own account name for a **User Page** repository. So there can be only one User Page per github account.
+{: .r}
 
 
 ## Developing Jekyll Locally

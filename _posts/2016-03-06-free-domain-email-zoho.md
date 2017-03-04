@@ -129,10 +129,9 @@ Carefully look for **Email forwarding and POP/IMAP** and click on it. It will op
 Now add your personal email and verify with the email they send to your personal email. Now you are done with ZOHO email setup!
 
 Only one free domain email can be set up with ZOHO. What if you own many domains? Well, you can take a glance at **Tips** but I don't recommend it.
-<div class="tips" id="Tips">
-<h3>Tips</h3>
-<p>What if you want custom email for multiple domains? If you sign up to ZOHO with a gmail id say, <strong>john@gmail.com</strong> then you can also sign up for another account with <strong>j.ohn@gmail.com</strong>. Because Google considers both the addresses to be the same but not ZOHO! So with one gmail account, you can sign up many accounts! Thank me later</p>
-</div>
+
+What if you want custom email for multiple domains? If you sign up to ZOHO with a gmail id say, **john@gmail.com** then you can also sign up for another account with **j.ohn@gmail.com**. Because Google considers both the addresses to be the same but not ZOHO! So with one gmail account, you can sign up many accounts! But I suggest to buy a plan.
+{: .g}
 
 This is how we can create free domain email with ZOHO. If you liked this article then hit like on my facebook page.
 

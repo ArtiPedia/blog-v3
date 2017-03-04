@@ -69,12 +69,9 @@ I have given some of the important parameters (among around 200 of them) your Je
 The list is big, so is the article! But follow these and I can assure you that your blog will be 60% optimized for SEO already. The rest depends on your efforts on content creation, link building , marketing etc.,
 
 
-<div class="note">
-    <h3>Update</h3>
-    <p>
-    Most of these can be implemented by using tag called {% raw %}{% seo %}{% endraw %} in the <code>head</code> section. This requires to add a gem in your <strong>_config.yml</strong> like this <code>gems: [jekyll-paginate, jekyll-seo-tag]</code>. I'm assuming that you are using paginate gem also.  
-    </p>
-</div>
+### Update 
+Most of these can be implemented by using tag called {% raw %}{% seo %}{% endraw %} in the ``head`` section. This requires to add a gem in your **_config.yml** like this ``gems: [jekyll-paginate, jekyll-seo-tag]``. I'm assuming that you are using paginate gem also.  
+{: .y}
 
 This gem will add almost all the tags required for SEO. Thanks to [Ben Balter](https://github.com/benbalter){:rel='nofollow'}{:target="_blank"} for the awesome plugin. You can check it out [here](https://github.com/jekyll/jekyll-seo-tag){:rel='nofollow'}{:target="_blank"}. If you want to unserstand or implement all the tags on your own, then keep reading.
 
@@ -132,12 +129,8 @@ description: I created this beautiful looking Jekyll blog by forking a repositor
 {% endhighlight %}
 
 
-<div class="warning">
-    <h3>Warning</h3>
-    <p>
-       You must be thinking where the hell is <strong>meta keywords</strong>. It is not important anymore. Due to keyword stuffing - after 2009 - <a href="https://webmasters.googleblog.com/2009/09/google-does-not-use-keywords-meta-tag.html" target="_blank" rel="nofollow"><strong>search engines are not considering meta keywords</strong></a> for ranking.  
-    </p>
-</div>
+You must be thinking where the hell is **meta keywords**. It is not important anymore. Due to keyword stuffing - after 2009 - [**search engines are not considering meta keywords**](https://webmasters.googleblog.com/2009/09/google-does-not-use-keywords-meta-tag.html){: target="_blank"} for ranking.  
+{: .r}
 
 
 ## 2. URL structure
@@ -286,12 +279,8 @@ But it is a pain creating all those images. So there is a web app that can do th
 Use [Iconifier](http://iconifier.net/){:rel='nofollow'}{:target="_blank"}.
 Download the **zip** file it generates to get all icons along with the code.
 
-<div class="warning">
-    <h3>Warning</h3>
-    <p>
-       Do not use too many touch icons in the head tag. It may slow down your website performance. Three to four icons with different sizes should be enough.  
-    </p>
-</div>
+Do not use too many touch icons in the head tag. It may slow down your website performance. Three to four icons with different sizes should be enough.  
+{: .r}
 
 ## 8. Canonical URL
 You should not be serving the same content on different URLs though they may not look very different, a search engine bot considers them as different.
@@ -330,12 +319,8 @@ Though Jekyll users have a hard time configuring SEO on their own, they do have 
 
 Google is leaning more towards **User Experience Optmization**. So make sure that surfing your website is a smooth experience even on low bandwidth. Look at your content from a user perspective. If you have unique and useful content (not copied from elsewhere) then your website will definitely rank better.
 
-<div class="tips">
-    <h3>Pro Tips</h3>
-    <p>
-        If you want to test whether your website is optimized for SEO then try <a target="_blank" rel="nofollow" href="https://varvy.com/"><strong>SEO Checkup</strong></a> and try to resolve all the errors and warnings.
-    </p>
-</div>
+If you want to test whether your website is optimized for SEO then try [**SEO Checkup**](https://varvy.com/){: target="_blank" rel="nofollow"} and try to resolve all the errors and warnings.
+{: .g}
 
 I hope you got a fair idea on how to perform some quick SEO to your Jekyll blog. There are many advanced SEO parameters for Jekyll which I will be discussing in a future post. Let me know if you come across any problems while implementing these SEO methods I have mentioned in this article.
 
