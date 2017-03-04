@@ -76,7 +76,7 @@ The list is big, so is the article! But follow these and I can assure you that y
     </p>
 </div>
 
-This gem will add almost all the tags required for SEO. You can check it out [here](https://github.com/jekyll/jekyll-seo-tag){:rel='nofollow'}{:target="_blank"}. If you want to implement all the tags on your own, then keep reading.
+This gem will add almost all the tags required for SEO. You can check it out [here](https://github.com/jekyll/jekyll-seo-tag){:rel='nofollow'}{:target="_blank"}. If you want to unserstand or implement all the tags on your own, then keep reading.
 
 Let's implement head tags one by one in Jekyll.
 
