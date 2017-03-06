@@ -94,6 +94,7 @@ article {
 /* Big First character */
 .drop-cap > p:first-of-type:first-letter {
     float: left;
+    color: $brand-color-2;
     font-family: $head-ff;
     font-weight: bold;
     font-size: 120px;
