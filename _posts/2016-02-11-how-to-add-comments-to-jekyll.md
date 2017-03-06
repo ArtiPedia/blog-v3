@@ -127,7 +127,6 @@ But Matt Cutts from Google tweeted that the Google-bot (crawler) can now index <
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <p>So there is still hope for Disqus comments to get indexed by Google.</p>
-</div>
 
 
 ### Update
