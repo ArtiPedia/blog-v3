@@ -203,7 +203,7 @@ And also the word **Contents** was actually **Jump to. .** by default. You can c
 title: '<i>Jump to...</i>';
 {% endhighlight %}
 
-For some reason, the TOC section assumes the style ```display: block``` which will cover the whole page. But I wanted it on one side of the page. So I have added the code ```display: inline-block!important```. I personally do not like using **!important** but here I had to. It is at least better than in-line CSS!
+For some reason, the TOC section assumes the style ```display: block``` which will cover the whole page. But I wanted it on one side of the page. So I have added the code ```display: inline-block!important```. I personally do not like using **!important** but here I had to.
 
 
 {% include adsense-inside-post-2.html %}
@@ -212,7 +212,7 @@ For some reason, the TOC section assumes the style ```display: block``` which wi
 Now, different markdown handlers process markdown differently. Table of Contents will create an anchor tag for every headline. But this is not supported by all the markdown processors. **Kramdown** is good with it but if you are using **redcarpet** or **rdiscount** you have to make some changes in the **_config.yml** file.
 
 
-I suggest you change the markdown processor to **kramdown** as it is the [only supported markdown engine](https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0) by github pages.
+I suggest you change the markdown processor to **kramdown** as it is the [only supported markdown engine](https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0){: target="_blank"}{: rel="nofollow"} by github pages.
 {: .y}
 
 

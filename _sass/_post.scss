@@ -262,7 +262,7 @@ article {
         @include media-query($on-palm) {
             float: none;
             margin-top: 2em;
-            display: block;
+            display: inline-block;
         }
     }
 }

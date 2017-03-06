@@ -45,7 +45,8 @@ But how to make this change of URL for every page. One way was to use ```window.
 
 Here is an image explaining site variables for the link [How to create a Jekyll blog](/create-jekyll-blog/){:target="_blank"}. You can check the site description by viewing the source. These variables are mentioned inside ```_config.yml``` file.
 
-![How to use site variables in Jekyll](/images/jekyll-site-variables-and-how-to-use-them.png)
+![How to use site variables in Jekyll](/images/jekyll-site-variables.svg)
+
 
 Check all the Jekyll [variables here](http://jekyllrb.com/docs/variables/){:rel='nofollow'}{:target="_blank"}.
 
