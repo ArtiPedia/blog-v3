@@ -99,12 +99,15 @@ I'm using it only on my posts. So I'm calling it only on the posts layout. This 
 ---
 layout: default
 ---
-<sript src="/path/to/toc.js"></sript>
+
 <article class="post">
-  <h1 class="post-title note info">{{ page.title }}</h1>
+  <h1 class="post-title">{{ page.title }}</h1>
   <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date_to_string }}</time>
   {{ content }}
 </article>
+
+<sript src="/path/to/toc.js"></sript>
+
 {% endraw %}{% endhighlight %}
 
 {% include adsense-inside-post.html %}
@@ -127,13 +130,16 @@ I'm calling it in my post layout; just above the content.
 ---
 layout: default
 ---
-<sript src="/path/to/toc.js"></sript>
+
 <article class="post">
   <h1 class="post-title note info">{{ page.title }}</h1>
   <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date_to_string }}</time>
   <div id="toc"></div>
   {{ content }}
 </article>
+
+<sript src="/path/to/toc.js"></sript>
+
 {% endraw %}{% endhighlight %}
 
 
@@ -155,13 +161,15 @@ Here is the complete **post layout** that is ready to load Table of Contents on 
 ---
 layout: default
 ---
-<sript src="/path/to/toc.js"></sript>
+
 <article class="post">
   <h1 class="post-title note info">{{ page.title }}</h1>
   <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date_to_string }}</time>
   <div id="toc"></div>
   {{ content }}
 </article>
+
+<sript src="/path/to/toc.js"></sript>
 
 <script type="text/javascript">
 $(document).ready(function() {
