@@ -31,14 +31,30 @@ I have created this blog to help **web designers** to get started in the right w
 
 I built WebJeda in 2014. I realised how easy it is to design websites using proper tools and knowledge. This blog would be a beginners guide for web designing. The first thing you notice on visiting my website is that it is **minimal**. I believe more decorations lead to distractions. So you don't see any bells and rings - only content. The second thing you notice is that it is **fast**. Because of constant optimization and again because of no 'bells and rings'.
 
-As a web designer, one has to give attention to **appearance**, **performance**, and **accessibility** which involves good looking template, website loading speed and ranking on search engines. I have discussed these aspects extensively in this blog.
-{: .g}
+<p class="green">As a web designer, one has to give attention to <strong>appearance</strong> <strong>performance</strong>, and <strong>accessibility</strong> which involves good looking template, website loading speed and ranking on search engines. I have discussed these aspects extensively in this blog.
+</p>
+
 
 I write the things I have tried. That takes a while to research, test, and test again on other platforms. Writing a tech article which deals with coding isn't easy. It involves a lot of hard work. How do I get paid for this? I run Adsense on this blog.
 
+<p class="red">
 I suggest you to use an Adblock if you don't like those **Download pdf**, **Click to Download** kind of ads. As a reader, I don't like ads. Let me know whether I should keep Adsense running on this website.
-{: .r}
+</p>
 
+<style>
+.green, .red {
+
+    padding: 20px;
+    border-radius:4px;
+    color: #fff;
+}
+.green {
+    background-color: #89dc8b;
+}
+.red {
+    background-color: #f56767;
+}
+</style>
 <!-- 
 I accept donations. 
 
