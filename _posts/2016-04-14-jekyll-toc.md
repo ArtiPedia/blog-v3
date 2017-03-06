@@ -11,9 +11,9 @@ layout: post
 
 
 ## Why Table of Contents?
-I always liked the Wikipedia **Table of Contents** section which is present in almost every article. It gives a good insight to the whole article with headlines. Imagine, if that was not there; how hard it would be to find things that we specifically looking for. Things like someone's career, early life etc., Here is a [sample page](https://en.wikipedia.org/wiki/Kannada){:rel='nofollow'}{:target="_blank"} wikipedia page.
+I always liked the Wikipedia **Table of Contents** section which is present in almost every article. It gives a good insight to the whole article with headlines. Imagine, if that was not there; how hard it would be to find things that we are specifically looking for. Things like someone's career, early life etc., Here is a [sample page](https://en.wikipedia.org/wiki/Kannada){:rel='nofollow'}{:target="_blank"} wikipedia page.
 
-I have used a similar kind of TOC on my blog. At least it looks similar! So here is the Table of Contents of this blog post.
+I have used a similar kind of TOC on my blog(at least it looks similar!). So here is the Table of Contents of this blog post.
 
 
 * Do not remove this line (it will not be displayed) 
@@ -21,18 +21,15 @@ I have used a similar kind of TOC on my blog. At least it looks similar! So here
 
 
 
-Table of Contents for Jekyll blog or any blog for that matter is not really necessary if the article is very short. But, for a long detailed article, a TOC section provides a good insight.
+Table of Contents for Jekyll blog or any blog for that matter is not really necessary if the article is very short. But, for a long detailed article, a TOC section provides a good insight and helps skipping to the desired topic.
 
 {: .clear}
 
 ## How to add TOC for Jekyll posts?
 
-There are [plugins](https://jekyllrb.com/docs/plugins/){:rel='nofollow'}{:target="_blank"} for Jekyll to generate TOC but, I have stayed away from them for one reason. I want the complete control on my website.
+There are [plugins](https://jekyllrb.com/docs/plugins/){:rel='nofollow'}{:target="_blank"} for Jekyll to generate TOC but, I have stayed away from them for one reason - I want the complete control on my website. 
 
-When I was using WordPress, there was a simple plugin called TOC and it used to work like a charm. It also had some color schemes available for it. But when we are dealing with Jekyll, plugins are very new and can be unstable.
-
-
-I'm not against Jekyll plugins or something but I'm just waiting for them to be simple to use. 
+When I was using WordPress, there was a simple plugin called TOC and it worked like charm. It also had some color schemes available for it. But when we are dealing with Jekyll, plugins are very new and can be unstable. I'm not against Jekyll plugins or something but I'm just waiting for them to be simple to use. 
 
 Now, let's dive in and install TOC.
 
@@ -67,6 +64,14 @@ You can make it look pretty by adding this style
 
 {% endhighlight %}
 
+
+For this to work you should be using kramdown as your markdown preprocessor. Mention this in the ``_congif.yml`` file and restart the server to make it work.
+
+{% highlight yml %}
+
+markdown: kramdown
+
+{% endhighlight %}
 
 But if this doesn't work for you then you can follow the procedure below.
 
