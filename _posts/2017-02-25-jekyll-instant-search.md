@@ -27,11 +27,11 @@ If your Jekyll site has just 4 to 5 pages, then you will not need a search optio
 
 A Jekyll blog with lots of articles needs a search bar. There are plenty of options available to implement search in Jekyll. 
 
- **1.Lunr**
+ **1 .Lunr**
  
- **2.Google Custom Search Engine**
+ **2 .Google Custom Search Engine**
  
- **3.Simple Jekyll Search**
+ **3 .Simple Jekyll Search**
 
 Lunr is instant but heavy. Google Custom Search Engine is light but not instant(yet). Simple Jekyll Search is light as well as instant.
 {: .y}
