@@ -10,7 +10,7 @@ layout: post
 permalink: /instant-jekyll-search/
 ---
 
-Finding specific content can be hard if a website doesn't have any search option. I had no search option before because I had very few articles. Eventually, when the number of posts grew, it became hard for me to search even a small paragraph in some article that I know I have written.
+Finding specific content can be hard if a website doesn't have any search option. I had no search option before because I had a very few articles and pages. Eventually, when the number of posts grew, it became hard for me to search even a small paragraph in some article that I know I have written.
 
 * Do not remove this line (it will not be displayed) 
 {:toc}
@@ -92,7 +92,7 @@ Create a file in the root of your Jekyll blog and name it ``search.json``. Now, 
 
 {% endraw %}{% endhighlight %}
 
-What this does is that it converts your Jekyll data from all the posts and puts it as key value pair which can then be easily read by a search script.
+What it does is that it converts your Jekyll data from all the posts and puts it as key value pair which can then be easily read by a search script.
 
 If you are trying it out on a local machine then you can verify ``search.json`` inside ``_site`` folder to see whether all the values are generated or not.
 
@@ -126,7 +126,7 @@ Visit: [Jekyll Themes](https://jekyll-themes.com){: target="_blank"}
 
 {% include adsense-inside-post.html %}
 
-The above code can be changed (be careful not to mess it up) according to your needs. Remove whatever field is not required for your Jekyll search. Add if you want to include some other front matter or the content of posts say **description**, or **excerpt** or multiple categories as shown below.
+The above code can be changed (be careful not to mess it up) according to your needs. Remove whatever field is not required for your Jekyll search. Add if you want to include some other front matter or the content of posts say **description**, **content** or multiple categories as shown below.
 
 
 
@@ -144,7 +144,7 @@ The above code can be changed (be careful not to mess it up) according to your n
       "tags"     : "{{ post.tags | join: ', ' }}",
       "date"     : "{{ post.date }}",
       "discription" : "{{post.description | escape }}",
-      "excerpt"  : "{{post.excerpt | escape }}"
+      "content"  : "{{post.content | escape | strip_html }}"
       
     } {% unless forloop.last %},{% endunless %}
   {% endfor %}
@@ -152,10 +152,10 @@ The above code can be changed (be careful not to mess it up) according to your n
 
 {% endraw %}{% endhighlight %}
 
-The ``escape`` filter is important because, if you have a double inverted comma inside the value say ``post.description`` then the whole JSON breaks and becomes unusable.
+The ``escape`` filter is important because, if you have a double inverted comma inside the value say ``post.description`` then the whole JSON breaks and becomes unusable. I also recommend not to use whole content to create JSON because it might result in creating a huge file.
 
 
-Make sure that the last value has no comma at the end
+Make sure that the last value has no comma at the end.
 {: .r}
 
 From what I have seen, the value you place at the top will be given priority. In the above example, title will be given the highest priority and excerpt gets the lowest. Change this as per your requirements.
