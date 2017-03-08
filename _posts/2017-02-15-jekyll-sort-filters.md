@@ -181,7 +181,7 @@ Checkout other filters here: [Jekyll Filters](https://jekyllrb.com/docs/template
 {% include adsense-inside-post-2.html %}
 
 
-## Jekyll group by filter
+### Jekyll group by filter
 This is a filter which groups an array of items based on the property you give. The property can be categories, tags, author or any front matter.
 
 Here is an example for Jekyll group by filter. Imagine you want your posts to be seggregated based on authors. Let's say you've multiple authors and you mentions each authors name in the front matter as shown below,
@@ -239,7 +239,7 @@ This might have gone over your head but let me give you a working code that sort
 {% endraw %}{% endhighlight %}
 
 
-### Conclusion
+## Conclusion
 Thanks to the developers at Github and other contributors who are adding new features to Jekyll which are making our lives easy. Sorting posts based on parameters other than categories and tags was a little hard. But now, with newly added filters, sorting is very easy. 
 
 Let me know if this has worked for you. Post your suggestions and feedback in the comment section.
