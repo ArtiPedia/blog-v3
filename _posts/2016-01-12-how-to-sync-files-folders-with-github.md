@@ -16,7 +16,7 @@ In my initial days of using Github, I used to see repositories filled with folde
 
 
 ### Update
-Github has a new [**drag and drop upload option**](/github-upload/) available for direct uploading of files and folders. But, the method I'm discussing in this post is also required to make changes and puch only the changes.
+Github has a new [**drag and drop upload option**](/github-upload/) available for direct uploading of files and folders. But, the method I'm discussing in this post is also required to make changes and push updated files.
 {: .y}
 
 * Do not remove this line (it will not be displayed) 
