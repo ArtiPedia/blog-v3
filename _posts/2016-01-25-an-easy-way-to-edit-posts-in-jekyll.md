@@ -15,13 +15,15 @@ permalink: /edit-posts-jekyll/
 ## Unable to upload images to Github!
 
 
-### Update
-Github finally has a direct upload option where you can upload files and folders just by drag-and-drop! Read [**Github Upload Option**](/github-upload/)
-{: .y}
 
 As I was unable to upload images to Github I used to upload images to my Google drive, then get the URL of the image and put that as a source in the blog. One of those examples here
 [Image from google drive](https://lh3.googleusercontent.com/-j3S-KX7DwQ0/VDi4p2xTzVI/AAAAAAAAAGo/_PP4-udRS4c/s550-no/moto-hint-story-pairit-us.jpg){:rel='nofollow'}{:target="_blank"}.
 There is another way to do this by creating an issue on Github where you can drag and drop an image, get the URL and use it as a source. But I doubt its reliability.
+
+
+### Update
+Github finally has a direct upload option where you can upload files and folders just by drag-and-drop! Read [**Github Upload Option**](/github-upload/)
+{: .y}
 
 <div class="clear"></div>   
 
