@@ -85,6 +85,10 @@ You may have to choose a local folder where you want the repository to be downlo
 
 ![How to sync folders with Github - Change branch in Github Desktop]({{ site.url }}/images/change-branch-in-github-desktop.jpg)
 {: .left .half}
+
+Changing branch is not required if you are using master branch for the website.
+{: .y}
+
 Now change the branch to **gh-pages** as shown in the screenshot. Now right click on the repository listed on the left side and choose **Open in Explorer**. It will open an Explorer window with just a ```.git``` folder inside it. 
 
 <p class="clear"></p>
