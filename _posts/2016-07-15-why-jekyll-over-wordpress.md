@@ -15,7 +15,7 @@ A long time ago I had few blogs that were running on WordPress. I bought domain 
 **But, what's wrong?**
 
 
-# WordPress
+# WordPress vs jekyll
 
 ## 1. Heavy!
 WordPress is heavy. By saying heavy what I mean is that it has a lot of code in it. Even a minimal WordPress blog will have too much code. Take a minimal theme from WordPress and compare it with my theme [Thunder](http://webjeda.com/thunder/) or any Jekyll theme. You will observe a significant difference in size when you view source.
@@ -65,7 +65,7 @@ These days with all those spam emails cluttering my inbox, I don't like to give 
 **What's so good about Jekyll?**
 
 
-# Jekyll
+# Jekyll vs Wordpress
 
 ## 1. Simple
 Jekyll has no database! Jekyll runs nothing on the server. It just keeps files ready to be served. Jekyll is really simple once you understand the basic structure and functions. It supports markdown for posts and pages. It uses the famous **Liquid Syntax** by shopify for conditional logic and other functionalities which is basically human readable coding! I think this way of coding is very comprehensive even to a non-coder.
