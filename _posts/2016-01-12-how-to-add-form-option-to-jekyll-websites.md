@@ -1,6 +1,6 @@
 ---
 title: Jekyll Contact Form Creation with Added Security!
-desc: Jekyll contact form should be different from normal php forms because Jekyll doesn't support php. Jekyll blog is static, so we should use forms that work for static sites. Here is a simple form that works on any Jekyll blog.
+desc: Jekyll hosted on Github Pages or any static hosting service will not execute normal php forms. Jekyll blog is static, so we should use forms that work for static sites. Here is a simple form that works on any Jekyll blog.
 keywords: form in Jekyll, form in Jekyll blog, form in a static website, formspree
 author: sharathdt
 tags: Jekyll Web-Design
@@ -10,7 +10,7 @@ permalink: /jekyll-contact-form/
 ---
 
 
-When I moved one of my blogs from WordPress to Jekyll, I faced a big problem. Which was - how to add a form to Jekyll website which is static?! Generally, the backbone of forms is the ```php``` code which takes the data and sends it to the defined email address. Jekyll being static cannot perform any server side execution. So we cannot use ``php`` for forms.
+When I moved one of my blogs from WordPress to Jekyll and hosted it on Github Pages, I faced a big problem. Which was - how to add a form to Jekyll website which is static?! Generally, the backbone of forms is the ```php``` code which takes the data and sends it to the defined email address. Github Pages being static cannot perform any server side execution. So we cannot use ``php`` forms.
 {: .clear}
 
 
