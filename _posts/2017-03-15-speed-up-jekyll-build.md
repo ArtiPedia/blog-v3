@@ -8,9 +8,13 @@ layout: post
 permalink: /jekyll-build-speed/
 ---
 
-Jekyll is super fast when it comes to sites with a few pages. It tends to slow down when the number of files increases and when complex liquid conditions are executed frequently. The files usually cause this delay are posts, images etc.. 
+Jekyll is super fast when it comes to sites with a few pages. It tends to slow down when the number of files increase and when complex Liquid conditions are executed frequently. The files usually cause this delay are posts, images etc.. 
 
-Jekyll is trying hard to decrease the build time since the inception. One of those measures was using incremental build. In incremental build, Jekyll watches only for the files which are changed, not everything. This works well if a site is simple. Imagine you change something on the ``default.html`` layout, then the build time again increases because that layout is used for every single post and every single page.
+* Do not remove this line (it will not be displayed) 
+{:toc}
+
+
+Jekyll is trying hard to decrease the build time since the inception. One of those measures was using incremental build. In **incremental build**, Jekyll watches only for the files which are changed, not everything. This works well if a site is simple. Imagine you change something on the ``default.html`` layout, then the build time again increases because that layout is used for every single post and every single page.
 
 {% include adsense-inside-post.html %}
 
