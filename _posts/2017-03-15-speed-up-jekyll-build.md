@@ -1,6 +1,6 @@
 ---
 title: Increase Jekyll Build Speed
-desc: Jekyll slows down with the increase in the number of files, posts, images etc.. I will be discussing incremental build, keep files and exclude options here. Learn how to decrease Jekyll build time using these methods.
+desc: Jekyll slows down with the increase in the number of files, posts, images etc.. I will be discussing incremental build, keep_files and exclude configurations here. Learn how to decrease Jekyll build time using these methods.
 author: sharathdt
 tags: Jekyll
 image: jekyll-build-speed.png
