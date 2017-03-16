@@ -8,6 +8,8 @@ layout: post
 permalink: /jekyll-build-speed/
 ---
 
+After writing around 20 articles, Jekyll used to take around 30 seconds to build this website! That was more than the what it takes to make an omelette.
+
 Jekyll is super fast when it comes to sites with a few pages. It tends to slow down when the number of files increase and when complex Liquid conditions are executed frequently. The files usually cause this delay are posts, images etc.. 
 
 * Do not remove this line (it will not be displayed) 
@@ -18,7 +20,7 @@ Jekyll is trying hard to decrease the build time since the inception. One of tho
 
 {% include adsense-inside-post.html %}
 
-Before we jump right into the methods let's discuss some precautions that may reduce the build time drastically.
+Before we jump right into the methods, let's discuss some precautions that may reduce the build time drastically.
 
 ## Exclude files that are not required
 I see that some people use task runners like grunt, gulp or others which make use of ``node-modules``. Node will create a folder in the repository with the same name and this folder is a mess. I think the movie Inception was simpler than this folder nest.
