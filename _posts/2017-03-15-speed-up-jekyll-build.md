@@ -83,7 +83,13 @@ The initial release of the incremental build was not so efficient, but recent re
 Use the command below for incremental build
 
 {% highlight yml %}
-jekyll serve -I, --incremental
+jekyll serve -I
+{% endhighlight %}
+
+or
+
+{% highlight yml %}
+jekyll serve --incremental
 {% endhighlight %}
 
 
