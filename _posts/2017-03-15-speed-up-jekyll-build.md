@@ -51,7 +51,7 @@ What I suggest is to reduce the usage of **includes**. If any included file has 
 
 Consider my website for example. I have too many files inside ``_includes``(but not using all of them) and I also use ``compress html``. This is a layout used to minify HTML. It has too many liquid tags in it. This takes a considerable amount of time (around a second) for the completion.
 
-Run below Liquid Profiler command to check which liquid syntax execution is taking too much time.
+Run below Liquid Profiler command to check which liquid syntax execution is taking too much time. 
 
 {% highlight yml %}
 jekyll serve --profile
@@ -113,4 +113,6 @@ jekyll serve --watch --limit_posts 1
 ## Conclusion
 When compared to Hugo or Gatsby, Jekyll is nowhere close to their build speeds. But it is changing. Jekyll is making leaps in decreasing build time. Until then I hope these hotfixes will help you stick to Jekyll and not switch to other platforms.
 
-If you have a better way to decrease build time, then please suggest it in the comment section.
+If you have a better way to decrease build time, then please suggest it in the comment section. Also, watch this video of Parker explaining the new features in Jekyll 3.4, Incremental build, Liquid Profiler etc..
+
+<iframe class="video" src="https://www.youtube.com/embed/sPZK8w55cBQ?rel=0" frameborder="0" allowfullscreen></iframe>
