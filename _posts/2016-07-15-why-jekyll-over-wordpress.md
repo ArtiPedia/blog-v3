@@ -15,7 +15,7 @@ A long time ago I had few blogs that were running on WordPress. I bought domain 
 **But, what's wrong?**
 
 
-# WordPress vs jekyll
+# WordPress vs Jekyll
 
 ## 1. Heavy!
 WordPress is heavy. By saying heavy what I mean is that it has a lot of code in it. Even a minimal WordPress blog will have too much code. Take a minimal theme from WordPress and compare it with my theme [Thunder](http://webjeda.com/thunder/) or any Jekyll theme. You will observe a significant difference in size when you view source.
