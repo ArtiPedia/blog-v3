@@ -53,7 +53,6 @@ sass:
     style: compressed
 
   
-exclude:    [README.md, CNAME, favicon.ico, robots.txt]
 keep_files: [README.md, CNAME, favicon.ico, robots.txt, js, thumbs, thumbs-small, img, data, svg]
 
 #optimization
