@@ -21,6 +21,9 @@ Icons are an integral part of web designing. Gone are the days where individual 
 
 A simple website uses at least 4 to 5 icons. If we include share button icons and footer icons, the number grows. Why do we use such a huge library for just 10 icons? Because adding or removing or changing an icon is very easy in font awesome. If you have used local png icons using css sprite sheets, you'll know the pain of changing or adding an icon.
 
+* Do not remove this line (it will not be displayed) 
+{:toc}
+
 Font awesome makes a web designers life easy. Adding icons is as simple as adding a ``<h1>`` tag. Resizing is done through attributes, flipping, stacking, spinning is all possible with font awesome. But apart from those 10 icons we use and some styles, all other icons are of no use to us. They load along with the ones we need. Though font awesome is cached by browsers since many websites use it, we have to give attention to first-time visitors who may have a browser without cached font awesome css. Moreover, font awesome version updation is done every time new icons are added and you should also keep version of the CDN link up to date.
 
 ## Why should we optimize font awesome?
@@ -28,8 +31,6 @@ Since it is a huge file, we have to trim it down to our needs. If we are using o
 
 Imagine how fast the icons will load! After implementing this, my website scored 89% on Google pagespeed insights. It used to be 52%!
 
-* Do not remove this line (it will not be displayed) 
-{:toc}
 
 {% include adsense-inside-post.html %}
 
@@ -38,6 +39,11 @@ Basic idea is to edit the font file to make it as small as possible. Removing un
 
 Removing unused glyphs reduced the ``woff`` file size from 90KB to 8.5KB. This size depends on how many icons you need. The size increase with the increase in the number of icons. Removing unwanted css from ``fontawesome.min.css`` reduced the size to 2KB from 30KB. The overall size of font awesome after optimizing is around 11KB!
 
+There are two ways to do this.
+
+1. [The hard way (generating a custom font on our own)](#step-1-localize-font-awesome)
+
+2. [The easy way (usig a generator)](#update)
 
 
 ### Step 1: Localize Font awesome
