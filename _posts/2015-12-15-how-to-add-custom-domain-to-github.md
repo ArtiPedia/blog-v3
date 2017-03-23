@@ -69,7 +69,7 @@ The website looks like this
 This is a test website that has nothing but a heading and background color. Since I thought of making this tutorial as simple as possible, I have kept the website to a bare minimum.
 
 
-I own ``truejewels.in``. I will be using this domain for the test website whose current URL is ``http://redgadget.github.io/test/``. I have already configured custom domain which you can access using this link: [**truejewels.com**](http://truejewels.in){:rel='nofollow'}{:target="_blank"}
+I own ``truejewels.in``. I will be using this domain for the test website whose current URL is ``http://redgadget.github.io/test/``. I have already configured custom domain which you can access using this link: [**truejewels.in**](http://truejewels.in){:rel='nofollow'}{:target="_blank"}
 
 Let's see how I did it.
 
