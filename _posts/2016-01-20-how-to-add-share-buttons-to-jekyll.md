@@ -156,7 +156,7 @@ I have styled the buttons with the following css. You can change it for your nee
 {% endhighlight %}
 
 
-Currently, I'm using this share bar for my blog. You will see a share bar at the end of this article,  which uses the same code.
+Here is how it looks like.
 
 ![webjeda share bar for jekyll]({{ site.url }}/images/how-to-add-share-bar-to-jekyll-blog.jpg){: .full}
 
