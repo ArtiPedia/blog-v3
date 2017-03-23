@@ -5,7 +5,7 @@ desc: Webjeda jekyll themes is a showcase of hand-picked, responsive jekyll them
 permalink: /jekyll-themes/
 ---
 
-<p class="g" style="width: 80%;text-align:center; margin: 0 auto">I will be moving all the themes to <a href="https://jekyll-themes.com">jekyll-themes.com</a> soon.</p>
+<p class="green">I will be moving all the themes to <a href="https://jekyll-themes.com"><strong>jekyll-themes.com</strong></a> soon.</p>
 
 <h1 style="text-align:center">Jekyll Themes</h1>
 <div id="mainbox">
@@ -28,3 +28,19 @@ permalink: /jekyll-themes/
      </a>
       {% endfor %}   
 </div>
+<style>
+.green {
+
+    padding: 20px;
+    border-radius:4px;
+    color: #fff;
+    width: 80%;
+    text-align:center; 
+    margin: 0 auto;
+    background-color: #89dc8b;
+    
+}
+.green a {
+    color: #fff;
+}
+</style>
