@@ -138,13 +138,13 @@ Output will look like this
 
 Follow me on: 
   <a href="{{site.facebook}}" target="_blank" >
-      <i class="icon fa fa-facebook-official"></i>
+      facebook
   </a>
   <a href="{{site.twitter}}" target="_blank" >
-      <i class="icon fa fa-twitter"></i>
+      twitter
   </a>
   <a href="{{site.github}}" target="_blank" >
-      <i class="icon fa fa-github-alt"></i>
+      github
   </a>
 <style>i.icon {margin-left: 10px;}</style>
 
