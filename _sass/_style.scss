@@ -37,7 +37,10 @@ header {
 
 
 .container {
-    padding: 10px;
+    padding: 0 10px;
+    @include media-query($on-laptop) {
+        padding: 0;
+    }
     }
 
 

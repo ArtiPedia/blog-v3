@@ -445,3 +445,10 @@ table.mdtable {
         }
     }
 }
+
+.post-container {
+    padding: 0;
+    @include media-query($on-laptop) {
+        padding: 0 10px;
+    }
+}
