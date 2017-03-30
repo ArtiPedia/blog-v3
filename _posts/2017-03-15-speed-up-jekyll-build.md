@@ -1,6 +1,6 @@
 ---
 title: Increase Jekyll Build Speed
-desc: Jekyll slows down with the increase in the number of files, posts, images etc.. I will be discussing incremental build, keep_files and exclude configurations here. Learn how to decrease Jekyll build time using these methods.
+desc: Jekyll slows down with the increase in the number of files, posts, images etc.. I will be discussing how to increase jekyll build speed.
 author: sharathdt
 tags: Jekyll
 image: jekyll-build-speed.png
@@ -8,9 +8,9 @@ layout: post
 permalink: /jekyll-build-speed/
 ---
 
-After writing some 20 articles, Jekyll used to take around 30 seconds to build this website! That was more than the what it takes to make an omelette.
+Jekyll build speed is an important aspect in my blog because, after publishing some 20 articles, Jekyll used to take around 30 seconds to build this website! That was more than the what it takes to make an omelet.
 
-Jekyll is super fast when it comes to sites with a few pages. It tends to slow down when the number of files increase and when complex Liquid conditions are executed frequently. The files usually cause this delay are posts, images etc.. 
+Jekyll is super fast when it comes to sites with a few pages. It tends to slow down when the number of files increases and when complex Liquid conditions are executed frequently. The files usually cause this delay are posts, images etc..
 
 * Do not remove this line (it will not be displayed) 
 {:toc}
@@ -47,11 +47,11 @@ Now that we have retained only the required files for Jekyll to render, we shoul
 
 If you have too many nested liquid tags then the build time will increase drastically. Jekyll slows down while building if you are using too many includes.
 
-What I suggest is to reduce the usage of **includes**. If any included file has a liquid condition, then the build speed increases.
+What I suggest is to reduce the usage of **includes**. If any included file has a liquid condition, then the jekyll build speed increases.
 
 Consider my website for example. I have too many files inside ``_includes``(but not using all of them) and I also use ``compress html``. This is a layout used to minify HTML. It has too many liquid tags in it. This takes a considerable amount of time (around a second) for the completion.
 
-Run below Liquid Profiler command to check which liquid syntax execution is taking too much time. 
+Run below Liquid Profiler command to check which liquid syntax execution is taking too much time.
 
 {% highlight yml %}
 jekyll serve --profile
@@ -63,28 +63,28 @@ It should output a table as shown below. This will give you a fair idea on what 
 
 {% highlight yml %}
 
-Filename                                 | Count |    Bytes |  Time
+Filename | Count | Bytes | Time
 -----------------------------------------+-------+----------+------
-_layouts/compress.html                   |    73 | 1649.86K | 1.526
-_layouts/default.html                    |    72 | 1874.79K | 0.445
-_layouts/post.html                       |    58 |  980.02K | 0.307
-feed.xml                                 |     1 |   34.74K | 0.105
-_includes/prev-next.html                 |    58 |   39.17K | 0.053
-sitemap.xml                              |     1 |   19.90K | 0.035
-_pages/archive.md                        |     1 |   28.98K | 0.035
-_posts/2017-02-15-jekyll-sort-filters.md |     1 |   16.09K | 0.019
-_includes/ga_data_fetch.html             |    58 |   41.77K | 0.018
-_includes/disqus-script.html             |    58 |   30.89K | 0.018
-_pages/tags.html                         |     1 |   14.97K | 0.015
+_layouts/compress.html | 73 | 1649.86K | 1.526
+_layouts/default.html | 72 | 1874.79K | 0.445
+_layouts/post.html | 58 | 980.02K | 0.307
+feed.xml | 1 | 34.74K | 0.105
+_includes/prev-next.html | 58 | 39.17K | 0.053
+sitemap.xml | 1 | 19.90K | 0.035
+_pages/archive.md | 1 | 28.98K | 0.035
+_posts/2017-02-15-jekyll-sort-filters.md | 1 | 16.09K | 0.019
+_includes/ga_data_fetch.html | 58 | 41.77K | 0.018
+_includes/disqus-script.html | 58 | 30.89K | 0.018
+_pages/tags.html | 1 | 14.97K | 0.015
 
 {% endhighlight %}
 
-
-
 ## Use Jekyll incremental build
-Building the site from the scratch everytime is not practical. This is why Jekyll provides an option for an incremental build which converts only the files that are changed. This way the build time can be decreased in multiple folds.
+Building the site from the scratch everytime is not practical. This is why Jekyll provides an option for an incremental build which converts only the files that are changed. This way the jekyll build speed can be increased in multiple folds.
 
-The initial release of the incremental build was not so efficient, but recent releases work fairly good. Jekyll is making a lot of improvements. Maybe some day it can compete with the build speeds of Hugo( very optimistic!)
+[Incremental build](https://jekyllrb.com/news/2015/10/26/jekyll-3-0-released/)
+
+The initial release of the incremental build was not so efficient, but recent releases work fairly good. Jekyll is making a lot of improvements. Maybe some day it can compete with the build speeds of Hugo(very optimistic!)
 
 Use the command below for incremental build
 
@@ -111,8 +111,8 @@ jekyll serve --watch --limit_posts 1
 
 
 ## Conclusion
-When compared to Hugo or Gatsby, Jekyll is nowhere close to their build speeds. But it is changing. Jekyll is making leaps in decreasing build time. Until then I hope these hotfixes will help you stick to Jekyll and not switch to other platforms.
+When compared to Hugo or Gatsby, Jekyll build speed is really slow. But it is changing. Jekyll is making leaps in decreasing build time. Until then I hope these hotfixes will help you stick to Jekyll and not switch to other platforms.
 
-If you have a better way to decrease build time, then please suggest it in the comment section. Also, watch this video of Parker explaining the new features in Jekyll 3.4, Incremental build, Liquid Profiler etc..
+If you have a better way to increase jekyll build speed, then please suggest it in the comment section. Also, watch this video of Parker explaining the new features in Jekyll 3.4, Incremental build, Liquid Profiler etc..
 
 <iframe class="video" src="https://www.youtube.com/embed/sPZK8w55cBQ?rel=0" frameborder="0" allowfullscreen></iframe>
