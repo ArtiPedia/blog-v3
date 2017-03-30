@@ -10,7 +10,7 @@ layout: post
 permalink: /instant-jekyll-search/
 ---
 
-Finding specific content can be hard if a website doesn't have a search option. I had no search option before because I had a very few articles and pages. Eventually, when the number of posts grew, it became hard for me to search even a small paragraph in some article that I know I have written.
+Finding specific content can be hard if a website doesn't have a search option. I had no search option before because I had very few articles and pages. Eventually, when the number of posts grew, it became hard for me to search even a small paragraph in some article that I know I have written.
 
 * Do not remove this line (it will not be displayed) 
 {:toc}
