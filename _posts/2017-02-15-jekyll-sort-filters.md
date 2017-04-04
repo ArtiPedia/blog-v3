@@ -227,16 +227,16 @@ This might have gone over your head but let me give you a working code that sort
 
 {% highlight yml %}{% raw %}
 {% assign items_grouped = site.posts | group_by: 'author' %}
-{% for group in items_grouped %}
-<h3>{{group.name}}</h3>
-{% for item in group.items %}
-<p>{{item.title}}</p>
-{% endfor %}
-{% endfor %}
+    {% for group in items_grouped %}
+    <h3>{{group.name}}</h3>
+        {% for item in group.items %}
+            <p>{{item.title}}</p>
+        {% endfor %}
+    {% endfor %}
 {% endraw %}{% endhighlight %}
 
 
 ## Conclusion
-Thanks to the developers at Github and other contributors who are adding new features to Jekyll which are making our lives easy. Sorting posts based on parameters other than categories and tags was a little hard. But now, with newly added Jekyll filters, sorting is very easy.
+Thanks to the developers at Github and other contributors who are adding new features to Jekyll which are making our life easy. Sorting posts based on parameters other than categories and tags was a little hard. But now, with newly added Jekyll filters, sorting is very easy.
 
 Let me know if this has worked for you. Post your suggestions and feedback in the comment section.
