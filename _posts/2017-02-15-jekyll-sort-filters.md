@@ -10,7 +10,6 @@ layout: post
 permalink: /jekyll-filters/
 ---
 
-
 Jekyll Filters are a wide range of parameters that can be used to modify the output produced by Liquid tags or objects. I will be describing two Jekyll filters which can be very useful in sorting post index. One is **sort** filter and the other is **where** filter.
 
 
@@ -20,7 +19,7 @@ Jekyll Filters are a wide range of parameters that can be used to modify the out
 
 If you're not sure on how to use Liquid Synatax then I suggest you go through this article: [How to use Liquid Syntax in Jekyll?](https://blog.webjeda.com/jekyll-liquid/){: target="_blank"}.
 
-## Simple Filters
+## Simple Jekyll Filters
 Consider this example. I'm modifying the output of the page variable ``page.author`` which is ``sharathdt`` using string filters.
 
 {% highlight yml %}
@@ -34,11 +33,9 @@ Consider this example. I'm modifying the output of the page variable ``page.auth
 
 {% endhighlight %}
 
+What I have used above are simple string filters. They modify a string value. We need different way to handle array data produced by loops.
 
-
-What I have used above are simple string filters. They modify a string value. We need different way to handle array data produced by loops. 
-
-Apart from these string filters, there are plenty of other filters that may come in handy in different situations. Check them out here: [Liquid Filters](https://help.shopify.com/themes/liquid/filters/string-filters){: target="_blank"}.
+Apart from these string filters, there are plenty of other jekyll filters that may come in handy in different situations. Check them out here: [Liquid Filters](https://help.shopify.com/themes/liquid/filters/string-filters){: target="_blank"}.
 
 {: .clear }
 
@@ -46,9 +43,9 @@ Apart from these string filters, there are plenty of other filters that may come
 
 {: .clear }
 
-## Advanced Filters
+## Advanced Jekyll Filters
 
-I'm calling this advanced because these filters help us modify array outputs. An array is a set of multiple items. A **list of posts** that we generate in the index page is an array of posts. All the **categories** or **tags** we use in posts is an array.
+I'm calling this advanced because these jekyll filters help us modify array outputs. An array is a set of multiple items. A **list of posts** that we generate in the index page is an array of posts. All the **categories** or **tags** we use in posts is an array.
 
 Since these arrays are rendered inside a **for loop**, we cannot define filters right in the tag. We should filter the array first and then let it pass through the ``for loop``.
 {: .g}
@@ -129,7 +126,7 @@ Many times we want the posts to be divided into different categories and display
 This filter is only available for Jekyll versions 2.5 or above.
 {: .y}
 
-Consider this website for example. Most of my posts are about Jekyll which will have a category ``jekyll``. I also write posts on web designing which will have a category ``Web-Design``.  Let's filter out all the posts that have a category **Web-Design**.
+Consider this website for example. Most of my posts are about Jekyll which will have a category ``jekyll``. I also write posts on web designing which has a category ``Web-Design``. Let's filter out all the posts that have a category **Web-Design**.
 
 {% highlight html %}{% raw %}
 {% assign sorted-posts = site.posts | where: "categories","Web-Design" %}
@@ -182,7 +179,7 @@ Checkout other filters here: [Jekyll Filters](https://jekyllrb.com/docs/template
 
 
 ### Jekyll group by filter
-This is a filter which groups an array of items based on the property you give. The property can be categories, tags, author or any front matter.
+This is a jekyll filter which groups an array of items based on the property you give. The property can be categories, tags, author or any front matter.
 
 Here is an example for Jekyll group by filter. Imagine you want your posts to be seggregated based on authors. Let's say you've multiple authors and you mentions each authors name in the front matter as shown below,
 
@@ -197,8 +194,8 @@ author: sharathdt
 There is a simple way to sort your posts based on authors.
 
 {% highlight yml %}{% raw %}
-    {% assign items_grouped = site.posts | group_by: 'author'  %}
-        {{items_grouped}}
+{% assign items_grouped = site.posts | group_by: 'author' %}
+{{items_grouped}}
 {% endraw %}{% endhighlight %}
 
 The output of the above code would be like this.
@@ -210,38 +207,36 @@ The output of the above code would be like this.
 
 {% endraw %}{% endhighlight %}
 
-Which means that there are 3 authors **sharath**, **webjeda** and **someone**. 
+Which means that there are 3 authors **sharath**, **webjeda** and **someone**.
 
 There are 2 posts from Sharath, 12 posts from Webjeda and 1 post from Someone.
 
 The items fields are show with **#** sign which it is an array and we can dig deeper. I know that ``items_grouped`` is an array and ``items`` is an array.
 
 {% highlight yml %}{% raw %}
-            {{items_grouped[0].items[0].title}}
+{{items_grouped[0].items[0].title}}
 {% endraw %}{% endhighlight %}
 
 The output would be the title of the first article written by sharath
 
 {% highlight yml %}{% raw %}
-            First Article Title by Sharath
+First Article Title by Sharath
 {% endraw %}{% endhighlight %}
 
 This might have gone over your head but let me give you a working code that sorts posts based on authors.
 
 {% highlight yml %}{% raw %}
-{% assign items_grouped = site.posts | group_by: 'author'  %}
+{% assign items_grouped = site.posts | group_by: 'author' %}
 {% for group in items_grouped %}
 <h3>{{group.name}}</h3>
-    {% for item in group.items %}
-        <p>{{item.title}}</p>
-    {% endfor %}
+{% for item in group.items %}
+<p>{{item.title}}</p>
+{% endfor %}
 {% endfor %}
 {% endraw %}{% endhighlight %}
 
 
 ## Conclusion
-Thanks to the developers at Github and other contributors who are adding new features to Jekyll which are making our lives easy. Sorting posts based on parameters other than categories and tags was a little hard. But now, with newly added filters, sorting is very easy. 
+Thanks to the developers at Github and other contributors who are adding new features to Jekyll which are making our lives easy. Sorting posts based on parameters other than categories and tags was a little hard. But now, with newly added Jekyll filters, sorting is very easy.
 
 Let me know if this has worked for you. Post your suggestions and feedback in the comment section.
-
-
