@@ -108,3 +108,5 @@ a.donate{border:none}a.donate:hover{color:#fff;border:none}.donate{background-co
 28th March - Removed emerald theme and self-designed the website.
 </code>
 </pre>
+
+[**Support me on Patreon**](https://www.patreon.com/webjeda){: target="_blank"} 
