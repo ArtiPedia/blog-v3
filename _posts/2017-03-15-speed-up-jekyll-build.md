@@ -8,9 +8,9 @@ layout: post
 permalink: /jekyll-build-speed/
 ---
 
-Jekyll build speed is an important aspect in my blog because, after publishing some 20 articles, Jekyll used to take around 30 seconds to build this website! That was more than the what it takes to make an omelette.
+Jekyll build speed is an important aspect in my blog because, after publishing some 20 articles, Jekyll used to take around 30 seconds to build this website! That is more than what it takes to make an omelette. Build time started to grow gradually as and when I started adding new features and I got really fed up once it reached 8 minutes!
 
-Jekyll is super fast when it comes to sites with a few pages. It tends to slow down when the number of files increases and when complex Liquid conditions are executed frequently. The files usually cause this delay are posts, images etc..
+Jekyll is super fast when it comes to sites with a few pages. It tends to slow down when the number of files increases and when complex Liquid conditions are executed frequently. The files usually cause this delay are posts, images, collections etc..
 
 * Do not remove this line (it will not be displayed) 
 {:toc}
