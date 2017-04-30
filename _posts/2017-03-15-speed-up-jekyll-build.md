@@ -33,7 +33,7 @@ exclude: [node_modules, README.md]
 
 
 ## Keep_files that are required as-is
-Your site maybe using some static files and they should be copied as-is while building the site. For example ``images`` folder. Jekyll has nothing to do with those images. Static files that do not need any Jekyll intervention can be excluded and also kept as-is using these parameters in the configuration.
+Your site maybe using some static files and they should be copied as-is while building the site. For example ``images`` folder. Jekyll has nothing to do with those images. Static files that do not need any Jekyll intervention can be kept as-is using these parameters in the configuration.
 
 
 {% highlight yml %}
@@ -63,19 +63,22 @@ It should output a table as shown below. This will give you a fair idea on what 
 
 {% highlight yml %}
 
-Filename | Count | Bytes | Time
------------------------------------------+-------+----------+------
-_layouts/compress.html | 73 | 1649.86K | 1.526
-_layouts/default.html | 72 | 1874.79K | 0.445
-_layouts/post.html | 58 | 980.02K | 0.307
-feed.xml | 1 | 34.74K | 0.105
-_includes/prev-next.html | 58 | 39.17K | 0.053
-sitemap.xml | 1 | 19.90K | 0.035
-_pages/archive.md | 1 | 28.98K | 0.035
-_posts/2017-02-15-jekyll-sort-filters.md | 1 | 16.09K | 0.019
-_includes/ga_data_fetch.html | 58 | 41.77K | 0.018
-_includes/disqus-script.html | 58 | 30.89K | 0.018
-_pages/tags.html | 1 | 14.97K | 0.015
+Filename                                       | Count |    Bytes |  Time
+---------------------------------------------- +-------+----------+------
+
+_posts/2016-05-27-jekyll-collections.md        |     1 |   13.63K | 0.008
+_posts/2016-07-21-better-related-posts.md      |     1 |   13.70K | 0.008
+_posts/2017-03-15-speed-up-jekyll-build.md     |     1 |    7.28K | 0.007
+_posts/2016-01-20-how-to-add-share-buttons-to- |     1 |   13.02K | 0.007
+_posts/2016-11-12-dark-theme-switch.md         |     1 |   11.99K | 0.007
+_posts/2016-04-27-jekyll-speed.md              |     1 |   28.40K | 0.007
+_posts/2016-07-18-jekyll-search.md             |     1 |   11.81K | 0.006
+_pages/jekyll-themes.md                        |     1 |    8.12K | 0.006
+_posts/2016-08-10-common-jekyll-issues.md      |     1 |   12.83K | 0.006
+_includes/google-tag-manager-head.html         |    75 |   31.49K | 0.006
+_posts/2016-12-20-jekyll-liquid-common-tags.md |     1 |   12.84K | 0.005
+_posts/2016-01-25-an-easy-way-to-edit-posts-in |     1 |    7.48K | 0.005
+_posts/2016-08-30-jekyll-admin.md              |     1 |    6.92K | 0.005
 
 {% endhighlight %}
 
