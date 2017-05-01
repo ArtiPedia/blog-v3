@@ -17,7 +17,7 @@ For a beginner, this might look like an alien programming which doesn't resemble
 * Do not remove this line (it will not be displayed) 
 {:toc}
 
-
+ 
 
 But I assure you that it is probably the simplest and comprehensive language that I have seen so far. Take this snippet for example,
 
