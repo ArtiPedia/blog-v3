@@ -20,7 +20,7 @@ The application is similar to how books do not have one long single page like a 
 {% include adsense-inside-post.html %}
 
 
-## Pagination can be only for Posts
+## Pagination can be used only for Posts
 Though Jekyll has different items like pages and collections, only Posts can have pagination. This might change in the future.
 
 ## Pagination can be done only on index.html
