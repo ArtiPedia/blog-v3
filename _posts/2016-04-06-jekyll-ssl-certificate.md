@@ -188,8 +188,8 @@ All the resources that are requested by a **ssl** activated website should also 
 {: .r}
 
 ## Conclusion
-Flexible SSL is not a complete solution for security since it is provided by ClouFlare. If someone can hack into CloudFlare then they can steal information from your users! Let's hope that doesn't happen. Since we are just using it for SEO ranking, we are good. If you are looking for complete security then you can buy SSL certificate from trusted SSL providers. It is good to buy SSL certificate if you are selling something on your website which has payment-gateway integrated.
+Flexible SSL is not a complete solution for security since it is provided by CloudFlare. If someone can hack into CloudFlare then they can steal information from your users! Let's hope that doesn't happen. Since we are just using it for SEO ranking, we are good. If you are looking for complete security then you can buy SSL certificate from trusted SSL providers. It is good to buy SSL certificate if you are selling something on your website which has a payment-gateway integrated.
 
-I hope that the article helped you set up SSL on your website. Ask any doubts you have through comments.
+I hope that the article helped you set up SSL on your website. Ask any doubts in the comments section.
 
 Thanks for reading!
