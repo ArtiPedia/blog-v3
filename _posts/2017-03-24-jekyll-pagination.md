@@ -61,6 +61,14 @@ Now, open ``index.html`` file. If you have ``index.md`` instead, then rename it 
 While listing the posts, ``paginator.posts`` should be used instead of ``site.posts``.
 
 {% highlight liquid %}{% raw %}
+
+
+{% for post in paginator.posts %}
+<li><a href="{{post.url | prepend: site.baseurl}}"><h3>{{post.title}}</h3></a></li>
+{% endfor %}
+
+
+
 {% if paginator.total_pages > 1 %}
 <div class="pagination"> 
   {% if paginator.previous_page %}
