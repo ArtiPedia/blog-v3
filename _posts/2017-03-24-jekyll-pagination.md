@@ -130,7 +130,7 @@ That should render something like this,
 
 If you are looking for simple post suggestions at the end of every post, then please refer to these articles.
 
-Read: [How to add previous next](/related-post-jekyll/){: target="_blank"}
+Read: [How to add previous next posts](/related-post-jekyll/){: target="_blank"}
 
 Read: [How to add related posts](/jekyll-related-posts/){: target="_blank"}
 {% include adsense-inside-post-2.html %}
