@@ -313,7 +313,7 @@ a.tag-link {
         box-shadow: 0 0 10px #d8d8d8;
     }
    @include media-query($on-palm) { 
-        padding: 5px 10px;
+       /*  padding: 5px 10px; */
         width: 210px;
        font-size: $small-fs*0.8;
     }

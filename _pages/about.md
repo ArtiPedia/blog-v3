@@ -28,7 +28,11 @@ WebJeda is a web designing company based in Bengaluru. Designing beautiful respo
     float: left;
     opacity: 0.9;
 }
-
+  @media screen and (max-width: 600px) {
+     #author-pic {
+        margin: 0 15px 10px 0;
+      }
+}
 
 </style>
 My name is Sharath and I'm the author of this blog. I had no plans to turn this passion for web designing into a business. But when you love what you do, why not do it for living?! 
