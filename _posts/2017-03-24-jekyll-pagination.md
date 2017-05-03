@@ -62,13 +62,13 @@ While listing the posts, ``paginator.posts`` should be used instead of ``site.po
 
 {% highlight liquid %}{% raw %}
 
-
+<!-- post list -->
 {% for post in paginator.posts %}
 <li><a href="{{post.url | prepend: site.baseurl}}"><h3>{{post.title}}</h3></a></li>
 {% endfor %}
 
 
-
+<!-- pagination -->
 {% if paginator.total_pages > 1 %}
 <div class="pagination"> 
   {% if paginator.previous_page %}
@@ -108,19 +108,18 @@ Also, add some style so that the pagination looks good.
     margin-right: -2px;
     background-color: #ffffff;
     display: inline-block;
-
-}
+  }
 
 .pagination a {    
     &:hover {
         background-color: #f1f1f1;
         color: #333;
     }
-}
+ }
 
 .pagination {
     text-align: center;
-}
+ }
 
 {% endhighlight %}
 
