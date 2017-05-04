@@ -93,7 +93,7 @@ Once that is done, you have to find a nice theme for your blog. So do some resea
 <iframe class="right video" src="https://www.youtube.com/embed/T2nx6tj-ZH4?rel=0" frameborder="0" allowfullscreen></iframe>
 
 ## Use a theme that suits your needs
-Jekyll has a pretty large community now. There are people creating awesome themes. I suggest going through [Jekyll Themes](http://jekyllthemes.org){: target="_blank" rel="nofollow"} or my [Theme section](/jekyll-themes/){: target="_blank"} and find the one that suits your needs.
+Jekyll has a pretty large community now. There are people creating awesome themes. I suggest going through [Jekyll Themes](http://jekyll-themes.com){: target="_blank"} or my [Theme section](/jekyll-themes/){: target="_blank"} and find the one that suits your needs.
 
 ## Understand baseurl
 Now you have the theme file hosted on some URL. You can make changes to this by editing most of the files in the repository. But you should be careful while editing **_config.yml**. Many beginners edit the ``baseurl:`` to something and get 404 error!
@@ -125,7 +125,8 @@ Maintaining a mailing list is good for initial traffic. Mailchimp forms can be u
 Faster websites keep users happy. Your blog is already fast because you are using Jekyll but you may have too many things loading up or have heavy media files. For a fast Jekyll blog read [How to speed up Jekyll blog](http://blog.webjeda.com/jekyll-speed/){: target="_blank"}.
 
 ## Optimize Jekyll blog for SEO
-Now your blog is ready to rock. But let's find some organic traffic. Read [How to optimize Jekyll blog for SEO](http://blog.webjeda.com/optimize-jekyll-seo/){: target="_blank"}.
+Now your blog is ready to rock. But let's find some organic traffic. 
+Read [How to optimize Jekyll blog for SEO](http://blog.webjeda.com/optimize-jekyll-seo/){: target="_blank"}.
 
 ## Secure your Jekyll blog with https
 Using SSL on Jekyll blog will improve your search engine ranking! It also keeps users session safe. Read [How to get SSL certificate for Jekyll](http://blog.webjeda.com/jekyll-ssl/){: target="_blank"}.
