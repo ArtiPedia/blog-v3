@@ -39,16 +39,16 @@ My name is Sharath and I'm the author of this blog. I had no plans to turn this 
 
 I have created this blog to help **web designers** to get started in the right way. Most of my content is on **Jekyll** blogging platform which can be used as a **website builder**!
 
-I built WebJeda in 2014. I realised how easy it is to design websites using proper tools and knowledge. This blog would be a beginners guide for web designing. The first thing you notice on visiting my website is that it is **minimal**. I believe more decorations lead to distractions. So you don't see any bells and rings - only content. The second thing you notice is that it is **fast**. Because of constant optimization and again because of no 'bells and rings'.
+I built WebJeda in 2014. I realised how easy it is to design websites using proper tools and knowledge. This blog would be a beginners guide for web designing. The first thing you notice on visiting my website is that it is **minimal**. I believe more decorations lead to distractions. So you don't see any bells and rings - only content. The second thing you notice is that it is **fast**. Because of constant optimization and again no 'bells and rings'.
 
-<p class="green">As a web designer, one has to give attention to <strong>appearance</strong> <strong>performance</strong>, and <strong>accessibility</strong> which involves good looking template, website loading speed and ranking on search engines. I have discussed these aspects extensively in this blog.
+<p class="green">As a web designer, one has to give attention to <strong>appearance</strong>, <strong>performance</strong> and <strong>accessibility</strong> which involves good looking template, website loading speed and ranking on search engines. I have discussed these aspects extensively in this blog. A website is designed not for the company but for its users.
 </p>
 
 
-I write the things I have tried. That takes a while to research, test, and test again on other platforms. Writing a tech article which deals with coding isn't easy. It involves a lot of hard work. How do I get paid for this? I run Adsense on this blog.
+I write things I have tried. It takes a reasonable amount of time to research, test, and test again on other platforms. Writing a tech article which deals with coding isn't easy. It involves a lot of hard work. How do I get paid for this? I run Adsense on this blog.
 
 <p class="red">
-I suggest you to use an Adblock if you don't like those <strong>Download pdf</strong>, <strong>Click to Download</strong> kind of ads. As a reader, I don't like ads. Let me know whether I should keep Adsense running on this website.
+I suggest you to use an Ad-blocker if you don't like those <strong>Download pdf</strong>, <strong>Click to Download</strong> kind of ads. As a reader, I don't like ads. Let me know whether I should keep Adsense running on this website.
 </p>
 
 <style>
@@ -77,8 +77,9 @@ a.donate{border:none}a.donate:hover{color:#fff;border:none}.donate{background-co
 <br />
 **There are a number of ways to reach out to me, a few are in the contact page.**
 
+[**Support me on Patreon**](https://www.patreon.com/webjeda){: target="_blank"} 
 
-## Major changes
+## Changelog
 
 <pre>
 <code>
@@ -113,4 +114,3 @@ a.donate{border:none}a.donate:hover{color:#fff;border:none}.donate{background-co
 </code>
 </pre>
 
-[**Support me on Patreon**](https://www.patreon.com/webjeda){: target="_blank"} 
