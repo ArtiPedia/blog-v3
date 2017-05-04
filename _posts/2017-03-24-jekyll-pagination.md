@@ -62,7 +62,7 @@ Now, open ``index.html`` file. If you have ``index.md`` instead, then rename it 
 
 While listing the posts, ``paginator.posts`` should be used instead of ``site.posts``.
 
-{% highlight liquid %}{% raw %}
+{% highlight html %}{% raw %}
 
 <!-- post list -->
 {% for post in paginator.posts %}
