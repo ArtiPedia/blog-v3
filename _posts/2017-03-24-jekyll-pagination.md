@@ -42,7 +42,7 @@ gems: [jekyll-paginate]
 {% endhighlight %}
 
 ### Define Pagination in configuration
-Open ``_config.yml`` and copy the following,
+In the configuration file ``_config.yml``, copy the following,
 
 {% highlight yml %}
 paginate: 6
@@ -53,6 +53,8 @@ The above statement says that one page will have 6 posts and the naming of conse
 
 paginate_path should be defined as ``/blog/page:num/`` if you are trying to paginates posts in a page ``/blog/``. [Go here](#pagination-can-be-done-only-on-indexhtml) for more details. 
 {: .r}
+
+Click on the below link to see a sample [_config.yml](https://raw.githubusercontent.com/sharu725/bare-minimum/master/_config.yml){: target="_blank" rel="nofollow" } file which is setup for pagination on every 5 posts.
 
 ## Use paginatior.posts
 
