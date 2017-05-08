@@ -16,14 +16,14 @@ I would love to hear from you. Any query, suggestion or feedback would be great!
 <div class="youbt">
 <strong>Youtube:</strong>&nbsp;<div class="g-ytsubscribe" data-channelid="UCbOO7d0vVo0kIrkd7m32irg" data-layout="default" data-count="hidden"></div>
 </div>
+
+**Facebook:** [webjeda](https://facebook.com/webjeda){: target="_blank"}
+
+**Twitter:** [@webjeda](https://twitter.com/webjeda){: target="_blank"}
+
 <style>
 .youbt {
   
 }
 </style>
 <script src="https://apis.google.com/js/platform.js"></script>
-
-
-**Facebook:** [webjeda](https://facebook.com/webjeda){: target="_blank"}
-
-**Twitter:** [@webjeda](https://twitter.com/webjeda){: target="_blank"}
