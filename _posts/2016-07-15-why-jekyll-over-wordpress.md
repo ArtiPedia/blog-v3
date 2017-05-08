@@ -22,14 +22,14 @@ WordPress is heavy. By saying heavy what I mean is that it has a lot of code in 
 
 Using a lot of plugins can lead to this problem. WordPress bloggers don't usually realize whether the website is slowed down by a plugin. The reason may be is that they are using a fast internet connection. For them the website still loads quick but when it comes to a slower data connection, the real face(pace) of the website is revealed!
 
-Google Chrome has a nice inspection option called Network Throttling where you can simulate a slow internet connection on your browser! 
+Google Chrome has a nice inspection option called Network Throttling where you can simulate a slow internet connection on your browser. Check your WordPress site with a 2G/3G connection.
 
 * Do not remove this line (it will not be displayed) 
 {:toc}
 
 
 ## 2. Slow
-This is the by-product of being heavy. More the code slower the website. WordPress has some frameworks that make it light and fast but doesn't come anywhere close to Jekyll's simplicity.
+This is the by-product of being heavy. More the code slower the website. WordPress has some frameworks that makes it light and fast but doesn't come anywhere close to Jekyll's simplicity.
 
 
 ## 3. Difficulty in writing Posts
@@ -50,7 +50,7 @@ If you have ever visited a WordPress site (I bet you've) you will see something 
 
 ![WordPress Distractions](/images/why-I-hate-wordpress.png){: .noborder}
 
-Since WordPress is easy to use and there are gazillion plugins available to do these kind of pop-ups, top-bars and other ridiculous bars. Many people use these features as they like, screwing up their readers experience.
+Since WordPress is easy to use and there are gazillion plugins available to emulate these kind of pop-ups, top-bars and other ridiculous bars. Many people use these features as they like, screwing up their readers experience.
 
 May be it is ok with most users but when I see a pop-up I will look for the close button before reading anything on it. 
 {: .y}
@@ -72,7 +72,7 @@ Jekyll has no database! Jekyll runs nothing on the server. It just keeps files r
 
 
 ## 2. Light, fast and secure
-Since Jekyll has very less code, it is fast by default, it is fast. If you want to see the difference then take a Jekyll site (take this site for example) and a WordPress site and compare them on [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/){: target="_blank" rel="nofollow"}.
+Since Jekyll has very less code, it is fast by default. If you want to see the difference, then take a Jekyll site (take this site for example) and a WordPress site and compare them on [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/){: target="_blank" rel="nofollow"}.
 
 Having no database is kind of good when we are looking at security. **Static** sites are way more secure than **Dynamic** ones. Static sites are almost unhackable.
 
@@ -86,7 +86,7 @@ Eventually, I switched all my blogs to Jekyll and I always have a local copy of 
 You don't have to worry about the design part. There are hundreds of themes already available. You can [subscribe](http://eepurl.com/bZdvSP){: target="_blank" rel="nofollow"} to my blog to get a detailed list of free responsive Jekyll themes and their links to start off with. 
 
 # Start here
-Usually, Jekyll is hosted on github pages but you can also host it on any other conventional hosting service. But one thing you observe is that, all the Jekyll themes are put in a github repository. So in order to test it out you should know how to fork(copy) them to your own account and to do that, you should have a github account. So [sign up for a free account](https://github.com/join?source=header-home){: target="_blank" rel="nofollow"}.
+Usually, Jekyll is hosted on github pages but you can also host it on any other conventional hosting service. But one thing you observe is that, almost all the Jekyll themes are hosted as a github repository. So in order to test it out you should know how to fork(copy) the repo to your own account. And to do that, you should have a github account. So [sign up for a free account](https://github.com/join?source=header-home){: target="_blank" rel="nofollow"}.
 
 Once that is done, you have to find a nice theme for your blog. So do some research or [sign up here](http://eepurl.com/bZdvSP){: target="_blank"} to get a quick checklist. You can also checkout [themes section](/jekyll-themes/){: target="_blank"} in my blog. Now you should visit the theme's homepage. Here is a video guide.
 
