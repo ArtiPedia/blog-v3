@@ -10,7 +10,7 @@ layout: post
 ---
 
 
-A long time ago I had few blogs that were running on WordPress. I bought domain names and a reliable hosting space to keep them running. WordPress blog is very easy to set up. There are thousands of themes and plugins for all kinds of looks and functionalities.
+A long time ago I had few blogs that were running on WordPress. I bought domain names and a reliable hosting space to keep them running. WordPress blogs are very easy to set up. There are thousands of themes and plugins for all kinds of looks and functionalities.
 
 **But, what's wrong?**
 
@@ -18,7 +18,7 @@ A long time ago I had few blogs that were running on WordPress. I bought domain 
 # WordPress vs Jekyll
 
 ## 1. Heavy!
-WordPress is heavy. By saying heavy what I mean is that it has a lot of code in it. Even a minimal WordPress blog will have too much code. Take a minimal theme from WordPress and compare it with my theme [Thunder](http://webjeda.com/thunder/) or any Jekyll theme. You will observe a significant difference in size when you view source.
+WordPress is heavy. By saying heavy what I mean is that it has a lot of code in it. Even a minimal WordPress blog will have too much code. Take a minimal theme from WordPress and compare it with this theme [Thunder](http://webjeda.com/thunder/) or any Jekyll theme. You will observe a significant difference in size when you view source.
 
 Using a lot of plugins can lead to this problem. WordPress bloggers don't usually realize whether the website is slowed down by a plugin. The reason may be is that they are using a fast internet connection. For them the website still loads quick but when it comes to a slower data connection, the real face(pace) of the website is revealed!
 
