@@ -20,10 +20,9 @@ header {
         max-width: 800px;
         margin: 0 auto;
         max-width: 70%;
-
-        
+    
         @include media-query($on-palm) {
-            font-size: 1.2em;
+            font-size: 1.8em;
             max-width: 80%;
         }
 

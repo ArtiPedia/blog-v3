@@ -391,8 +391,13 @@ table.mdtable {
                 &:hover {
                     color: palevioletred;
                     }
-   
-            }
+                @include media-query($on-palm) {
+                   font-size: 20px; 
+                   &:hover {
+                     color: $brand-color-2;
+                    }
+                }
+             }
         }
         
     }
