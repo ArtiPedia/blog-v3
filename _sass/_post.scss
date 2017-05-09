@@ -392,15 +392,12 @@ table.mdtable {
                 cursor: pointer;
                 transition: 0.2s ease-in;
                 &:hover {
-                    color: palevioletred;
+                    color: darken($brand-color-2, 20%);
                     }
                 @include media-query($on-palm) {
                    font-size: 20px; 
                    bottom: 10%;
                     right: 7%;
-                   &:hover {
-                     color: $brand-color-2;
-                    }
                 }
              }
         }
