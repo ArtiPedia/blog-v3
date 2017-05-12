@@ -10,7 +10,9 @@ layout: post
 ---
 
 
-Icons are an integral part of web designing. Gone are the days where individual icons were used like an image. Now it's the time of web fonts. Font awesome is one such web font. It is just like a font but in place of letters, we have icons! Dave Gandy created font awesome in 2012. Many designers use this instead of SVG images because font awesome makes designing easy. Almost all kinds of icons are available and they are infinitely scalable!
+Icons are an integral part of web designing. Gone are the days where individual icons were used like an image. Now it's the time of web fonts. Font awesome is one such web font. It is just like a font but in place of letters, we have icons! 
+
+Dave Gandy created font awesome in 2012. Many designers use this instead of SVG images because font awesome makes designing easy. Almost all kinds of icons are available and they are infinitely scalable!
 
 
 <i class="fa fa-github-alt fa"></i>
@@ -27,10 +29,14 @@ A simple website uses at least 4 to 5 icons. If we include share button icons an
 Font awesome makes a web designers life easy. Adding icons is as simple as adding a ``<h1>`` tag. Resizing is done through attributes, flipping, stacking, spinning is all possible with font awesome. But apart from those 10 icons we use and some styles, all other icons are of no use to us. They load along with the ones we need. Though font awesome is cached by browsers since many websites use it, we have to give attention to first-time visitors who may have a browser without cached font awesome css. Moreover, font awesome version updation is done every time new icons are added and you should also keep version of the CDN link up to date.
 
 ## Why should we optimize font awesome?
-Since it is a huge file, we have to trim it down to our needs. If we are using only 10 icons then why do we need 100 other icons? The size of font awesome web font is 90KB by the time I'm writing this article. Added to that, minified font awesome css is 30KB. So overall 120KB! What I'm trying is to reduce this to below 12KB which is more than **90%** compression!!
+I like my website to load faster on desktops as well as mobile devices. It is one of the reasons for switching from WordPress to Jekyll. 
+
+Read: [Why did I choose Jekyll over WordPress?!](/why-jekyll-over-wordpress/){: target="_blank"}
+
+
+Since fontawesome is a huge file, we have to trim it down to our needs. If we are using only 10 icons then why do we need to load 100 other icons? The size of font awesome web font is 90KB by the time I'm writing this article. Added to that, minified font awesome css is 30KB. So overall 120KB! What I'm trying is to reduce this to below 12KB which is more than **90%** compression!!
 
 Imagine how fast the icons will load! After implementing this, my website scored 89% on Google pagespeed insights. It used to be 52%!
-
 
 {% include adsense-inside-post.html %}
 
@@ -125,6 +131,9 @@ Before you decide using fontawesome, think of using these alternatives. That may
 
 2. [Bytesize SVG Icons](https://github.com/danklammer/bytesize-icons){: target="_blank"}{: rel="nofollow"}
 
+There are some other ways to speed up Jekyll websites.
+
+Read: [13 Tested ways to Speed up Jekyll Blog](/jekyll-speed/){: target="_blank"}
 
 ## Conclusion
 You may use Bootstrap, Font awesome or any similar web font in your website. But make sure you optimize them to use only things that are necessary. Every byte you save, every request you reduce improves page speed by milliseconds. Even a single millisecond improvement in page speed matters. 
