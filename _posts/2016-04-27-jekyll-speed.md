@@ -110,7 +110,14 @@ Many times we do not give attention to the images we use. I used to use images o
 
 Always crop images to the exact size required instead of resizing it using html or css. This reduces the file size and hence page load time.
 
+Appropriate image formatting is important. I choose either **PNG** or **JPEG**. The rule of thumb is to save images in PNG format if they have less number of colors and choose JPEG for images with too many colors. If you observe some of the featured images I use, there will only be 3 to 4 colors. If that is the case then the file size reduces drastically.
+
+Below image is of size around 5KB
+
+![Jekyll Image Optimization](/thumbs/optimize-fontawesome-icons.png)
+
 Along with this, you can use photoshop to optimize images for the web. An option called **Save for web** helps to reduce the file size significantly. If you are not good at photoshop do not own a copy then use this online tool called [**Tinypng**](https://tinypng.com){:rel='nofollow'}{:target="_blank"} which does the same job.
+
 
 ### 3. Minify Jekyll HTML, CSS and JS
 Minifying is another way to reduce file-size which results in fast loading of websites. Minifying removes any character or space that is unnecessary. Many times we use comments in the code for our convenience. But, this is not required for an end user. Here are few things you can do to achieve minification.
