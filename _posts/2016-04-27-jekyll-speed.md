@@ -110,11 +110,11 @@ Many times we do not give attention to the images we use. I used to use images o
 
 Always crop images to the exact size required instead of resizing it using html or css. This reduces the file size and hence page load time.
 
-Appropriate image formatting is important. I choose either **PNG** or **JPEG**. The rule of thumb is to save images in PNG format if they have less number of colors and choose JPEG for images with too many colors. If you observe some of the featured images I use, there will only be 3 to 4 colors. If that is the case then the file size reduces drastically.
+Appropriate image formatting is important. I choose either **PNG** or **JPEG**. The rule of thumb is to save images in PNG format if the image has less number of colors and choose JPEG if the image has too many colors. If you observe some of the featured images I use, there will only be 3 to 4 colors. Images with less colors have smaller file size if saved in PNG.
 
-Below image is of size around 5KB
+Below PNG image is of size around 6KB because it uses only 2 colors.
 
-![Jekyll Image Optimization](/thumbs/optimize-fontawesome-icons.png)
+![Jekyll Image Optimization](/thumbs/jekyll-build-speed.png){: .full}
 
 Along with this, you can use photoshop to optimize images for the web. An option called **Save for web** helps to reduce the file size significantly. If you are not good at photoshop or do not own a copy, then use this online tool called [**Tinypng**](https://tinypng.com){:rel='nofollow' target="_blank"} which does the same job.
 
