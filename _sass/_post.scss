@@ -411,11 +411,13 @@ table.mdtable {
         background-color: $brand-color-2;
         text-align: center;
         padding: 1em 0;
-    
+        color: #eee;
+        &:hover {
+           background-color: lighten($brand-color-2, 2%); 
+        }
     a {
   
         padding: 10px 20px;
-        color: #eee;
         border: none;
         &:hover {
             border: none;
