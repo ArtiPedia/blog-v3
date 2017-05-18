@@ -119,7 +119,31 @@ Below image is of size around 5KB
 Along with this, you can use photoshop to optimize images for the web. An option called **Save for web** helps to reduce the file size significantly. If you are not good at photoshop do not own a copy then use this online tool called [**Tinypng**](https://tinypng.com){:rel='nofollow'}{:target="_blank"} which does the same job.
 
 
-### 3. Minify Jekyll HTML, CSS and JS
+### 3. Use SVG instead of JPEG
+SVG stands for Scalable Vector Graphics. An svg image can be scaled to any size without losing quality because it uses ponts instead of pixels. SVG can be used for images with very few details. Images like logos buttons etc., can be converted into SVG. Bigger images can also be converted to SVG but there can be a drastic increase in the filesize. But for images with simple lines, rectangles and other shapes we can use SVG.
+
+The best example for using SVGs successfully in a website is [varvy.com](https://varvy.com){:rel='nofollow'}{:target="_blank"}. Patrick Sexton has used Adobe Illustrator to create some wonderful SVG images that are very light-weight and scalable.
+
+SVGs are basically ``xml`` which means that they are made up of few tags and can be edited using a text file. We can also perform lossless compression on them to reduce the size. So SVG has a big advantage over PNG, JPEG etc., An example of such an advantage is given below. I have created two images here. One is a compressed SVG image and the other is a JPEG image optimized for web.
+
+![webjeda blog](/images/webjeda.svg){: .noborder}
+
+
+![webjeda blog](/images/webjeda.jpg){: .noborder}
+
+Both images look the same but there is a huge difference in their size. The first SVG image is around 1KB but the second JPEG image is of the size 14KB!
+
+This is a amazing; isn't it? I'm pretty impressed by this improvement. I'm thinkin of using more SVGs in my posts. Webjeda logo is already an SVG. The main advantage is that it doesn't look pixellated on big screens. Open them in new tab to see how SVGs don't loose their quality even if you zoom in but, JPEG images become pixellated.
+{: .clear}
+
+If you do not use Adobe Illustrator, then you can use Sketch(for mac) or [Drawsvg](http://drawsvg.org){:rel='nofollow' target="_blank"} for online SVG creation. Once you create an SVG, make sure you optimize it using [SVG optimizer](http://petercollingridge.appspot.com/svg-optimiser){:rel='nofollow' target="_blank"} which reduces the size a little bit.
+
+{% include adsense-inside-post-2.html %}
+
+Do not use SVG image as featured image. Social media may not recognize SVG images.
+{.r}
+
+### 4. Minify Jekyll HTML, CSS and JS
 Minifying is another way to reduce file-size which results in fast loading of websites. Minifying removes any character or space that is unnecessary. Many times we use comments in the code for our convenience. But, this is not required for an end user. Here are few things you can do to achieve minification.
 
 **Html:**
@@ -175,7 +199,7 @@ sass:
 **JavaScript:**
 If you are loading JavaScript from a CDN then make sure you use the ``.min.js`` version. That is the minified version. To minify local JS code I use [Closure Compiler](http://closure-compiler.appspot.com/home){:rel='nofollow'}{:target="_blank"} by Google which I have been using for a log time with satisfactory results. Here is a [guide on how to use it](https://developers.google.com/closure/compiler/docs/gettingstarted_ui#the-hello-world-of-the-closure-compiler-service-ui){:rel='nofollow'}{:target="_blank"}.
 
-### 4. Minimize http requests
+### 5. Minimize http requests
 Every request a webpage makes will take a considerable amount of time in establishing a connection and retrieving data. We can use some techniques to reduce the number of requests.
 
 **Use Data-URI instead of images:**
@@ -234,12 +258,12 @@ But, if you have a ``.scss`` file the process to inline scss is a little differe
 I use two css files. One is ``critical.css`` which only has important styles that are required in the beginning like page width, content width etc. This file loads immediately as I have declared it in the head tag. I have all other styles combined in a minified css file called ``main.css`` which is configured for lazy loading.
 {: .y}
 
-### 5. Use a CDN to cache static files
+### 6. Use a CDN to cache static files
 CDN stands for Content Distribution Network which delivers content through a server close to the end user and thus reducing the time required to fetch content. Google uses servers located in India in response to a request made by an Indian user. 
 
 I use [CloudFlare](https://cloudflare.com){:rel='nofollow'}{:target="_blank"}, which is a free CDN with plenty of features. I have explained the [CloudFlare setup in this article](/jekyll-ssl/#step-1-migrate-dns-to-cloudflare){:target="_blank"}.
 
-### 6. Use image dimensions
+### 7. Use image dimensions
 Using height and width attribute will help the browser to display a page without any reflow. If you do not specify any resolution then the browser will have no idea what size the image is until the image is completely downloaded. This causes a small delay but, if you have more images without dimensions specified then it might lead to a significant delay in page load time.
 
 If you observe the images I have used in this post, all of them have specified dimensions. Specifying dimensions in a normal html website is easy.
@@ -263,26 +287,6 @@ For other markdown processors
 
 I havent tested it on other processors but they should work. Please let me know if this doesn't work for you or you have other ways to do it.
 
-### 7. Use SVG instead of JPEG
-SVG stands for Scalable Vector Graphics. An svg image can be scaled to any size without losing quality because it uses ponts instead of pixels. SVG can be used for images with very few details. Images like logos buttons etc., can be converted into SVG. Bigger images can also be converted to SVG but there can be a drastic increase in the filesize. But for images with simple lines, rectangles and other shapes we can use SVG.
-
-The best example for using SVGs successfully in a website is [varvy.com](https://varvy.com){:rel='nofollow'}{:target="_blank"}. Patrick Sexton has used Adobe Illustrator to create some wonderful SVG images that are very light-weight and scalable.
-
-SVGs are basically ``xml`` which means that they are made up of few tags and can be edited using a text file. We can also perform lossless compression on them to reduce the size. So SVG has a big advantage over PNG, JPEG etc., An example of such an advantage is given below. I have created two images here. One is a compressed SVG image and the other is a JPEG image optimized for web.
-
-![webjeda blog](/images/webjeda.svg){: .noborder}
-
-
-![webjeda blog](/images/webjeda.jpg){: .noborder}
-
-Both images look the same but there is a huge difference in their size. The first SVG image is around 1KB but the second JPEG image is of the size 14KB!
-
-This is a amazing; isn't it? I'm pretty impressed by this improvement. I'm thinkin of using more SVGs in my posts. Webjeda logo is already an SVG. The main advantage is that it doesn't look pixellated on big screens. Open them in new tab to see how SVGs don't loose their quality even if you zoom in but, JPEG images become pixellated.
-{: .clear}
-
-If you do not use Adobe Illustrator, then you can use Sketch(for mac) or [Drawsvg](http://drawsvg.org){:rel='nofollow' target="_blank"} for online SVG creation. Once you create an SVG, make sure you optimize it using [SVG optimizer](http://petercollingridge.appspot.com/svg-optimiser){:rel='nofollow' target="_blank"} which reduces the size a little bit.
-
-{% include adsense-inside-post-2.html %}
 
 ### 8. Lazy load css 
 {: .clear}
