@@ -104,7 +104,7 @@ One thing we all developers collectively do wrong is keeping the script tags in 
 
 Keeping ``<script>`` tags at the end of the page will not block the parsing of ``html``. If you want the script to be loaded along with ``html`` then use ``async`` attribute.
 
-### 2. Compress images
+### 2. Optimize images
 
 Many times we do not give attention to the images we use. I used to use images of high dimensions and resize it using ``height`` and ``width`` attribute. But the image used to weigh 50kb or more which is not practical for speed optimization.
 
