@@ -7,7 +7,7 @@ layout: default
   
 <div class="homepage">
 <div id="mainbox">
-     {% for post in site.posts %} 
+     {% for post in paginator.posts %} 
        <a class="post-link-index" href="{{ post.url | prepend: site.baseurl }}">
           <div itemscope itemtype="http://schema.org/TechArticle" class="card">
                  <img alt="{{ post.title }}" class="post-image-index" itemprop="thumbnailUrl" src="/thumbs-small/{{ post.image }}" width="300" height="188" />
@@ -24,6 +24,7 @@ layout: default
     </div>
     
 </div>
+{% include pagination.html %}
 
 <!-- <p class="news"><svg id="i-alert" viewBox="0 -3 32 32" width="17" height="17" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
     <path d="M16 3 L30 29 2 29 Z M16 11 L16 19 M16 23 L16 25" />

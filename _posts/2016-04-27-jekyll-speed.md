@@ -17,6 +17,9 @@ It is a website, not an F1 racing car! Then why should we try to optimize it for
 
 A typical user of the 21st century doesn't want to waste his/her time staring at a blank page for more than 5 seconds. I'm pretty sure that your website loads within that time frame but, it may not happen in all conditions. Users may close the tab and never return to your website if it takes too long to load. Be cautious to keep the page loading speed within 2 seconds.
 
+This post is going to be a long one since I'm trying to explain things in detail. So bear with me.
+
+
 * Do not remove this line (it will not be displayed) 
 {:toc}
 
@@ -35,10 +38,10 @@ For established businesses, speed is of grave importance. For small time blogger
 
 If something loads then users' waiting threshold increases. You may have seen preloaders on some websites which shows the progress. Pre-loaders can retain users for a few more seconds but not longer than that.
 
-<p class="right half">
-<i class="fa fa-circle-o-notch fa-spin fa-3x fa-fw margin-bottom"></i>
-<span class="sr-only">Loading...</span>
+<p class="text-center">
+    <svg class="rotating" id="i-reload" viewBox="0 0 32 32" width="100" height="100" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"><path d="M29 16 C29 22 24 29 16 29 8 29 3 22 3 16 3 10 8 3 16 3 21 3 25 6 27 9 M20 10 L27 9 28 2"></path> </svg>
 </p>
+
 
 This is how a simple pre-loader looks like. Don't expect anything to load. This will keep spinning forever!
 
@@ -73,9 +76,11 @@ Website loads faster on an LTE connection than on a 2g connection. So in order t
 [**GTmetrix:**](https://gtmetrix.com/){:rel='nofollow'}{:target="_blank"}
 GTmetrix is a page speed testing tool which provides pretty decent data with a cool UI. It provides crucial data on **number of requests**, **minification status**, **possible optimization** etc., In GTmetrix, my home page scores a whopping 99%! 
 
-Many speed testing sites will let you know that your CSS, JS, HTML are not minified, images can be compressed etc., but this website gives you the optimized files right away to use. I usually download fully compressed image suggested by GTmetrix and replace the original image to enhances the speed.
+Many speed testing sites will let you know that your CSS, JS, HTML are not minified, images can be compressed etc., but, this website gives you the optimized files right away to use. I usually download fully compressed image suggested by GTmetrix and replace the original image to enhances the speed.
 
-It also provides YSlow score and details on why your website is loading slowly. Another important feature is historical data. The website stores the result in a database and fetches with a graph when you click on **History**! I just love it. It has helped me keep a track on my website speed. 
+> GT Metrix provides optimized image, css and js files that can be downloaded!
+
+It also provides YSlow score and details on why your website is loading slowly. Another important feature is historical data. The website stores the result in a database and fetches with a graph when you click on **History**! I just love it. It has helped me a lot to keep a track on my website speed and compare with historic data. 
 
 ![Jekyll speed test on GTmetrix](/images/jekyll-speed-optimization-test-gtmetrix.jpg){:width="700px" max-height="237px" .full}
 
@@ -86,6 +91,8 @@ This is a free tool provided by Google. I prefer this because ultimately Google 
 
 [**WebPageTest:**](http://www.webpagetest.org/){:rel='nofollow'}{:target="_blank"}
 This is probably one of the best tools to find out what's wrong with your site. It gives you the details on **First View** and **Repeat View**. This is good because when a website is loaded for the first time on a browser, it takes a lot of time since it is downloading all the resources for the first time. But, when you visit the website again on the same browser, it takes significantly less time. 
+
+> WebPageTest shows page load time for first and consecutive views(after browser cache).
 
 A repeat visitor is served quickly than a new visitor. But, first visit should be fast enought to convert new visitor to a repeat visitor. Have you heard of first impression? That very much applies to websites as well.
 
@@ -102,13 +109,15 @@ If the results from the check are not satisfactory then follow these steps to sp
 ### 1. Keep JavasScript at the bottom of the page
 One thing we all developers collectively do wrong is keeping the script tags in the head tag. If that is the case then the browser shows a blank page till it downloads the complete script. If one of the downloads take too long then the page load time increases significantly.
 
-Keeping ``<script>`` tags at the end of the page will not block the parsing of ``html``. If you want the script to be loaded along with ``html`` then use ``async`` attribute.
+Keeping ``<script>`` tags at the end of the page will not block the parsing of ``html``. This will decrease the **time to first byte**. If you want the script to be loaded along with ``html`` then use ``async`` attribute.
 
 ### 2. Optimize images
 
 Many times we do not give attention to the images we use. I used to use images of high dimensions and resize it using ``height`` and ``width`` attribute. But the image used to weigh 50kb or more which is not practical for speed optimization.
 
 Always crop images to the exact size required instead of resizing it using html or css. This reduces the file size and hence page load time.
+
+> Use PNG format for images with less number of colors.
 
 Appropriate image formatting is important. I choose either **PNG** or **JPEG**. The rule of thumb is to save images in PNG format if the image has less number of colors and choose JPEG if the image has too many colors. If you observe some of the featured images I use, there will only be 3 to 4 colors. Images with less colors have smaller file size if saved in PNG.
 
@@ -123,6 +132,8 @@ Along with this, you can use photoshop to optimize images for the web. An option
 SVG stands for Scalable Vector Graphics. An svg image can be scaled to any size without losing quality because it uses ponts instead of pixels. SVG can be used for images with very few details. Images like logos buttons etc., can be converted into SVG. Bigger images can also be converted to SVG but there can be a drastic increase in the filesize. But for images with simple lines, rectangles and other shapes we can use SVG.
 
 The best example for using SVGs successfully in a website is [varvy.com](https://varvy.com){:rel='nofollow'}{:target="_blank"}. Patrick Sexton has used Adobe Illustrator to create some wonderful SVG images that are very light-weight and infinitely scalable.
+
+> SVG is lighter than PNG and JPEG if used correctly.
 
 SVGs are basically ``xml`` which means that they are made up of few tags and can be edited using a text file. We can also perform lossless compression on them to reduce the size. So SVG has a big advantage over PNG, JPEG etc., An example of such an advantage is given below. I have created two images here. One is a compressed SVG image and the other is a JPEG image optimized for web.
 
@@ -145,6 +156,8 @@ Do not use SVG image as featured image. Social media may not recognize SVG image
 
 ### 4. Minify Jekyll HTML, CSS and JS
 Minifying is another way to reduce file-size which results in fast loading of websites. Minifying removes any character or space that is unnecessary. Many times we use comments in the code for our convenience. But, this is not required for an end user. Here are few things you can do to achieve minification.
+
+> Those extra spaces take time to load!
 
 **Html:**
 Minifying Jekyll html is very easy. A pure liquid layout is available which takes care of html minification. Read [How to minify Jekyll html](/compress-html-jekyll/){:target="_blank"}
@@ -217,6 +230,8 @@ So in the place of ``src`` attribute in a ``<img>`` tag, you can use this data U
 
 I was worried that the data URI format image will not be cached but my Chrome browser saves it in the cache. Let me know if you think it doesn't.
 
+> Lesser requests = High speed
+
 Currently, I have replaced small images with data-URI and saved some http requests. Use it and let me know whether it helped your website to load faster.
 
 
@@ -261,10 +276,14 @@ I use two css files. One is ``critical.css`` which only has important styles tha
 ### 6. Use a CDN to cache static files
 CDN stands for Content Distribution Network which delivers content through a server close to the end user and thus reducing the time required to fetch content. Google uses servers located in India in response to a request made by an Indian user. 
 
+> A Hawaiian should get data from Hawaii, USA or Japan. Not from India.
+
 I use [CloudFlare](https://cloudflare.com){:rel='nofollow'}{:target="_blank"}, which is a free CDN with plenty of features. I have explained the [CloudFlare setup in this article](/jekyll-ssl/#step-1-migrate-dns-to-cloudflare){:target="_blank"}.
 
 ### 7. Use image dimensions
 Using height and width attribute will help the browser to display a page without any reflow. If you do not specify any resolution then the browser will have no idea what size the image is until the image is completely downloaded. This causes a small delay but, if you have more images without dimensions specified then it might lead to a significant delay in page load time.
+
+> An image without dimensions take more time to load.
 
 If you observe the images I have used in this post, all of them have specified dimensions. Specifying dimensions in a normal html website is easy.
 
@@ -306,7 +325,10 @@ This feature comes in handy if your website has a lot of images or other similar
 If you are using Google fonts, then load only the required font variation. If you want Open sans font for your paragraph text then do not select **Extra-Bold** or **Light** variations. All you need is the **Regular** style.
 
 If you are using Bootstrap or Fontawesome then delete whatever you don't use (keep a backup file though).
+
 **Read:** [How to reduce fontawesome to 10KB!](/optimize-fontawesome/){:target="_blank"}
+
+> Consumerism does not apply to web designers. Include only what you need.
 
 ![Jekyll speed optimization by tweaking google font loading](/images/jekyll-speed-optimization-google-font-optimization.jpg){:width="700px" max-height="187px" .full}
 
@@ -325,6 +347,8 @@ A post layout in Jekyll will have a lot of things stuffed in. It has the content
 
 But, a landing page(Home page) should be really fast. Because in blogs, the home page is where people find the list of posts and they usually browse through it to find the content they are looking for. If the post index itself takes a lot of time then they hope worst for individual posts. So make sure you keep your home page fast and clean. 
 
+> For more **Repeat visitors**, make your homepage superfast. 
+
 Load only things that are necessary for a home page. For example, loading AdSense code on home page layout is not necessary if you are not showing any ads there.
 
 ### 13. Use a minimal theme
@@ -336,15 +360,58 @@ I'm kind of promoting my themes here. Use [**Thunder**](http://webjeda.com/thund
 I have added some things to make it look attractive but all those rings and bells are really light. Go ahead and try it. I have created another theme called [**Purple**](http://webjeda.com/purple/){:target="_blank"} which is also minimal.
 {: .clear}
 
+> Content is still the King. Focus on responsive design.
+
 If you want a site which loads really fast on mobile phones then try Amplify. [Amplify](https://github.com/ageitgey/amplify){:rel='nofollow'}{:target="_blank"} is a theme developed following Google Accelerated Mobile Pages(AMP) rules. AMP is a project by Google to make websites load faster on mobile devices. Anyone can create an AMP version of their website. But we have a Jekyll theme which is completely AMP based! Here is a [sample post](https://cdn.ampproject.org/c/s/ageitgey.github.io/amplify/2016/03/08/example-post.html){:rel='nofollow'}{:target="_blank"} which loads incredibly fast.
 
 So these are the methods I would recommend to use to speed up your Jekyll blog. Once you implement some of these methods, check if it has improved the page load time.
 
 ## Conclusion
-More than ranking on search engines, speed is important to keep your users happy. They may not return to the website if it is too slow to load. Make sure you keep your website light and fast. Compare your website to a restaurant; how happy we feel if the service is quick and how frustrating it will be if the order takes forever. It is easy to differentiate a Jekyll site from a WordPress site just by its page speed! This is one of the reasons why I chose Jekyll over WordPress.
+More than ranking on search engines, speed is important to keep your users happy. They may not return to the website if it is too slow to load. Make sure you keep your website light and fast. Compare your website to a restaurant; how happy we feel if the service is quick and how frustrating it will be if the order takes forever. Speed and simplicity makes Jekyll stand out of the crowd.
 
 I hope that the article helped you speed up your Jekyll website. Ask any doubts you have through comments.
 
 Thanks for reading!
 
-<link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.text-center {
+text-align: center;
+}
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+  from {
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotating {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.rotating {
+  -webkit-animation: rotating 2s linear infinite;
+  -moz-animation: rotating 2s linear infinite;
+  -ms-animation: rotating 2s linear infinite;
+  -o-animation: rotating 2s linear infinite;
+  animation: rotating 2s linear infinite;
+}
+</style>
+
+<!-- <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
