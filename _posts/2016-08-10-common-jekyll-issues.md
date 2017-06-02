@@ -143,7 +143,7 @@ There are some reasons for this. Make sure you did not get any page build error.
 Jekyll treats a file as a post if it is inside **_posts** directory. If your post is somewhere else then move it inside **_posts** directory.
 
 ### Check 2: Incorrect post title
-Jekyll posts should be named in this format ``YYYY-MM-DD-title.MARKUP``. Check if your posts follow this pattern.
+Jekyll posts should be named in this format ``YYYY-MM-DD-title.MARKUP``. Check if your posts follow this pattern. Generally ``.md`` or ``.markdown`` is used in place of **.MARKUP**.
 
 {% include adsense-inside-post.html %}
 
