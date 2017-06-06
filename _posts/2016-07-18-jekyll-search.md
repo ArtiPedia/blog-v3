@@ -26,7 +26,7 @@ As per the title, I should be discussing the easiest one but I will introduce ot
 
 So without further ado let's get into the types.
 
-### Lunr.js (free) - [Demo](http://lunrjs.com/example/){: target="_blank" rel="nofollow"}
+### Lunr.js (free) - [Demo](https://olivernn.github.io/moonwalkers/){: target="_blank" rel="nofollow"}
 
 ### Tapirgo (free) - [Demo](https://classicyuppie.com/){: target="_blank" rel="nofollow"}
 

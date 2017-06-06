@@ -161,7 +161,7 @@ Make sure that the last value has no comma at the end.
 From what I have seen, the value you place at the top will be given priority. In the above example, title will be given the highest priority and excerpt gets the lowest. Change this as per your requirements.
 
 ### Step 2 - Save the search script
-Save the search script available [here](https://raw.githubusercontent.com/christian-fei/Simple-Jekyll-Search/master/dest/jekyll-search.min.js){: target="_blank"} and save it as ``search-script.js`` (or any name that you prefer).
+Save the search script available [here](https://raw.githubusercontent.com/christian-fei/Simple-Jekyll-Search/master/dest/simple-jekyll-search.min.js){: target="_blank"} and save it as ``search-script.js`` (or any name that you prefer).
 
 It is better to create a folder named ``js`` in the root and keep this file inside it just to avoid any confusion.
 {: .g}

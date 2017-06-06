@@ -21,20 +21,7 @@ I was curious to know how they did it. After some research, I found out that the
 
 {% include adsense-inside-post.html %}
 
-But by this time I had a good hang of Github Pages and started hosting my websites on it.
-
-I have created(or used a theme for) few websites like
-
-
-[RedGadgets](http://redgadgets.com/){:rel='nofollow'}
-
-[Dxartist](http://dxartist.github.io/){:rel='nofollow'}
-
-
-They are old and discontinued but I it was a good learning curve building these websites. I kept them in the repository as a memory. 
-
-
-I have realized (very late) that web designing is my passion. I kept on learning more about html5. I also started learning Android application development. I never thought I can make it a business but I fully enjoyed making modern websites.
+But by this time I had a good hang of Github Pages and started hosting my websites on it. I had realized (very late) that web designing is my passion. I kept on learning more about html5. I also started learning Android application development. I never thought I can make it a business but I fully enjoyed making modern websites.
 
 I have named it webjeda. Web means the internet and jeda means spider in my mother tongue.
 
