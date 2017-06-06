@@ -12,7 +12,7 @@ permalink: /top-bar-website/
 
 ## Why top bar?
 {: .clear}
-I started considering top bar only after I saw the designers from [Quora](https://www.quora.com){:rel='nofollow'}{:target="_blank"} started using it. I also used to have a top bar on this blog but after the new design I no longer use it. But, one of my blogs [Nallikayi](http://nallikayi.com){:target="_blank"} has a nice top bar which goes with the design.
+I started considering top bar only after I saw that the designers from [Quora](https://www.quora.com/){:rel='nofollow'}{:target="_blank"} started using it. I also used to have a top bar on this blog but after the new design I no longer use it. But, one of my blogs [Nallikayi](http://nallikayi.com){:target="_blank"} has a nice top bar which goes with the design.
 
 
 
