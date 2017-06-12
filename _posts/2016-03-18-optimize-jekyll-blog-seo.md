@@ -300,7 +300,7 @@ So use canonical tag inside your head tag like this
 <link rel="canonical" href="{% raw %}{{ page.url | prepend: site.url }}{% endraw %}">
 {% endhighlight %}
 
-This is a way of telling the Search Engine bots that your content is only available here.
+This is a way of telling the Search Engine bots that your content is only available at one URL.
 
 
 ## 9. Responsiveness (mobile friendly layout)
