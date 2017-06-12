@@ -92,7 +92,7 @@ This may not always be accurate. I recommend using a custom description which wi
 ![Jekyll seo meta description](/images/jekyll-seo-meta-description-wrong.jpg)
 {: .left .half}
 Consider this snippet. It doesn't make sense. Does it? 
-So take a little while to give a proper description to all your posts. A user should be compelled to click on it when he reads your description. So try to write a catchy but also related description. A user should know what he is getting into.
+So take a little while to give a proper description to all your posts. Viewers should be compelled to click on it when they read the description. So try to write a catchy but also a related description. They should know what they are getting into.
 
 Search Engine bots try to fetch your _Title_ and _Description_ from the head tag first. So make sure you keep it there for them to crawl.
 {: .clear}
