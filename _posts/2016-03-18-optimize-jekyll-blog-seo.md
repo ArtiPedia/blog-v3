@@ -313,9 +313,9 @@ Read all about how your responsive website should be - [Mobile responsiveness](h
 
 Usually, almost all the Jekyll themes (even the default theme) are responsive. If you are designing a new layout for your requirements then make sure you use proper media queries to adjust the layout to smaller screen sizes.
 
-Media query detects the screen-size and applies the CSS that you provide inside its tag. That's all it does.
+Media query detects the screen-size and applies the CSS that you provide inside it. That's all it does.
 
-If you are not sure how to use them, then it's good. Start here - [w3-schools](http://www.w3schools.com/css/css_rwd_mediaqueries.asp){:rel='nofollow'}{:target="_blank"}. 
+If you are not sure how to use them, then no problem. Start here - [w3-schools](http://www.w3schools.com/css/css_rwd_mediaqueries.asp){:rel='nofollow'}{:target="_blank"}. 
 
 ### Conclusion: 
 Though Jekyll users have a hard time configuring SEO on their own, they do have the full control. Jekyll does only the things that you tell it to do. Features like AMP Pages, htaccess, robot.txt are either not available or not explored well on Jekyll but we can hope that in the coming years those features will be available by default.
@@ -325,6 +325,6 @@ Google is leaning more towards **User Experience Optmization**. So make sure tha
 If you want to test whether your website is optimized for SEO then try [**SEO Checkup**](https://varvy.com/){: target="_blank" rel="nofollow"} and try to resolve all the errors and warnings.
 {: .g}
 
-I hope you got a fair idea on how to perform some quick SEO to your Jekyll blog. There are many advanced SEO parameters for Jekyll which I will be discussing in a future post. Let me know if you come across any problems while implementing these SEO methods I have mentioned in this article.
+I hope you got a fair idea on how to perform some quick SEO to your Jekyll blog. There are many advanced SEO parameters for Jekyll which I will be discussing in a future post. Let me know if you come across any problems while implementing these SEO methods I have mentioned in the article.
 
 Thanks for reading!
