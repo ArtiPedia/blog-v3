@@ -22,9 +22,9 @@ It is true that WordPress is optimized for SEO by default. And with plugins like
 * Do not remove this line (it will not be displayed) 
 {:toc}
 
-At the moment we have Jekyll 3.0 and a small [list of Jekyll plugins](https://jekyllrb.com/docs/plugins/){:rel='nofollow'}{:target="_blank"}. We can depend on some of these plugins for SEO and most of the search engine optimization can be done without them. 
+At the moment we have Jekyll 3.0 and a small [list of Jekyll plugins](https://jekyllrb.com/docs/plugins/){:rel='nofollow'}{:target="_blank"}. We can depend on some of these plugins for SEO and most of the search engine optimization can be done without them also. 
 
-I will be discussing only the steps that involve making changes to your Jekyll functions but not to your content. That means I will not be discussing anything about Keyword Research, Link Building, Marketing etc.,
+I will be discussing only the steps that involve making changes to your Jekyll functions but not to your content. That means I will not be addressing anything on Keyword Research, Link Building, Marketing etc.,
  
 {: .clear}
  
@@ -84,7 +84,9 @@ A Title should match its description and the content of the article.
 ![Title and description jekyll seo](/images/jekyll-seo-meta-description.jpg)
 {: .right .half}
 
-Every blog post should have a unique title and description. Many bloggers do not bother about having a unique description. And Google will consider that first paragraph as your description and show it in the search result snippet.
+Every blog post should have a unique title and description. Many bloggers do not bother about having a unique description. If you don't specify one then Google will consider the first paragraph of the page(or post) as the description and show it in the search result snippet.
+
+This may not always be accurate. I recommend using a custom description which will have the main keyword and briefly describes the whole article.
 <div class="clear"></div>
 
 ![Jekyll seo meta description](/images/jekyll-seo-meta-description-wrong.jpg)
