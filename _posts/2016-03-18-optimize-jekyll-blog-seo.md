@@ -201,12 +201,13 @@ Leave a link of the sitemap at the footer so that if your homepage is crawled by
 
 ## 4. Image alt Tags
 
-Alt-tags are nothing but text shown in case if the image does not load. This tag is read by bots. So make use of this opportunity and include alt-tags with keywords in all of your images. 
+Alt-tags are nothing but text shown in case if the image does not load. This tag is read by bots. So make use of this opportunity and include alt-tags with keywords in all of your images(even the logo). 
+
 {% highlight html %}
 <img alt="jekyll seo" title="Jekyll SEO" src="/images/jekyll-seo.jpg">
 {% endhighlight %}
 
-Also, be sure to use a related alt tag. This helps search engines to know what's in the image since they are not smart enough to make sense out of an image. 
+Also, be sure to use a related alt tag. This helps search engines to know what's in the image since they are not smart enough to make sense out of an image(yet). 
 
 
 ## 5. Connecting with Social Media
