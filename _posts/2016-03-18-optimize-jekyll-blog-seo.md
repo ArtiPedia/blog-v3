@@ -219,7 +219,7 @@ Connecting to social media can be achieved by having a share option at the botto
 A better way to optimize your social sharing is by adding Open Graph and Twitter Cards tag to your ```head``` section. 
 
 ### Why do you need Open Graph anyway?
-Open Graph is found by facebook as a way to understand a link better. When you share your website link, there are chances that some things may miss out or some unwanted data is being detected. In order to avoid this and for your link to be better recognized by social media sites you have to implement Open Graph.
+Open Graph is found by facebook as a way to understand a link better. When you share your website link, there are chances that some things may miss out or some unwanted data is being detected. In order to avoid this and for your link to be better recognized by social media sites, you have to implement Open Graph.
 
 Open Graph tags for Jekyll 
 {% highlight html %}{% raw %}
@@ -249,7 +249,7 @@ Twitter Card tags for Jekyll
 {% endraw %}{% endhighlight %}
 
 
-You can add many other tags if you like by referring to [Open Graph](http://ogp.me/){:rel='nofollow'}{:target="_blank"} and [Twitter Cards](https://dev.twitter.com/cards/overview){:rel='nofollow'}{:target="_blank"} documentation.
+You can add many other tags as per requirement by referring to [Open Graph](http://ogp.me/){:rel='nofollow'}{:target="_blank"} and [Twitter Cards](https://dev.twitter.com/cards/overview){:rel='nofollow'}{:target="_blank"} documentation.
 
 
 
@@ -277,7 +277,7 @@ Use the below code to implement touch icons.
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-ipad-retina-152x152.png">
 {% endhighlight %}
 
-But it is a pain creating all those images. So there is a web app that can do the job for you along with the code and a favicon. All you need is to provide a high quality, square shaped logo.
+But it is a pain creating all those images. So there is a web app that can do the job for you along with the code and a favicon. All you need to do is to provide a high quality, square shaped logo.
 
 Use [Iconifier](http://iconifier.net/){:rel='nofollow'}{:target="_blank"}.
 Download the **zip** file it generates to get all icons along with the code.
@@ -286,7 +286,7 @@ Do not use too many touch icons in the head tag. It may slow down your website p
 {: .r}
 
 ## 8. Canonical URL
-You should not be serving the same content on different URLs though they may not look very different, a search engine bot considers them as different.
+You should not be serving the same content on different URLs. Even if those URLs do not look very different, a search engine bot considers them as different.
 
 ```http://blog.webjeda.com/free-domain-email-zoho/```
 
