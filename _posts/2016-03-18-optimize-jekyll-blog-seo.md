@@ -118,7 +118,7 @@ Also, it is advised to restrict your description to 160 characters or less. Anyt
 <meta itemprop="description" name="description" content="{% if page.description %}{{ page.description | truncate: 160 }}{% else %}{{ site.description | truncate: 160  }}{% endif %}" />
 {% endraw %}{% endhighlight %}
 
-So that takes care of _Title_ and _Description_. But remember, you have to explicitly add Title and Description in the Front Matter to all your posts as shown in the example below. It doesn't matter how long your description is in the Frontmatter. It will be truncated in the meta tag.
+So that takes care of _Title_ and _Description_. But remember, you have to explicitly add Title and Description in the Front Matter to all your posts as shown in the example below. It doesn't matter how long your description is in the Frontmatter. It will be truncated to 160 characters in the meta tag.
 
 Add your keyword at the beginning of the description so that users can easily find it on google search results. This seems to get more click through rates.
 {: .y}
@@ -146,7 +146,7 @@ A URL conveys a lot of information about the content. Users and bots expect it t
 A clean URL structure gives a better click through rate. Nowadays search engines are smart enough to detect whether the URL has any relation with the content.
 I have seen many blogs whose URL contains page ids in it. This will not convey any good information to either a human reader or to a search engine bot. It is only used for the convenience of differentiating all the pages within a blog. Do not use ids in URL.
 
-Including date is a choice. You can opt it if you think that helps users in some way. Search engines may extract this data. It is useful if dates really matter to your content.
+Including date is a choice. You can opt it if you think it will help users in some way. Search engines may extract this data. It is useful if dates really matter to your content.
 {: .clear}
 
 Imagine you are a comic book reviewer. You review Iron Man comic every month then it would be a great idea to have URLs like this
