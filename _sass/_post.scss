@@ -307,10 +307,12 @@ a.tag-link {
     font-family: $base-ff;
     cursor: pointer;
     border-radius: 50px;
-    box-shadow: 0 0 5px #d8d8d8;
+    /* box-shadow: 0 0 5px #d8d8d8; */
     outline: none;
+    transition: 0.2s ease-in;
     &:hover {
         box-shadow: 0 0 10px #d8d8d8;
+        background-color: darken($brand-color-2, 10%);
     }
    @include media-query($on-palm) { 
        /*  padding: 5px 10px; */
