@@ -346,25 +346,29 @@ table.mdtable {
         width: 100vw;
         left: calc(-50vw + 50%);
         background: $brand-color-2;
-        margin: 2em 0 1em 0;
+        margin: 2em 0 0em 0;
         .form {
                 margin: 0 auto;
                 @include media-query($on-palm) {
                     width: 80%;
                 }
                 width: 415px;
-                padding: 4em 0;
+                padding: 2em 0 3em 0;
                 text-align: center;
        
             .mc-field-group {
                  position: relative;
             }         
             h2 {
+                color: #fff;
                 line-height: 1.8;
                 margin: 0;
                 font-size: 1.5em;
             }
-            
+            p {
+                color: #fff;
+                margin-top: 0;
+            }
             .email {
                 border: none;
                 outline: none;
