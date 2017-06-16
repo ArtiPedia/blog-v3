@@ -281,7 +281,7 @@ a.tag-link {
             border: none;
         }
         @include media-query($on-palm) {
-                font-size: $small-fs*0.6;
+                /* font-size: $small-fs*0.6; */
                 padding: 5px 10px;
         }
         
