@@ -23,7 +23,7 @@ I was curious to know how they did it. After some research, I found out that the
 
 But by this time I had a good hang of Github Pages and started hosting my websites on it. I had realized (very late) that web designing is my passion. I kept on learning more about html5. I also started learning Android application development. I never thought I can make it a business but I fully enjoyed making modern websites.
 
-I have named it webjeda. Web means the internet and jeda means spider in my mother tongue.
+I have named it webjeda. **Web** means the **world wide web** and **jeda** means **spider** in my mother tongue.
 
 Learning was always there. Even today I have something to learn every other day. I have seen people struggling to figure out how Github works. Maybe because it didn't have easy-to-understand documents. 
 
