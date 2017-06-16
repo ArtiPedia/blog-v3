@@ -1,6 +1,6 @@
 ---
 title: Jekyll Filters - Where and Group_By
-desc: Jekyll filters like sort and group by are used to modify the output in a certain fashion for our convenience. I have described a few methods to sort Jekyll posts by categories, tags and other front matter values.
+desc: Jekyll filters like sort and group-by are used to modify the output in a certain fashion for our convenience. I have described a few methods to sort Jekyll posts by categories, tags and other front matter values.
 author: sharathdt
 tags: Jekyll Liquid
 image: jekyll-sort-filter.png
@@ -99,7 +99,7 @@ We will be sorting the list first and then give it to the for loop for output.
 </code></pre>
 
 
-Let's arrange it in the **reverse order of alphabets**.
+Let's arrange it in the **reverse order of titles**.
 
 {% highlight html %}{% raw %}
 {% assign sorted-posts = site.posts | sort: 'title' | reverse %}

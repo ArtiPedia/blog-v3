@@ -279,6 +279,7 @@ a.tag-link {
         color: #fff;
         &:hover {
             border: none;
+            background-color: darken($brand-color-2, 10%);
         }
         @include media-query($on-palm) {
                 /* font-size: $small-fs*0.6; */
