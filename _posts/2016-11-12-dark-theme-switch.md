@@ -21,7 +21,7 @@ There are [apps](https://play.google.com/store/apps/details?id=com.urbandroid.lu
 ## How to create a dark mode?
 When I thought of this problem, I knew JavaScript can do it but [I'm a noob in JS](https://js.webjeda.com){: target="_blank"}. I don't really create my own script. I copy from some pre-existing script and make changes as I like.
 
-But this seemed very easy and I gave it a try to write something on my own which was a horrible code.
+But this seemed very easy and I gave it a try. I wrote something on my own which was a horrible code.
 
 {% highlight html %}
 
