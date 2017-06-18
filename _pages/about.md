@@ -6,6 +6,8 @@ permalink: /about/
 adallow: 0
 ---
 
+<br />
+
 ![webjeda](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDgzLjYgMTY2LjUiPjxzdHlsZT4uYXtmaWxsOiMxQjFBMUI7fTwvc3R5bGU+PHBhdGggZD0iTTE1MCAxNTVsLTcwLTM4LjRMMTAgMTU1VjE1aDE0MFYxNTV6IiBmaWxsPSIjMjk4MEJBIi8+PHBhdGggZD0iTTE1NS41IDE2NC4zbC03NS41LTQxLjRMNC41IDE2NC4zVjkuNWgxNTFWMTY0LjN6TTE1LjUgMjAuNVYxNDUuN2w2NC41LTM1LjQgNjQuNSAzNS40VjIwLjVIMTUuNXoiIGNsYXNzPSJhIi8+PHBhdGggZD0iTTI3OS42IDk0djdoMjUuNHY1NEgxNzBWMTVoMTM1djU0aC0yNS40djdoMjUuNHYxOEgyNzkuNnoiIGZpbGw9IiMyNEFFNUYiLz48cGF0aCBkPSJNMzEwLjUgMTYwLjVIMTY0LjVWOS41aDE0NlYxNjAuNXpNMTc1LjUgMTQ5LjVoMTI0di00M2gtMjUuNHYtMThoMjUuNHYtN2gtMjUuNFY2My41aDI1LjR2LTQzSDE3NS41VjE0OS41eiIgY2xhc3M9ImEiLz48cGF0aCBkPSJNMzkxLjYgMTVjNyAwIDEzIDEgMTcgMi42IDEyLjQgNSAyMSAxNy4yIDIxIDMxLjIgMTYuMiAxMC40IDI2LjggMjguMiAyNi44IDQ4LjYgMCAyNC0xNC44IDQ0LjgtMzUuOCA1My40IC02LjYgMi42LTE3LjIgNC4yLTI5IDQuMmgtNjYuNlYxNUgzOTEuNnoiIGZpbGw9IiNGMjlDMUYiLz48cGF0aCBkPSJNMzkxLjYgMTYwLjVoLTcyLjFWOS41aDcyLjFjNy41IDAgMTQuMiAxLjEgMTkgMyAxMy45IDUuNiAyMy4yIDE4LjUgMjQuMyAzMy4zIDE2LjkgMTEuOSAyNi45IDMxIDI2LjkgNTEuNiAwIDI1LjgtMTUuNCA0OC43LTM5LjIgNTguNUM0MTUuMiAxNTguOCA0MDMuOSAxNjAuNSAzOTEuNiAxNjAuNXpNMzMwLjUgMTQ5LjVoNjEuMWMxMC44IDAgMjAuOS0xLjQgMjctMy44IDE5LjYtOCAzMi4zLTI3IDMyLjMtNDguMyAwLTE3LjgtOS4xLTM0LjItMjQuMy00NGwtMi41LTEuNnYtM2MwLTExLjYtNi45LTIxLjgtMTcuNi0yNi4xIC0zLjUtMS40LTguOS0yLjItMTQuOS0yLjJoLTYxLjFWMTQ5LjV6IiBjbGFzcz0iYSIvPjxwYXRoIGQ9Ik02MDkuOCA4NWMwIDM4LjYtMzEuNCA3MC03MCA3MHMtNzAtMzEuNC03MC03MGgzNi4yVjE1aDEwMy44Vjg1eiIgZmlsbD0iIzJDM0U1MCIvPjxwYXRoIGQ9Ik01MzkuOCAxNjAuNWMtNDEuNiAwLTc1LjUtMzMuOS03NS41LTc1LjV2LTUuNWgzNi4yVjkuNWgxMTQuOFY4NUM2MTUuMyAxMjYuNiA1ODEuNCAxNjAuNSA1MzkuOCAxNjAuNXpNNDc1LjUgOTAuNWMyLjggMzMgMzAuNiA1OSA2NC4zIDU5IDM1LjYgMCA2NC41LTI4LjkgNjQuNS02NC41VjIwLjVoLTkyLjhWOTAuNUg0NzUuNXoiIGNsYXNzPSJhIi8+PHBhdGggZD0iTTc0MC4yIDk0djdoMjUuNHY1NEg2MzAuNlYxNWgxMzV2NTRoLTI1LjR2N2gyNS40djE4SDc0MC4yeiIgZmlsbD0iIzg5NEI5RCIvPjxwYXRoIGQ9Ik03NzEuMSAxNjAuNUg2MjUuMVY5LjVoMTQ2VjE2MC41ek02MzYuMSAxNDkuNWgxMjR2LTQzaC0yNS40di0xOGgyNS40di03aC0yNS40VjYzLjVoMjUuNHYtNDNINjM2LjFWMTQ5LjV6IiBjbGFzcz0iYSIvPjxwYXRoIGQ9Ik05MjUuNiA4NWMwIDM4LjYtMzEuNCA3MC03MCA3MGgtNzBWMTVoNzBDODk0LjIgMTUgOTI1LjYgNDYuNCA5MjUuNiA4NXoiIGZpbGw9IiNEMjU2MjciLz48cGF0aCBkPSJNODU1LjYgMTYwLjVoLTc1LjVWOS41aDc1LjVjNDEuNiAwIDc1LjUgMzMuOSA3NS41IDc1LjVDOTMxLjEgMTI2LjYgODk3LjIgMTYwLjUgODU1LjYgMTYwLjV6TTc5MS4xIDE0OS41aDY0LjVjMzUuNiAwIDY0LjUtMjguOSA2NC41LTY0LjUgMC0zNS42LTI4LjktNjQuNS02NC41LTY0LjVoLTY0LjVWMTQ5LjV6IiBjbGFzcz0iYSIvPjxwYXRoIGQ9Ik05MTYuNiAxNTVsNzYuOC0xNDAgNzcgMTQwSDkxNi42eiIgZmlsbD0iI0VFMkE1QSIvPjxwYXRoIGQ9Ik0xMDc5LjcgMTYwLjVoLTE3Mi40TDk5My40IDMuNiAxMDc5LjcgMTYwLjV6TTkyNS45IDE0OS41aDEzNS4yTDk5My40IDI2LjQgOTI1LjkgMTQ5LjV6IiBjbGFzcz0iYSIvPjxnIG9wYWNpdHk9IjAuMiI+PHJlY3QgeT0iODUuMSIgd2lkdGg9IjEwODMuNiIgaGVpZ2h0PSI4MS40IiBmaWxsPSIjRkZGIi8+PC9nPjwvc3ZnPg==){: .ab-img}
 {: .ab}
 WebJeda is a web designing company based in Bengaluru. Designing beautiful responsive and functional websites is our passion. 
@@ -23,7 +25,7 @@ WebJeda is a web designing company based in Bengaluru. Designing beautiful respo
     border-radius: 50%;
     width: 130px;
     position: relative;
-    margin: 0 20px 0 0;
+    margin: 0 20px 20px 0;
     top: 22px;
     float: left;
     opacity: 0.9;
@@ -33,7 +35,13 @@ WebJeda is a web designing company based in Bengaluru. Designing beautiful respo
         margin: 0 15px 10px 0;
       }
 }
-
+.noborder, .noborder:hover {
+     border-bottom: none;
+     
+}
+.noborder:hover {
+    opacity: 0.9;
+}
 </style>
 My name is Sharath and I'm the author of this blog. I had no plans to turn this passion for web designing into a business. But when you love what you do, why not do it for living?! 
 
@@ -77,7 +85,11 @@ a.donate{border:none}a.donate:hover{color:#fff;border:none}.donate{background-co
 <br />
 **There are a number of ways to reach out to me, a few are in the contact page.**
 
-[**Support me on Patreon**](https://www.patreon.com/webjeda){: target="_blank"} 
+You can help me create more content.
+
+[![Donate](/img/donate-button.png)](https://paypal.me/webjeda/){: target="_blank" .noborder}
+
+<!-- [**Support me on Patreon**](https://www.patreon.com/webjeda){: target="_blank"}  -->
 
 ## Changelog
 
