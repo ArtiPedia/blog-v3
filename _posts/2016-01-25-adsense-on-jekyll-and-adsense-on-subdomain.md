@@ -76,7 +76,7 @@ Create 3 html files with different names inside ```_includes``` folder(you can p
 </div>
 {% endhighlight %}
 
-### 3. Call them wherever you need them
+### 3. Call Adsense ads
 These files can be called anywhere inside the layouts, posts and pages using this line
 <pre>{% raw %}{% include adsense-file-1.html %}{% endraw %}</pre>
 
