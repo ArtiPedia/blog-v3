@@ -1,5 +1,5 @@
 ---
-title: The Unconventional Share Bar for Jekyll without using JS!
+title: Simple Share Bar for Jekyll without JS!
 desc: Reducing the use of JavaScript results in a faster loading speed. Here is a guide on how to add a social share bar to Jekyll blog. You can copy paste the code and it should work! Many Jekyll themes do not offer a good share bar. So I thought of making one for myself!
 keywords: share bar without javascript, Jekyll share buttons, share buttons for Jekyll blog
 author: sharathdt
