@@ -207,6 +207,8 @@ For numbering a loop, you can use ``forloop.index``. This can also be used to pr
 {% endfor %}
 {% endraw %}{% endhighlight %}
 
+I have intentionally used ``pot`` instead of ``post`` because we can use any variable there.
+
 The output looks like this,
 
 {% highlight liquid %}
