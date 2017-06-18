@@ -85,7 +85,7 @@ a.donate{border:none}a.donate:hover{color:#fff;border:none}.donate{background-co
 <br />
 **There are a number of ways to reach out to me, a few are in the contact page.**
 
-You can help me create more content.
+You can help me create more quality content.
 
 [![Donate](/img/donate-button.png)](https://paypal.me/webjeda/){: target="_blank" .noborder}
 
