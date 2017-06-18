@@ -1,0 +1,14 @@
+<script src="/js/jquery.disqusloader.js"></script>
+<script>
+	$.disqusLoader( '.disqus',
+	{
+		scriptUrl:		'//webjeda.disqus.com/embed.js',
+		disqusConfig:	function()
+		{
+			this.page.identifier 	= '{{page.url}}';
+			this.page.url			= '{{page.url | prepend: site.url}}';
+			this.page.title			= '{{page.title}}';
+		}
+	});
+	
+</script>

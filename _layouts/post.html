@@ -72,10 +72,10 @@ layout: default
      <a class="tag-link" href="/tags/#{{tag|slugize}}">{{tag}}</a>{% unless forloop.last %}&nbsp;{% endunless %}
   {% endfor %}&nbsp;
  </div>      
-                                                 
+                                                  
     {% include form-post.html %}
     {% include prev-next.html %}
-    {% include disqus.html %}
+    {% include disqus-lazy.html %}
    </article>
 
 </div>

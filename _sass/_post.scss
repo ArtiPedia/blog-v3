@@ -55,6 +55,7 @@ article {
         color: darken($grey-color, 40%);
         border-radius: 2px;
         padding: 5px;
+        font-size: 1.2em;
         @include media-query($on-palm) {
             padding: 0 10px;
         }
