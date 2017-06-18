@@ -40,7 +40,7 @@ WebJeda is a web designing company based in Bengaluru. Designing beautiful respo
      
 }
 .noborder:hover {
-    opacity: 0.9;
+    opacity: 0.8;
 }
 </style>
 My name is Sharath and I'm the author of this blog. I had no plans to turn this passion for web designing into a business. But when you love what you do, why not do it for living?! 
@@ -91,7 +91,7 @@ You can help me create more content.
 
 <!-- [**Support me on Patreon**](https://www.patreon.com/webjeda){: target="_blank"}  -->
 
-## Changelog
+<!-- ## Changelog
 
 <pre>
 <code>
@@ -124,5 +124,5 @@ You can help me create more content.
 
 28th March - Removed emerald theme and self-designed the website.
 </code>
-</pre>
+</pre> -->
 
