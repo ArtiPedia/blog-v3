@@ -1,14 +1,24 @@
-<script src="/js/jquery.disqusloader.js"></script>
+<script src="/js/jquery.disqusloader.min.js"></script>
+
+<!--  Original Disqus lazy load script
 <script>
-	$.disqusLoader( '.disqus',
-	{
-		scriptUrl:		'//webjeda.disqus.com/embed.js',
-		disqusConfig:	function()
-		{
-			this.page.identifier 	= '{{page.url}}';
-			this.page.url			= '{{page.url | prepend: site.url}}';
-			this.page.title			= '{{page.title}}';
-		}
-	});
-	
-</script>
+    $.disqusLoader( '.disqus',
+    {
+        scriptUrl:		'//webjeda.disqus.com/embed.js',
+        disqusConfig:	function()
+        {
+            this.page.identifier 	= '{{page.url}}';
+            this.page.url			= '{{page.url | prepend: site.url}}';
+            this.page.title			= '{{page.title}}';
+            this.callbacks.onReady	= [function()
+            {
+                $( '.disqus-loading' ).addClass( 'is-hidden' );
+            }];
+        
+        }
+    });
+    
+</script> -->
+
+<!-- Minified script -->
+<script>$.disqusLoader(".disqus",{scriptUrl:"//webjeda.disqus.com/embed.js",disqusConfig:function(){this.page.identifier="{{page.url}}";this.page.url="{{page.url | prepend: site.url}}";this.page.title="{{page.title}}";this.callbacks.onReady=[function(){$(".disqus-loading").addClass("is-hidden")}]}});</script>

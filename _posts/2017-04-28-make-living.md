@@ -9,6 +9,8 @@ permalink: /make-living-online/
 published: false
 ---
 
+Few decades ago, making a living was not that big of a thing.
+
 Many websites these days may deceive you into beleive that making money online is really easy. But the fact is that they either got lucky or they are not telling the whole truth.
 
 I used to work as a software engineer for a multinational company. It was all good until I realized that it is a monotonous life without any interesting thing to learn that might help me in the future.
@@ -56,17 +58,17 @@ I was going good with learning web designing but did not get a single project to
 
 ## Helping Helps
 
-I don't know if you know this but helping someone without expecting any return helps you in the long run. It doesn't have to be a monetary return. I'm an atheist but I respect some of the words by Krishna. You will know why I use a lot of Hindu mythology in my theme development.
+I don't know if you know this but helping someone without expecting any return helps you in the long run. It doesn't have to be a monetary return. I'm an atheist but I value some of the words by Lord Krishna. You will know why I use a lot of Hindu mythology in my theme development.
 
-I was learning Jekyll and I found that many people who are just starting off have a lot of issues which I also had in the beginning. I thought of documenting most of the things I have tackled in a website and you are reading it.
+I was learning Jekyll and I found that many people who are just starting off have a lot of issues which I also had in the beginning. I thought of documenting most of the things I have tackled while building my site, in a website and you are reading it.
 
 Read: [How to create a Jekyll blog](/create-jekyll-blog/){: target="_blank"}
 
-I have also created a few videos to help people start off with Jekyll. Though the quality is not up to the mark, I have received good feedback. Youtube partnership pays a little sum which is not significant right now but I beleive it is going to be good.
+I have also created a few videos to help people start off with Jekyll. Though the quality is just ok, I have received good feedbacks. Youtube partnership pays a little sum which is not significant right now but I beleive it is going to be good.
 
 {% include adsense-inside-post-2.html %}
 
-I have got many requests to develop websites through this blog. I'm glad I did this to help someone.And, it is helping me now.
+I have got many requests to develop websites through this blog. I'm glad I did this to help someone. And, it is helping me now. 
 
 The donations have helped me buy few things that help me improvise the process.
 
@@ -79,3 +81,10 @@ If you are provinding a product or service, reach out to your clients. Be happy 
 ## Try different things
 
 I have tried different ways of selling service and products online. I wasn't successful in all of them. 
+
+
+## Conclusion
+
+
+
+

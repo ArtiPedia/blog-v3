@@ -4,6 +4,7 @@
 	-
 	By Osvaldas Valutis, www.osvaldas.info
 	Available for use under the MIT License
+    https://github.com/osvaldasvalutis/disqusLoader.js
 */
 
 ;( function( $, window, document, undefined )
