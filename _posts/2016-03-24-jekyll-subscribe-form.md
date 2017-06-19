@@ -22,11 +22,13 @@ Subscribe form is used basically to collect visitors' emails to provide them an 
 
 Many bloggers use mailing list for affiliate marketing. I don't think it is a bad idea. If a user is interested in the stuff blogger is selling, then it is a win-win. 
 
-WordPress has an advantage over Jekyll since it has many plugins that can do the job without breaking a sweat. But, after moving all my blogs from WordPress to Jekyll I had to find an alternative for subscribe forms.
+WordPress has an advantage over Jekyll since it has many plugins that can do the job without breaking a sweat. But, after moving all my blogs from WordPress to Jekyll and static hosting, I had to find an alternative for subscribe forms.
+
+If you are using a hosting where ``php`` is supported then the normal forms will work just fine. But if you're using a static hosting like Github Pages then you might want to use other ways to collect emails.
 
 This is one of those things I always wanted in Jekyll but did not know how to do it. This idea hit me one day while I was working on contact forms. Initially, I tried to create a form with [FormSpree](http://formspree.io){:rel='nofollow'}{:target="_blank"} similar to [how I created a contact form](/jekyll-contact-form/){:target="_blank"}. 
 
-It was a painful experience. FormSpree requires verification. This verification is URL specific. If the form is on all the pages of the website then I have to verify an email for every single page! FormSpree is good if you are using it on one specific page but not for all pages. What I eventually found was that SimpleForm can be used to make a contact form which works on all pages! Which means it can be used as a subscribe form.
+It was a painful experience. FormSpree requires verification. This verification is URL specific. If the form is on all the pages of the website then I have to verify an email for every single page! FormSpree is good if you are using it for a contact form on one specific page but not for all pages. What I eventually found was that SimpleForm can be used to make a contact form which works on all pages! Which means it can be used as a subscribe form.
 
 There are two types of subscribe forms described here. One is just an email collector and another one is a fully automatic mailchimp subscribe form for Jekyll. If you are looking for mailchimp form then skip to [jekyll mailchimp form](#update-1---mailchimp-subscribe-form-on-jekyll).
 
@@ -38,7 +40,7 @@ If you want to use MailChimp form on jekyll (I'm currently using it) then skip t
 
 
 
-## How to make a subscribe form on Jekyll blog?
+## How to create a subscribe form on Jekyll blog?
 
 We are using a free service called [**SimpleForm**](https://getsimpleform.com/){:rel='nofollow'}{:target="_blank"} to create our form. SimpleForm is a service similar to Formspree which I discussed in [How to make a contact form in Jekyll](/jekyll-contact-form/){:target="_blank"}
 
@@ -129,6 +131,14 @@ Many times, emails that you send to your subscribers should have an unsubscribe 
 I prefer these two email subscription handlers - Aweber or MailChimp. I suggest MailChimp for beginners. [Create an account in MailChimp](http://eepurl.com/bWHZgb){:rel='nofollow'}{:target="_blank"} for free.
 
 MailChimp has an option to [create a list](https://us10.admin.mailchimp.com/lists/new-list/){:rel='nofollow'}{:target="_blank"}(which will be automatically updated upon new subscriptions and un-subscriptions), an option to create a form for normal websites and an embeddable form for static websites.
+
+1. Sign up with [Mailchimp](http://eepurl.com/bWHZgb)
+
+2. Create a list
+
+3. Click on **Signup Forms** inside the list
+
+4. Select **Embedded forms**
 
 
 {% include adsense-inside-post-2.html %}
