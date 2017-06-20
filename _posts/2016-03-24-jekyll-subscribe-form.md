@@ -176,7 +176,7 @@ For Jekyll websites, one must choose embeddable forms. Here is how the code look
 <!--End mc_embed_signup-->
 {% endhighlight %}
 
-I have a working form as well!
+I have embedded a working form here. You can customize the design in any way you like.
 
 <!-- Begin MailChimp Signup Form -->
 <link href="/css/mailchimp.css" rel="stylesheet" type="text/css">

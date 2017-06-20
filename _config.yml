@@ -95,7 +95,7 @@ amazon:
     aff-link: "<a rel='nofollow' target='_blank' href='https://www.amazon.com/stream/ref=nav_upnav_LargeImage_Gateway?asCursor=WyIxLjYiLCJ0czEtd2VibGFiIiwiMTQ3NzI0MjAwMDAwMCIsIiIsIlMwMDAwOjA6bnVsbCIsIlMwMDAwOjI6MSIsIlMwMDAwOjA6LTEiLCJzIiwicGQyIiwiMTQ3NzI0MjAwMDAwMCIsInN1YjEiLCIxNDc3MjQxNTU5NTM5IiwiaGYxIiwiMTQ3NzIzODQwMDAwMCIsInYxIiwiMTQ3NzIzMzYwMDAwMCJd&asCacheIndex=0&asYOffset=-262&_encoding=UTF8&tag=webjeda-20&linkCode=ur2&linkId=026751bde08db535920e2dca09a2ccd8&camp=1789&creative=9325'><img src='/img/amz-interesting.png' /></a>"
     
     
-gems: [jekyll-paginate, jemoji, jekyll-seo-tag, jekyll-admin]
+gems: [jekyll-paginate, jemoji, jekyll-seo-tag, jekyll-redirect-from]
 
 review: 
     place-id: ChIJx113w8QUuzsR_3IiWBPrucE
