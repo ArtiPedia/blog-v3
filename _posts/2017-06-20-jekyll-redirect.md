@@ -19,7 +19,7 @@ I faced the necessity for Jekyll redirection when I had to shorten the links to 
 
 {% include adsense-inside-post.html %}
 
-I use [**Google Search Console**](https://www.google.com/webmasters/tools/home){: target="_blank"} to track my website analytics. I recommend you to use this feature if you are looking to rank your site better on Google.
+I use [**Google Search Console**](https://www.google.com/webmasters/tools/home){: target="_blank"} to track my website analytics. I recommend you to use this feature if you are looking for a better SEO.
 
 ![Jekyll redirect  301 permanent 404 errors](/images/jekyll-redirect-404-errors.png)
 
