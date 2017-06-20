@@ -28,7 +28,7 @@ So without further ado let's get into the types.
 
 ### Lunr.js (free) - [Demo](https://olivernn.github.io/moonwalkers/){: target="_blank" rel="nofollow"}
 
-### Tapirgo (free) - [Demo](https://classicyuppie.com/){: target="_blank" rel="nofollow"}
+### Algolia (freemium) - [Demo](http://fontawesome.io/icons//){: target="_blank" rel="nofollow"}
 
 ### Swiftype (paid) - [Demo](http://wholebodyresearch.com/){: target="_blank" rel="nofollow"}
 
