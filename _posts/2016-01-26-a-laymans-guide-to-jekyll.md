@@ -119,7 +119,7 @@ There can also be a layouts for redirecting, [compressing](https://blog.webjeda.
 
 <h3>3. _posts:</h3> All your blog posts reside here. The naming should be in the format **YYYY-MM-DD-title.md**. 
 
-<h3>4. _sass:</h3> Jekyll supports [Sass preprocessor](http://sass-lang.com/documentation/file.SASS_REFERENCE.html){:rel='nofollow'}{:target="_blank"}. Sass files are included in this folder can be imported to main stylesheet. [Read for a brief section on sass](https://blog.webjeda.com/jekyll-speed/#minify-jekyll-html-css-and-js){:target="_blank"}.
+<h3>4. _sass:</h3> Jekyll supports [Sass preprocessor](http://sass-lang.com/documentation/file.SASS_REFERENCE.html){:rel='nofollow'}{:target="_blank"}. Sass files are included in this folder can be imported to main stylesheet. [Read for a brief section on sass](/jekyll-speed/#4-minify-jekyll-html-css-and-js/){:target="_blank"}.
 
 <h3>5. _site:</h3> This is a folder created by Jekyll to host your website. It will have files only compatible for a browser - HTML, CSS, JS, XML etc., This conversion happens by default. You don't have to create this or edit anything inside this folder. 
 

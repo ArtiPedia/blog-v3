@@ -2,7 +2,7 @@
 title: Jekyll Pagination
 desc: Jekyll pagination can be easily implemented if correct methods are followed. I often see people asking me why they see a blank page when pagination is implemented. I will be discussing those issues in this article.
 author: sharathdt
-tags: Jekyll
+tags: Jekyll Plugins
 image: jekyll-pagination.png
 layout: post
 permalink: /jekyll-pagination/
