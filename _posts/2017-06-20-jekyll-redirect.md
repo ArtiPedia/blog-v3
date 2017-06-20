@@ -25,7 +25,7 @@ I use [**Google Search Console**](https://www.google.com/webmasters/tools/home){
 
 ## Why Jekyll redirection? 
 
-Initially, I had redirected the old posts using an older method. I had it in place for a long time. After some months, I thought those redirects are not necessary anymore and removed all the redirects. I was so wrong! Keep the redirect in place forever!!
+Initially, I had redirected the old posts using an older method. I had it in place for a long time. After some months, I thought those redirects are not necessary anymore and removed all them. I was so wrong! Keep the redirects in place forever!!
 
 Users have a very low tolerance for 404 errors. And if they see two or more of them in a row then they may not return to your website. The errors ruin the credibility of a website unless you have a cool [404 error page](/404/){: target="_blank"} like I do. Just kidding, nothing but a 301 redirection can save the reputation.
 
