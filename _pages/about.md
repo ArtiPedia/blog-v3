@@ -88,7 +88,14 @@ a.donate{border:none}a.donate:hover{color:#fff;border:none}.donate{background-co
 
 You can help me create more quality content.
 
+**PayPal**
+
 [![Donate](/img/donate-button.png)](https://paypal.me/webjeda/){: target="_blank" .noborder}
+
+
+**Paytm**
+
+![Paytm donate to webjeda](/img/paytm.png)
 
 <!-- [**Support me on Patreon**](https://www.patreon.com/webjeda){: target="_blank"}  -->
 
