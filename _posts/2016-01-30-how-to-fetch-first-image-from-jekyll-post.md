@@ -6,6 +6,9 @@ author: sharathdt
 tags: Jekyll
 image: how-to-fetch-images-from-jekyll-post.jpg
 layout: post
+redirect_from: 
+    - /how-to-fetch-first-image-from-jekyll-post/
+    - how-to-fetch-first-image-from-jekyll-post
 permalink: /fetch-image-jekyll/
 ---
 

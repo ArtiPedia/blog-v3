@@ -6,6 +6,12 @@ author: sharathdt
 tags: Github-Pages Web-Design
 image: webjeda2.svg
 layout: post
+redirect_from:
+    - how-to-create-and
+    - how-to-create-and-host-a-website
+    - /how-to-create-and-host-a-website-on-github-pages/
+    - /how-to-create-and-host-a-website-on-github-pages
+    - how-to-create-and-host-a-website-on-github
 permalink: /create-host-website-github-pages/
 ---
 

@@ -6,6 +6,9 @@ author: sharathdt
 tags: Jekyll SEO
 image: share-bar-to-jekyll.png
 layout: post
+redirect_from:
+    - how-to-add-share-buttons-to-jekyll/
+    - how-to-add-share-buttons-to-jekyll
 permalink: /share-buttons-jekyll/
 ---
 

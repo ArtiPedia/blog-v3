@@ -8,6 +8,9 @@ image: Jekyll-SEO.png
 img-src: "http://www.freepik.com/free-vector/seo-analytics_764868.htm"
 img-src-name: Design by Freepik
 layout: post
+redirect_from: 
+    - /optimize-jekyll-blog-seo/
+    - /how-to-optimize-jekyll-blog-for-seo/
 permalink: /optimize-jekyll-seo/
 ---
 

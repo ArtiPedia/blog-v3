@@ -6,6 +6,9 @@ author: sharathdt
 tags: Github-Pages Web-Design
 image: sync-local-folders-with-github.png
 layout: post
+redirect_from: 
+    - how-to-sync-files-folders-with-github/
+    - how-to-sync-files-folders-with-github
 permalink: /sync-files-folders-github/
 ---
 

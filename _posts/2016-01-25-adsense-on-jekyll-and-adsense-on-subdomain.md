@@ -8,6 +8,9 @@ image: adsense-on-subdomain-adsense-on-Jekyll.jpg
 img-src: "http://www.freepik.com/free-vector/office-banners_800177.htm"
 img-src-name: Design by Freepik
 layout: post
+redirect_from: 
+    - adsense-on-jekyll-and-adsense-on-subdomain/
+    - adsense-on-jekyll-and-adsense-on-subdomain
 permalink: /adsense-jekyll-subdomain/
 ---
 

@@ -6,6 +6,10 @@ author: sharathdt
 tags: Github-Pages SEO
 image: custom-domain-to-github.png
 layout: post
+redirect_from: 
+    - /how-to-add-custom-domain-to-github
+    - how-to-add-custom-domain-to-github/Github
+    - /how-to-add-custom-domain-to-github/
 permalink: /custom-domain-github/
 ---
 

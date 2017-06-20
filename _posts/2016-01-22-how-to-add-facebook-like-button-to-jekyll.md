@@ -6,6 +6,9 @@ author: sharathdt
 tags: Jekyll SEO
 image: adding-facebook-like-button-to-jekyll.png
 layout: post
+redirect_from:
+    - how-to-add-facebook-like-button-to-jekyll/
+    - how-to-add-facebook-like-button-to-jekyll
 permalink: /facebook-like-button-jekyll/
 ---
 

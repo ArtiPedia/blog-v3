@@ -6,6 +6,8 @@ author: sharathdt
 tags: Jekyll SEO
 image: how-to-add-comment-box-to-jekyll-blog.jpg
 layout: post
+redirect_from:
+    - /how-to-add-comments-to-jekyll/
 permalink: /jekyll-comments/
 ---
 

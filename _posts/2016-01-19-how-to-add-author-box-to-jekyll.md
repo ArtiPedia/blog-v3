@@ -6,6 +6,9 @@ author: sharathdt
 tags: Jekyll
 image: author-box-jekyll.png
 layout: post
+redirect_from: 
+    - /how-to-add-author-box-to-jekyll/
+    - /how-to-add-author-box-to-jekyll
 permalink: /author-box-jekyll/
 ---
 

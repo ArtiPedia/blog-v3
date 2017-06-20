@@ -8,6 +8,11 @@ image: create-jekyll-blog.jpg
 img-src: https://jekyllrb.com
 img-src-name: Design by Jekyll
 layout: post
+redirect_from: 
+    - how-I-created-webjeda-blog/
+    - how-I-created-webjeda-blog
+    - /how-to-create-a-jekyll-blog
+    - how-to-crate-a-jekyll-blog
 permalink: /create-jekyll-blog/
 ---
 

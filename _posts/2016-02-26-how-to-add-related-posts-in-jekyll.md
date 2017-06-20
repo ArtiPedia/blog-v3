@@ -6,6 +6,8 @@ author: sharathdt
 tags: Jekyll
 image: adding-related-previous-next-link-to-jekyll.png
 layout: post
+redirect_from: 
+    - how-to-add-related-posts-in-jekyll/
 permalink: /related-post-jekyll/
 ---
 

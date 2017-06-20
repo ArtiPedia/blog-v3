@@ -6,6 +6,10 @@ author: sharathdt
 tags: Jekyll SEO
 image: add-sitemap-to-Jekyll-github-pages.png
 layout: post
+redirect_from: 
+    - /how-to-add-a-sitemap-to-jekyll-blog/
+    - /how-to-add-a-sitemap-to-jekyll-blog
+
 permalink: /jekyll-sitemap/
 ---
 

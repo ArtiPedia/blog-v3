@@ -6,6 +6,9 @@ author: sharathdt
 tags: Web-Design Github-Pages
 image: jekyll-polymer.png
 layout: post
+redirect_from: 
+    - /how-I-manged-to-integrate-polymer-with-github/
+    - how-I-manged-to-integrate-polymer-with-github
 permalink: /integrate-polymer-jekyll/
 ---
 

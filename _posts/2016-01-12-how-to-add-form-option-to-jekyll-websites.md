@@ -6,6 +6,9 @@ author: sharathdt
 tags: Jekyll Web-Design
 image: how-to-add-form-option-for-jekyll-websites.jpg
 layout: post
+redirect_from: 
+    - how-to-add-form-option-to-jekyll-websites/
+    - how-to-add-form-option-to-jekyll-websites
 permalink: /jekyll-contact-form/
 ---
 

@@ -7,6 +7,8 @@ image: jekyll-related-posts.png
 img-src: "http://www.freepik.com/free-vector/cartoon-dinosaurs-pack_874040.htm"
 img-src-name: Design by Freepik
 layout: post
+redirect_from: 
+    - /better-related-posts/
 permalink: /jekyll-related-posts/
 ---
 

@@ -7,6 +7,9 @@ image: jekyll-frequently-used-variables.png
 img-src: "http://www.freepik.com/free-vector/essential-laboratory-objects_849864.htm"
 img-src-name: Design by Freepik
 layout: post
+redirect_from: 
+    - /common-jekyll-tags/src/parse
+
 permalink: /common-jekyll-tags/
 ---
 

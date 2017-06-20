@@ -6,6 +6,9 @@ author: sharathdt
 tags: Github-Pages
 image: upload-option-github.png
 layout: post
+redirect_from:
+    - /github-upload-file-option/
+
 permalink: /github-upload/
 ---
 

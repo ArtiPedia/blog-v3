@@ -8,6 +8,8 @@ image: lazy-load-css-for-fast-website.jpg
 img-src: "http://www.freepik.com/free-vector/cartoon-animals_802878.htm"
 img-src-name: Design by Freepik
 layout: post
+redirect_from: 
+    - /lazy-loading-large-css-to-speed-up-website/
 permalink: /lazy-load-css/
 ---
 

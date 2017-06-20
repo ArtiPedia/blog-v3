@@ -8,6 +8,9 @@ image: how-to-edit-add-posts-in-jekyll.jpg
 img-src: "http://www.freepik.com/free-vector/office-banners_800177.htm"
 img-src-name: Design by Freepik
 layout: post
+redirect_from:
+    - an-easy-way-to-edit-posts-in-jekyll/
+    - an-easy-way-to-edit-posts-in-jekyll
 permalink: /edit-posts-jekyll/
 ---
 

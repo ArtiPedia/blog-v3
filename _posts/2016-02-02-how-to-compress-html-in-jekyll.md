@@ -6,6 +6,9 @@ author: sharathdt
 tags: Jekyll SEO
 image: how-to-minify-jekyll-html.png
 layout: post
+redirect_from: 
+    - /how-to-compress-html-in-jekyll/
+    - how-to-compress-html-in-jekyll
 permalink: /compress-html-jekyll/
 ---
 

@@ -6,6 +6,8 @@ author: sharathdt
 tags: Jekyll
 image: jekyll-tutorial-screenshot.png
 layout: post
+redirect_from:
+    - a-laymans-guide-to-jekyll/
 permalink: /jekyll-guide/
 ---
 
