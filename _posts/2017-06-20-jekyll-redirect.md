@@ -87,7 +87,7 @@ The result after implementing the Jekyll 301 redirect.
 
 ![Jekyll 301 redirect](/images/jekyll-301-redirect-404-errors.png)
 
-
+{% include adsense-inside-post-2.html %}
 
 ## Conclusion
 Managing the website in a way that there will not be any 404 errors is the best way to be safe. But sometimes we make mistakes, we have to change things, move things. In such cases, 404 errors are bound to happen. But with a proper permanent redirection, these errors can be handled.
