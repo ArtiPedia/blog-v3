@@ -33,7 +33,7 @@ Users have a very low tolerance for 404 errors. And if they see two or more of t
 {: .r}
 
 ## How to redirect Jekyll URLs?
-There are many ways to achieve this. One is through **.htacess** if your hosting supports Apache. For static hosting like Github Pages, the jekyll-redirect-from plugin comes in handy.
+There are many ways to achieve this. One is through **.htacess** if your hosting supports Apache. For static hosting like Github Pages, the **jekyll-redirect-from** plugin comes in handy.
 
 Let's assume that the hosting serves only static files.
 
@@ -52,7 +52,7 @@ If you are rendering the Jekyll site locally then make sure you install the plug
 ### Redirect URLs
 It is important to find the URLs that are hitting 404. A good way to find them is through Google Search Console.
 
-Once you have a list of 404 URLs, copy one by one and put them in the post or page to which you want that URL should redirect to as shown below. You can redirect multiple 404 URLs together.
+Once you have a list of 404 URLs, copy one by one and put them in the post or page to which you want that URL should redirect to, as shown below. You can redirect multiple 404 URLs together.
 
 {% highlight html %}
 ---
@@ -65,7 +65,7 @@ permalink: {{page.url}}
 {% endhighlight %}
 
 
-What it does is that it creates a meta refresh page for every 404 URL. That will redirect to the original permalink.
+It creates a meta refresh page for every 404 URL. That will redirect to the original permalink.
 
 ![Jekyll 301 redirect](/images/jekyll-301-redirect-example.png)
 
