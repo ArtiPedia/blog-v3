@@ -93,7 +93,7 @@ The result after implementing the Jekyll 301 redirect.
 {% include adsense-inside-post-2.html %}
 
 ## The .htaccess method
-If your hosting supports Apache then this method can be used.
+If your hosting supports Apache then this method can be used.  This was originally suggested by [Chris Ruppel](https://stackoverflow.com/users/175551/chris-ruppel){: target="_blank"} in this [answer](https://stackoverflow.com/questions/10178304/what-is-the-best-approach-for-redirection-of-old-pages-in-jekyll-and-github-page/17311020#answer-17311020){: target="_blank" rel="nofollow"}. 
 
 ### Include .htaccess file
 Since files with the name starting with a ``.`` is not recognized by Jekyll, you will have to explicitly mention it to be considered. Add this line on the **_config,yml**.
@@ -103,7 +103,7 @@ include: [.htaccess]
 {% endhighlight %}
 
 ### Create .htaccess
-Create a ``.htaccess`` file at the root of the repository with the following code on it. This was originally suggested by [Chris Ruppel](https://stackoverflow.com/users/175551/chris-ruppel){: target="_blank"} in this [answer](https://stackoverflow.com/questions/10178304/what-is-the-best-approach-for-redirection-of-old-pages-in-jekyll-and-github-page/17311020#answer-17311020){: target="_blank" rel="nofollow"}. 
+Create a ``.htaccess`` file at the root of the repository with the following code on it.
 
 I have made a slight changes for redirecting multiple 404 URLs at once.
 
@@ -143,4 +143,4 @@ Managing the website in a way that there will not be any 404 errors is the best 
 
 Let me know if the plugin worked out fine for you. Please share your thoughts in the comment section.
 
-Refer: [JekyllRedirectFrom plugin](https://github.com/jekyll/jekyll-redirect-from)
+Refer: [JekyllRedirectFrom plugin](https://github.com/jekyll/jekyll-redirect-from){: target="_blank"}
