@@ -1,6 +1,6 @@
 ---
 title: Adding Sitemap to Jekyll Blog
-desc: Submitting sitemap to major search engines is important to get indexed and rank better. Jekyll blogs will not have sitemap by default but we can create one using this method. A sitemap facilitates search engines as an easy main-door to crawl through all the post and pages you have in your blog.
+desc: Submitting sitemap to major search engines is important to get indexed and rank better. Jekyll blogs will not have sitemap by default but we can create one using this method. 
 keywords: sitemap in Jekyll blog, Jekyll sitemap, sitemap for Jekyll
 author: sharathdt
 tags: Jekyll SEO
