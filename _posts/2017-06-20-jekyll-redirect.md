@@ -103,7 +103,9 @@ include: [.htaccess]
 {% endhighlight %}
 
 ### Create .htaccess
-Create a ``.htaccess`` file at the root of the repository with the following code on it.
+Create a ``.htaccess`` file at the root of the repository with the following code on it. This was originally suggested by [Chris Ruppel](https://stackoverflow.com/users/175551/chris-ruppel){: target="_blank"} in this [answer](https://stackoverflow.com/questions/10178304/what-is-the-best-approach-for-redirection-of-old-pages-in-jekyll-and-github-page/17311020#answer-17311020){: target="_blank" rel="nofollow"}. 
+
+I have made a slight changes for redirecting multiple 404 URLs at once.
 
 
 {% highlight html %}{% raw %}
