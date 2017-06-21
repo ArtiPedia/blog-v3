@@ -7,6 +7,9 @@ image: jekyll-redirect-301.png
 img-src: "http://www.freepik.com/free-vector/cartoon-dinosaurs-pack_874040.htm"
 img-src-name: Design by Freepik
 layout: post
+old: 
+ - /some-url/
+ - /some-other-url/
 permalink: /jekyll-redirect/
 ---
 
@@ -112,8 +115,10 @@ RewriteEngine On
 RewriteBase /
 
 
-{% for post in site.post %}
-  RewriteRule ^{{ post.old }} {{ post.permalink }} [R=301,L]
+{% for post in site.posts %}
+  {% for link in post.old %}
+   RewriteRule ^{{ link }} {{ post.permalink }} [R=301,L]
+  {% endfor %}
 {% endfor %}
 {% endraw %}{% endhighlight %}
 
@@ -122,7 +127,9 @@ Add below permalink in the posts that a 404 link to be redirected to.
 {% highlight html %}
 ---
 title: {{page.title}}
-old: /some/404/url
+old: 
+  - /some/404/url
+  - /some/other/404/url
 permalink: {{page.url}}
 ---
 {% endhighlight %}
@@ -131,7 +138,6 @@ Do this for all the necessary posts.
 
 ## Conclusion
 Managing the website in a way that there will not be any 404 errors is the best way to be safe. But sometimes we make mistakes, we have to change things, move things. In such cases, 404 errors are bound to happen. But with a proper permanent redirection, these errors can be handled.
-
 
 Let me know if the plugin worked out fine for you. Please share your thoughts in the comment section.
 
