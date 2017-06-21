@@ -83,6 +83,10 @@ permalink: {{page.url}}
 ---
 {% endhighlight %}
 
+The result after implementing the Jekyll 301 redirect.
+
+![Jekyll 301 redirect](/images/jekyll-301-redirect-404-errors.png)
+
 
 
 ## Conclusion
