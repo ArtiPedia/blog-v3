@@ -26,7 +26,7 @@ A simple website uses at least 4 to 5 icons. If we include share button icons an
 * Do not remove this line (it will not be displayed) 
 {:toc}
 
-Font awesome makes a web designers life easy. Adding icons is as simple as adding a ``<h1>`` tag. Resizing is done through attributes, flipping, stacking, spinning is all possible with font awesome. But apart from those 10 icons we use and some styles, all other icons are of no use to us. They load along with the ones we need. Though font awesome is cached by browsers since many websites use it, we have to give attention to first-time visitors who may have a browser without cached font awesome css. Moreover, font awesome version updation is done every time new icons are added and you should also keep version of the CDN link up to date.
+Font awesome makes a web designers life easy. Adding icons is as simple as adding a ``<h1>`` tag. Resizing is done through attributes, flipping, stacking, spinning is all possible with font awesome. But apart from those 10 icons and some styles, all other icons are of no use to us. They load along with the ones we need. Though font awesome is cached by browsers since many websites use it, we have to give attention to first-time visitors who may have a browser without cached font awesome css. Moreover, font awesome version updation is done every time when new icons are added and you should also keep version of the CDN link up to date.
 
 ## Why should we optimize font awesome?
 I like my website to load faster on desktops as well as mobile devices. It is one of the reasons for switching from WordPress to Jekyll. 
@@ -34,7 +34,7 @@ I like my website to load faster on desktops as well as mobile devices. It is on
 Read: [Why did I choose Jekyll over WordPress?!](/why-jekyll-over-wordpress/){: target="_blank"}
 
 
-Since fontawesome is a huge file, we have to trim it down to our needs. If we are using only 10 icons then why do we need to load 100 other icons? The size of font awesome web font is 90KB by the time I'm writing this article. Added to that, minified font awesome css is 30KB. So overall 120KB! What I'm trying is to reduce this to below 12KB which is more than **90%** compression!!
+Since fontawesome is a huge file, we have to trim it down to our needs. If we are using only 10 icons then why should we load 100 other icons? The size of font awesome web font is 90KB by the time I'm writing this article. Added to that, minified font awesome css is 30KB. So overall 120KB! What I'm trying is to reduce this to below 12KB which is more than **90%** compression!!
 
 Imagine how fast the icons will load! After implementing this, my website scored 89% on Google pagespeed insights. It used to be 52%!
 
@@ -51,6 +51,8 @@ There are two ways to do this.
 
 2. [The easy way (usig a generator)](#update)
 
+## The Hard Way
+I do not recommend this for everyone. This requires some CSS skills to troubleshoot issues that you will come across.
 
 ### Step 1: Localize Font awesome
 We cannot edit font served from CDN. So we should use font awesome locally. [Download fontawesome](http://fontawesome.io/#modal-download){: target="_blank" rel="nofollow"} here. Remove the font awesome CDN link from the head tag if you are using it. Go to http://fontawesome.io/ and download the latest version of fontawesome. Unzip and keep it in the website repository. In our case, the root of the repository.
@@ -77,8 +79,6 @@ But we just need the CSS and Fonts. We can delete other variants.
 
 For a font to load, modern browsers just need ``woff`` file. So other files such as ``woff2``, ``ttf``, ``eot``, ``svg`` are not necessary. So delete all these files from the **fonts** folder and leave only ``fontawesome-webfont.woff``.
 
-![font awesome contents](/images/optimize-fontawesome-css.jpg)
-{: .right .half}
 
 Font awesome has **less** and **scss** variants which you can use or delete them. Since using only the css variant, so I'm deleting others. So **css** and **fonts** folders are enough to work with.
 
@@ -102,8 +102,9 @@ This file is your new web font ``woff`` that should be used inside fonts folder.
 Test the website again to check whether all the icons are loading(they should) and push changes. This can be further optimized by converting the font to base64 and hence reducing one more request!
 
 
-## Update!
-A user [egurelli](https://disqus.com/by/egurelli/){:rel='nofollow'}{:target="_blank"} suggested some easier ways to optimize fontawesome. I think **IcoMoon** is a great way to do it. You can also choose from some really good icon packages apart from Fontawesome.
+## The Easy Way
+
+A user [egurelli](https://disqus.com/by/egurelli/){:rel='nofollow'}{:target="_blank"} suggested an easier way to optimize fontawesome. I think **IcoMoon** is a great way to do it. You can also choose from some really good icon packages apart from Fontawesome.
 
 ### Select Fontawesome Package
 Log on to ``https://icomoon.io/app/`` and select **Add Icons From Library…**. Find Fontawesome and click on **Add**. You will be redirected to a selection window. 
