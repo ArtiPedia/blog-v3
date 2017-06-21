@@ -92,6 +92,43 @@ The result after implementing the Jekyll 301 redirect.
 ## The .htaccess method
 If your hosting supports Apache then this method can be used.
 
+### Include .htaccess file
+Since files with the name starting with a ``.`` is not recognized by Jekyll, you will have to explicitly mention it to be considered. Add this line on the **_config,yml**.
+
+{% highlight html %}
+include: [.htaccess]
+{% endhighlight %}
+
+### Create .htaccess
+Create a ``.htaccess`` file at the root of the repository with the following code on it.
+
+
+{% highlight html %}{% raw %}
+---
+---
+DirectoryIndex index.html
+
+RewriteEngine On
+RewriteBase /
+
+
+{% for post in site.post %}
+  RewriteRule ^{{ post.old }} {{ post.permalink }} [R=301,L]
+{% endfor %}
+{% endraw %}{% endhighlight %}
+
+### Add redirect front matter in posts
+Add below permalink in the posts that a 404 link to be redirected to.
+{% highlight html %}
+---
+title: {{page.title}}
+old: /some/404/url
+permalink: {{page.url}}
+---
+{% endhighlight %}
+
+Do this for all the necessary posts. 
+
 ## Conclusion
 Managing the website in a way that there will not be any 404 errors is the best way to be safe. But sometimes we make mistakes, we have to change things, move things. In such cases, 404 errors are bound to happen. But with a proper permanent redirection, these errors can be handled.
 
