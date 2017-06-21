@@ -130,7 +130,7 @@ Add below permalink in the posts that a 404 link to be redirected to.
 ---
 title: {{page.title}}
 old: 
-  - /some/404/url
+  - /some/404/url/
   - /some/other/404/url
 permalink: {{page.url}}
 ---
