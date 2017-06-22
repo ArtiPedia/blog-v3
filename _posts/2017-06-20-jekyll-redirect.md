@@ -28,26 +28,27 @@ I use [**Google Search Console**](https://www.google.com/webmasters/tools/home){
 
 ## Why Jekyll redirection? 
 
-Initially, I had redirected old posts using a different(and harder) method. I had it in place for a long time. After some months, I thought those redirects are not necessary anymore and removed all them. I was so wrong! Keep the redirects in place forever!!
+Initially, I had redirected old posts using a different(and harder) method. I had it in place for a long time. After some months, I thought those redirects are not necessary anymore and removed all them. I was so wrong! I should have kept jekyll redirects forever!!
 
-Users have a very low tolerance for 404 errors. And if they see two or more of them in a row then they may not return to your website. The errors ruin the credibility of a website unless you have a cool [404 error page](/404/){: target="_blank"} like I do. Just kidding, nothing but a 301 redirection can save the reputation.
+Visitors have a very low tolerance for 404 errors. And if they see two or more of them in a row then they may not return to your website. The errors ruin the credibility of a website unless you have a cool [404 error page](/404.html){: target="_blank"} like I do. Just kidding, nothing but a 301 redirection can save the reputation.
 
 404 errors will have a negative effect on SEO as well. I have seen my page rank getting a nose dive after too many 404 errors.
 {: .r}
 
 ## How to redirect Jekyll URLs?
-There are many ways to achieve this. One is through **.htacess** if your hosting supports Apache. For static hosting like Github Pages, the **jekyll-redirect-from** plugin comes in handy.
+There are many ways to achieve this. One is through **.htacess** if your hosting supports Apache. If it is a static hosting like Github Pages, the **jekyll-redirect-from** plugin comes in handy.
 
 Let's assume that the hosting serves only static files.
 
 ### Declare jekyll-redirect-from gem in config file.
-In the **_config.yml** file - similar to ``jekyll-paginate`` gem - mention ``jekyll-redirect-from`` plugin as well.
+In the **_config.yml** file similar to ``jekyll-paginate`` gem,  mention ``jekyll-redirect-from`` plugin as well.
 
 {% highlight html %}
-gems: [jekyll-paginate, jekyll-redirect-from]
+gems: 
+    - jekyll-paginate
+    - jekyll-redirect-from
 {% endhighlight %}
 
-I'm hoping that you are using pagination as well.
 
 If you are rendering the Jekyll site locally then make sure you install the plugin using ``gem install jekyll-redirect-from`` command.
 {: .y}
@@ -99,7 +100,8 @@ If your hosting supports Apache then this method can be used.  This was original
 Since files with the name starting with a ``.`` is not recognized by Jekyll, you will have to explicitly mention it to be considered. Add this line on the **_config,yml**.
 
 {% highlight html %}
-include: [.htaccess]
+include: 
+    - .htaccess
 {% endhighlight %}
 
 ### Create .htaccess
