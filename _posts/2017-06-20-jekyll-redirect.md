@@ -13,7 +13,7 @@ old:
 permalink: /jekyll-redirect/
 ---
 
-Jekyll redirection is of grave importance if you are migrating from different platforms like WordPress, Blogger or Tumblr to Jekyll. It helps in controlling crawl(by search engine bots) errors and thus not affecting the SEO.
+Jekyll redirection is of grave importance if you are migrating from different platforms like WordPress, Blogger or Tumblr to Jekyll. It helps in controlling crawl errors(by search engine bots) and thus not affecting the SEO.
 
 * Do not remove this line (it will not be displayed) 
 {:toc}
@@ -28,7 +28,7 @@ I use [**Google Search Console**](https://www.google.com/webmasters/tools/home){
 
 ## Why Jekyll redirection? 
 
-Initially, I had redirected the old posts using an older method. I had it in place for a long time. After some months, I thought those redirects are not necessary anymore and removed all them. I was so wrong! Keep the redirects in place forever!!
+Initially, I had redirected old posts using a different(and harder) method. I had it in place for a long time. After some months, I thought those redirects are not necessary anymore and removed all them. I was so wrong! Keep the redirects in place forever!!
 
 Users have a very low tolerance for 404 errors. And if they see two or more of them in a row then they may not return to your website. The errors ruin the credibility of a website unless you have a cool [404 error page](/404/){: target="_blank"} like I do. Just kidding, nothing but a 301 redirection can save the reputation.
 
