@@ -143,7 +143,7 @@ MailChimp has an option to [create a list](https://us10.admin.mailchimp.com/list
 
 {% include adsense-inside-post-2.html %}
 
-For Jekyll websites, one must choose embeddable forms. Here is how the code looks like
+For Jekyll websites, one must choose embeddable forms. Here is how the code looks like. You can customize the form design in any way you like.
 
 {% highlight html %}
 <!-- Begin MailChimp Signup Form -->
@@ -176,7 +176,7 @@ For Jekyll websites, one must choose embeddable forms. Here is how the code look
 <!--End mc_embed_signup-->
 {% endhighlight %}
 
-I have embedded a working form here. You can customize the design in any way you like.
+I have embedded a working form here. 
 
 <!-- Begin MailChimp Signup Form -->
 <link href="/css/mailchimp.css" rel="stylesheet" type="text/css">
