@@ -1,5 +1,5 @@
 ---
-title: Jekyll Collections in 3 Easy steps!
+title: 3 Easy Steps to Implement Jekyll Collections!
 desc: Jekyll collections is something that isn't understood by many. For example, a collection of stamps, books, cakes etc. It is very easy to create and organize multiple collections on a Jekyll blog.
 keywords: 
 author: sharathdt
@@ -12,7 +12,7 @@ layout: post
 ---
 
 
-## Why 'collections'?
+## Why 'Jekyll Collections'?
 
 While blogging you will realize that you have some things that do not fit into the category of posts nor into pages. Here is a comparison between the three.
 
@@ -63,7 +63,7 @@ collections:
 {% endhighlight %}
 
 
-## Jekyll collection folders
+## Jekyll Collections Folders
 Now at the root of the repository, create two folders(because we mentioned two collections) with the names ``_themes`` and ``_designs``. Underscore is necessary, do not leave it out.
 
 We have to keep our collection inside these folders. Let's keep some files inside ``_themes`` folder. I have created 3 themes so far. I want them to be showed as a collection with certain details. Then I will have to showcase them as a list or a grid.
@@ -123,7 +123,7 @@ Since the theme is based on default Jekyll theme, it is very light-weight. No Ja
 {% include adsense-inside-post.html %}
 
 
-## Jekyll collection index
+## Jekyll Collections Index
 
 So I have two themes in my Theme collection. How to show them on a page? we have to create an index file. Create a file with the name **themes.md** in the root. 
 
@@ -168,5 +168,7 @@ An individual item from the collection: [**Thunder**](/jekyll-themes/thunder/){:
 
 ## Conclusion
 Try to fit in any content into a post or a page first. If they don't fit in, then think of using collections. Many times a simple list would do the job. Compare your Jekyll blog to a grocery store where things can be segregated into different collections. A collection of fruits, a collection of veggies, collections of beverages etc. Do not create collections for subsets, for example, say exotic fruits. They come under the fruit collection. In such cases use **categories**.
+
+Also refer [Jekyll Collections](https://jekyllrb.com/docs/collections/){:target="_blank"}.
 
 Thanks for reading!
