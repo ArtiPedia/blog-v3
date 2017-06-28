@@ -57,7 +57,7 @@ I built WebJeda in 2014. I realised how easy it is to design websites using prop
 I write things I have tried. It takes a reasonable amount of time to research, test, and test again on other platforms. Writing a tech article which deals with coding isn't easy. It involves a lot of hard work. How do I get paid for this? I run Adsense on this blog.
 
 <p class="red">
-I suggest you to use an Ad-blocker if you don't like those <strong>Download pdf</strong>, <strong>Click to Download</strong> kind of ads. As a reader, I don't like ads and popups. Let me know whether I should keep Adsense running on this website.
+I suggest you to use an Ad-blocker if you don't like those <strong>Download pdf</strong>, <strong>Click to Download</strong> kind of ads. As a reader, I don't like ads and popups. Let me know that you also hate ads by making a small donation.
 </p>
 
 <style>
