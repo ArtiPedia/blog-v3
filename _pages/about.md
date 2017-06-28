@@ -59,7 +59,7 @@ The first thing you notice on visiting my website is that it is **minimal**. I b
 I write things I have tried. It takes a reasonable amount of time to research, test, and test again on other platforms. Writing a tech article which deals with coding isn't easy. It involves a lot of hard work. How do I get paid for this? I run Adsense on this blog.
 
 <p class="red">
-I suggest you to use an Ad-blocker if you don't like those <strong>Download pdf</strong>, <strong>Click to Download</strong> kind of ads. As a reader, I don't like ads and popups. Let me know that you also hate ads by making a small donation.
+I suggest you to use an Ad-blocker if you don't like those <strong>Download pdf</strong>, <strong>Click to Download</strong> kind of ads. As a reader, I don't like ads and popups. Let me know that you also prefer a clean experience by making a small donation.
 </p>
 
 <style>
