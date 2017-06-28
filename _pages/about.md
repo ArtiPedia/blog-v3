@@ -93,9 +93,9 @@ You can help me create more quality content.
 [![Donate](/img/donate-button.png)](https://paypal.me/webjeda/){: target="_blank" .noborder}
 
 
-**Paytm**
+**Paytm/BHIM**
 
-![Paytm donate to webjeda](/img/paytm.png)
+![Paytm/BHIM donate to webjeda](/img/Paytm-BHIM.png)
 
 <!-- [**Support me on Patreon**](https://www.patreon.com/webjeda){: target="_blank"}  -->
 
