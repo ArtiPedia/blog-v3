@@ -24,7 +24,7 @@ permalink: /:categories/:title/
 {:toc}
 
 ## How to implement Jekyll Categories?
-Before implementing Jekyll categories, see if your content can be divided into certain domains. For example on my blog, I have sorted my posts into **Jekyll**, **Web-Desing**, **Github**, etc. You will see the category under the title of my blog posts. On clicking them, you will be redirected to a [tags page](/tags/) where all blog posts are categorized under certain topics. One post may contain more than one category if it is dealing with more than one topic.
+Before implementing Jekyll categories, see if your content can be divided into certain domains. For example on my blog, I have sorted my posts into **Jekyll**, **Web-Desing**, **Github**, etc. You will see the categories at the end of the article. On clicking them, you will be redirected to a [tags page](/tags/) where all blog posts are categorized under certain topics. One post may contain more than one category if it is dealing with more than one topic.
 
 
 {% include adsense-inside-post.html %}

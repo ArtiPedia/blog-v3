@@ -3,7 +3,7 @@ title: Crunch your Jekyll HTML to negligible size!
 desc: Jekyll minify html using liquid! Minifying CSS and JS is already in practice but compressing html is not practiced by everyone. Since Jekyll posts and pages are in markdown and you may not be able to minify all of them using a task runner. Learn how to minify Jekyll html using this method. 
 keywords: minify Jekyll html, Jekyll minify, jekyll html minify
 author: sharathdt
-tags: Jekyll SEO
+tags: Jekyll SEO Liquid
 image: how-to-minify-jekyll-html.png
 layout: post
 redirect_from: 

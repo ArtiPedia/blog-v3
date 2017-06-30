@@ -2,7 +2,7 @@
 title: Most commonly used Jekyll Liquid Tags
 desc: Jekyll Liquid tags like Jekyll date, time and variables like site.pages, page.content etc., are some of the most commonly used Jekyll variables. Here is a searchable list for those who are looking for such tags, site and page variables.
 author: sharathdt
-tags: Jekyll
+tags: Jekyll Liquid
 image: jekyll-frequently-used-variables.png
 img-src: "http://www.freepik.com/free-vector/essential-laboratory-objects_849864.htm"
 img-src-name: Design by Freepik
