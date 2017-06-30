@@ -18,7 +18,7 @@ A long time ago I had few blogs that were running on WordPress. I bought domain 
 # WordPress vs Jekyll
 
 ## 1. Heavy!
-WordPress is heavy. By saying heavy what I mean is that it has a lot of code in it. Even a minimal WordPress blog will have too much code. Take a minimal theme from WordPress and compare it with this theme [Thunder](http://webjeda.com/thunder/) or any Jekyll theme. You will observe a significant difference in size when you view source.
+WordPress is heavy. By saying heavy what I mean is that it has a lot of code in it. Even a minimal WordPress blog will have too much code. Take a minimal theme from WordPress and compare it with this theme [Thunder](http://webjeda.com/thunder/){: target="_blank"} or any Jekyll theme. You will observe a significant difference in size when you view source.
 
 Using a lot of plugins can lead to this problem. WordPress bloggers don't usually realize whether the website is slowed down by a plugin. The reason could be that they are using a faster internet connection. For them the website still loads quick but when it comes to a slower data connection, the real face(pace) of the website is revealed!
 
@@ -88,7 +88,7 @@ You don't have to worry about the design part. There are hundreds of themes alre
 # Start here
 Usually, Jekyll is hosted on github pages but you can also host it on any other conventional hosting service. But one thing you observe is that, almost all the Jekyll themes are hosted as a github repository. So in order to test it out you should know how to fork(copy) the repo to your own account. And to do that, you should have a github account. So [sign up for a free account](https://github.com/join?source=header-home){: target="_blank" rel="nofollow"}.
 
-Once that is done, you have to find a nice theme for your blog. So do some research or [sign up here](http://eepurl.com/bZdvSP){: target="_blank"} to get a quick checklist. You can also checkout [themes section](/jekyll-themes/){: target="_blank"} in my blog. Now you should visit the theme's homepage. Here is a video guide.
+Once that is done, you have to find a nice theme for your blog. So do some research or [sign up here](http://eepurl.com/bZdvSP){: target="_blank"} to get a quick checklist. You can also checkout [Jekyll Themes](https://jekyll-themes.com){: target="_blank"}. Now you should visit the theme's homepage. Here is a video guide.
 
 <iframe class="right video" src="https://www.youtube.com/embed/T2nx6tj-ZH4?rel=0" frameborder="0" allowfullscreen></iframe>
 
