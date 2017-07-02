@@ -9,6 +9,7 @@ layout: post
 redirect_from: 
     - how-to-sync-files-folders-with-github/
     - how-to-sync-files-folders-with-github
+    - sync-file
 permalink: /sync-files-folders-github/
 ---
 

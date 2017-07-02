@@ -9,6 +9,7 @@ img-src: https://jekyllrb.com
 img-src-name: Design by Jekyll
 layout: post
 redirect_from: 
+    - how-to-create-a-jekyll-blog/
     - how-I-created-webjeda-blog/
     - how-I-created-webjeda-blog
     - /how-to-create-a-jekyll-blog
