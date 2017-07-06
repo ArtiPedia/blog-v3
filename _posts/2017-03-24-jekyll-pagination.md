@@ -26,6 +26,10 @@ Though Jekyll has different items like pages and collections, only Posts can hav
 ## Pagination can be done only on index.html
 Jekyll recognizes pagination defined on ``index.html``. So if you want pagination on ``domain.com/blog/`` then you should create a folder with the name ``blog`` and create an ``index.html`` file inside it where you can define pagination. This is not enough, you should also define pagination value in configuration file as ``paginate_path: "/blog/page:num/"``.
 
+For pagination on ``/blog/``, use ``paginate_path: "/blog/page:num/"`` in the configuration.
+{: .r}
+
+
 ## How to use Pagination in Jekyll?
 Adding pagination is not easy when compared to WordPress. WordPress usually paginates by default. Jekyll doesn't offer that. But Jekyll provides a code snippet that you can use in your blog. This snippet can be modified for our use.
 
