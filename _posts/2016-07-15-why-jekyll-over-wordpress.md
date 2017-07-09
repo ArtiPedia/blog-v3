@@ -35,7 +35,7 @@ This is the by-product of being heavy. More the code slower the website. WordPre
 ## 3. Difficulty in writing Posts
 If you have written posts on WordPress then you know what I'm talking about. It almost always is online. There are offline apps to write blogs but then you will have to test it online. It is not a big deal. Actually, WordPress has image drag and drop option which is so much easier than Jekyll. But Jekyll stands out because of its Markdown support by default. 
 
-Editing in markdown is addictive!
+Markdown is addictive!
 {: .r}
 
 ## 4. Hosting cost
