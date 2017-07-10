@@ -97,6 +97,7 @@ Here is a working form that you can check. I have restricted the entries to 12 c
 </form>
 
 
+Style this form however you want to but I'm keeping it simple without any styles applied.
 
 
 ## Get responses in a Google SpreadSheet
