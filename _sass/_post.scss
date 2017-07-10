@@ -21,6 +21,8 @@ article {
             a[target="_blank"]::after {
                 content: " " url('data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" class=\"i-external\" viewBox=\"0 0 32 32\" width=\"18\" height=\"18\" fill=\"none\" stroke=\"rgba(0,0,0,0.7)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"7%\"><path d=\"M14 9 L3 9 3 29 23 29 23 18 M18 4 L28 4 28 14 M28 4 L14 18\" /></svg>');
             }
+            
+
         }
 }
 
@@ -352,6 +354,7 @@ table.mdtable {
         width: 100vw;
         left: calc(-50vw + 50%);
         background: $brand-color-2;
+            background: url(/img/subtlenet32.png),linear-gradient(to top right, $brand-color, $brand-color-2);
         margin: 2em 0 0em 0;
         .form {
                 margin: 0 auto;
