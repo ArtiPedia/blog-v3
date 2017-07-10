@@ -65,7 +65,7 @@ Now in your barebone form, change the action to whatever the action you find in 
 Copy this value and paste it in your form's action. Also, copy respective **name** values and put it in appropriate fields. The completed form should look like this.
 
 {% highlight html %}
-<form class="form" action="https://docs.google.com/forms/d/e/1FAIpQLSdqGYth5-G2cP8SILJwjOcJ38vit-Rv8E9SXmtnJUu4ifMcGw/formResponse">
+<form class="form" action="https://docs.google.com/forms/d/e/1AFIpQLSdqYGth5-G2cP8SILJwjOcJ38vit-Rv8E9SXmtnJUu4ifMcGw/formResponse">
    
       <label>Name</label>
       <input name="entry.742532386" type="text" />
@@ -84,8 +84,12 @@ The good thing about the form is that it not only works but it works on static w
 
 Here is a working form that you can check. I have restricted the entries to 12 characters so as to avoid long spams.
 
-<form class="form" action="https://docs.google.com/forms/d/e/1FAIpQLSdqGYth5-G2cP8SILJwjOcJ38vit-Rv8E9SXmtnJUu4ifMcGw/formResponse">
-   
+
+<script type="text/javascript">var submitted=false;</script>
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"     
+onload="if(submitted) {window.location='{{site.url}}{{page.url}}';}"></iframe>
+<form action="https://docs.google.com/forms/d/e/1FAIpQLSdqGYth5-G2cP8SILJwjOcJ38vit-Rv8E9SXmtnJUu4ifMcGw/formResponse" method="post" target="hidden_iframe" 
+onsubmit="submitted=true;">
       <label>Name</label>
       <input name="entry.742532386" type="text" maxlength="10" placeholder="Max 12 characters" />
       <br>
@@ -113,19 +117,40 @@ Once you create it, you should see a spreadsheet created with tabs for **Name** 
 ![Customize Google Forms](/images/google-form-customization-6.png)
 
 
-## After submission
-I found no way to redirect users back to the website after submitting the form. But you can edit the message and provide a link back to the website. This custom message and link will be shown to the users after they submit the form.
+## Google Form Redirection
+
+After form submission, you will be redirected to a Google page where it says response is received. You can edit the message and provide a link back to the website. This custom message and link will be shown to the users after they submit the form.
 
 ![Customize Google Forms](/images/google-form-customization-5.png)
 
+But if you don't want it to be redirected back to your page, then please use this code instead.
 
-## Get Notification
+{% highlight html %}
+
+ <script type="text/javascript">var submitted=false;</script>
+ <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='THE REDIRECT LINK HERE';}"></iframe>
+ 
+<form action="FORMACTION CODE HERE" method="post" target="hidden_iframe" 
+onsubmit="submitted=true;">
+      <label>Name</label>
+      <input name="ENTRY HERE" type="text" placeholder="Name" />
+      <br>
+      <label>Email</label>
+      <input name="ENTRY HERE" type="email" placeholder="Email"/>
+      <br>
+      <input type="submit" value="Send" />
+
+</form>
+
+{% endhighlight %}
+
+## Google Form Notification
 Another cool feature is to get notifications to your email upon every entry. You can activate this feature in the spreadsheet by going to **Tools >> Notification Rules...**. Set rules on when to receive notifications and you're good to go.
 
 ![Customize Google Forms](/images/google-form-customization-7.png)
 
 
-## Check if the form is working
+## Check if the Google Form is working
 In the form that I have inserted [here](#publish-it-on-any-website) is a working form and you can see the entries [here](https://docs.google.com/spreadsheets/d/1_vt8il8LpxEi8_DmX0yxxRambpw700cdMC2yMIGWqbk/edit?usp=sharing){: target="_blank"}.
 
 {% include adsense-inside-post-2.html %}
