@@ -24,11 +24,10 @@ This is what I'm talking about. Many of us may not bother about the branding. A 
 ## Create a Google form
 Go to [Google Forms](https://docs.google.com/forms/u/0/){: target="_blank"} and create a form with values **Name** and **Email**. I'm keeping it simple for this tutorial. The next part is to customize Google form.
 
+![Customize Google Forms](/images/google-form-customization-2.png)
 
 ## Customize Google Form 
 We are going to scrape this Google form for certain values and implement it in our own form. So the first step is to create a form. 
-
-![Customize Google Forms](/images/google-form-customization-2.png)
 
 You can have any field in the contact form but I will be using only **name** and **email**. Once you create the form, click on **Send** and it will show you how you can implement the form.
 
