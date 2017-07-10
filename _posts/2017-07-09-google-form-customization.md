@@ -32,7 +32,9 @@ We are going to scrape this Google form for certain values and implement it in o
 
 You can have any field in the contact form but I will be using only **name** and **email**. Once you create the form, click on **Send** and it will show you how you can implement the form.
 
-Get the form link and open it in a new tab. It is easier if you're using a Chrome browser. Now, inspect each and every field in the form and find **name** field and find whatever the value present in it. It will be like ``entry.742532386``.
+Get the form link and open it in a new tab. It is easier if you're using a Chrome browser. Now, inspect(f12) each and every field in the form and find **name** attribute. Copy whatever the value present in it. It will be like ``entry.742532386``.
+
+Find ``<form>`` tag and copy the URL found in **action** attribute.
 
 {% include adsense-inside-post.html %}
 
