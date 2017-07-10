@@ -114,7 +114,7 @@ Once you create it, you should see a spreadsheet created with tabs for **Name** 
 
 
 ## After submission
-I found no way to redirect users back to the website after submission of the form. But you can edit the message and provide a link back to the website. This custom message and link will be shown to the users after they submit the form.
+I found no way to redirect users back to the website after submitting the form. But you can edit the message and provide a link back to the website. This custom message and link will be shown to the users after they submit the form.
 
 ![Customize Google Forms](/images/google-form-customization-5.png)
 
