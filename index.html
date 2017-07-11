@@ -9,8 +9,7 @@ redirect_from:
     - jekyll
 ---
 
- 
-  
+{% if page.url == '/' %}
 <div class="homepage">
 <h2 class="text-center">Start Here</h2>
 <div id="mainbox">
@@ -65,6 +64,8 @@ redirect_from:
 <div class="homepage">
     
 <h2 class="text-center">Latest Articles</h2>
+
+{% endif %}
 
 <div id="mainbox">
     
