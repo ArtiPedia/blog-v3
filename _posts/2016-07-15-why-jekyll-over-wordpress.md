@@ -10,14 +10,13 @@ layout: post
 ---
 
 
-A long time ago I had few blogs that were running on WordPress. I bought domain names and a reliable hosting space to keep them running. WordPress blogs are very easy to set up. There are thousands of themes and plugins for all kinds of looks and functionalities.
-
-**But, what's wrong?**
+A long time ago I had few blogs that were running on WordPress. I bought domain names and a reliable hosting space to keep them running. WordPress blogs are very easy to set up. There are thousands of themes and plugins for all kinds of looks and functionalities. I will discuss some of the major differences between Wordpress and Jekyll.
 
 
-# WordPress vs Jekyll
 
-## 1. Heavy!
+## WordPress vs Jekyll
+
+### 1. Heavy!
 WordPress is heavy. By saying heavy what I mean is that it has a lot of code in it. Even a minimal WordPress blog will have too much code. Take a minimal theme from WordPress and compare it with this theme [Thunder](http://webjeda.com/thunder/){: target="_blank"} or any Jekyll theme. You will observe a significant difference in size when you view source.
 
 Using a lot of plugins can lead to this problem. WordPress bloggers don't usually realize whether the website is slowed down by a plugin. The reason could be that they are using a faster internet connection. For them the website still loads quick but when it comes to a slower data connection, the real face(pace) of the website is revealed!
@@ -28,24 +27,34 @@ Google Chrome has a nice inspection option called Network Throttling where you c
 {:toc}
 
 
-## 2. Slow
+### 2. Slow
 This is the by-product of being heavy. More the code slower the website. WordPress has some frameworks that makes it light and fast but doesn't come anywhere close to Jekyll's simplicity.
 
 
-## 3. Difficulty in writing Posts
+### 3. Security
+Wordpress is prone to number of hacks. You should keep the WordPress base, themes and plugins up to date to make sure there is no vulnerability that can be exploited. Since it uses database, there is always a chance that someone can find a loophole and exploit the site.
+
+Most hackers use Bruit Force or SQL Injections to take control over the website. This isn't possible in case of Jekyll.
+
+### 4. Difficulty in writing Posts
 If you have written posts on WordPress then you know what I'm talking about. It almost always is online. There are offline apps to write blogs but then you will have to test it online. It is not a big deal. Actually, WordPress has image drag and drop option which is so much easier than Jekyll. But Jekyll stands out because of its Markdown support by default. 
 
 Markdown is addictive!
 {: .r}
 
-## 4. Hosting cost
+### 5. Hosting cost
 WordPress needs a hosting which supports ``php`` and ``mySQL``. So, it is comparatively costly to host. Jekyll being static can be hosted for cheap on static file hosting providers or for free on Github!
 Read: [How to create a Jekyll blog](/create-jekyll-blog/){: target="_blank"}
 
-## 5. Design restrictions
+### 6. Design restrictions
+
 This is actually the key reason to migrate from WordPress. WordPress has a lot of themes and plugins to choose from but if you want to change something, say you want the logo to be some pixels down then it becomes a hassle.
 
-## 6. Distractions
+I have discarded many themes in WordPress for not being customizable. Most of the free themes come with a foooter with links to the theme designer. We can remove it in the code but once you update the theme, it will start showing up again.
+
+
+### 7. Distractions
+
 If you have ever visited a WordPress site (I bet you've) you will see something like this happening.
 
 ![WordPress Distractions](/images/why-I-hate-wordpress.png){: .noborder}
@@ -62,73 +71,76 @@ These days with all those spam emails cluttering my inbox, I don't like to give 
 
 <p></p>
 
-**What's so good about Jekyll?**
 
 
-# Jekyll vs Wordpress
+## Jekyll vs Wordpress
 
-## 1. Simple
+### 1. Simplicity
 Jekyll has no database! Jekyll runs nothing on the server. It just keeps files ready to be served. Jekyll is really simple once you understand the basic structure and functions. It supports markdown for posts and pages. It uses the famous **Liquid Syntax** by shopify for conditional logic and other functionalities which is basically human readable coding! I think this way of coding is very comprehensive even to a non-coder.
 
 
-## 2. Light, fast and secure
+### 2. Light, fast and secure
 Since Jekyll has very less code, it is fast by default. If you want to see the difference, then take a Jekyll site (take this site for example) and a WordPress site and compare them on [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/){: target="_blank" rel="nofollow"}.
 
 Having no database is kind of good when we are looking at security. **Static** sites are way more secure than **Dynamic** ones. Static sites are almost unhackable.
 
-## 3. You are in control!
+### 3. You are in control!
 You are responsible for even a single extra space added to the code! So you have the complete control of the website or blog. This also means that you can easily minify, compress all the assets as you like.
 
 {% include adsense-inside-post.html %}
+
+### 4. Markdown
+I just love to write in markdown. Markdown allows you to write your post even in a text editor. It has helped me in a big way. Let's say we are travelling and got an idea for an article. We can literally start writing the post right away on our smartphone using any note taking app!
+
 
 Eventually, I switched all my blogs to Jekyll and I always have a local copy of my blog which wasn't easy to have in WordPress. I'm pretty happy with the performance of my blogs. For example, my chess blog [kidschessworld](http://kidschessworld.com){: target="_blank"} is built using Jekyll and hosted on Github Pages which has helped me gain some business(I teach chess online).
 
 You don't have to worry about the design part. There are hundreds of themes already available. You can [subscribe](http://eepurl.com/bZdvSP){: target="_blank" rel="nofollow"} to my blog to get a detailed list of free responsive Jekyll themes and their links to start off with. 
 
-# Start here
+## Start here
 Usually, Jekyll is hosted on github pages but you can also host it on any other conventional hosting service. But one thing you observe is that, almost all the Jekyll themes are hosted as a github repository. So in order to test it out you should know how to fork(copy) the repo to your own account. And to do that, you should have a github account. So [sign up for a free account](https://github.com/join?source=header-home){: target="_blank" rel="nofollow"}.
 
 Once that is done, you have to find a nice theme for your blog. So do some research or [sign up here](http://eepurl.com/bZdvSP){: target="_blank"} to get a quick checklist. You can also checkout [Jekyll Themes](https://jekyll-themes.com){: target="_blank"}. Now you should visit the theme's homepage. Here is a video guide.
 
 <iframe class="right video" src="https://www.youtube.com/embed/T2nx6tj-ZH4?rel=0" frameborder="0" allowfullscreen></iframe>
 
-## Use a theme that suits your needs
+### Use a theme that suits your needs
 Jekyll has a pretty large community now. There are people creating awesome themes. I suggest going through [Jekyll Themes](http://jekyll-themes.com){: target="_blank"} or my [Theme section](/jekyll-themes/){: target="_blank"} and find the one that suits your needs.
 
-## Understand baseurl
+### Understand baseurl
 Now you have the theme file hosted on some URL. You can make changes to this by editing most of the files in the repository. But you should be careful while editing **_config.yml**. Many beginners edit the ``baseurl:`` to something and get 404 error!
 
 To avoid this, you should understand why is it used. Baseurl is the base of your repository where the files are located. If your repository name is ``jekyll-blog`` then your baseurl is ``/jekyll-blog``.
 
-## Understand Jekyll file structure
+### Understand Jekyll file structure
 If you observe the forked repository, it will have some folders with names starting with an underscore. These folders are meant for certain things. For example ``_posts`` is where all the posts should reside.
 
 Read [Layman's Guide to Jekyll](http://blog.webjeda.com/jekyll-guide/){: target="_blank"} for a good insight.
 
-## Write more posts
+### Write more posts
 Jekyll offers markdown support. So you can edit your blog posts in markdown and Jekyll will convert it into html. You can use prose.io to write your posts on the go, even from a smartphone. Read [How to edit or add Jekyll posts through Browser using Prose](http://blog.webjeda.com/edit-posts-jekyll/){: target="_blank"}.
 
-## Use a custom domain name for your blog
+### Use a custom domain name for your blog
 Your blog may be hosted with a URL ``http://username.github.io`` which is a third party domain. If you want to use your own domain name then read [How to add a custom domain name to Jekyll blog](http://blog.webjeda.com/custom-domain-github/){: target="_blank"}. Though the procedure is for github pages, the same thing applies to Jekyll blog.
 
 
-## Create a contact form for your Jekyll blog
+### Create a contact form for your Jekyll blog
 Beginners try php forms inside Jekyll and see that it doesn't work. It doesn't because Jekyll doesn't execute code on the server. So restrain yourself from using ``php``. Since Jekyll blog is a static site, you should use something that works on a static website. Read [How to create a contact form in Jekyll](http://blog.webjeda.com/jekyll-contact-form/){: target="_blank"}.
 
 
-## Create a subscribe form for your Jekyll blog
+### Create a subscribe form for your Jekyll blog
 Maintaining a mailing list is good for initial traffic. Mailchimp forms can be used inside Jekyll. I hope even Aweber forms can be used in Jekyll (I haven't tried Aweber). Read [How to create a mailchimp subscribe form in Jekyll](http://blog.webjeda.com/jekyll-subscribe-form/){: target="_blank"}.
 
 {% include adsense-inside-post-2.html %}
 
-## Make your blog super fast!
+### Make your blog super fast!
 Faster websites keep users happy. Your blog is already fast because you are using Jekyll but you may have too many things loading up or have heavy media files. For a fast Jekyll blog read [How to speed up Jekyll blog](http://blog.webjeda.com/jekyll-speed/){: target="_blank"}.
 
-## Optimize Jekyll blog for SEO
+### Optimize Jekyll blog for SEO
 Now your blog is ready to rock. But let's find some organic traffic. 
 Read [How to optimize Jekyll blog for SEO](http://blog.webjeda.com/optimize-jekyll-seo/){: target="_blank"}.
 
-## Secure your Jekyll blog with https
+### Secure your Jekyll blog with https
 Using SSL on Jekyll blog will improve your search engine ranking! It also keeps users session safe. Read [How to get SSL certificate for Jekyll](http://blog.webjeda.com/jekyll-ssl/){: target="_blank"}.
 
 # Conclusion
