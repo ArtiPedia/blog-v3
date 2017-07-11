@@ -14,6 +14,7 @@ redirect_from:
     - how-to-create-and-host-a-website-on-github
     - create-host-website-github-p
 permalink: /create-host-website-github-pages/
+sec: tut
 ---
 
 

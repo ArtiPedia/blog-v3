@@ -10,6 +10,7 @@ redirect_from:
     - how-to-add-share-buttons-to-jekyll/
     - how-to-add-share-buttons-to-jekyll
 permalink: /share-buttons-jekyll/
+sec: wj
 ---
 
 

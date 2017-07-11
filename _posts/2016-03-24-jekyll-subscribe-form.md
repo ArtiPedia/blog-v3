@@ -7,6 +7,7 @@ tags: Jekyll
 image: jekyll-subscribe-form.png
 layout: post
 permalink: /jekyll-subscribe-form/
+sec: wj
 ---
 
 

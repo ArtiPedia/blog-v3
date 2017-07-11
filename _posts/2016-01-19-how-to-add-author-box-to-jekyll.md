@@ -10,6 +10,7 @@ redirect_from:
     - /how-to-add-author-box-to-jekyll/
     - /how-to-add-author-box-to-jekyll
 permalink: /author-box-jekyll/
+sec: wj
 ---
 
 

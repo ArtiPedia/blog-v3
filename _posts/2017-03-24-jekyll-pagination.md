@@ -6,6 +6,7 @@ tags: Jekyll Plugins
 image: jekyll-pagination.png
 layout: post
 permalink: /jekyll-pagination/
+sec: wj
 ---
 
 Pagination is the sequence of numbers assigned to pages in a book. In Jekyll however, each page can have multiple articles. This is a good way of organizing blog posts.

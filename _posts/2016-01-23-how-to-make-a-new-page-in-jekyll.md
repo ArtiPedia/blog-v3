@@ -10,6 +10,7 @@ redirect_from:
     - how-to-make-a-new-page-in-jekyll
     - how-to-make-a-new-page-in-jekyll/
 permalink: /new-page-jekyll/
+sec: tut
 ---
 
 

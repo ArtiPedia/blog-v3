@@ -12,6 +12,7 @@ redirect_from:
     - an-easy-way-to-edit-posts-in-jekyll/
     - an-easy-way-to-edit-posts-in-jekyll
 permalink: /edit-posts-jekyll/
+sec: tut
 ---
 
 

@@ -11,6 +11,7 @@ redirect_from:
     - how-to-add-custom-domain-to-github/Github
     - /how-to-add-custom-domain-to-github/
 permalink: /custom-domain-github/
+sec: tut
 ---
 
 ## Why should we use a custom domain?

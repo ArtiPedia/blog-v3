@@ -9,6 +9,7 @@ img-src-name: Design by Freepik
 tags: Jekyll
 permalink: /jekyll-categories/
 layout: post
+sec: wj
 ---
 
 ## Why Jekyll Categories or Tags?

@@ -10,6 +10,7 @@ redirect_from:
     - how-to-add-form-option-to-jekyll-websites/
     - how-to-add-form-option-to-jekyll-websites
 permalink: /jekyll-contact-form/
+sec: wj
 ---
 
 

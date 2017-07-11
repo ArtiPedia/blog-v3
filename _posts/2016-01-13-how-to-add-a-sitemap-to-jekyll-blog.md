@@ -11,6 +11,7 @@ redirect_from:
     - /how-to-add-a-sitemap-to-jekyll-blog
 
 permalink: /jekyll-sitemap/
+sec: wj
 ---
 
 

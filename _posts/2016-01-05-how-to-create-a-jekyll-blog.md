@@ -15,6 +15,7 @@ redirect_from:
     - /how-to-create-a-jekyll-blog
     - how-to-crate-a-jekyll-blog
 permalink: /create-jekyll-blog/
+sec: tut
 ---
 
 

@@ -6,6 +6,7 @@ keywords: github pages tutorial youtube
 tags: Opinion Github-Pages
 image: webjeda-channel-art.jpg
 layout: post
+sec: tut
 ---
 
 

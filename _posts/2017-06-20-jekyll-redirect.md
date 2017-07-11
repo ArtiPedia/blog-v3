@@ -11,6 +11,7 @@ old:
  - /some-url/
  - /some-other-url/
 permalink: /jekyll-redirect/
+sec: wj
 ---
 
 Jekyll redirection is of grave importance if you are migrating from different platforms like WordPress, Blogger or Tumblr to Jekyll. It helps in controlling crawl errors(by search engine bots) and thus not affecting the SEO.

@@ -11,6 +11,7 @@ redirect_from:
     - how-to-sync-files-folders-with-github
     - sync-file
 permalink: /sync-files-folders-github/
+sec: tut
 ---
 
 

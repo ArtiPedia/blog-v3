@@ -7,6 +7,7 @@ image: why-jekyll-over-wordpress.png
 img-src: "http://www.freepik.com/free-vector/fist-coming-out-of-cracked-ground_720279.htm"
 img-src-name: Design by Freepik
 layout: post
+sec: wj
 ---
 
 
