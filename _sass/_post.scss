@@ -354,7 +354,13 @@ table.mdtable {
         width: 100vw;
         left: calc(-50vw + 50%);
         background: $brand-color-2;
-            background: url(/img/subtlenet32.png),linear-gradient(to top right, $brand-color, $brand-color-2);
+        background: linear-gradient(to top right, $brand-color, $brand-color-2);
+        background: -webkit-linear-gradient(to top right, $brand-color, $brand-color-2);
+        background: -o-linear-gradient(to top right, $brand-color, $brand-color-2);
+        background: linear-gradient(to top right, $brand-color, $brand-color-2);
+
+    
+    
         margin: 2em 0 0em 0;
         .form {
                 margin: 0 auto;
