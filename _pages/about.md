@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: About Me
 desc: I built WebJeda in 2015. I realised how easy it is to design websites using proper tools and knowledge. This blog would be a beginners guide for web designing. Read more about me here.
 redirect_from: /about.html
 permalink: /about/
@@ -20,7 +20,7 @@ WebJeda is a web designing company based in Bengaluru. Designing beautiful, resp
     text-align: center;
 }
 .ab-img {
-    width: 70%;
+    width: 60%;
 }
 #author-pic {
     border-radius: 50%;
