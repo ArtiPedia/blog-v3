@@ -24,7 +24,7 @@ This is what I'm talking about. Many of us may not bother about the branding. A 
 One of my clients asked me whether it is possible to insert google form in their contact page without the google branding on it. I said it isn't possible. At that time I did not know that we can not only hide the branding, we can completely transform the Google form.
 
 ## Create a Google form
-Go to [Google Forms](https://docs.google.com/forms/u/0/){: target="_blank"} and create a form with values **Name** and **Email**. I'm keeping it simple for this tutorial. The next part is to customize Google form.
+Go to [Google Forms](https://www.google.com/forms/about/){: target="_blank"} and create a form with values **Name** and **Email**. I'm keeping it simple for this tutorial. The next part is to customize Google form.
 
 ![Customize Google Forms](/images/google-form-customization-2.png)
 
