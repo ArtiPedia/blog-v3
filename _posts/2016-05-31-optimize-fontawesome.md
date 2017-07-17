@@ -47,9 +47,9 @@ Removing unused glyphs reduced the ``woff`` file size from 90KB to 8.5KB. This s
 
 There are two ways to do this.
 
-1. [The hard way (generating a custom font on our own)](#step-1-localize-font-awesome)
+1. [The hard way (generating a custom font on your own)](#the-hard-way)
 
-2. [The easy way (usig a generator)](#update)
+2. [The easy way (usig a generator)](#the-easy-way)
 
 ## The Hard Way
 I do not recommend this for everyone. This requires some CSS skills to troubleshoot issues that you will come across.
