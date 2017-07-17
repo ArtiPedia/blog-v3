@@ -1,6 +1,6 @@
 ---
 title: Why did I start WebJeda?
-desc: While I was working in Cognizant Technology Solutions I always used to have a tab open on my internet browser - github.com. I had learning period of two months in which I googled a lot about it and learned a lot about Github Pages. I wanted to make it easier for the newbies.
+desc: While I was working in Cognizant Technology Solutions I always used to have a tab open on my internet browser - github.com. I had a learning period of two months in which I googled a lot about it and learned a lot about Github Pages. I wanted to make it easier for the newbies.
 author: sharathdt
 keywords: webjeda, webjeda founder
 tags: Opinion Github-Pages Jekyll 
