@@ -9,19 +9,19 @@ layout: post
 ---
 
 
-While I was working on network security, I was also learning HTML, CSS and a little JavaScript. I used to implement the code I wrote into **Github Pages** to see how it comes out. It was not always a positive result. I had to debug a lot and fix the code rather copy pasting it. That was the beginning of my journey towards Github :octocat:.
+While I was working on network security, I was also learning HTML, CSS and a little JavaScript. I used to implement the code I wrote, into **Github Pages** to see how it comes out. It was not always a positive result. I had to debug a lot and fix the code. That was the beginning of my journey towards Github :octocat:.
 
 
-Initially, I had to design a website for my friend. It was supposed to have all the details of her company, contact information and frequent updating of tournament results. It is actually a website for on-line chess coaching business. I created a website using **Adobe Muse** - which is a non-coders best friend. It was all good but I had a problem hosting it. I tried a free service called vlexo. It was good for a free service but it asked us to put a link back to their website on my website. And also, the response time was not so good. I was looking for an alternative since then.
+Initially, I had to design a website for a friend. It was supposed to have all the details of her company, contact information and frequent updating of tournament results. It is actually a website for on-line chess coaching business. I created a website using **Adobe Muse** - which is a non-coders best friend. It was all good but I had a problem hosting it. I tried a free service called vlexo. It was good for a free service but it asked us to put a link back to their website on my website. And also, the response time was not so good. I was looking for an alternative since then.
 
 Meanwhile, I used to see many **.io** website links in google search results which are strange for me back then. Once I open such links, I always used to find a minimal, aesthetically pleasing, and content oriented website. 
 
 
-I was curious to know how they did it. After some research, I found out that they are hosted using Github Pages. So I chose Github Pages (which is free) to host my website. It was all good but when it came to forms, I did not know how to [make a form for static website](/jekyll-subscribe-form/){:target="_blank"}. As a business, we had new parents contacting us through the form on our website asking about the details. Since forms did not work on Github, I moved that site to WordPress. <strike>It is still in WordPress</strike>  - [inapurichessworld](http://inapurichessworld.com)
+I was curious to know how they did it. After some research, I found out that they are hosted on Github Pages and are using Jekyll CMS. So I chose Github Pages (which is free) to host my website. It was all good but when it came to forms, I did not know how to [make a form for static website](/jekyll-subscribe-form/){:target="_blank"}. As a business, we had new parents contacting us through the form on our website asking about the details. Since forms did not work on Github, I moved that site to WordPress. <strike>It is still in WordPress</strike>  - [inapurichessworld](http://inapurichessworld.com)
 
 {% include adsense-inside-post.html %}
 
-But by this time I had a good hang of Github Pages and started hosting my websites on it. I had realized (very late) that web designing is my passion. I kept on learning more about html5. I also started learning Android application development. I never thought I can make it a business but I fully enjoyed making modern websites.
+But by this time I had a good hang of Github Pages and Jekyll. So I started hosting my websites on it. I had realized (very late) that web designing is my passion. I kept on learning more html5, css and js. I never thought I can make it a business but I fully enjoyed making modern websites.
 
 I have named it webjeda. **Web** means the **world wide web** and **jeda** means **spider** in my mother tongue.
 
