@@ -36,7 +36,7 @@ Read: [Why did I choose Jekyll over WordPress?!](/why-jekyll-over-wordpress/){: 
 
 Since fontawesome is a huge file, we have to trim it down to our needs. If we are using only 10 icons then why should we load 100 other icons? The size of font awesome web font is 90KB by the time I'm writing this article. Added to that, minified font awesome css is 30KB. So overall 120KB! What I'm trying is to reduce this to below 12KB which is more than **90%** compression!!
 
-Imagine how fast the icons will load! After implementing this, my website scored 89% on Google pagespeed insights. It used to be 52%!
+This will decrease the load time multiple folds! My website scored 89% on Google pagespeed insights after implementing this. It used to be 52%!
 
 {% include adsense-inside-post.html %}
 
@@ -126,7 +126,7 @@ IcoMoon will show the icons that are selected and gives you an option to downloa
 Keep these files at the root of the website and link the ``style.css`` file in head tag. If you are in doubt then check the ``demo.html`` file which is included in the downloaded font package.
 
 ### Alternatives
-Before you decide using fontawesome, think of using these alternatives. That may help if your website needs pretty basic icons.
+Before you decide using fontawesome, think of using these alternatives. These options are pretty good for a minimal website.
 
 1. [Unicode](https://www.materialui.co/unicode-characters){: target="_blank"}{: rel="nofollow"}
 
