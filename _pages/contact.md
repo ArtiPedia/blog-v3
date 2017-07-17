@@ -21,6 +21,20 @@ I would love to hear from you. Any query, suggestion or feedback would be great!
 
 **Twitter:** [@webjeda](https://twitter.com/webjeda){: target="_blank"}
 
+<br>
+<br>
+
+<h2 id="contact">Redirected Here</h2>
+
+If you are redirected to this page from a form then I would like you to know that your message has reached me. Use the conact methods mentioned if I don't get back to you soon. 
+
+Check out this blog to create a website on your own to save some money. If you lack time then [hire me](http://webjeda.com/website.html){: target="_blank"}.
+
+For Jekyll help please google the error or problem with 'jekyll' suffix. One of the search results should help you with the problem. If not, please ask a question in the comment section of a particular article in this blog or on StackOverflow.
+
+
+
+
 <style>
 .youbt {
   
