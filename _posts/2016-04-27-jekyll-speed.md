@@ -152,7 +152,12 @@ If you do not use Adobe Illustrator, then you can use Sketch(for mac) or [Drawsv
 {% include adsense-inside-post-2.html %}
 
 Do not use SVG image as featured image. Social media may not recognize SVG images.
-{.r}
+{: .r}
+
+
+The latest development in image formatting is WebP which provides superior lossless and lossy compression for images on the web. WebP images are around 25% smaller than JPEG retaining the same image quality.
+{: .y}
+
 
 ### 4. Minify Jekyll HTML, CSS and JS
 Minifying is another way to reduce file-size which results in fast loading of websites. Minifying removes any character or space that is unnecessary. Many times we use comments in the code for our convenience. But, this is not required for an end user. Here are few things you can do to achieve minification.
