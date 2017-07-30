@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Contact Me
+redirect_from: 
+    - thank-you/
 desc: I would like to know what my users have to say about the website. Any query, suggestion or tip would be great. Contacting WebJeda is easy. Just fill up the form and hit send.
 permalink: /contact/
 adallow: 0

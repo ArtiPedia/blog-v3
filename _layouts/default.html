@@ -80,6 +80,14 @@ layout: compress
         {% include ad-script.html %}
      {% endif %}
     {% endif %}
+    
+    
+    <!-- Prefetch DNS -->
+    {% if page.layout == 'post' %}
+    <link rel="dns-prefetch" href="https://webjeda.disqus.com/">
+    <link rel="dns-prefetch" href="https://ajax.googleapis.com">
+    {% endif %}
+    
     </head>
     
 <body id="top">

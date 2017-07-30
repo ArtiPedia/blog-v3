@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Jekyll Video Tutorials
-desc: 
+desc: Jekyll Tutorial Videos are available here. See how I do Jekyll.
 permalink: /videos/
 adallow: 0
 videos:

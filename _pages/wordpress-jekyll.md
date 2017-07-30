@@ -1,7 +1,7 @@
 ---
 layout: default
 title: WordPress to Jekyll Migration
-desc: 
+desc: Migrating from WordPress to Jekyll is a big hassle. Things should be handled carefully. Learn how to do it here.
 permalink: /wordpress-to-jekyll-migration/
 adallow: 0
 sec: wj

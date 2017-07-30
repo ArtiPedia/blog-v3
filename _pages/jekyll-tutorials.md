@@ -1,7 +1,9 @@
 ---
 layout: default
 title: Jekyll Tutorials
-desc: 
+redirect_from: 
+    - jekyll-guide/Jekyll
+desc: Find all the latest Jekyll Tutorials here along with the steps to implement new features on Jekyll blog or website.
 permalink: /jekyll-tutorials/
 adallow: 0
 ---
