@@ -37,9 +37,17 @@ There are few solutions to create a form in Jekyll blog.
 
 2. [SimpleForm](https://getsimpleform.com/){:rel='nofollow'}{:target="_blank"}
 
+3. [Google Forms](https://www.google.com/forms/about/){:rel='nofollow'}{:target="_blank"}
+
 Formspree has a restriction 1000 entries/month. It is more than enough for a starter like myself. You can choose Gold membership for more entries and gain access to Formspree database.
 
-But, I prefer SimpleForm because one form created in simple form can be used on any page without verification. So to know how to set up simpleform, read: [How to create a form using SimpleForm](/jekyll-subscribe-form/){:target="_blank"}
+But, I prefer SimpleForm because one form created in simple form can be used on any page without verification. So to know how to set up simpleform, read: [How to create a form using SimpleForm](/jekyll-subscribe-form/){:target="_blank"}.
+
+I have noticed that SimpleForm sells the data to third party, which is fair for a free service but I can't trust them with user data. So I recommend using Google Forms. I know that Google uses the data for ad targeting but I haven't received any spam emails after the switch. I can bear the ads.
+{: .g}
+
+Read: [Customize Google Form](/google-form-customize/){:target="_blank"}
+
 
 I'm going to explain the simplest among the two - Formspree. 
 

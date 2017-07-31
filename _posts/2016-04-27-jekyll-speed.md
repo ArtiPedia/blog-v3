@@ -1,5 +1,5 @@
 ---
-title: 13 Tested ways to Speed up Jekyll Blog
+title: 14 Tested ways to Speed up Jekyll Blog
 desc: Page speed is one of the factors in Google's search ranking algorithm. Learn how to speed up Jekyll blog by various methods that help website load faster on a mobile device even on a 2g connection!
 keywords: 
 author: sharathdt
@@ -369,7 +369,20 @@ I have added some things to make it look attractive but all those rings and bell
 
 If you want a site which loads really fast on mobile phones then try Amplify. [Amplify](https://github.com/ageitgey/amplify){:rel='nofollow'}{:target="_blank"} is a theme developed following Google Accelerated Mobile Pages(AMP) rules. AMP is a project by Google to make websites load faster on mobile devices. Anyone can create an AMP version of their website. But we have a Jekyll theme which is completely AMP based! Here is a [sample post](https://cdn.ampproject.org/c/s/ageitgey.github.io/amplify/2016/03/08/example-post.html){:rel='nofollow'}{:target="_blank"} which loads incredibly fast.
 
-So these are the methods I would recommend to use to speed up your Jekyll blog. Once you implement some of these methods, check if it has improved the page load time.
+
+
+### 14. Use DNS prefetch
+DNS prefetch is a way to tell the browser to be ready for the external links. A browser usually does the DNS resolution only when it encounters one. This takes some time and we can avoid this by prefetching those DNS resolved addresses.
+
+Let's say you load Disqus comments from the ``disqus.com``. The browser sees the link only at the bottom of a post where the comment section is generally placed. We don't want the browser to waste time resoving the DNS then. Thus prefetching helps reducing this relay.
+
+For example:
+{% highlight html %}
+<link rel="dns-prefetch" href="https://webjeda.disqus.com/">
+{% endhighlight %}
+
+
+These are the methods I would recommend to use to speed up your Jekyll blog. Once you implement some of these methods, check if it has improved the page load time. Let me know how much in the comment section.
 
 ## Conclusion
 More than ranking on search engines, speed is important to keep your users happy. They may not return to the website if it is too slow to load. Make sure you keep your website light and fast. Compare your website to a restaurant; how happy we feel if the service is quick and how frustrating it will be if the order takes forever. Speed and simplicity makes Jekyll stand out of the crowd.
