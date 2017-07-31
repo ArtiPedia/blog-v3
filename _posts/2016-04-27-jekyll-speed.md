@@ -275,8 +275,7 @@ But, if you have a ``.scss`` file the process to inline scss is a little differe
   </style>
 {% endraw %}{% endhighlight %}
 
-I use two css files. One is ``critical.css`` which only has important styles that are required in the beginning like page width, content width etc. This file loads immediately as I have declared it in the head tag. I have all other styles combined in a minified css file called ``main.css`` which is configured for lazy loading.
-{: .y}
+
 
 ### 6. Use a CDN to cache static files
 CDN stands for Content Distribution Network which delivers content through a server close to the end user and thus reducing the time required to fetch content. Google uses servers located in India in response to a request made by an Indian user. 
@@ -288,7 +287,7 @@ I use [CloudFlare](https://cloudflare.com){:rel='nofollow'}{:target="_blank"}, w
 ### 7. Use image dimensions
 Using height and width attribute will help the browser to display a page without any reflow. If you do not specify any resolution then the browser will have no idea what size the image is until the image is completely downloaded. This causes a small delay but, if you have more images without dimensions specified then it might lead to a significant delay in page load time.
 
-> An image without dimensions take more time to load.
+> An image without dimensions takes more time to load.
 
 If you observe the images I have used in this post, all of them have specified dimensions. Specifying dimensions in a normal html website is easy.
 
@@ -323,6 +322,8 @@ I have written a detailed tutorial on [how to lazy load css](/lazy-load-css/){:r
 Jquery can be used to lazy load html, especially images. This method will prioritize above the fold content which is visible in the viewport. All the content below will be loaded only upon scrolling. You can also add effects like fade-in that makes it pretty!
 
 Here is a guide on [how to use jQuery lazy loading](http://www.appelsiini.net/projects/lazyload){:rel='nofollow'}{:target="_blank"}. And here is a [sample website](http://www.appelsiini.net/projects/lazyload/enabled_fadein.html){:rel='nofollow'}{:target="_blank"} which uses this feature.
+
+> Load items only when they are necessary.
 
 This feature comes in handy if your website has a lot of images or other similar content. This can be used on any type of media.
 
@@ -365,7 +366,7 @@ I'm kind of promoting my themes here. Use [**Thunder**](http://webjeda.com/thund
 I have added some things to make it look attractive but all those rings and bells are really light. Go ahead and try it. I have created another theme called [**Purple**](http://webjeda.com/purple/){:target="_blank"} which is also minimal.
 {: .clear}
 
-> Content is still the King. Focus on responsive design.
+> Smartphone users are growing day by day. Focus on responsive design.
 
 If you want a site which loads really fast on mobile phones then try Amplify. [Amplify](https://github.com/ageitgey/amplify){:rel='nofollow'}{:target="_blank"} is a theme developed following Google Accelerated Mobile Pages(AMP) rules. AMP is a project by Google to make websites load faster on mobile devices. Anyone can create an AMP version of their website. But we have a Jekyll theme which is completely AMP based! Here is a [sample post](https://cdn.ampproject.org/c/s/ageitgey.github.io/amplify/2016/03/08/example-post.html){:rel='nofollow'}{:target="_blank"} which loads incredibly fast.
 
@@ -380,6 +381,8 @@ For example:
 {% highlight html %}
 <link rel="dns-prefetch" href="https://webjeda.disqus.com/">
 {% endhighlight %}
+
+It is a better way to utilize the time before visible content starts to appear.
 
 
 These are the methods I would recommend to use to speed up your Jekyll blog. Once you implement some of these methods, check if it has improved the page load time. Let me know how much in the comment section.
