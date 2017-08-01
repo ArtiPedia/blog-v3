@@ -65,7 +65,11 @@ Keep [this repository](https://github.com/Redgadget/form/tree/gh-pages){:rel='no
 </form>
 {% endhighlight %}
 
+
 <div class="clear"></div>
+
+So the output should look something like this. 
+
 
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="296px" height="255px"
 	 viewBox="0 0 296 255" enable-background="new 0 0 296 255" xml:space="preserve">
@@ -77,7 +81,7 @@ Keep [this repository](https://github.com/Redgadget/form/tree/gh-pages){:rel='no
 </svg>
 
 
-So the output should look something like this. 
+
 
 
 
