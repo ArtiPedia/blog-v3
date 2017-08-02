@@ -106,6 +106,11 @@ onsubmit="submitted=true;">
 
 Style this form however you want to but I'm keeping it simple without any styles applied. You can check the entries [here](https://docs.google.com/spreadsheets/d/1_vt8il8LpxEi8_DmX0yxxRambpw700cdMC2yMIGWqbk/edit?usp=sharing){: target="_blank"}.
 
+{% include adsense-inside-post-2.html %}
+
+Try not to spam
+{: .r}
+
 
 ## Get responses in a Google SpreadSheet
 This is a cool feature where you can get the entries in a spreadsheet! In the form, click on **Responses** tab. You should be able to see all the responses right there. But you will see a spreadsheet icon at the top right corner. Click on it and it will ask you whether you'd like to save responses in a new spreadsheet. Click **Create**
@@ -156,10 +161,6 @@ Another cool feature is to get notifications to your email upon every entry. You
 ## Check if the Google Form is working
 Check if the responses are recorded in the form response or the spreadsheet. After the submission, if the form redirects you to the Google Form for missing entries, then check if the ``name`` values are entered properly.
 
-{% include adsense-inside-post-2.html %}
-
-Try not to spam
-{: .r}
 
 ## Conclusion
 Though there are other free services like [Formspree](https://blog.webjeda.com/jekyll-contact-form/){: target="_blank"}, [SimpleForm](https://blog.webjeda.com/jekyll-subscribe-form/){: target="_blank"} etc, I trust Google with my data. This is because I'm aware that Google uses it for targeting ads. But I don't know what other services use the data for. While using SimpleForm, I used to get a lot of spam from digital marketers. Obviously, the guy who owns SimpleForm is selling the email addresses to someone. 
