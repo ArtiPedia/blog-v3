@@ -80,6 +80,8 @@ Copy this value and paste it in your form's action. Also, copy respective **name
 </form>
 {% endhighlight %}
 
+For form elements like **options** and **select**, the google form will have a hidden ``<input>`` tag at the end of the form. Sometimes you will have to select an option in the form to see that hidden ``<input>`` tag. Copy the name value from that tag to all the options and selects.
+
 ## Publish it on any website
 The good thing about the form is that it not only works but it works on static websites as well. This is a great way to insert Google forms in Jekyll websites and blogs hosted on Github Pages.
 
@@ -102,7 +104,7 @@ onsubmit="submitted=true;">
 </form>
 
 
-Style this form however you want to but I'm keeping it simple without any styles applied.
+Style this form however you want to but I'm keeping it simple without any styles applied. You can check the entries [here](https://docs.google.com/spreadsheets/d/1_vt8il8LpxEi8_DmX0yxxRambpw700cdMC2yMIGWqbk/edit?usp=sharing){: target="_blank"}.
 
 
 ## Get responses in a Google SpreadSheet
@@ -152,7 +154,7 @@ Another cool feature is to get notifications to your email upon every entry. You
 
 
 ## Check if the Google Form is working
-In the form that I have inserted [here](#publish-it-on-any-website) is a working form and you can see the entries [here](https://docs.google.com/spreadsheets/d/1_vt8il8LpxEi8_DmX0yxxRambpw700cdMC2yMIGWqbk/edit?usp=sharing){: target="_blank"}.
+Check if the responses are recorded in the form response or the spreadsheet. After the submission, if the form redirects you to the Google Form for missing entries, then check if the ``name`` values are entered properly.
 
 {% include adsense-inside-post-2.html %}
 
