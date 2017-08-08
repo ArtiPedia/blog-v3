@@ -50,6 +50,7 @@ Check out the playlist at the bottom to see more comments.
 
 Another thing I found very difficult was choosing the right tools for web development. There are some tools I recommend for new web designers 
 
+
 [**Brackets**](http://brackets.io){:rel='nofollow'} - an awesome code editor. (recommended plugin - [emmet](http://emmet.io/download/){:rel='nofollow'})
 
 [**Prose**](http://prose.io){:rel='nofollow'} - an awesome online code editor.
