@@ -24,7 +24,11 @@ videos:
     - id: gI-FcrkDveA
       title: How Jekyll Works?
       desc: Jekyll is really simple once you know how it works. You can make your blog do wonders once you know how to play with templates, layouts, loops and curly braces.     
-      
+
+    - id: Ff8_V6IIbw0
+      title: How to Create and List Jekyll Posts
+      desc:  In this video I have talked about Jekyll Posts. How to create new posts, how to index them in homepage.
+
     - id: IP6HsgwQkvs
       title: Create a working contact form in Jekyll
       desc: In this video I will be showing how to create forms in static websites like Github pages or Jekyll blogs. 
@@ -50,8 +54,8 @@ videos:
       
     - id: q0OP81HDQzE
       title: Using Liquid Syntax in Jekyll
-      desc: Jekyll is really simple once you know how it works. You can make your blog do wonders once you know how to play with templates, layouts, loops and curly braces. 
-        
+      desc: Jekyll is really simple once you know how it works. You can make your blog do wonders once you know how to play with templates, layouts, loops and curly braces.       
+
 ---
 
 
