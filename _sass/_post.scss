@@ -3,7 +3,7 @@ article {
     margin: 10px auto;
     position:relative;
     
-        a {
+        a, :not(a.nodecoration) {
             color: darken($color, 20%);  
             text-decoration: none;
             border-bottom: 2px solid lighten($grey-color, 30%);
