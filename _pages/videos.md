@@ -57,7 +57,7 @@ videos:
       desc: Jekyll is really simple once you know how it works. You can make your blog do wonders once you know how to play with templates, layouts, loops and curly braces.       
 
 ---
-
+<link rel="dns-prefetch" href="//i.ytimg.com">
 <div class="homepage">
 <div id="mainbox">
 {% for video in page.videos %}
