@@ -58,8 +58,6 @@ videos:
 
 ---
 
-<link rel="dsn-prefetch" href="//i.ytimg.com">
-
 <div class="homepage">
 <div id="mainbox">
 {% for video in page.videos %}
