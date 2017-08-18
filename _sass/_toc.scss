@@ -1,0 +1,37 @@
+
+//Table of contents Wikipedia like
+#markdown-toc::before {
+    content: "Contents";
+    font-weight: bold;
+    line-height: 1.8;
+    font-size: $base-fs;
+}
+
+#markdown-toc ul {
+    list-style: decimal;
+}
+
+#markdown-toc {
+    font-family: $base-ff;
+    font-size: $small-fs;
+    border: 1px solid darken($grey-color, 5%);
+    padding: 1.5em;
+    padding-left: 2em;
+    list-style: decimal;
+    display: inline-block;
+    margin-right: 2em;
+        
+    a {
+       text-decoration: none;
+       border: none;
+       color: cornflowerblue;
+        &:hover {
+            color: $color;
+        }
+    }
+    @include media-query($on-palm) {
+        float: none;
+        margin-right: 0;
+    }
+
+}

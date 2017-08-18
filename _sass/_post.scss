@@ -48,7 +48,7 @@ article {
         @include media-query($on-palm) {
             width: 100%;
             float: none;
-            margin-right: none;
+            margin-right: 0;
             }
     
     }
@@ -114,14 +114,14 @@ article {
     
     
     @include media-query($on-palm) { 
-            font-size: 45px;
-            line-height: 20px;
-            padding-top: 10px;
-            margin-top: 5px;
-            padding-right: 4px;
-            padding-bottom: 13px;
-            padding-left: 3px;
-            margin-right: 6px;
+        font-size: 60px;
+        line-height: 40px;
+        padding-top: 5px;
+        margin-top: 0px;
+        padding-right: 4px;
+        padding-bottom: 12px;
+        padding-left: 4px;
+        margin-right: 10px;
         }
     
     }
@@ -194,42 +194,6 @@ article {
 
 
 
-
-//Table of contents Wikipedia like
-#markdown-toc::before {
-    content: "Contents";
-    font-weight: bold;
-    line-height: 1.8;
-    font-size: $base-fs;
-}
-
-#markdown-toc ul {
-    list-style: decimal;
-}
-
-#markdown-toc {
-    font-family: $base-ff;
-    font-size: $small-fs;
-    border: 1px solid darken($grey-color, 5%);
-    padding: 1.5em;
-    padding-left: 2em;
-    list-style: decimal;
-    display: inline-block;
-    margin-right: 2em;
-        
-    a {
-       text-decoration: none;
-       border: none;
-       color: cornflowerblue;
-        &:hover {
-            color: $color;
-        }
-    }
-    @include media-query($on-palm) {
-        float: none;
-    }
-
-}
 
 
 /* Responsive videos */
