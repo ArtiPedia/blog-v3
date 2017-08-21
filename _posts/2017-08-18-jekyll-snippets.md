@@ -12,15 +12,15 @@ published: true
 sec: tut
 ---
 
-I will be creating some of the important Jekyll snippets so that they can be directly pasted into a Jekyll website and with no or little editing they work right away.
+I will be creating some of the important Jekyll snippets so that they can be directly inserted into a Jekyll website and with no or little editing they start working.
 
-Here - along with the html and liquid code - I have inserted style as well. This way it would be easier to implement these snippets.
+Here - along with the html and liquid code - I have included style as well. Now, it would be easier to implement these snippets. You may have to tinker some values like width, color etc., as per your requiremtnt.
 
 * Do not remove this line (it will not be displayed)
 {:toc}
 
 
-You can always move the style to a different stylesheet or to the head section.
+You can always move the style to a different stylesheet or to the head section. But inlining style this way will actually speed up the page load time. But it may not get cached.
 
 
 ## Jekyll Pagination
@@ -82,6 +82,8 @@ It makes sense to load the Disqus widget only when a user scrolls to the bottom.
 {% endhighlight %}
 
 Read - [Webjeda Sharebar](http://webjeda.com/webjeda-sharebar/){: target="_blank"}
+
+Fontawesome is a huge css file. [Optimize fontawesome](/optimize-fontawesome/){: target="_blank"} to speed up page load time.
 
 
 <style>
