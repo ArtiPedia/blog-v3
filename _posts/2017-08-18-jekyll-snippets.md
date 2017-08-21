@@ -2,7 +2,9 @@
 title: Jekyll Snippets - Just Copy Paste!
 desc: Jekyll Snippets are available in the official website but the styling is not. I'm trying to create jekyll snippets that you can copy it to your jekyll website and it starts working. 
 author: sharathdt
-tags: Jekyll
+tags: 
+    - Jekyll 
+    - Web-Design
 image: jekyll-snippets.png
 img-src: "http://www.freepik.com/"
 img-src-name: Design by Freepik
