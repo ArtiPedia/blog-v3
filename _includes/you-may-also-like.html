@@ -1,4 +1,4 @@
-<h4>You May Also Enjoy</h4> 
+<h4>You May Also Like</h4> 
 {% if page.path contains '_jekyll-themes' %}
    
 <div class="rect">
@@ -7,7 +7,7 @@
              <a href="{{ jekyll-themes.url | prepend: site.baseurl }}">
                   <div class="rel">
                       <img alt="{{jekyll-themes.title | append:'jekyll theme'}}" src="/thumbs/{{ jekyll-themes.image }}">
-                       <h5>{{ jekyll-themes.title | truncate: 45 }}</h5>
+                       <p><small>{{ jekyll-themes.title | truncate: 300 }}</small></p>
                   </div>
               </a>
         {% endif %}
@@ -48,7 +48,7 @@
               <div class="rel">
         
                   <img alt="{{post.title}}" src="/thumbs-small/{{post.image}}">
-                            <h5>{{ post.title | truncate: 45 }}</h5>
+                            <p><small>{{ post.title | truncate: 300 }}</small></p>
               </div>
           </a>
 
