@@ -143,11 +143,11 @@ A URL conveys a lot of information about the content. Users and bots expect it t
 
 ### Make it readable
  
-![URL structure jekyll seo](/images/url-structure-jekyll-seo.jpg)
+![URL structure jekyll seo](/images/url-structure-jekyll-seo.svg)
 {: .right .half}
 
-A clean URL structure gives a better click through rate. Nowadays search engines are smart enough to detect whether the URL has any relation with the content.
-I have seen many blogs whose URL contains page ids in it. This will not convey any good information to either a human reader or to a search engine bot. It is only used for the convenience of differentiating all the pages within a blog. Do not use ids in URL.
+A clean URL structure gives a better click through rate. Nowadays, search engines are smart enough to detect whether the URL has any relation with the content.
+I have seen many blogs whose URL contains page ids in it. This will not convey any good information to either a human reader or to a search engine bot. It is only used for the convenience of differentiating all the pages within a blog. Do not use **ids** in URL.
 
 Including date is a choice. You can opt it if you think it will help users in some way. Search engines may extract this data. It is useful if dates really matter to your content.
 {: .clear}
