@@ -123,7 +123,7 @@ Also, it is advised to restrict your description to 160 characters or less. Anyt
 
 So that takes care of _Title_ and _Description_. But remember, you have to explicitly add Title and Description in the Front Matter to all your posts as shown in the example below. It doesn't matter how long your description is in the Frontmatter. It will be truncated to 160 characters in the meta tag.
 
-Add your keyword at the beginning of the description so that users can easily find it on google search results. This seems to get more click through rates.
+Add your keyword at the beginning of the description so that users can easily find it on google search results. This usually gets more click through rates.
 {: .y}
 
 {% highlight css %}
