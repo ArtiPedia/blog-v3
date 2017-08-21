@@ -87,7 +87,7 @@ A Title should match its description and the content of the article.
 ![Title and description jekyll seo](/images/jekyll-seo-meta-description.jpg)
 {: .right .half}
 
-Every blog post should have a unique title and description. Many bloggers do not bother about having a unique description. If you don't specify one then Google will consider the first paragraph of the page(or post) as the description and show it in the search result snippet.
+Every blog post should have a unique title and description. Many bloggers do not bother having a unique description. If you don't specify one then Google will consider the first paragraph of the page(or post) as the description and show it in the search result snippet.
 
 This may not always be accurate. I recommend using a custom description which will have the main keyword and briefly describes the whole article.
 <div class="clear"></div>
