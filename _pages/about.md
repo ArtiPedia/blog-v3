@@ -59,12 +59,11 @@ The first thing you notice on visiting my website is that it is **minimal**. I b
 I write things I have tried. It takes a reasonable amount of time to research, test, and test again on other platforms. Writing a tech article which deals with coding isn't easy. It involves a lot of hard work. How do I get paid for this? I run Adsense on this blog.
 
 <p class="red">
-I suggest you to use an Ad-blocker if you don't like those <strong>Download pdf</strong>, <strong>Click to Download</strong> kind of ads. As a reader, I don't like ads and popups. Let me know that you also prefer a clean experience by making a small donation.
+I suggest you to use an Ad-blocker if you don't like those <strong>Download pdf</strong>, <strong>Click to Download</strong> kind of ads. As a reader, I don't like ads and popups. Let me know that you also prefer a clean experience by making a <a href="/donate/">small donation</a>.
 </p>
 
 <style>
-.green, .red {
-
+.green, .red{
     padding: 20px;
     border-radius:4px;
     color: #fff;
@@ -75,7 +74,11 @@ I suggest you to use an Ad-blocker if you don't like those <strong>Download pdf<
 .red {
     background-color: #f56767;
 }
+.red a {
+    color: #fff;
+}
 </style>
+
 <!-- 
 I accept donations. 
 
@@ -84,20 +87,14 @@ I accept donations.
 <style>
 a.donate{border:none}a.donate:hover{color:#fff;border:none}.donate{background-color:#3bb3e0;width:148px;display:inline-block;font-family:'Open Sans',sans-serif;text-align:center;font-size:12px;text-decoration:none;color:#fff;position:relative;margin-top:40px;padding-bottom:10px;padding-top:10px;background-image:linear-gradient(bottom,#2ca0ca 0%,#3eb8e5 100%);background-image:-o-linear-gradient(bottom,#2ca0ca 0%,#3eb8e5 100%);background-image:-moz-linear-gradient(bottom,#2ca0ca 0%,#3eb8e5 100%);background-image:-webkit-linear-gradient(bottom,#2ca0ca 0%,#3eb8e5 100%);background-image:-ms-linear-gradient(bottom,#2ca0ca 0%,#3eb8e5 100%);background-image:-webkit-gradient(linear,left bottom,left top,color-stop(0,#2ca0ca),color-stop(1,#3eb8e5));-webkit-border-bottom-right-radius:5px;-webkit-border-bottom-left-radius:5px;-moz-border-radius-bottomright:5px;-moz-border-radius-bottomleft:5px;border-bottom-right-radius:5px;border-bottom-left-radius:5px;-webkit-box-shadow:inset 0 1px 0 #2ab7ec,0 5px 0 0 #156785,0 10px 5px #999;-moz-box-shadow:inset 0 1px 0 #2ab7ec,0 5px 0 0 #156785,0 10px 5px #999;-o-box-shadow:inset 0 1px 0 #2ab7ec,0 5px 0 0 #156785,0 10px 5px #999;box-shadow:inset 0 1px 0 #2ab7ec,0 5px 0 0 #156785,0 10px 5px #999}.donate:active{top:0;background-image:linear-gradient(bottom,#3eb8e5 0%,#2ca0ca 100%);background-image:-o-linear-gradient(bottom,#3eb8e5 0%,#2ca0ca 100%);background-image:-moz-linear-gradient(bottom,#3eb8e5 0%,#2ca0ca 100%);background-image:-webkit-linear-gradient(bottom,#3eb8e5 0%,#2ca0ca 100%);background-image:-ms-linear-gradient(bottom,#3eb8e5 0%,#2ca0ca 100%);background-image:-webkit-gradient(linear,left bottom,left top,color-stop(0,#3eb8e5),color-stop(1,#2ca0ca));-webkit-box-shadow:inset 0 4px 1px #0b698b,0 2px 0 0 #156785,0 5px 3px #999;-moz-box-shadow:0 2px 0 1px #156785,0 5px 3px #999;-o-box-shadow:0 2px 0 1px #156785,0 5px 3px #999;box-shadow:inset 0 4px 1px #0b698b,0 2px 0 0 #156785,0 5px 3px #999}.donate::before{background-color:#fff;background-image:url(/img/heart.gif);background-repeat:no-repeat;background-position:center center;content:"";width:148px;height:40px;position:absolute;top:-30px;left:0;margin-top:-11px;z-index:-1;border:1px solid #eee;-webkit-border-top-left-radius:5px;-webkit-border-top-right-radius:5px;-moz-border-radius-topleft:5px;-moz-border-radius-topright:5px;border-top-left-radius:5px;border-top-right-radius:5px}.donate:active::before{top:-33px;box-shadow:0 3px 0 #ccc}
 </style>
+
  -->
+ 
 <br />
+
 **There are a number of ways to reach out to me, a few are in the contact page.**
 
-You can help me create more quality content.
 
-**PayPal**
-
-[![Donate](/img/donate-button.png)](https://paypal.me/webjeda/){: target="_blank" .noborder}
-
-
-**Paytm/BHIM**
-
-![Paytm/BHIM donate to webjeda](/img/Paytm-BHIM.png)
 
 <!-- [**Support me on Patreon**](https://www.patreon.com/webjeda){: target="_blank"}  -->
 
