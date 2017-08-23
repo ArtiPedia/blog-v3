@@ -1,6 +1,6 @@
 ---
 title: 9 Must do Jekyll SEO optimizations
-desc: Jekyll SEO (Search Engine Optimization) is something I struggled hard to figure out since I moved from WordPress. Initially,it was hard but gradually I found out that we can do a lot of things using liquid syntax. Read how to rank higher on search engines.
+desc: Jekyll SEO (Search Engine Optimization) is something I struggled hard to figure out since I moved from WordPress. Initially,it was hard but gradually I found out that we can do a lot of things using liquid syntax.
 keywords: 
 author: sharathdt
 tags: SEO Jekyll
