@@ -18,14 +18,14 @@ permalink: /optimize-jekyll-seo/
 ## Why SEO for Jekyll?
 SEO is the only way through which you can get organic traffic. Organic traffic is usually better than paid traffic because in organic traffic the user is actually interested in the service you are offering.
 
-I used WordPress for a long time. If you ask me which one among WordPress and Jekyll is good for SEO, I would tell WordPress without a doubt. 
+I have used WordPress for a long time. If you ask me which one among WordPress and Jekyll is good for SEO, I would tell WordPress without a doubt. 
 
 It is true that WordPress is optimized for SEO by default. And with plugins like Jetpack, Yoast and Schema Creator, WordPress is almost unbeatable by Jekyll. Ok wait, why am I praising WordPress so much when I should be discussing Jekyll SEO?
 
 * Do not remove this line (it will not be displayed) 
 {:toc}
 
-At the moment we have Jekyll 3.0 and a small [list of Jekyll plugins](https://jekyllrb.com/docs/plugins/){:rel='nofollow'}{:target="_blank"}. We can depend on some of these plugins for SEO and most of the search engine optimization can be done without them also. 
+At the moment we have Jekyll 3.5 and a small [list of Jekyll plugins](https://jekyllrb.com/docs/plugins/#available-plugins){:rel='nofollow'}{:target="_blank"}. We can depend on some of these plugins for SEO and most of the search engine optimization can be done without them. 
 
 I will be discussing only the steps that involve making changes to your Jekyll functions but not to your content. That means I will not be addressing anything on Keyword Research, Link Building, Marketing etc.,
  
@@ -105,7 +105,13 @@ Search Engine bots try to fetch your _Title_ and _Description_ from the head tag
 Having your post title as the title makes sense. ```page.title``` variable takes care of that. If it is your homepage then there is no ```page.title``` variable available. We have to add an alternative which is your ```site.title``` that you may have mentioned in **_config.yml** file.
 
 {% highlight html %}
-<title>{% raw %}{%if page.title %}{% endraw %}{% raw %}{{ page.title }}{% endraw %}{% raw %}{% else %}{% endraw %}{% raw %}{{ site.title }}{% endraw %}{% raw %}{% endif %}{% endraw %}</title>
+<title>
+   {% raw %}{%if page.title %}{% endraw %}
+       {% raw %}{{ page.title }}{% endraw %}
+   {% raw %}{% else %}{% endraw %}
+       {% raw %}{{ site.title }}{% endraw %}
+   {% raw %}{% endif %}{% endraw %}
+</title>
 {% endhighlight %}
 
 Make sure you add the keyword in the title. For example for this post I have added **Jekyll SEO**.
