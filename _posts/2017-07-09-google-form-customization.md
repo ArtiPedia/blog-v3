@@ -94,10 +94,10 @@ onload="if(submitted) {window.location='{{site.url}}{{page.url}}';}"></iframe>
 <form action="https://docs.google.com/forms/d/e/1FAIpQLSdqGYth5-G2cP8SILJwjOcJ38vit-Rv8E9SXmtnJUu4ifMcGw/formResponse" method="post" target="hidden_iframe" 
 onsubmit="submitted=true;">
       <label>Name</label>
-      <input name="entry.742532386" type="text" maxlength="10" placeholder="John Doe" />
+      <input name="entry.742532386" type="text" maxlength="10" placeholder=" John Doe" />
       <br>
       <label>Email</label>
-      <input name="entry.1558941179" type="email" required maxlength="10" placeholder="john@email.com"/>
+      <input name="entry.1558941179" type="email" required maxlength="10" placeholder=" john@email.com"/>
       <br>
       <input type="submit" value="Send" />
 
