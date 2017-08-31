@@ -73,7 +73,7 @@ The list is big, so is the article! But follow these and I can assure you that y
 
 
 ### Update 
-Most of these can be implemented by using tag called {% raw %}{% seo %}{% endraw %} in the ``head`` section. This requires to add a gem in your **_config.yml** like this ``gems: [jekyll-paginate, jekyll-seo-tag]``. I'm assuming that you are using paginate gem also.  
+Most of these can be implemented by using tag called {% raw %}{% seo %}{% endraw %} in the ``head`` section. This requires to add a gem in your **_config.yml** like this ``plugins: [jekyll-paginate, jekyll-seo-tag]``. I'm assuming that you are using paginate gem also.  
 {: .y}
 
 This gem will add almost all the tags required for SEO. Thanks to [Ben Balter](https://github.com/benbalter){:rel='nofollow'}{:target="_blank"} for the awesome plugin. You can check it out [here](https://github.com/jekyll/jekyll-seo-tag){:rel='nofollow'}{:target="_blank"}. If you want to unserstand or implement all the tags on your own, then keep reading.

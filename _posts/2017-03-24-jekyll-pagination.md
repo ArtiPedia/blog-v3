@@ -43,7 +43,7 @@ Pagination used to be innate for Jekyll. But, then it was removed and made into 
 
 So define the gem in **_config.yml** as shown,
 {% highlight yml %}
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate] 
 {% endhighlight %}
 
 ### Define Pagination in configuration

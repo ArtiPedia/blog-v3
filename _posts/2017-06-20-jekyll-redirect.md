@@ -45,7 +45,7 @@ Let's assume that the hosting serves only static files.
 In the **_config.yml** file similar to ``jekyll-paginate`` gem,  mention ``jekyll-redirect-from`` plugin as well.
 
 {% highlight html %}
-gems: 
+plugins:  
     - jekyll-paginate
     - jekyll-redirect-from
 {% endhighlight %}

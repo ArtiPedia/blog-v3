@@ -46,7 +46,7 @@ In WordPress, creating a sitemap using a plugin is very easy! What if I tell you
 Jekyll blogs will not have sitemap by default. You can always generate them using a small snippet of code. Add the below code to your **_config.yml** file. This will create a sitemap for you with the link ```/sitemap.xml```.
 
 {% highlight css %}
-gems:
+plugins: 
   - jekyll-sitemap
 {% endhighlight %}
 
