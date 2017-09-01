@@ -116,4 +116,4 @@ Running a quick test with The [**W3C Markup Validation**](https://validator.w3.o
 Use these above 14 tips to customize your web design and don’t forget to do a W3C Markup Validation after you’re done designing!
 {: .y}
 
-This Article is written by **Andy** from <a target="_blank" href="http://www.ntwdesigns.com/" rel="noreferrer noopener">http://www.ntwdesigns.com/</a>
+This Article is written by **Andy** from <a rel="noopener noreferrer" target="_blank" href="http://www.ntwdesigns.com/" rel="noreferrer noopener">http://www.ntwdesigns.com/</a>
