@@ -85,7 +85,7 @@ For form elements like **options** and **select**, the google form will have a h
 ## Publish it on any website
 The good thing about the form is that it not only works but it works on static websites as well. This is a great way to insert Google forms in Jekyll websites and blogs hosted on Github Pages.
 
-Here is a working form that you can check. I have restricted the entries to 12 characters so as to avoid long spams.
+Here is a working form that you can check. I have restricted the entries to 18 characters so as to avoid long spams.
 
 
 <script type="text/javascript">var submitted=false;</script>
@@ -94,10 +94,10 @@ onload="if(submitted) {window.location='{{site.url}}{{page.url}}';}"></iframe>
 <form action="https://docs.google.com/forms/d/e/1FAIpQLSdqGYth5-G2cP8SILJwjOcJ38vit-Rv8E9SXmtnJUu4ifMcGw/formResponse" method="post" target="hidden_iframe" 
 onsubmit="submitted=true;">
       <label>Name</label>
-      <input name="entry.742532386" type="text" maxlength="10" placeholder=" John Doe" />
+      <input name="entry.742532386" type="text" maxlength="18" placeholder=" John Doe" />
       <br>
       <label>Email</label>
-      <input name="entry.1558941179" type="email" required maxlength="10" placeholder=" john@email.com"/>
+      <input name="entry.1558941179" type="email" required maxlength="18" placeholder=" john@email.com"/>
       <br>
       <input type="submit" value="Send" />
 
