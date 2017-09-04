@@ -163,7 +163,7 @@ From what I have seen, the value you place at the top will be given priority. In
 ### Step 2 - Save the search script
 Save the search script available [here](https://raw.githubusercontent.com/christian-fei/Simple-Jekyll-Search/master/dest/simple-jekyll-search.min.js){: target="_blank"} and save it as ``search-script.js`` (or any name that you prefer).
 
-It is better to create a folder named ``js`` in the root and keep this file inside it just to avoid any confusion.
+It is better to create a folder named ``js`` in the root and keep this file inside it just to avoid any confusions.
 {: .g}
 
 ### Step 3 - Create a Jekyll search page
