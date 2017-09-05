@@ -95,7 +95,7 @@ content: "I'm blue on smartphones :("
 <div class="xyz"></div>
    
     
-Consider the box above. It changes color when the size is decreased below 600px. It also changes the content. This can be achieved using ``:after``.
+Consider the box above. It changes color when the size is decreased below 600px. If you are already reading this article on a smartphone then use landscape mode to see the green box. It also changes the content. This can be achieved using ``:after``.
 
 
 
