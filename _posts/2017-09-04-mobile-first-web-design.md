@@ -24,7 +24,7 @@ This approach has some drawbacks. We get a lot of screen real estate in a deskto
 ## Why Mobile First Web Design? 
 Mobile First Web Design is a necessity considering the sheer number of smartphone users.
 
-> More than 2 billion people are using smartphones in {{ page.date | date: '%Y' }}.
+> Around 2 billion people are using smartphones in {{ page.date | date: '%Y' }}.
 
 A statistical analysis predicts that there will be around 3 billion smartphone users by 2020. That is a huge market. What these statistics imply is that **your content on the internet should be easily consumable through smartphones**.
 
