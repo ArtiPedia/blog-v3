@@ -6,7 +6,7 @@ tags: Web-Design
 image: mobile-first-web-design.png
 layout: post
 permalink: /mobile-first-web-design/
-published: false
+published: true
 sec: 
 ---
 
@@ -26,17 +26,13 @@ Mobile First Web Design is a necessity considering the sheer number of smartphon
 
 > More than 2 billion people are using smartphones in {{ page.date | date: '%Y' }}.
 
-A statistical analysis predicts that there will be around 3 billion smartphone users by 2020. That is a huge market. What this statistics imply is that **your content on the internet should be easily consumable through smartphones**.
+A statistical analysis predicts that there will be around 3 billion smartphone users by 2020. That is a huge market. What these statistics imply is that **your content on the internet should be easily consumable through smartphones**.
 
 Google has taken steps to make sure designers give importance to responsive web designing. They did it by adding website's responsiveness as a parameter to rank on their search engine. This one step pushed many website owners to consider responsive web designing.
 
-Google introduced Accelerated Mobile Pages (AMP pages). They are simply pages that load instantaneously and specifically designed for smartphones. Nowadays almost all the media houses are using amp pages.
+They want to convey that they are serious about smartphone users. A smartphone is a computer that you carry with you all the time and is always on!
 
-It also has a [**Mobile Friendly Test**](https://search.google.com/test/mobile-friendly){: target="_blank" rel="nofollow" } that you can use to test whether your website is optimized for smaller screens. Make sure your website passes this test, then submit to Google.
-
-They want to convey that they are serious about smartphone users. Smartphone is a computer that you carry with you all the time and is always on!
-
-Designing a website only for smartphone is actually ok because even desktop users can consume the content. You don't believe me? Then in chrome, open an article on this website and hit **ctrl and +** 5 times. You will see the article exactly how it will show on a smartphone. It is still readable.
+Designing a website only for smartphones is actually ok because even desktop users can consume the content. Don't you believe me? Then in Chrome, open an article on this website and hit **ctrl and +** 5 times. You will see the article exactly how it will show on a smartphone. It is still readable.
 
 
 ## How to use Media Query?
@@ -158,8 +154,32 @@ Then it was designed to adjust for bigger screens. When the screen-size increase
 
 
 
+Now that we have seen some examples, let's see what are some of the advantages of mobile first web designing,
+
+## Advantages
+
+### Responsive by default
+By using mobile first approach, you are designing the website suitable for almost all the devices. The main content will be accessible even if you do not have a desktop website. Check out [Mobile Facebook](https://m.facebook.com/){: target="_blank" rel="nofollow" }. 
+
+By making the website responsive, you are now targeting all those 2 billion(yet to reach) users.
+
+### Better Navigation
+In a desktop site it is easy to put too many menu items but when it comes to mobile site you do not have the screen real estate to do so. Mobile First approach will restrict you to use only essential menus and items on the screen. Usually, designers restrict themselves to minimal design which is good considering User Experience.
+
+### Mobile First websites load faster
+Mobile First websites are built from the ground up with smartphones in mind. Thus suitable, small and only essential assets are used for the mobile website. Heavy assets are loaded only for bigger screen devices. This makes a huge difference in loading speed even on a bad data connection. This is also called **Progressive Enhancement**.
+
+
+### Mobile First websites make no media query
+Mobile First website - since they are built first for mobile and then for desktops - make no media query request if browsed through a smartphone. This saves some time in making the query and then applying CSS inside the query. This is not so significant but it still makes sense for bigger CSS files.
+
+
+### Better Design
+Since the website is designed first for mobile, the design will be better than a desktop first website which is squeezed to fit inside a smaller screen. In this approach, you are most likely to place the elements carefully and consciously. 
+
+
 ## Drawbacks of Mobile First Web Designing
-Even though you are using Mobile First approach, you will have to imagine the desktop site first and make your way down to smaller screens. But you have to design the mobile site first and then for tablets and finally for desktops.
+Even though you are using Mobile First approach, you will have to **imagine the desktop site first** and make your way down to smaller screens. But you have to design the mobile site first and then for tablets and finally for desktops.
 
 It may seem like a small issue but only when you sit down to design a real website you will know the pain. I'm not sure if we can ever avoid this problem.
 
@@ -168,4 +188,3 @@ With majority of browsers supporting [Grid CSS](/css-grid-framework/){: target="
 
 ## Conclusion
 A decade ago there were no concerns for designing websites for hand held devices. But now looking at the technological progress, designers should be prepared to change over time. A designer should be ready to adapt to the changes. Designers should be ready to build web interfaces for **smart watches** or **Virtual Reality**. 
-
