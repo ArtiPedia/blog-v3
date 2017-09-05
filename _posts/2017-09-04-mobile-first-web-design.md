@@ -197,4 +197,4 @@ With majority of browsers supporting [Grid CSS](/css-grid-framework/){: target="
 I might sound like a hypocrite now as this website - webjeda blog - is not mobile first :sweat_smile: . I have changed the layout of the site several times. This is not the final design. I'm definitely going to implement it in the next design.
 
 ## Conclusion
-A decade ago there were no concerns for designing websites for hand held devices. But now looking at the technological progress, designers should be prepared to change over time. A designer adapt to the changes and be ready to build web interfaces for **smart watches** or **Virtual Reality**! 
+A decade ago there were no concerns for designing websites for hand held devices. But now looking at the technological progress, designers should be prepared to change over time. In the near future, they should be ready to build web interfaces for **smart watches** or **Virtual Reality**! 
