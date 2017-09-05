@@ -28,11 +28,11 @@ Mobile First Web Design is a necessity considering the sheer number of smartphon
 
 A statistical analysis predicts that there will be around 3 billion smartphone users by 2020. That is a huge market. What these statistics imply is that **your content on the internet should be easily consumable through smartphones**.
 
-Google has taken steps to make sure designers give importance to responsive web designing. They did it by adding website's responsiveness as a parameter to rank on their search engine. This one step pushed many website owners to consider responsive web designing.
+Google has taken steps to make sure designers give importance to responsive web designing. They did it by adding website's responsiveness as a parameter to rank on their search engine. That one step pushed many website owners to consider responsive web designing.
 
 They want to convey that they are serious about smartphone users. A smartphone is a computer that you carry with you all the time and is always on!
 
-Designing a website only for smartphones is actually ok because even desktop users can consume the content. Don't you believe me? Then in Chrome, open an article on this website and hit **ctrl and +** 5 times. You will see the article exactly how it will show on a smartphone. It is still readable.
+Designing a website only for smartphones is actually ok because even desktop users can consume the content. Don't you believe me? Then in Chrome, open an article on this website, hold **ctrl** and hit **+** 5 times. You will see the article exactly how it will show on a smartphone. It is still readable.
 
 
 ## How to use Media Query?
@@ -156,10 +156,12 @@ Then it was designed to adjust for bigger screens. When the screen-size increase
 
 Now that we have seen some examples, let's see what are some of the advantages of mobile first web designing,
 
-## Advantages
+## Advantages of Mobile First Approach
 
 ### Responsive by default
 By using mobile first approach, you are designing the website suitable for almost all the devices. The main content will be accessible even if you do not have a desktop website. Check out [Mobile Facebook](https://m.facebook.com/){: target="_blank" rel="nofollow" }. 
+
+{% include adsense-inside-post-2.html %}
 
 By making the website responsive, you are now targeting all those 2 billion(yet to reach) users.
 
@@ -185,6 +187,7 @@ It may seem like a small issue but only when you sit down to design a real websi
 
 With majority of browsers supporting [Grid CSS](/css-grid-framework/){: target="_blank"} we can find a hassle free solution. In grid CSS, it becomes easier to place any element anywhere you want in the website.
 
+I might sound like a hypocrite now as this website - webjeda blog - is not mobile first :sweat_smile: . I have changed the layout of the site several times. This is not the final design. I;m definitely going to implement it in the next design.
 
 ## Conclusion
 A decade ago there were no concerns for designing websites for hand held devices. But now looking at the technological progress, designers should be prepared to change over time. A designer should be ready to adapt to the changes. Designers should be ready to build web interfaces for **smart watches** or **Virtual Reality**. 
