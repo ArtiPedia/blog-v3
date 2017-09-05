@@ -10,7 +10,7 @@ published: true
 sec: 
 ---
 
-Mobile First Web Design is the new trend in responsive web designing. Unlike covfefe, **mobile first** is a meaningful trend. It is just the reverse approach of what we are generally used to - Desktop First.
+Mobile First Web Design is fairly new trend in responsive web designing. Unlike covfefe, **mobile first** is a meaningful trend. It is just the reverse approach of what we are generally used to - Desktop First.
 
 Web Designing is almost always done on a desktop(I'm yet to encounter someone who does it on their phone). This was the main reason why we generally design websites for **desktop first** and then use media queries to adapt the site for smaller devices.
 
@@ -55,6 +55,7 @@ Let's say we have a media query like the following,
 }
 {% endhighlight %}
 
+The color changes to blue if the screen width is below 600 pixels.
 
 I remember it this way, 
 
@@ -68,10 +69,11 @@ I remember it this way,
     width: 100%;
     text-align: center;
     padding-top: 50px;
-    border: 15px dashed #fff;
+    border: 10px solid #444;
     background-color: #0a5;
     font-weight: bold;
     color: #eee;
+    margin: 1em 0;
     
 }
 .xyz:after {
@@ -168,8 +170,13 @@ By making the website responsive, you are now targeting all those 2 billion(yet 
 ### Better Navigation
 In a desktop site it is easy to put too many menu items but when it comes to mobile site you do not have the screen real estate to do so. Mobile First approach will restrict you to use only essential menus and items on the screen. Usually, designers restrict themselves to minimal design which is good considering User Experience.
 
+![Mobile First Web Designing Minimal](/images/mobile-first-web-design-responsive.png){: .border}
+
+A header from **Lanyon** designed by Mark Otto.
+
 ### Mobile First websites load faster
 Mobile First websites are built from the ground up with smartphones in mind. Thus suitable, small and only essential assets are used for the mobile website. Heavy assets are loaded only for bigger screen devices. This makes a huge difference in loading speed even on a bad data connection. This is also called **Progressive Enhancement**.
+
 
 
 ### Mobile First websites make no media query
@@ -190,4 +197,4 @@ With majority of browsers supporting [Grid CSS](/css-grid-framework/){: target="
 I might sound like a hypocrite now as this website - webjeda blog - is not mobile first :sweat_smile: . I have changed the layout of the site several times. This is not the final design. I'm definitely going to implement it in the next design.
 
 ## Conclusion
-A decade ago there were no concerns for designing websites for hand held devices. But now looking at the technological progress, designers should be prepared to change over time. A designer should be ready to adapt to the changes. Designers should be ready to build web interfaces for **smart watches** or **Virtual Reality**. 
+A decade ago there were no concerns for designing websites for hand held devices. But now looking at the technological progress, designers should be prepared to change over time. A designer adapt to the changes and be ready to build web interfaces for **smart watches** or **Virtual Reality**! 
