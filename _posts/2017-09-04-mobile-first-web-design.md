@@ -187,7 +187,7 @@ It may seem like a small issue but only when you sit down to design a real websi
 
 With majority of browsers supporting [Grid CSS](/css-grid-framework/){: target="_blank"} we can find a hassle free solution. In grid CSS, it becomes easier to place any element anywhere you want in the website.
 
-I might sound like a hypocrite now as this website - webjeda blog - is not mobile first :sweat_smile: . I have changed the layout of the site several times. This is not the final design. I;m definitely going to implement it in the next design.
+I might sound like a hypocrite now as this website - webjeda blog - is not mobile first :sweat_smile: . I have changed the layout of the site several times. This is not the final design. I'm definitely going to implement it in the next design.
 
 ## Conclusion
 A decade ago there were no concerns for designing websites for hand held devices. But now looking at the technological progress, designers should be prepared to change over time. A designer should be ready to adapt to the changes. Designers should be ready to build web interfaces for **smart watches** or **Virtual Reality**. 
