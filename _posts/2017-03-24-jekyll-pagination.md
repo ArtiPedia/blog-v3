@@ -140,6 +140,7 @@ If you are looking for simple post suggestions at the end of every post, then pl
 Read: [How to add previous next posts](/related-post-jekyll/){: target="_blank"}
 
 Read: [How to add related posts](/jekyll-related-posts/){: target="_blank"}
+
 {% include adsense-inside-post-2.html %}
 
 If you observe a blank page after implementing Jekyll pagination, then you must have missed one or more steps I have mentioned here. 
