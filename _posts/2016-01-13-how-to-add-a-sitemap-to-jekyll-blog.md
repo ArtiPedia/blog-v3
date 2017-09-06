@@ -51,7 +51,7 @@ plugins:
 {% endhighlight %}
 
 
-Here is my [_config.yml](https://raw.githubusercontent.com/sharu725/emerald/gh-pages/_config.yml){:rel='nofollow'} file for reference. You will not be able to see the XML file created for sitemap inside your directory.
+You will not be able to see the XML file created for sitemap inside your directory.
 
 {% include adsense-inside-post.html %}
 
