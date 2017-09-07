@@ -32,7 +32,7 @@ Google has taken steps to make sure designers give importance to responsive web 
 
 They want to convey that they are serious about smartphone users. A smartphone is a computer that you carry with you all the time and is always on!
 
-Designing a website only for smartphones is actually ok because even desktop users can consume the content. Don't you believe me? Then in Chrome, open an article on this website, hold **ctrl** and hit **+** 5 times. You will see the article exactly how it will show on a smartphone. It is still readable.
+Designing a website only for smartphones is actually ok because even desktop users can consume the content. Don't you believe me? Then in Chrome, open an article on this website, hold **ctrl** and hit **+** 5 times. You will see the article exactly how it will be shown on a smartphone. It is still readable.
 
 
 ## How to use Media Query?
@@ -40,7 +40,7 @@ Media Query is basically an if condition used by a browser to determine the scre
 
 Though it seems simple, I had a hard time using it. I needed clarifications on ``max-width`` and ``min-width``. What are they? Why are they called so?
 
-For the first few design projects, I never bothered finding out what they mean. Don't do the same mistake. I have an easy way to remember what they exactly mean.
+For the first few design projects, I never bothered finding out what they meant. Don't do the same mistake. I have an easy way to remember what they exactly mean. I hope it will also help you remember media queries easily.
 
 ### Media Query max-width
 It means that if the screen width changes below max-width, then the CSS inside it will be applied.
@@ -59,9 +59,9 @@ The color changes to blue if the screen width is below 600 pixels.
 
 I remember it this way, 
 
-**1. The maximum width of the screen is 600px(Not really but it will be easier to understand).**
+**1. The maximum width of the screen is 600px(Not really but it will be easier to understand this way).**
 
-**2. If you decrease the width, the CSS inside media query will be applied.**
+**2. If you decrease the width, the CSS inside media query will be applied.(when maximum width itself is 600px, you cannot increase it anymore. Can you?)**
     
 <style>
 .xyz {
@@ -127,8 +127,9 @@ I remember it this way,
 
 **2. If the screen size increases then the CSS inside media query will be applied.**
 
-I'm not sure if that is what they mean but it helps me understand the Media Query. I used to go refer to media query articles every time I needed to implement them. 
+I'm not sure if that is what they mean but it helps me understand the "Media Query syntax". I used to go refer to media query articles every time I needed to implement them. Not anymore!
 
+``min-width`` media query is the one we will be using for Mobile First Web Design.
 
 Refer: [w3schools media query](https://www.w3schools.com/css/css_rwd_mediaqueries.asp){: target="_blank" rel="nofollow" }
 
