@@ -114,14 +114,25 @@ article {
     
     
     @include media-query($on-palm) { 
-        font-size: 60px;
+/*         font-size: 60px;
         line-height: 40px;
         padding-top: 5px;
         margin-top: 0px;
         padding-right: 4px;
         padding-bottom: 12px;
         padding-left: 4px;
-        margin-right: 10px;
+        margin-right: 10px; */
+        
+        float: none;
+        color: $color;
+        font-size: $base-fs;
+        font-weight: normal;
+        line-height: $base-lh;
+        padding: 0;
+        margin: 0;
+        border: 0;
+        font-family: $base-ff;
+        
         }
     
     }

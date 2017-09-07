@@ -80,6 +80,8 @@ Copy this value and paste it in your form's action. Also, copy respective **name
 </form>
 {% endhighlight %}
 
+
+## Multiple Choice, Options, selects radio inputs
 For form elements like **options** and **select**, the google form will have a hidden ``<input>`` tag at the end of the form. Sometimes you will have to select an option in the form to see that hidden ``<input>`` tag. Copy the name value from that tag to all the options and selects.
 
 ## Publish it on any website
@@ -160,6 +162,13 @@ Another cool feature is to get notifications to your email upon every entry. You
 
 ## Check if the Google Form is working
 Check if the responses are recorded in the form response or the spreadsheet. After the submission, if the form redirects you to the Google Form for missing entries, then check if the ``name`` values are entered properly.
+
+
+
+## Improvements like File Uploads 
+Google Forms now has file upload option in their native forms. I'm trying to implement it to a custom form but so far no luck. It is very complicated. There are methods to do it using **app scripts** which you can look out for.
+
+
 
 
 ## Conclusion
