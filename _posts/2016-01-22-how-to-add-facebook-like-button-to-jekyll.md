@@ -118,7 +118,7 @@ layout: default
 </article>
  {% endhighlight %}
 
-You can check the like button in my page. I have used the same menthod. But I have added ```defer``` to the script so that the content appears first and only after everything loads, facebook like will appear. This is useful in loading the contents in priority.
+You can check the like button in my page. I have used the same method. But I have added ```defer``` to the script so that the content appears first and only after everything loads, facebook like will appear. This is useful in loading the contents in priority.
 
 {% highlight html %}
 <script defer>(function(d, s, id) {
