@@ -58,8 +58,10 @@ sass:
 
   
 keep_files: [README.md, CNAME, favicon.ico, robots.txt, js, thumbs, thumbs-small, img, data, svg]
+
 exclude:
     - fui
+
 #optimization
 #compress.html
 compress_html:
