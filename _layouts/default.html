@@ -16,7 +16,7 @@ layout: compress
     <!-- Open Graph -->
     <meta property="fb:app_id" content="549480635219583">
     <meta property="og:locale" content="en_US">
-    <meta property="og:title" content="{{ page.title }} | {{site.title}}">
+    <meta property="og:title" content="{{ page.title }}">
     <meta property="og:url" content="{{ site.url }}{{ page.url }}">
     <meta property="og:site_name" content="WebJeda Blog">
     <meta property="og:description" content="{% if page.desc %}{{ page.desc }}{% else %}{{ site.description }}{% endif %}">
@@ -43,7 +43,7 @@ layout: compress
       {
         "@context": "http://schema.org",
         "@type": "{% if page.layout == 'post' %}TechArticle{% else %}WebSite{% endif %}",
-        "name": "WebJeda | {%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}",
+        "name": "{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}",
         "headline": "{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}",
         "image": "{{ site.url }}/thumbs/{% if page.type == 'home' %}webjeda-logo-big.jpg{% else %}{{ page.image }}{% endif %}"
         "description": "{% if page.desc %}{{ page.desc}}{% else %}{{ site.description}}{% endif %}",
