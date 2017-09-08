@@ -56,93 +56,76 @@ It makes sense to load the Disqus widget only when a user scrolls to the bottom.
 /* Call Fontawesome in the head section or in the location where you place the share bar */
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 <style>
-.share-box p {
-    margin: 0;
-}
+.share-box a {
+  display: inline-block;
+  -webkit-box-shadow: 0 0 1px #777;
+  box-shadow: 0 0 1px #777;
+  padding: 5px 12px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  text-decoration: none; }
+  .share-box a:hover {
+    text-decoration: none;
+    -webkit-transition: background-color 200ms linear;
+    -ms-transition: background-color 200ms linear;
+    transition: background-color 200ms linear; }
 
-.share-box .fa {
-    -webkit-box-shadow: 0 0 1px #777;
-    box-shadow: 0 0 1px #777;
-    padding: 5px 12px;  
-}
-.share-box .fa:hover {
-    -webkit-box-shadow: 0 0 4px #777;
-    box-shadow: 0 0 4px #777;
-}
+.f {
+  color: #3b5998; }
+  .f:hover {
+    color: #fff;
+    background-color: #3b5998; }
 
+.t {
+  color: #4099FF; }
+  .t:hover {
+    color: #fff;
+    background-color: #4099FF; }
 
-.share-box .fa-facebook-official {
-    color: #3b5998;
-}
-.share-box .fa-facebook-official:hover {
-    background-color: #3b5998;
-    color:white;
-}
+.g {
+  color: #d34836; }
+  .g:hover {
+    color: #fff;
+    background-color: #d34836; }
 
-.share-box .fa-google-plus {
-    color: #d34836;
-}
-.share-box .fa-google-plus:hover {
-    background-color: #d34836;
-    color: white;
-}
+.r {
+  color: #ff5700; }
+  .r:hover {
+    color: #fff;
+    background-color: #ff5700; }
 
-.share-box .fa-linkedin {
-    color: #0077b5;
-}
-.share-box .fa-linkedin:hover {
-    background-color: #0077b5;
-    color: white;
-}
+.l {
+  color: #0077b5; }
+  .l:hover {
+    color: #fff;
+    background-color: #0077b5; }
 
-.share-box .fa-envelop {
-    color: #444444;
-}
-.share-box .fa-envelope:hover {
-    background-color: #444444;
-    color: white;
-}
-
-
-.share-box .fa-reddit {
-    color: #ff5700;
-}
-.share-box .fa-reddit:hover {
-    background-color: #ff5700;
-    color: white;
-}
-
-
-.share-box .fa-twitter {
-    color: #4099FF;
-}
-.share-box .fa-twitter:hover {
-    background-color: #4099FF;
-    color: white;
-}
+.e {
+  color: #444444; }
+  .e:hover {
+    color: #fff;
+    background-color: #444444; }
 </style>
 
+<div class="share-box">
+<h5>Share this:</h5>
 
-<div class="share-box"> 
-    <h5>Share this:</h5>
+<a class="f" href="https://www.facebook.com/sharer/sharer.php?u=http://webjeda.com/webjeda-sharebar/" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" ><i class="fa fa-facebook-official fa"></i><span> facebook</span></a>
 
-    <a href="https://www.facebook.com/sharer/sharer.php?u=http://webjeda.com/webjeda-sharebar/" onclick="window.open(this.href, 'mywin',
-    'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" ><i class="fa fa-facebook-official fa"> facebook</i></a>
+<a class="t" href="https://twitter.com/intent/tweet?text=&url=http://webjeda.com/webjeda-sharebar/" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-twitter fa"></i><span> twitter</span></a>
         
-    <a href="https://twitter.com/intent/tweet?text=&url=http://webjeda.com/webjeda-sharebar/" onclick="window.open(this.href, 'mywin',
-    'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-twitter fa"> twitter</i></a>
-       
-    <a href="https://plus.google.com/share?url=http://webjeda.com/webjeda-sharebar/" onclick="window.open(this.href, 'mywin',
-    'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" ><i class="fa fa-google-plus fa"> google</i></a>
-       
-    <a href="http://www.reddit.com/submit?url=http://webjeda.com/webjeda-sharebar/" onclick="window.open(this.href, 'mywin',
-    'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;" ><i class="fa fa-reddit fa"> reddit</i></a>     
-  
-    <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://webjeda.com/webjeda-sharebar/&title=&summary=&source=webjeda" onclick="window.open(this.href, 'mywin',
-    'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" ><i class="fa fa-linkedin fa"> linkedin</i></a>
-                      
-    <a href="mailto:?subject=&amp;body=Check out this site http://webjeda.com/webjeda-sharebar/"><i class="fa fa-envelope fa"> email</i></a>  
-                            
+<a class="g" href="https://plus.google.com/share?url=http://webjeda.com/webjeda-sharebar/" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" ><i class="fa fa-google-plus fa"></i><span> google</span></a>
+        
+<a class="r" href="http://www.reddit.com/submit?url=http://webjeda.com/webjeda-sharebar/" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;" ><i class="fa fa-reddit fa"></i><span> reddit</span></a>
+
+<a class="l" href="https://www.linkedin.com/shareArticle?mini=true&url=http://webjeda.com/webjeda-sharebar/&title=&summary=&source=webjeda" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" ><i class="fa fa-linkedin fa"></i><span> linkedin</span></a>
+
+<a class="e" href="mailto:?subject=&amp;body=Check out this site http://webjeda.com/webjeda-sharebar/"><i class="fa fa-envelope fa"></i><span> email</span></a>                          
 </div>
 {% endhighlight %}
 
