@@ -386,6 +386,7 @@ I have added some things to make it look attractive but all those rings and bell
 
 If you want a site which loads really fast on mobile phones then try Amplify. [Amplify](https://github.com/ageitgey/amplify){:rel='nofollow'}{:target="_blank"} is a theme developed following Google Accelerated Mobile Pages(AMP) rules. AMP is a project by Google to make websites load faster on mobile devices. Anyone can create an AMP version of their website. But we have a Jekyll theme which is completely AMP based! Here is a [sample post](https://cdn.ampproject.org/c/s/ageitgey.github.io/amplify/2016/03/08/example-post.html){:rel='nofollow'}{:target="_blank"} which loads incredibly fast.
 
+Try to make your site **Mobile First**. Read [Let's Design Mobile First](/mobile-first-web-design/){:target="_blank"}
 
 
 ### 14. Use DNS prefetch
