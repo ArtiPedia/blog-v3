@@ -330,6 +330,22 @@ This feature comes in handy if your website has a lot of images or other similar
 ### 10. Request only the required font
 If you are using Google fonts, then load only the required font variation. If you want Open sans font for your paragraph text then do not select **Extra-Bold** or **Light** variations. All you need is the **Regular** style.
 
+If you are using multiple google fonts, then use a single request to call all them. This method avoids **Round Trip Delay** time.
+
+Let's assume that you are using google fonts Open sans and Lato. Instead of having two requests like this,
+
+{% highlight html %}
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+{% endhighlight %}
+
+do this,
+
+{% highlight html %}
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Lato:300,400,700" rel="stylesheet">
+{% endhighlight %}
+
+
 If you are using Bootstrap or Fontawesome then delete whatever you don't use (keep a backup file though).
 
 **Read:** [How to reduce fontawesome to 10KB!](/optimize-fontawesome/){:target="_blank"}
