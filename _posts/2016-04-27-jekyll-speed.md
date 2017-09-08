@@ -13,7 +13,7 @@ layout: post
 
 
 ## Why page speed is important?
-It is a website, not an F1 racing car! Then why should we try to optimize it for speed? Well, there are plenty of reasons to speed up our Jekyll blog. The main one being user experience.
+It is a website, not an F1 racing car! Then why should you try to optimize it for speed? Well, there are plenty of reasons to speed up your Jekyll blog. The main one being user experience.
 
 A typical user of the 21st century doesn't want to waste his/her time staring at a blank page for more than 5 seconds. I'm pretty sure that your website loads within that time frame but, it may not happen in all conditions. Users may close the tab and never return to your website if it takes too long to load. Be cautious to keep the page loading speed within 2 seconds.
 
@@ -144,7 +144,7 @@ SVGs are basically ``xml`` which means that they are made up of few tags and can
 
 Both images look the same but there is a huge difference in their size. The first SVG image is around 1KB but the second JPEG image is of the size 14KB!
 
-This is a amazing; isn't it? I'm pretty impressed by this improvement. I'm thinkin of using more SVGs in my posts. Webjeda logo is already an SVG. The main advantage is that it doesn't look pixellated on big screens. Open them in new tab to see how SVGs don't loose their quality even if you zoom in but, JPEG images become pixellated.
+This is amazing; isn't it? I'm pretty impressed by this improvement. I'm thinkin of using more SVGs in my posts. Webjeda logo is already an SVG. The main advantage is that it doesn't look pixellated on big screens. Open them in new tab to see how SVGs don't loose their quality even if you zoom in but, JPEG images become pixellated.
 {: .clear}
 
 If you do not use Adobe Illustrator, then you can use Sketch(for mac) or [Drawsvg](http://drawsvg.org){:rel='nofollow' target="_blank"} for online SVG creation. Once you create an SVG, make sure you optimize it using [SVG optimizer](http://petercollingridge.appspot.com/svg-optimiser){:rel='nofollow' target="_blank"} which reduces the size a little bit.
