@@ -27,7 +27,7 @@ It is true that WordPress is optimized for SEO by default. And with plugins like
 
 At the moment we have Jekyll 3.5 and a small [list of Jekyll plugins](https://jekyllrb.com/docs/plugins/#available-plugins){:rel='nofollow'}{:target="_blank"}. We can depend on some of these plugins for SEO and most of the search engine optimization can be done without them. 
 
-I will be discussing only the steps that involve making changes to your Jekyll functions but not to your content. That means I will not be addressing anything on Keyword Research, Link Building, Marketing etc.,
+I will be discussing only the steps that involve making changes to your Jekyll functions but not to your content. That means I will not be addressing anything on Keyword Research, Link Building, Marketing etc...
  
 {: .clear}
  
@@ -69,7 +69,7 @@ I have given some of the important parameters (among around 200 of them) your Je
 **9. Responsiveness (mobile friendly layout)**
 
 
-The list is big, so is the article! But follow these and I can assure you that your blog will be 60% optimized for SEO already. The rest depends on your efforts on content creation, link building , marketing etc.,
+The list is big, so is the article! But follow these and I can assure you that your blog will be 60% optimized for SEO already. The rest depends on your efforts on content creation, link building , marketing etc...
 
 
 ### Update 
@@ -78,7 +78,9 @@ Most of these can be implemented by using tag called {% raw %}{% seo %}{% endraw
 
 This gem will add almost all the tags required for SEO. Thanks to [Ben Balter](https://github.com/benbalter){:rel='nofollow'}{:target="_blank"} for the awesome plugin. You can check it out [here](https://github.com/jekyll/jekyll-seo-tag){:rel='nofollow'}{:target="_blank"}. If you want to unserstand or implement all the tags on your own, then keep reading.
 
-Let's implement head tags one by one in Jekyll.
+The tags I'm discussing will go inside the ``<head>`` section of the website.
+
+Let's implement seo meta tags one by one in Jekyll. 
 
 ## 1. Title and Description
 
@@ -119,9 +121,9 @@ Make sure you add the keyword in the title. For example for this post I have add
 
 ### Description
 
-Using page excerpt as a description is not a good idea because you may have something totally different in the first paragraph before you discuss on the main topic. If it is your homepage then make sure you have a site description mentioned in your **_config.yml** file.
+Using page excerpt as a description is not a good idea because you may have something totally different in the first paragraph before you discuss the main topic. If it is your homepage then make sure you have a site description mentioned in your **_config.yml** file.
 
-Also, it is advised to restrict your description to 160 characters or less. Anything more can be considered spam or keyword stuffing by search engines. And a description is not considered for ranking but only to show snippets in the search results.
+It is advised to restrict your description to 160 characters or less. Anything more can be considered spam or keyword stuffing by search engines. Also, description is not considered for ranking but only to show snippets in the search results.
 
 {% highlight html %}
 <meta itemprop="description" name="description" content="{% raw %}{% if page.description %}{{ page.description | truncate: 160 }}{% else %}{{ site.description | truncate: 160  }}{% endif %}{% endraw %}" />
