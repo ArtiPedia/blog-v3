@@ -156,7 +156,7 @@ Do not use SVG image as featured image. Social media may not recognize SVG image
 
 
 The latest development in image formatting is WebP which provides superior lossless and lossy compression for images on the web. WebP images are around 25% smaller than JPEG retaining the same image quality.
-{: .y}
+{: .g}
 
 
 ### 4. Minify Jekyll HTML, CSS and JS
