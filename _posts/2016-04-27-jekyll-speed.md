@@ -365,11 +365,11 @@ If you are using multiple blocks of ads on your website then avoid repeatedly us
 {% endhighlight %}
 
 ### 12. Faster landing page
-A post layout in Jekyll will have a lot of things stuffed in. It has the content, it may have a third party comment box, ads, social media share bar, Jquery and what not. So loading all these resources obviously take time. There is always a minimum overhead present for posts.
+A **post layout** in Jekyll will have a lot of things stuffed in. It has the content, it may have a third party comment box, ads, social media share bar, Jquery and what not. So loading all these resources obviously take time. There is always a minimum overhead present for posts.
 
 But, a landing page(Home page) should be really fast. Because in blogs, the home page is where people find the list of posts and they usually browse through it to find the content they are looking for. If the post index itself takes a lot of time then they hope worst for individual posts. So make sure you keep your home page fast and clean. 
 
-> For more **Repeat visitors**, make your homepage superfast. 
+> For more **Repeated visitors**, make your homepage superfast. 
 
 Load only things that are necessary for a home page. For example, loading AdSense code on home page layout is not necessary if you are not showing any ads there.
 
@@ -400,13 +400,14 @@ For example:
 
 It is a better way to utilize the time before visible content starts to appear.
 
+> Pre-resolving DNS of external assets makes the page load faster.
 
 These are the methods I would recommend to use to speed up your Jekyll blog. Once you implement some of these methods, check if it has improved the page load time. Let me know how much in the comment section.
 
 ## Conclusion
 More than ranking on search engines, speed is important to keep your users happy. They may not return to the website if it is too slow to load. Make sure you keep your website light and fast. Compare your website to a restaurant; how happy we feel if the service is quick and how frustrating it will be if the order takes forever. Speed and simplicity makes Jekyll stand out of the crowd.
 
-I hope that the article helped you speed up your Jekyll website. Ask any doubts you have through comments.
+I hope this article helped you speed up your Jekyll website. Ask any doubts you have through comments.
 
 Thanks for reading!
 
