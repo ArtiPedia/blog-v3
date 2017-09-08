@@ -379,7 +379,7 @@ Load only things that are necessary for a home page. For example, loading AdSens
 {: .right .half}
 I'm kind of promoting my themes here. Use [**Thunder**](http://webjeda.com/thunder/){:target="_blank"} theme for a real fast loading website. It looks fairly good and loads super fast. The reason is that it is a slim version of default Jekyll theme.
 
-I have added some things to make it look attractive but all those rings and bells are really light. Go ahead and try it. I have created another theme called [**Purple**](http://webjeda.com/purple/){:target="_blank"} which is also minimal.
+I have added some things to make it look attractive but all those rings and bells are really light. Go ahead and try it. I have created another theme called [**Krishna**](http://webjeda.com/krishna/){:target="_blank"} which is also minimal.
 {: .clear}
 
 > Smartphone users are growing day by day. Focus on responsive design.
