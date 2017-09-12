@@ -91,7 +91,7 @@ This step needs a small application. Go to [FontForge](http://fontforge.github.i
 
 Open ``fontawesome-webfont.woff`` with this application and find the glyphs. You may have to scroll down a lot. You can go to **Encoding** then click on **Compact** to get them right on the top.
 
-Now clear any glyph you think is not necessary and you do not use it in the future. This is where you have to browse through the website and look for all the icons you have used.
+Now clear any glyph you think is not necessary and you may not use it in the future. This is where you have to browse through the website and look for all the icons you have used.
 
 ![edit fontawesome webfont](/images/edit-fontawesome-webfont.jpg)
 {: .right .half}
