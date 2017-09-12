@@ -26,15 +26,18 @@ A simple website uses at least 4 to 5 icons. If we include share button icons an
 * Do not remove this line (it will not be displayed) 
 {:toc}
 
-Font awesome makes a web designers life easy. Adding icons is as simple as adding a ``<h1>`` tag. Resizing is done through attributes, flipping, stacking, spinning is all possible with font awesome. But apart from those 10 icons and some styles, all other icons are of no use to us. They load along with the ones we need. Though font awesome is cached by browsers since many websites use it, we have to give attention to first-time visitors who may have a browser without cached font awesome css. Moreover, font awesome version updation is done every time when new icons are added and you should also keep version of the CDN link up to date.
+Font awesome makes a web designers life easy. Adding icons is as simple as adding a ``<h1>`` tag. Resizing is done through attributes, flipping, stacking, spinning is all possible with font awesome. But apart from those 10 icons and some styles, all other icons are of no use to us. They load along with the ones we need. 
+
+Though font awesome is cached by browsers since many websites use it, we have to give attention to first-time visitors who may have a browser without cached font awesome css. Moreover, font awesome version updation is done every time when new icons are added and you should also keep version of the CDN link up to date.
 
 ## Why should we optimize font awesome?
-I like my website to load faster on desktops as well as mobile devices. It is one of the reasons for switching from WordPress to Jekyll. 
+I like my website to load faster on desktops as well as on mobile devices. It is one of the main reasons why I switched from WordPress to Jekyll.
 
 Read: [Why did I choose Jekyll over WordPress?!](/why-jekyll-over-wordpress/){: target="_blank"}
 
+> If we are using only 10 icons then why should we load 100 other icons?
 
-Since fontawesome is a huge file, we have to trim it down to our needs. If we are using only 10 icons then why should we load 100 other icons? The size of font awesome web font is 90KB by the time I'm writing this article. Added to that, minified font awesome css is 30KB. So overall 120KB! What I'm trying is to reduce this to below 12KB which is more than **90%** compression!!
+Since fontawesome is a huge file, we have to trim it down to our needs. If we are using only 10 icons then why should we load 100 other icons? The size of font awesome web font is 90KB. Added to that, minified font awesome css is 30KB. So overall 120KB! What I'm trying is to reduce this to below 12KB which is more than **90%** compression!!
 
 This will decrease the load time multiple folds! My website scored 89% on Google pagespeed insights after implementing this. It used to be 52%!
 
