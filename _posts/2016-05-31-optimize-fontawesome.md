@@ -55,7 +55,7 @@ There are two ways to do this.
 2. [The easy way (usig a generator)](#the-easy-way)
 
 ## The Hard Way
-I do not recommend this for everyone. This requires some CSS skills to troubleshoot issues that you will come across.
+I do not recommend this to everyone. This requires some CSS skills to troubleshoot issues that you may come across.
 
 ### Step 1: Localize Font awesome
 We cannot edit font served from CDN. So we should use font awesome locally. [Download fontawesome](http://fontawesome.io/#modal-download){: target="_blank" rel="nofollow"} here. Remove the font awesome CDN link from the head tag if you are using it. Go to http://fontawesome.io/ and download the latest version of fontawesome. Unzip and keep it in the website repository. In our case, the root of the repository.
