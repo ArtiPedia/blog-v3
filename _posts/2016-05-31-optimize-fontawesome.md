@@ -96,7 +96,7 @@ Now clear any glyph you think is not necessary and you may not use it in the fut
 ![edit fontawesome webfont](/images/edit-fontawesome-webfont.jpg)
 {: .right .half}
 
-I use icons for share bar, footer and mostly on about page. So I kept those icons and cleared out everything else. Hold **Shift** for multiple selection. Now, click on **File** and then in **Generate Fonts**. Save it with any name you like. 
+I use icons for share bar, footer and mostly on about page. So I kept those icons and cleared out everything else. Hold **Shift** for multiple selection. Now, click on **File** and then on **Generate Fonts**. Save it with any name you like. 
 
 {% include adsense-inside-post-2.html %}
 
