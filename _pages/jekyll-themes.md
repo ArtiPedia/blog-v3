@@ -10,35 +10,29 @@ permalink: /jekyll-themes/
 <h1 style="text-align:center">Jekyll Themes</h1>
 <div id="mainbox">
    
-     {% for jekyll-themes in site.jekyll-themes reversed  %}
-       <a class="post-link-index" href="{{ jekyll-themes.url | prepend: site.baseurl }}">
-          <div class="card">
-                <img alt="{{ jekyll-themes.title }}" class="post-image-index" itemprop="thumbnailUrl" src="/thumbs/{{ jekyll-themes.image }}" width="300" height="auto" />
-                <div class="card-footer">
-                    <h6 class="post-index-title">{{ jekyll-themes.title }}</h6>
-                <p class="post-excerpt">{{ jekyll-themes.desc | truncate: 160 }}</p>
+ {% for jekyll-themes in site.jekyll-themes reversed  %}
+   <a class="post-link-index" href="{{ jekyll-themes.url | prepend: site.baseurl }}">
+      <div class="card">
+            <img alt="{{ jekyll-themes.title }}" class="post-image-index" itemprop="thumbnailUrl" src="/thumbs/{{ jekyll-themes.image }}" width="300" height="auto" />
+            <div class="card-footer">
+              <h2 itemprop="headline" class="post-index-title">{{ jekyll-themes.title }}</h2>
+                    <hr>
+                     <p itemprop="description" class="post-excerpt">{{ jekyll-themes.desc | truncate: 160 }}</p>
+           </div>
 
-                {% if jekyll-themes.premium  %}
-                <div class="home-tag"><span>Premium</span></div>
-                {% endif %}
-
-               </div>
-     
-        </div> 
-     </a>
-      {% endfor %}   
+    </div> 
+ </a>
+  {% endfor %}   
 </div>
 <style>
 .green {
-
-    padding: 20px;
-    border-radius:4px;
-    color: #fff;
-    width: 80%;
-    text-align:center; 
-    margin: 0 auto;
-    background-color: #89dc8b;
-    
+padding: 20px;
+border-radius:4px;
+color: #fff;
+width: 80%;
+text-align:center; 
+margin: 0 auto;
+background-color: #89dc8b;  
 }
 .green a {
     color: #fff;
