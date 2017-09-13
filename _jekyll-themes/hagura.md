@@ -60,6 +60,6 @@ MIT License
 ### Version 0.8
 * Initial release with a reader-friendly layout.
 
-[**Demo**]({{page.link}}){: .btn }
-[**Repository**]({{page.dlink | remove: 'archive/master.zip'}}){: .btn .green}
-[**Download**]({{page.dlink}}){: .btn .red }
+[**Demo**]({{page.link}}){: .btn target="_blank"}
+[**Repository**]({{page.dlink | remove: 'archive/master.zip'}}){: .btn target="_blank"}
+[**Download**]({{page.dlink}}){: .btn target="_blank"}
