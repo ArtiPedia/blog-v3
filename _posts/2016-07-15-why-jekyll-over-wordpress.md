@@ -47,6 +47,10 @@ Markdown is addictive!
 WordPress needs a hosting which supports ``php`` and ``mySQL``. So, it is comparatively costly to host. Jekyll being static can be hosted for cheap on static file hosting providers or for free on Github!
 Read: [How to create a Jekyll blog](/create-jekyll-blog/){: target="_blank"}
 
+I have also made a video on how you can host any html template using Github Pages in around 5 minutes - [Free & Easy webhosting](https://www.youtube.com/watch?v=GJCzy6hYTLQ&t=1s){: target="_blank"}
+
+This might surprise many people because they always think that they have to pay for hosting. 
+
 ### 6. Design restrictions
 
 This is actually the key reason to migrate from WordPress. WordPress has a lot of themes and plugins to choose from but if you want to change something, say you want the logo to be some pixels down then it becomes a hassle.
