@@ -69,6 +69,8 @@ Since WordPress is easy to use and there are gazillion plugins available to emul
 May be it is ok with most users but when I see a pop-up I will look for the close button before reading anything on it. 
 {: .y}
 
+> Do not interrupt your readers.
+
 The worst thing you can do to someone who's reading your blog is to distract them. Let them read the damn thing. They may have googled something, found your website link, clicked on it for help. You should be lucky that they landed on your website because there at least 10 different websites offering the same content. If they like what you write then they definitely will subscribe.
 
 These days with all those spam emails cluttering my inbox, I don't like to give up my email address to anyone. Last time I was reading [Oliver Emberton's blog](http://oliveremberton.com/){: target="_blank" rel="nofollow"} and it was a nice experience. Though the website is made using WordPress, it wasn't distracting at all. It was rather intriguing. I ended up subscribing to his blog without any such intervensions.
@@ -97,13 +99,14 @@ You are responsible for even a single extra space added to the code! So you have
 ### 4. Markdown
 I just love to write in markdown. Markdown allows you to write your post even in a text editor. It has helped me in a big way. Let's say we are travelling and got an idea for an article. We can literally start writing the post right away on our smartphone using any note taking app!
 
+> I always have a local copy of my blogs.
 
 Eventually, I switched all my blogs to Jekyll and I always have a local copy of my blog which wasn't easy to have in WordPress. I'm pretty happy with the performance of my blogs. For example, my chess blog [kidschessworld](http://kidschessworld.com){: target="_blank"} is built using Jekyll and hosted on Github Pages which has helped me gain some business(I teach chess online).
 
 You don't have to worry about the design part. There are hundreds of themes already available. You can [subscribe](http://eepurl.com/bZdvSP){: target="_blank" rel="nofollow"} to my blog to get a detailed list of free responsive Jekyll themes and their links to start off with. 
 
 ## Start here
-Usually, Jekyll is hosted on github pages but you can also host it on any other conventional hosting service. But one thing you observe is that, almost all the Jekyll themes are hosted as a github repository. So in order to test it out you should know how to fork(copy) the repo to your own account. And to do that, you should have a github account. So [sign up for a free account](https://github.com/join?source=header-home){: target="_blank" rel="nofollow"}.
+Usually, Jekyll is hosted on github pages but you can also host it on any other conventional hosting service. But one thing you observe is that, almost all the Jekyll themes are hosted as a github repository. So in order to test it out you should know how to fork(copy) the repo to your own account. And to do that, you should have a github account. So [sign up for a free account](https://github.com/join){: target="_blank" rel="nofollow"}.
 
 Once that is done, you have to find a nice theme for your blog. So do some research or [sign up here](http://eepurl.com/bZdvSP){: target="_blank"} to get a quick checklist. You can also checkout [Jekyll Themes](https://jekyll-themes.com){: target="_blank"}. Now you should visit the theme's homepage. Here is a video guide.
 
