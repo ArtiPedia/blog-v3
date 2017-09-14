@@ -59,7 +59,7 @@ videos:
 ---
 <link rel="dns-prefetch" href="//i.ytimg.com">
 <div class="homepage">
-<div id="mainbox">
+<div class="mainbox">
 {% for video in page.videos %}
  <a target="_blank" href="https://www.youtube.com/watch?v={{video.id}}">
         <div class="card">

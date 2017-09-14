@@ -8,7 +8,7 @@ permalink: /jekyll-themes/
 <p class="green">I will be moving all the themes to <a href="https://jekyll-themes.com"><strong>jekyll-themes.com</strong></a> soon.</p>
 
 <h1 style="text-align:center">Jekyll Themes</h1>
-<div id="mainbox">
+<div class="mainbox">
    
  {% for jekyll-themes in site.jekyll-themes reversed  %}
    <a class="post-link-index" href="{{ jekyll-themes.url | prepend: site.baseurl }}">

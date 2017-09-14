@@ -14,7 +14,7 @@ redirect_from:
 {% if page.url == '/' %}
 <div class="homepage">
 <h2 class="text-center">Start Here</h2>
-<div id="mainbox">
+<div class="mainbox">
     
     <a class="post-link-index" href="/jekyll-tutorials/">
           <div itemscope itemtype="http://schema.org/TechArticle" class="card">
@@ -69,7 +69,7 @@ redirect_from:
 
 {% endif %}
 
-<div id="mainbox">
+<div class="mainbox">
     
      {% for post in paginator.posts %} 
        <a class="post-link-index" href="{{ post.url | prepend: site.baseurl }}">

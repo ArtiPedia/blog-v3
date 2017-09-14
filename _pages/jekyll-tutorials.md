@@ -11,7 +11,7 @@ adallow: 0
 
 
 <div class="homepage">
-<div id="mainbox">
+<div class="mainbox">
     {% assign sorted-posts = site.posts | where: "sec", "tut" %}
      {% for post in sorted-posts  reversed %}
      
