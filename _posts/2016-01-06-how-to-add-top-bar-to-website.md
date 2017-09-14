@@ -37,9 +37,7 @@ I started considering top bar only after I saw that the designers from [Quora](h
 * Do not remove this line (it will not be displayed) 
 {:toc}
 
-I remember YouTube using a red top bar to show how the progress of page loading. You can see it when you click on a video link. Actually it is a great idea to show the users how much page has been loaded without any distractions. By the time I'm writing this blog <a rel="nofollow" href="https://www.freecharge.in" alt="Freecharge">Freecharge</a> is using the top bar as a progress indicator. It must be a ```div``` on top with a 1 pixel border but looks like body top border.
-
-{% include adsense-inside-post.html %}
+I remember YouTube using a red top bar to show the progress of page loading. You can see it when you click on a video link. Actually it is a great idea to show the users how much page has been loaded without any distractions. By the time I'm writing this blog <a rel="nofollow" href="https://www.freecharge.in" alt="Freecharge">Freecharge</a> is using the top bar as a progress indicator. It must be a ```div``` on top with a 1 pixel border but looks like body top border.
 
 ![Android chrome browser top loading bar]({{ site.url }}/images/android-chrome-browser-using-top-bar-screenshot.jpg)
 {: .right .half}
@@ -53,7 +51,7 @@ So here it is giving some valuable information. But what I want is just a minima
 ## Top Progress Bar
 
 ### Did you observe a red top bar on this page?
-If you did not then hit refresh. This page shows page loading preogress as a top bar.  This gives users an idea of whether the page has fully loaded or not. The code pretty small and no jQuery required.
+If you did not then hit refresh. This page shows page loading progress as a top bar.  This gives users an idea of whether the page has fully loaded or not. The code pretty small and no jQuery required.
 
 ### How to implement progress top bar?
 
@@ -64,6 +62,8 @@ Download the [minified version](https://github.com/jacoborus/nanobar/archive/mas
 
 #### Generate top bar
 Before we generate one, we have to call the javascript that we just downloaded. Copy the ``nanobar.min.js`` file your project or website folder(may be inside /js folder).
+
+{% include adsense-inside-post.html %}
 
 Now call it using a script tag. If you are using Jekyll and you want top bar to show page load progress on all the pages, then do these steps on ``default.html`` or the default layout.
 
