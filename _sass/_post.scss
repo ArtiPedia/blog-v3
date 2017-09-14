@@ -25,6 +25,10 @@ article {
                 content: " " url('data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" class=\"i-external\" viewBox=\"0 0 32 32\" width=\"18\" height=\"18\" fill=\"none\" stroke=\"rgba(0,0,0,0.7)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"7%\"><path d=\"M14 9 L3 9 3 29 23 29 23 18 M18 4 L28 4 28 14 M28 4 L14 18\" /></svg>');
             }
             
+                > p {
+                    text-align: justify;
+                }
+            
 
         }
 }
@@ -216,38 +220,6 @@ article {
     }
 }
 
-/* .right.video, .left.video {
-    width: 50%;
-    height: 250px;
-    float: right;
-    margin-left: 1em;
-    @include media-query($on-palm) {
-        float: none;
-        width: 100%;
-        margin-left: 0em;
-    }
-} */
-
-
-
-/* Previous Next section */
-.p-n {
-    font-size: $small-fs;
-    padding: 2em 0;
-
-    h3 {
-        margin: $spacing-unit*0.5 0;
-    }
-    .next {
-        float: right;
-        @include media-query($on-palm) {
-            float: none;
-            margin-top: 2em;
-            display: inline-block;
-        }
-    }
-}
-
 
 
 /* Tags at the end of article */
@@ -277,37 +249,6 @@ a.tag-link {
     margin-top: 2em;
     margin-bottom: 2em;
 }
-
-/* Disqus Load button style
-.comment {
-    text-align: center;
-    margin: $spacing-unit;
-}
-
-.show-comments {
-    border: none;
-    background-color: $brand-color-2;
-    padding: 10px 15px;
-    width: 300px;
-    color: #fff;
-    font-size: $small-fs;
-    font-family: $base-ff;
-    cursor: pointer;
-    border-radius: 50px;
-    box-shadow: 0 0 5px #d8d8d8;
-    outline: none;
-    transition: 0.2s ease-in;
-    &:hover {
-        box-shadow: 0 0 10px #d8d8d8;
-        background-color: darken($brand-color-2, 10%);
-    }
-   @include media-query($on-palm) { 
-       padding: 5px 10px;
-        width: 210px;
-       font-size: $small-fs*0.8;
-    }
-    
-} */
 
 
 // Markdown table 
@@ -460,6 +401,8 @@ table.mdtable {
     @include media-query($on-laptop) {
         padding: 0 10px;
     }
+    
+
 }
 
 
