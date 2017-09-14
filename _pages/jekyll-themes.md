@@ -12,8 +12,8 @@ permalink: /jekyll-themes/
    
  {% for jekyll-themes in site.jekyll-themes reversed  %}
    <a class="post-link-index" href="{{ jekyll-themes.url | prepend: site.baseurl }}">
-      <div class="card">
-            <img alt="{{ jekyll-themes.title }}" class="post-image-index" itemprop="thumbnailUrl" src="/thumbs/{{ jekyll-themes.image }}" width="300" height="auto" />
+      <div class="card" itemscope itemtype="http://schema.org/TechArticle">
+            <img alt="{{ jekyll-themes.title }}" class="post-image-index" itemprop="thumbnailUrl" src="/thumbs/{{ jekyll-themes.image }}" width="300" height="188" />
             <div class="card-footer">
               <h2 itemprop="headline" class="post-index-title">{{ jekyll-themes.title }}</h2>
                     <hr>
