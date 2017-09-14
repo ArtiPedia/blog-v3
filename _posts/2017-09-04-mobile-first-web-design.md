@@ -69,7 +69,7 @@ I remember it this way,
     width: 100%;
     text-align: center;
     padding-top: 50px;
-    border: 10px solid #5d5d5d;
+    border: 20px dashed #fff;
     background-color: #2dd581;
     font-weight: bold;
     color: #eee;
