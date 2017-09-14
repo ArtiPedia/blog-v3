@@ -68,7 +68,7 @@ Before we generate one, we have to call the javascript that we just downloaded. 
 Now call it using a script tag. If you are using Jekyll and you want top bar to show page load progress on all the pages, then do these steps on ``default.html`` or the default layout.
 
 {% highlight html %}
-<script src="/demo/nanobar.min.js"></script>
+<script src="/path/to/nanobar.min.js"></script>
 {% endhighlight %}
 
 #### Give it a class and id(optional)
