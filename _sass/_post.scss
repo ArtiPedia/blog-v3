@@ -412,3 +412,17 @@ blockquote {
     font-style: italic;
     font-size: 1.8em;
 }
+
+/* This is for notification found in /jekyll-themes/ page */
+.green {
+    padding: 20px;
+    border-radius:4px;
+    color: #fff;
+    width: 80%;
+    text-align:center; 
+    margin: 0 auto;
+    background-color: #89dc8b;  
+        a {
+            color: #fff;
+        }
+    }

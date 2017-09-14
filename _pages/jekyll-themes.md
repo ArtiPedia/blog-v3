@@ -24,17 +24,3 @@ permalink: /jekyll-themes/
  </a>
   {% endfor %}   
 </div>
-<style>
-.green {
-padding: 20px;
-border-radius:4px;
-color: #fff;
-width: 80%;
-text-align:center; 
-margin: 0 auto;
-background-color: #89dc8b;  
-}
-.green a {
-    color: #fff;
-}
-</style>
