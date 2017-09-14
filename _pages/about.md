@@ -70,6 +70,8 @@ I suggest you to use an Ad-blocker if you don't like those <strong>Download pdf<
 }
 .green {
     background-color: #89dc8b;
+    width: 100% !important;
+    text-align: justify;
 }
 .red {
     background-color: #f56767;
