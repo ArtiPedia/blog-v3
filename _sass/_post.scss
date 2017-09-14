@@ -65,6 +65,7 @@ main {
         border-radius: 2px;
         padding: 5px;
         font-size: 1.2em;
+        text-align: justify;
         @include media-query($on-palm) {
             padding: 0 10px;
         }
