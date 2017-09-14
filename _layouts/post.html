@@ -31,19 +31,12 @@ layout: default
     </p>
 
     <div class="desc">
-          <img class="post-image" width="100%" src="/thumbs/{{page.image}}" alt="{{page.title}}">
+          <img class="post-image" src="/thumbs/{{page.image}}" alt="{{page.title}}">
           <p class="intro">{{page.desc | strip_html}}</p>
       </div>
 
   
-  
-  <style>
-.center-items {
-    margin: 1em auto;
-    max-width: 720px;
-    overflow: hidden;
-}
-</style>
+
 <div class="center-items">
     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <!-- jekyll-themes-1 -->
@@ -71,9 +64,9 @@ layout: default
       
  <!-- Share --> 
 <div class="share">     
-<strong><p>Share this:</p></strong>  
+<p><strong>Share this: </strong></p> 
 <ul>
-    <li><a href="https://twitter.com/intent/tweet?text={{page.title}}&url={{site.url}}{{page.url}}" onclick="window.open(this.href, 'mywin',
+    <li><a href="https://twitter.com/intent/tweet?text={{page.title | replace: ' ','%20'}}&url={{site.url}}{{page.url}}" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><img src="/img/social/twitter.svg" alt="twitter"></a></li>
     
     <li><a href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{page.url}}" onclick="window.open(this.href, 'mywin',
@@ -85,7 +78,7 @@ layout: default
     <li><a href="https://plus.google.com/share?url={{site.url}}{{page.url}}" onclick="window.open(this.href, 'mywin',
 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><img src="/img/social/google.svg" alt="google"></a></li>
     
-    <li><a href="mailto:?subject={{page.title}}&amp;body=Check out this site {{site.url}}{{page.url}}"><img src="/img/social/gmail.svg" alt="email"></a></li>
+    <li><a href="mailto:?subject={{page.title | replace: ' ','%20'}}&amp;body=Check%20out%20this%20site%20{{site.url}}{{page.url}}"><img src="/img/social/gmail.svg" alt="email"></a></li>
 </ul>    
 </div>  
 
