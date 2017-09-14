@@ -10,7 +10,7 @@ layout: post
 permalink: /google-form-customize/
 ---
 
-Customizing Google Forms is important for someone who trusts Google but doesn't like their branding at the bottom of the forms. Google offers two ways of using their form. One is embedding the form on our website and the second is redirecting users to the form page.
+Customizing Google Forms is important for someone who trusts Google but doesn't like their branding at the bottom of the forms. Google offers two ways of using their form. One is embedding the form on our website and the second one is redirecting users to the form page.
 
 * Do not remove this line (it will not be displayed) 
 {:toc}
@@ -87,6 +87,8 @@ For form elements like **options** and **select**, the google form will have a h
 ## Publish it on any website
 The good thing about the form is that it not only works but it works on static websites as well. This is a great way to insert Google forms in Jekyll websites and blogs hosted on Github Pages.
 
+> Try not to spam.
+
 Here is a working form that you can check. I have restricted the entries to 18 characters so as to avoid long spams.
 
 
@@ -109,9 +111,6 @@ onsubmit="submitted=true;">
 Style this form however you want to but I'm keeping it simple without any styles applied. You can check the entries [here](https://docs.google.com/spreadsheets/d/1_vt8il8LpxEi8_DmX0yxxRambpw700cdMC2yMIGWqbk/edit?usp=sharing){: target="_blank"}.
 
 {% include adsense-inside-post-2.html %}
-
-Try not to spam
-{: .r}
 
 
 ## Get responses in a Google SpreadSheet
@@ -167,8 +166,6 @@ Check if the responses are recorded in the form response or the spreadsheet. Aft
 
 ## Improvements like File Uploads 
 Google Forms now has file upload option in their native forms. I'm trying to implement it to a custom form but so far no luck. It is very complicated. There are methods to do it using **app scripts** which you can look out for.
-
-
 
 
 ## Conclusion
