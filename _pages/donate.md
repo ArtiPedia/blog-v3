@@ -12,7 +12,7 @@ Ads are annoying. I recommend you to use an ad-blocker. As a reader, I don't lik
 
 **PayPal**
 
-[![Donate](/img/donate-button.png)](https://paypal.me/webjeda/){: target="_blank" .noborder}
+[![Donate](/img/donate-button.png)](https://paypal.me/webjeda/){: .noborder}
 
 
 **Paytm/Bitcoin**
