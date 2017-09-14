@@ -70,7 +70,7 @@ I remember it this way,
     text-align: center;
     padding-top: 50px;
     border: 10px solid #5d5d5d;
-    background-color: #0a5;
+    background-color: #2dd581;
     font-weight: bold;
     color: #eee;
     margin: 1em 0;
@@ -81,7 +81,7 @@ content: "I'm blue on smartphones :("
 }
 @media only screen and (max-width: 600px)  {
     .xyz {
-        background-color: #05a;
+        background-color: #2582df;
     }
     .xyz:after {
     content: "Blue isn't that bad :)"
