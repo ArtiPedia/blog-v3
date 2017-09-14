@@ -63,6 +63,7 @@ keep_files: [README.md, CNAME, favicon.ico, robots.txt, js, thumbs, thumbs-small
 
 exclude:
     - fui
+    - README.md
 
 #optimization
 #compress.html
