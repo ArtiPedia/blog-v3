@@ -6,6 +6,15 @@ permalink: /donate/
 adallow: 0
 ---
 
+<style>
+.noborder, .noborder:hover {
+     border-bottom: none;   
+}
+.noborder:hover {
+    opacity: 0.8;
+}
+</style>
+
 <br>
 Ads are annoying. I recommend you to use an ad-blocker. As a reader, I don't like ads and popups. Let me know that you also prefer a clean experience by making a small donation. That will help me create quality content for you.
 
@@ -26,15 +35,7 @@ Ads are annoying. I recommend you to use an ad-blocker. As a reader, I don't lik
 **BHIM: ``sharathkumardt@upi``**
 
 
-Thank You
+Thank You.
 <br>
 
 
-<style>
-.noborder, .noborder:hover {
-     border-bottom: none;   
-}
-.noborder:hover {
-    opacity: 0.8;
-}
-</style>
