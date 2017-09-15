@@ -76,7 +76,7 @@ redirect_from:
           <div itemscope itemtype="http://schema.org/TechArticle" class="card">
                 <span class="image">
                  <img itemprop="image" alt="{{ post.title }}" class="post-image-index"  src="/thumbs-small/{{ post.image }}" width="300" height="188" />
-                <p class="time"><time itemprop="datePublished">{{post.date | date: "%Y %b %d"}}</time></p>
+                <p class="time"><time itemprop="datePublished" datetime="{{post.date | date: "%Y-%m-%d"}}">{{post.date | date: "%Y %b %d"}}</time></p>
                 </span>
                 <div class="card-footer">
                     <h2 itemprop="headline" class="post-index-title">{{ post.title }}</h2>
