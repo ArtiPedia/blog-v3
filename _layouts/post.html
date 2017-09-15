@@ -87,7 +87,7 @@ layout: default
 <!-- Tags -->
  <div class="post-tags">
   {% for tag in page.tags %}
-     <a itemprop="keywords" class="tag-link" href="/tags/#{{tag|slugize}}">{{tag}}</a>{% unless forloop.last %}&nbsp;{% endunless %}
+     <a class="tag-link" href="/tags/#{{tag|slugize}}"><span itemprop="keywords">{{tag}}</span></a>{% unless forloop.last %}&nbsp;{% endunless %}
   {% endfor %}&nbsp;
  </div>      
                                                   
