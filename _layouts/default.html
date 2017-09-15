@@ -49,6 +49,9 @@ layout: compress
         "image": "{{ site.url }}/thumbs/{% if page.type == 'home' %}webjeda-logo-big.jpg{% else %}{{ page.image }}{% endif %}",
         "description": "{% if page.desc %}{{ page.desc}}{% else %}{{ site.description}}{% endif %}",
         "url": "{{ site.url }}{{ page.url }}",
+        {% if page.layout == 'post' %}
+        "datePublished": "{{page.date | date: "%Y-%m-%d"}}",
+        {% endif %}
          "author": {
           "@type": "Person",
           "name": "sharath.dt"
