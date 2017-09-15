@@ -16,7 +16,7 @@ sec: wj
      
     <a class="post-link-index" href="{{ post.url | prepend: site.baseurl }}">
           <div itemscope itemtype="http://schema.org/TechArticle" class="card">
-                 <img alt="{{ post.title }}" class="post-image-index" itemprop="thumbnailUrl" src="/thumbs-small/{{ post.image }}" width="300" height="188" />
+                 <img itemprop="image" alt="{{ post.title }}" class="post-image-index"  src="/thumbs-small/{{ post.image }}" width="300" height="188" />
 
                 <div class="card-footer">
                     <h2 itemprop="headline" class="post-index-title">{{ post.title }}</h2>

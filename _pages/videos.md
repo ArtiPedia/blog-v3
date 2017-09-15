@@ -62,7 +62,7 @@ videos:
 <div class="mainbox">
 {% for video in page.videos %}
  <a target="_blank" href="https://www.youtube.com/watch?v={{video.id}}">
-        <div class="card">
+        <div itemscope itemtype="VideoObject" class="card">
         <div class="youtube-embed" style="background-image: url(https://i.ytimg.com/vi/{{video.id}}/hqdefault.jpg); position: relative"><div class="play"></div></div>
             <div class="card-footer">
                 <h2 itemprop="headline" class="post-index-title">{{video.title}}</h2>

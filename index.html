@@ -18,7 +18,7 @@ redirect_from:
     
     <a class="post-link-index" href="/jekyll-tutorials/">
           <div itemscope itemtype="http://schema.org/TechArticle" class="card">
-                 <img alt="Jekyll Tutorials" class="post-image-index" itemprop="thumbnailUrl" src="/thumbs-small/jekyll-tutorial.png" width="300" height="188" />
+                 <img itemprop="image" alt="Jekyll Tutorials" class="post-image-index" src="/thumbs-small/jekyll-tutorial.png" width="300" height="188" />
                 <div class="card-footer">
                     <h2 itemprop="headline" class="post-index-title">Jekyll Basics</h2>
                     <hr>
@@ -34,7 +34,7 @@ redirect_from:
         
     <a class="post-link-index" href="/videos/">
           <div itemscope itemtype="http://schema.org/TechArticle" class="card">
-                 <img alt="Jekyll Video Tutorials" class="post-image-index" itemprop="thumbnailUrl" src="/thumbs-small/jekyll-video-tutorials.png" width="300" height="188" />
+                 <img itemprop="image" alt="Jekyll Video Tutorials" class="post-image-index" src="/thumbs-small/jekyll-video-tutorials.png" width="300" height="188" />
                 <div class="card-footer">
                     <h2 itemprop="headline" class="post-index-title">Videos</h2>
                     <hr>
@@ -48,7 +48,7 @@ redirect_from:
         
     <a class="post-link-index" href="/wordpress-to-jekyll-migration/">
           <div itemscope itemtype="http://schema.org/TechArticle" class="card">
-                 <img alt="Wordpress to Jekyll migration" class="post-image-index" itemprop="thumbnailUrl" src="/thumbs-small/wordpress-to-jekyll-migration.png" width="300" height="188" />
+                 <img itemprop="image" alt="Wordpress to Jekyll migration" class="post-image-index"  src="/thumbs-small/wordpress-to-jekyll-migration.png" width="300" height="188" />
                 <div class="card-footer">
                     <h2 itemprop="headline" class="post-index-title">Wordpress to Jekyll</h2>
                     <hr>
@@ -74,7 +74,7 @@ redirect_from:
      {% for post in paginator.posts %} 
        <a class="post-link-index" href="{{ post.url | prepend: site.baseurl }}">
           <div itemscope itemtype="http://schema.org/TechArticle" class="card">
-                 <img alt="{{ post.title }}" class="post-image-index" itemprop="thumbnailUrl" src="/thumbs-small/{{ post.image }}" width="300" height="188" />
+                 <img itemprop="image" alt="{{ post.title }}" class="post-image-index"  src="/thumbs-small/{{ post.image }}" width="300" height="188" />
 
                 <div class="card-footer">
                     <h2 itemprop="headline" class="post-index-title">{{ post.title }}</h2>

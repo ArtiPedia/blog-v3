@@ -6,7 +6,7 @@ layout: default
     <p class="meta">
         <small>
         <!-- Date -->
-        <svg id="i-calendar" viewBox="0 0 32 32" width="20" height="20" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M2 6 L2 30 30 30 30 6 Z M2 15 L30 15 M7 3 L7 9 M13 3 L13 9 M19 3 L19 9 M25 3 L25 9" /></svg>&nbsp;<time datetime="{{page.date | date: "%Y-%m-%d" }}">{{page.date | date: "%Y-%m-%d" }}</time>&nbsp;
+        <svg id="i-calendar" viewBox="0 0 32 32" width="20" height="20" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M2 6 L2 30 30 30 30 6 Z M2 15 L30 15 M7 3 L7 9 M13 3 L13 9 M19 3 L19 9 M25 3 L25 9" /></svg>&nbsp;<time itemprop="datePublished" datetime="{{page.date | date: "%Y-%m-%d" }}">{{page.date | date: "%Y-%m-%d" }}</time>&nbsp;
         
         
         <!-- Views -->
@@ -19,20 +19,21 @@ layout: default
             <circle cx="16" cy="16" r="14" />
             <path d="M16 8 L16 16 20 20" />
         </svg>       
-
+          <span itemprop="timeRequired">
           {% assign words = content | number_of_words %}
           {% if words < 360 %}
             1 min read.
           {% else %}
             {{ words | divided_by:180 }} mins read.
           {% endif %}
+          </span>
         </span>&nbsp;         
         </small>
     </p>
 
     <div class="desc">
-          <img class="post-image" src="/thumbs/{{page.image}}" alt="{{page.title}}">
-          <p class="intro">{{page.desc | strip_html}}</p>
+          <img itemprop="image" class="post-image" src="/thumbs/{{page.image}}" alt="{{page.title}}">
+          <p itemprop="description" class="intro">{{page.desc | strip_html}}</p>
       </div>
 
   
@@ -53,13 +54,13 @@ layout: default
   
   
    <main>
-      <article class="drop-cap">
+      <article itemprop="articleBody" class="drop-cap">
            {{page.content}}
        </article>
        
  <!-- Author -->    
 {% if page.author == 'sharathdt' %}
-<p>This article is written by <strong>sharath.dt</strong> Follow him <a rel="nofollow" href="https://twitter.com/webjeda">@webjeda</a>.</p>
+<p>This article is written by <span itemprop="author"><strong>sharath.dt</strong></span> Follow him <a rel="nofollow" href="https://twitter.com/webjeda">@webjeda</a>.</p>
 {% endif %}
       
  <!-- Share --> 
@@ -86,7 +87,7 @@ layout: default
 <!-- Tags -->
  <div class="post-tags">
   {% for tag in page.tags %}
-     <a class="tag-link" href="/tags/#{{tag|slugize}}">{{tag}}</a>{% unless forloop.last %}&nbsp;{% endunless %}
+     <a itemprop="keywords" class="tag-link" href="/tags/#{{tag|slugize}}">{{tag}}</a>{% unless forloop.last %}&nbsp;{% endunless %}
   {% endfor %}&nbsp;
  </div>      
                                                   
