@@ -108,6 +108,79 @@ The output html of the top bar looks like this. So you can always customize ``.b
 {% endhighlight %}
 
 
+## Scroll Percentage Top bar
+A progress bar which shows the vertical length of a page on a horizonal bar dynamically is called a scroll percentage bar.
+
+You can observe the scroll percentage bar at the bottom of this page. This bar uses the latest CSS variables. 
+
+
+<style>
+.progress-bar {
+    background: linear-gradient(to right, #0a5 var(--scroll), transparent 0);
+    background-repeat: no-repeat;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 4px;
+    z-index: 1;
+}
+</style>
+<div class="progress-bar"></div>
+<script>
+var element = document.documentElement,
+  body = document.body,
+  scrollTop = 'scrollTop',
+  scrollHeight = 'scrollHeight',
+  progress = document.querySelector('.progress-bar'),
+  scroll;
+
+document.addEventListener('scroll', function() {
+  scroll = (element[scrollTop]||body[scrollTop]) / ((element[scrollHeight]||body[scrollHeight]) - element.clientHeight) * 100;
+  progress.style.setProperty('--scroll', scroll + '%');
+}); 
+</script>
+
+
+
+###  How to implement Scroll Percentage Top Bar?
+
+{% highlight html %}
+<!-- Style defined first. Copy this to a css style sheet or to the head section -->
+<style>
+.progress-bar {
+    background: linear-gradient(to right, red var(--scroll), transparent 0);
+    background-repeat: no-repeat;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 4px;
+    z-index: 1;
+}
+</style>
+
+<!-- This is the bar which shows scroll percentage -->
+<div class="progress-bar"></div>
+
+<!-- Script used to generate --scroll variable with current scroll percentage value -->
+<script>
+var element = document.documentElement,
+  body = document.body,
+  scrollTop = 'scrollTop',
+  scrollHeight = 'scrollHeight',
+  progress = document.querySelector('.progress-bar'),
+  scroll;
+
+document.addEventListener('scroll', function() {
+  scroll = (element[scrollTop]||body[scrollTop]) / ((element[scrollHeight]||body[scrollHeight]) - element.clientHeight) * 100;
+  progress.style.setProperty('--scroll', scroll + '%');
+}); 
+</script>
+{% endhighlight %}
+
+It may not be supported by IE browsers but all the modern ones support this.
+
 
 ## Simple Top bar
 
@@ -129,47 +202,6 @@ So that's all there is! Use ```em``` instead of ```px``` if you like. I use ```e
 Though it is a simple thing, it gives a huge impact on the look and aesthetics.
 
 
-## Extensible!
-![top border used by google]({{ site.url }}/images/top-border-used-by-gmail.jpg)
-{: .right .half}
-This can be used on buttons to make them look awesome! This can give a modern look to almost all the elements. One such thing I have noticed is in **gmail** categories.
-
-Here is a button with just borders
-{: .clear}
-
-<button class="border-style">WebJeda</button>
-
-<style>
-.border-style {
-    font-size: 18px;
-    color: #41A720;
-    margin: 0;
-    padding: 10px 25px 10px 25px;
-    background-color: transparent;
-    border: 1px solid #41A720;
-    border-radius: 2px;
-}
-</style>
-
-Here is the HTML code..
-
-{% highlight html %}
-<button class="border-style">WebJeda</button>
-{% endhighlight %}
-
-.. and CSS
-
-{% highlight css %}
-button.border-style {
-    font-size: 18px;
-    color: #41A720;
-    margin: 0;
-    padding: 10px 25px 10px 25px;
-    background-color: transparent;
-    border: 1px solid #41A720;
-    border-radius: 2px;
-}
-{% endhighlight %}
 
 Try mplementing top bar on your website and let me know how it went.
 
