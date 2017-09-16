@@ -25,7 +25,7 @@ The application is similar to how books do not have one long single page like a 
 Though Jekyll has different items like pages and collections, only Posts can have pagination. This might change in the future.
 
 ## Pagination can be done only on index.html
-Jekyll recognizes pagination defined on ``index.html``. So if you want pagination on ``domain.com/blog/`` then you should create a folder with the name ``blog`` and create an ``index.html`` file inside it where you can define pagination. This is not enough, you should also define pagination value in configuration file as ``paginate_path: "/blog/page:num/"``.
+Jekyll recognizes pagination defined on ``index.html``. So if you want pagination on ``domain.com/blog/`` then you should create a folder with the name ``blog`` and create an ``index.html`` file inside it where you can define pagination. This is not enough, you should also define pagination path in configuration file as ``paginate_path: "/blog/page:num/"``.
 
 For pagination on ``/blog/``, use ``paginate_path: "/blog/page:num/"`` in the configuration.
 {: .r}
