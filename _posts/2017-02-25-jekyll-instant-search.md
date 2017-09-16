@@ -50,7 +50,7 @@ Here is a simple demo where Jekyll Simple Search finds keywords in 5 recent post
 
 
 
-## How to install Jekyll Instant Search?
+## How to implement Jekyll Instant Search?
 
 Since Jekyll has no server side execution, we have to rely on storing all the required content in a single file and search our keyword from that file.
 
@@ -138,13 +138,12 @@ The above code can be changed (be careful not to mess it up) according to your n
   {% for post in site.posts %}
     {
     
-      "title"    : "{{ post.title | escape }}",
+      "title"    : "{{ post.title | strip_html | escape }}",
       "url"      : "{{ site.baseurl }}{{ post.url }}",
       "category" : "{{post.categories | join: ', '}}",
       "tags"     : "{{ post.tags | join: ', ' }}",
       "date"     : "{{ post.date }}",
-      "discription" : "{{post.description | escape }}",
-      "content"  : "{{post.content | escape | strip_html }}"
+      "discription" : "{{post.description | strip_html | strip_newlines | escape }}"
       
     } {% unless forloop.last %},{% endunless %}
   {% endfor %}
@@ -153,6 +152,8 @@ The above code can be changed (be careful not to mess it up) according to your n
 {% endraw %}{% endhighlight %}
 
 The ``escape`` filter is important because, if you have a double inverted comma inside the value say ``post.description`` then the whole JSON breaks and becomes unusable. I also recommend not to use whole content to create JSON because it might result in creating a huge file.
+
+You can also add ``post.content`` to this. But I recommend not to. Adding content will result in a huge JSON file and also inaccurate search result.
 
 
 Make sure that the last value has no comma at the end.
@@ -202,11 +203,10 @@ This page should be accessible at ``/search/`` or ``/search.html``.
 
 
 I don't recommend using this on default layout (which is used on every page) because it may result in slower page load. Use a separate search page instead.
-{: .r}
-
-
 
 Now your search is ready! Try to type something in the input field and see if it fetches any result.
+
+If the search doesn't work then use inspection >> console option on chrome browser to see what the error was. Many times the JSON created will be invalid because of some special character. Also, the order in which the search script can also cause issues.
 
 ### Customizations
 
