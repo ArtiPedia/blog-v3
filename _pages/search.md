@@ -5,68 +5,7 @@ desc: Search webjeda website for Jekyll tutorials and github tutorials from here
 permalink: /search/
 ---
 
-<style>
-main {
-    max-width: 1100px !important;
-}
-
-#search-container {
-    min-height: 600px;
-    width: 100%;
-}
-
-.search {
-    position: relative;
-    margin: 0 auto;
-    width: 600px;
-}
-#i-search {
-    position: absolute;
-    z-index: 999;
-    top: 14px;
-    right: 14px;
-    stroke: #aaa
-}
-
-#result-container li {
-    line-height: 2.2
-}
-a.post-link-index, a.post-link-index:hover  {
-    border: none;
-}
-input[type=text] {
-    width: 100%;
-    outline: 0;
-    padding: 15px 25px;
-    margin: 5px 1px 3px 0;
-    border: none;
-    border-radius: 1px;
-    box-shadow: 0 1px 0 0 rgba(0, 0, 0, .16), 0 0 0 1px rgba(0, 0, 0, .08)
-}
-
-input[type=text]:focus,
-input[type=text]:hover {
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .16), 0 0 0 1px rgba(0, 0, 0, .08);
-    margin: 5px 1px 3px 0;
-    padding: 15px 25px;
-    border: none;
-    outline: 0;
-    -webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    -ms-transition: all .3s ease-in-out;
-    -o-transition: all .3s ease-in-out
-}
-
-@media screen and (max-width:600px) {
-    #search-container {
-        width: 100%;
-        margin: 1em auto
-    }
-    input[type=text] {
-        width: 100%;
-        box-sizing: border-box
-    }
-}</style>
+<style>main{max-width:1100px!important}#search-container{min-height:600px;width:100%}.search{position:relative;margin:0 auto;width:600px}#i-search{position:absolute;z-index:999;top:14px;right:14px;stroke:#aaa}#result-container li{line-height:2.2}a.post-link-index,a.post-link-index:hover{border:none}input[type=text]{width:100%;outline:0;padding:15px 25px;margin:5px 1px 3px 0;border:none;border-radius:1px;box-shadow:0 1px 0 0 rgba(0,0,0,.16),0 0 0 1px rgba(0,0,0,.08)}input[type=text]:focus,input[type=text]:hover{box-shadow:0 2px 2px 0 rgba(0,0,0,.16),0 0 0 1px rgba(0,0,0,.08);margin:5px 1px 3px 0;padding:15px 25px;border:none;outline:0;-webkit-transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out;-ms-transition:all .3s ease-in-out;-o-transition:all .3s ease-in-out}@media screen and (max-width:600px){#search-container{width:100%;margin:1em auto}input[type=text]{width:100%;box-sizing:border-box}}</style>
 
 <!-- Html Elements for Search -->
 <div id="search-container">
