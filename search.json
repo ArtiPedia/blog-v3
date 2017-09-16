@@ -6,7 +6,9 @@
   
       "title"    : "{{ post.title | escape }}",
       "url"      : "{{ site.baseurl }}{{ post.url }}",
-      "tags"     : "{{ post.tags | join: ', ' }}"
+      "tags"     : "{{ post.tags | join: ', ' }}",
+    "description": "{{post.desc | strip_html | strip_newlines | escape }}",
+      "image"    : "/thumbs-small/{{post.image}}"
 
       
     } {% unless forloop.last %},{% endunless %}

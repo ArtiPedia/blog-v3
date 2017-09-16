@@ -219,7 +219,7 @@ The default Jekyll search result will be in this format,
 You can change this in the configuration script by adding this line,
 
 {% highlight html %}{% raw %}
-searchResultTemplate ("<div><a href="{url}"><h1>{title}</h1></a><span>{date}</span></div>");
+searchResultTemplate: '<div><a href="{url}"><h1>{title}</h1></a><span>{date}</span></div>',
 {% endraw %}{% endhighlight %}
 
 Here ``{url}``, ``{title}``, ``{date}`` are the respective data found in JSON file.

@@ -23,67 +23,8 @@ permalink: /search/
 SimpleJekyllSearch({
   searchInput: document.getElementById('search-input'),
   resultsContainer: document.getElementById('results-container'),
+  searchResultTemplate: '<div itemscope itemtype="http://schema.org/TechArticle" class="card"><span class="image"><img itemprop="image" alt="{title}" class="post-image-index" src="{image}" width="300" height="188" /></span><div class="card-footer"><h2 itemprop="headline" class="post-index-title">{title }</h2><hr><p itemprop="description" class="post-excerpt">{description}</p></div></div>',
   json: '/search.json'
 })
 </script>
 
-
-<!-- <style>  
-#search-container {
-        min-height: 600px;
-        width: 600px;
-        margin: 3em auto;
-        position: relative;
-    }
-#i-search {
-        position: absolute;
-        z-index: 999;
-        top: 14px;
-        right: 14px;
-        stroke: #aaa;
-    } 
-#result-container li{
-        line-height: 2.2;
-    }
-input[type=text] {
-    outline: none;
-    padding: 15px 25px;
-    margin: 5px 1px 3px 0px;
-    border: none;
-    width: 100%;
-    border-radius: 1px;
-    box-shadow: 0 1px 0px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
-}
-input[type=text]:hover {
-    outline: none;
-    border: none;
-    margin: 5px 1px 3px 0px;
-    padding: 15px 25px;
-    -webkit-transition: all 0.30s ease-in-out;
-    -moz-transition: all 0.30s ease-in-out;
-    -ms-transition: all 0.30s ease-in-out;
-    -o-transition: all 0.30s ease-in-out;
-     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
-}
-input[type=text]:focus {
-    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
-    margin: 5px 1px 3px 0px;
-    padding: 15px 25px;
-    border: none;
-    outline: none;
-        -webkit-transition: all 0.30s ease-in-out;
-    -moz-transition: all 0.30s ease-in-out;
-    -ms-transition: all 0.30s ease-in-out;
-    -o-transition: all 0.30s ease-in-out;
-}  
-@media screen and (max-width: 600px) {
-    #search-container {
-    width: 100%;
-    margin: 1em auto;
-    }
-input[type=text]{
-        width: 100%;
-        box-sizing: border-box;
-    } 
-}
-</style> -->
