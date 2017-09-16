@@ -9,6 +9,7 @@ permalink: /search/
 main {
     max-width: 1100px !important;
 }
+
 #search-container {
     min-height: 600px;
     width: 100%;
@@ -30,7 +31,9 @@ main {
 #result-container li {
     line-height: 2.2
 }
-
+a.post-link-index, a.post-link-index:hover  {
+    border: none;
+}
 input[type=text] {
     width: 100%;
     outline: 0;
@@ -81,7 +84,7 @@ input[type=text]:hover {
 SimpleJekyllSearch({
   searchInput: document.getElementById('search-input'),
   resultsContainer: document.getElementById('results-container'),
-  searchResultTemplate: '<div itemscope itemtype="http://schema.org/TechArticle" class="card"><span class="image"><img itemprop="image" alt="{title}" class="post-image-index" src="{image}" width="300" height="188" /></span><div class="card-footer"><h2 itemprop="headline" class="post-index-title">{title}</h2><hr><p itemprop="description" class="post-excerpt">{description}</p></div></div>',
+  searchResultTemplate: '<a class="post-link-index" href="{url}"><div itemscope itemtype="http://schema.org/TechArticle" class="card"><span class="image"><img itemprop="image" alt="{title}" class="post-image-index" src="{image}" width="300" height="188" /></span><div class="card-footer"><h2 itemprop="headline" class="post-index-title">{title}</h2><hr><p itemprop="description" class="post-excerpt">{description}</p></div></div></a>',
   json: '/search.json'
 })
 </script>
