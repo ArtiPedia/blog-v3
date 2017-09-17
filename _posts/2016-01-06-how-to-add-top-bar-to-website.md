@@ -7,6 +7,8 @@ tags: Web-Design Github-Pages
 image: top-bar-on-websites.png
 layout: post
 permalink: /top-bar-website/
+redirect_from:
+    - /how-to-add-top-bar-to-website/
 ---
 
 

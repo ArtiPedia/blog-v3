@@ -10,6 +10,7 @@ redirect_from:
     - /how-to-add-custom-domain-to-github
     - how-to-add-custom-domain-to-github/Github
     - /how-to-add-custom-domain-to-github/
+    - custom
 permalink: /custom-domain-github/
 sec: tut
 ---

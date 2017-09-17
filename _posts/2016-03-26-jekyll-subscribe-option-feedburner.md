@@ -7,6 +7,8 @@ tags: Jekyll Web-Design
 image: jekyll-rss-feedburner.png
 layout: post
 permalink: /jekyll-subscribe-feedburner/
+redirect_from:
+    - /jekyll-subscribe-option-feedburner/
 ---
 
 ## What is RSS feed and why is it used?
