@@ -1,4 +1,5 @@
- <ins class="adclass adsbygoogle"
+{% if page.layout == 'post' %}
+<ins class="adclass adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-4146856286076977"
      data-ad-slot="9695384645"
@@ -7,4 +8,17 @@
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 <p></p> 
-
+{% else %}
+<amp-ad
+     layout="responsive"
+     width="300"
+     height="250"
+     class="adclass adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4146856286076977"
+     data-ad-slot="9695384645"
+     data-ad-format="auto"></amp-ad>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+{% endif %}

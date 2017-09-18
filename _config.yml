@@ -106,7 +106,8 @@ plugins:
     - jemoji
     - jekyll-seo-tag
     - jekyll-redirect-from
-
+    - amp-jekyll
+    
 review: 
     place-id: ChIJx113w8QUuzsR_3IiWBPrucE
     link: http://search.google.com/local/writereview?placeid=ChIJx113w8QUuzsR_3IiWBPrucE

@@ -12,6 +12,28 @@ layout: compress
     <title>{%if page.title %}{{ page.title }} | Webjeda {% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="{% if page.desc %}{{ page.desc | truncate: 160 }}{% else %}{{ site.description | truncate: 160  }}{% endif %}" />
 
+    {% if page.layout == 'post' %}
+    <link rel="dns-prefetch" href="//webjeda.disqus.com/">
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//fonts.gstatic.com">
+    <link rel="dns-prefetch" href="//ajax.googleapis.com">
+    <link rel="dns-prefetch" href="//rugged-sunbeam-127917.appspot.com">
+    <link rel="dns-prefetch" href="//pagead2.googlesyndication.com">
+    <link rel="dns-prefetch" href="//googleads.g.doubleclick.net/">
+    <link rel="dns-prefetch" href="//tpc.googlesyndication.com">
+    <link rel="dns-prefetch" href="//stats.g.doubleclick.net/">
+    <link rel="dns-prefetch" href="//static.doubleclick.net">
+    <link rel="dns-prefetch" href="//i.ytimg.com">
+    <link rel="dns-prefetch" href="//www.gstatic.com/">
+    <style>
+    .center-items {
+        margin: 1em auto;
+        max-width: 720px;
+        overflow: hidden;
+    }
+    </style>
+    {% endif %}
+   
     <!-- Open Graph -->
     <meta property="fb:app_id" content="549480635219583">
     <meta property="og:locale" content="en_US">
@@ -67,7 +89,10 @@ layout: compress
 
         <!-- Canonical -->
     <link rel="canonical" href="{{ page.url | prepend: site.url }}">
-
+    {% if page.layout == 'post' %}
+     <link rel="amphtml" href="{{site.url}}/amp/{{page.url}}">
+    {% endif %}
+      
        <!-- Publisher -->
     <link rel="publisher" href="https://plus.google.com/b/111361987929035019038/+WebJeda"/>
 
@@ -100,33 +125,7 @@ layout: compress
     {% if page.layout != 'post' %}
     <link rel="prefetch" href="{{site.super-proxy}}">
     {% endif %}
-    
-    {% if page.layout == 'post' %}
-    <link rel="dns-prefetch" href="//webjeda.disqus.com/">
-    <link rel="dns-prefetch" href="//fonts.googleapis.com">
-    <link rel="dns-prefetch" href="//fonts.gstatic.com">
-    <link rel="dns-prefetch" href="//ajax.googleapis.com">
-    <link rel="dns-prefetch" href="//rugged-sunbeam-127917.appspot.com">
-    <link rel="dns-prefetch" href="//pagead2.googlesyndication.com">
-    <link rel="dns-prefetch" href="//googleads.g.doubleclick.net/">
-    <link rel="dns-prefetch" href="//tpc.googlesyndication.com">
-    <link rel="dns-prefetch" href="//stats.g.doubleclick.net/">
-    <link rel="dns-prefetch" href="//static.doubleclick.net">
-    <link rel="dns-prefetch" href="//i.ytimg.com">
-    <link rel="dns-prefetch" href="//www.gstatic.com/">
-    <style>
-    .center-items {
-        margin: 1em auto;
-        max-width: 720px;
-        overflow: hidden;
-    }
-    </style>
-    {% endif %}
-    
-    
-    
-    
-    
+
     </head>
     
 <body id="top" {% if page.layout == 'post' %}itemscope="itemscope" itemtype="http://schema.org/TechArticle"{% endif %}{% if page.layout == 'page' %}itemscope="itemscope" itemtype="http://schema.org/WebSite"{% endif %}>
@@ -171,7 +170,6 @@ layout: compress
      <!-- Load only if it is a post --> 
      {% if page.layout == 'post' %}
        {% include adsense-replace-min.html %}
-<!--         <script async id="dsq-count-scr" src="https://webjeda.disqus.com/count.js"></script> -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
         {% include ga_data_fetch.html %}
         {% include disqus-script-lazy.html %}

@@ -12,6 +12,9 @@ sec:
 
 Mobile First Web Design is fairly new trend in responsive web designing. Unlike covfefe, **mobile first** is a meaningful trend. It is just the reverse approach of what we are generally used to - Desktop First.
 
+
+
+
 Web Designing is almost always done on a desktop(I'm yet to encounter someone who does it on their phone). This was the main reason why we generally design websites for **desktop first** and then use media queries to adapt the site for smaller devices.
 
 * Do not remove this line (it will not be displayed)
@@ -19,6 +22,7 @@ Web Designing is almost always done on a desktop(I'm yet to encounter someone wh
 
 This approach has some drawbacks. We get a lot of screen real estate in a desktop to fit in menus, logo, header text, slider, sidebar, widgets etc., When it comes to writing media query for smaller screens, we get stuck at whether to display all those features or not.
 
+{% include adsense-inside-post.html %}
 
 
 ## Why Mobile First Web Design? 

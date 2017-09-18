@@ -1,3 +1,4 @@
+{% if page.layout == 'post' %}
 <ins class="adclass2 adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-4146856286076977"
@@ -6,3 +7,17 @@
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+{% else %}
+<amp-ad
+     layout="responsive"
+     width="300"
+     height="250"
+     class="adclass2 adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4146856286076977"
+     data-ad-slot="8755205041"
+     data-ad-format="auto"></amp-ad>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+{% endif %}
