@@ -83,6 +83,8 @@ collections:
         output: true
 
 
+
+# ampdir: amp
     
 authors:
       sharathdt:
@@ -106,7 +108,7 @@ plugins:
     - jemoji
     - jekyll-seo-tag
     - jekyll-redirect-from
-    - amp-jekyll
+#    - amp-jekyll
     
 review: 
     place-id: ChIJx113w8QUuzsR_3IiWBPrucE
